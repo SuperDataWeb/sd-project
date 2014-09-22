@@ -18,6 +18,7 @@ public class AboutController {
 	
 	@RequestMapping("{aboutType}.do")
 	public ModelAndView aboutContent(@PathVariable String aboutType) {
+		//测试提交行不行
 		return new ModelAndView("About/" + aboutType);
 	}
 	
