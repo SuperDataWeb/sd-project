@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wodi.sdweb.dao.FunctionModuleDao">
+
+	<resultMap id="ModuleResultMap" type="functionModule">
+		<id property="id" column="id" jdbcType="DECIMAL" />
+		<result property="moduleName" column="module_name" jdbcType="VARCHAR" />
+		<result property="url" column="url" jdbcType="VARCHAR" />
+		<result property="span" column="span" jdbcType="DECIMAL" />
+		<result property="remark" column="remark" jdbcType="VARCHAR" />
+		<result property="status" column="status" jdbcType="DECIMAL" />
+		<result property="created" column="created" jdbcType="TIMESTAMP" />
+		<result property="updated" column="updated" jdbcType="TIMESTAMP" />
+	</resultMap>
+
+	<sql id="module_fields">
+		id, module_name, url, span, remark, status, created,
+		updated
+	</sql>
+
+	<insert id="insert" parameterType="functionModule">
+			<![CDATA[ INSERT INTO function_module(  module_name, url, span, remark, status, created, updated
+			) VALUES( #{moduleName}, #{url}, #{span}, #{remark}, #{status}, now(), now() )
+				]]>
+	</insert>
+
+	<update id="updateAll_IM_KPI" parameterType="functionModule">
+		<![CDATA[ 
+			UPDATE im_kpi SET last_upd = now(),
+				id = #{id}, kpi_name = #{kpiname}, kpi_tclass = #{kpitclass}, data_type = #{datatype}, 
+				data_unit = #{dataunit}, data_accry = #{dataaccry}, cycl_unit = #{cyclunit}, 
+				coll_cycle = #{collcycle}, coll_from = #{collfrom}, kpi_filter = #{kpifilter}, 
+				kpi_desc = #{kpidesc}, status = #{status}, last_upd_by = #{lastupdby}, remarks = #{remarks} 
+			WHERE 1 = 1 AND id = #{id}
+		]]>
+	</update>
+
+	<update id="update" parameterType="functionModule">
+		<![CDATA[ UPDATE function_module SET updated = now() ]]>
+		<if test="moduleName != null">
+				<![CDATA[, module_name = #{moduleName}]]>
+		</if>
+		<if test="url != null">
+				<![CDATA[, url = #{url}]]>
+		</if>
+		<if test="span != null">
+				<![CDATA[, span = #{span}]]>
+		</if>
+		<if test="remark != null">
+				<![CDATA[, remark = #{remark}]]>
+		</if>
+		<if test="status != null">
+				<![CDATA[, status = #{status}]]>
+		</if>
+		<if test="created != null">
+				<![CDATA[, created = #{created}]]>
+		</if>
+		<![CDATA[ WHERE 1 = 1 AND id = #{id} ]]>
+	</update>
+
+	<select id="select">
+		select
+		<include refid="module_fields" />
+		from function_module
+		<where>
+			1 = 1
+			<if test="id != null">
+				<![CDATA[ and id = #{id} ]]>
+			</if>
+			<if test="moduleName != null">
+				<![CDATA[, module_name = #{moduleName}]]>
+			</if>
+			<if test="url != null">
+				<![CDATA[, url = #{url}]]>
+			</if>
+			<if test="span != null">
+				<![CDATA[, span = #{span}]]>
+			</if>
+			<if test="remark != null">
+				<![CDATA[, remark = #{remark}]]>
+			</if>
+			<if test="status != null">
+				<![CDATA[, status = #{status}]]>
+			</if>
+			<if test="created != null">
+				<![CDATA[, created = #{created}]]>
+			</if>
+		</where>
+	</select>
+
+	<select id="count" parameterType="map" resultType="java.lang.Integer">
+		SELECT count(1) FROM function_module
+		<where>
+			1 = 1
+			<if test="id != null">
+				<![CDATA[ and id = #{id} ]]>
+			</if>
+			<if test="moduleName != null">
+				<![CDATA[, module_name = #{moduleName}]]>
+			</if>
+			<if test="url != null">
+				<![CDATA[, url = #{url}]]>
+			</if>
+			<if test="span != null">
+				<![CDATA[, span = #{span}]]>
+			</if>
+			<if test="remark != null">
+				<![CDATA[, remark = #{remark}]]>
+			</if>
+			<if test="status != null">
+				<![CDATA[, status = #{status}]]>
+			</if>
+			<if test="created != null">
+				<![CDATA[, created = #{created}]]>
+			</if>
+		</where>
+	</select>
+
+	<select id="selectPagination" resultMap="ModuleResultMap"
+		parameterType="map">
+		<![CDATA[ SELECT  ]]>
+		<include refid="module_fields" /> 
+		<![CDATA[  FROM function_module ]]>
+		<where>
+			1 = 1
+			<if test="id != null">
+				<![CDATA[ and id = #{id} ]]>
+			</if>
+			<if test="kpiName != null">
+				<![CDATA[ and kpi_name = #{kpiName} ]]>
+			</if>
+			<if test="kpiTclass != null">
+				<![CDATA[ and kpi_tclass = #{kpiTclass} ]]>
+			</if>
+			<if test="dataType != null">
+				<![CDATA[ and data_type = #{dataType} ]]>
+			</if>
+			<if test="dataUnit != null">
+				<![CDATA[ and data_unit = #{dataUnit} ]]>
+			</if>
+			<if test="dataAccry != null">
+				<![CDATA[ and data_accry = #{dataAccry} ]]>
+			</if>
+			<if test="cyclUnit != null">
+				<![CDATA[ and cycl_unit = #{cyclUnit} ]]>
+			</if>
+			<if test="collCycle != null">
+				<![CDATA[ and coll_cycle = #{collCycle} ]]>
+			</if>
+			<if test="collFrom != null">
+				<![CDATA[ and coll_from = #{collFrom} ]]>
+			</if>
+			<if test="kpiFilter != null">
+				<![CDATA[ and kpi_filter = #{kpiFilter} ]]>
+			</if>
+			<if test="kpiDesc != null">
+				<![CDATA[ and kpi_desc = #{kpiDesc} ]]>
+			</if>
+			<if test="created != null">
+				<![CDATA[ and created = #{created} ]]>
+			</if>
+			<if test="createdBy != null">
+				<![CDATA[ and created_by = #{createdBy} ]]>
+			</if>
+			<if test="status != null">
+				<![CDATA[ and status = #{status} ]]>
+			</if>
+			<if test="lastUpd != null">
+				<![CDATA[ and last_upd = #{lastUpd} ]]>
+			</if>
+			<if test="lastUpdBy != null">
+				<![CDATA[ and last_upd_by = #{lastUpdBy} ]]>
+			</if>
+			<if test="remarks != null">
+				<![CDATA[ and remarks = #{remarks} ]]>
+			</if>
+		</where>
+	</select>
+</mapper>

@@ -1,0 +1,174 @@
+HTML {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HTML {
+	WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden
+}
+BODY {
+	WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden
+}
+.wrap {
+	WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden
+}
+DIV.content {
+	POSITION: absolute; MARGIN: -120px 0px 0px -280px; WIDTH: 440px; HEIGHT: 254px; TOP: 50%; LEFT: 50%
+}
+.content FIELDSET {
+	POSITION: relative; MARGIN: 36px 0px 0px
+}
+FIELDSET LABEL {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; WIDTH: 90px; PADDING-RIGHT: 4px; DISPLAY: block; FLOAT: left; HEIGHT: 30px; PADDING-TOP: 0px
+}
+FIELDSET {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 30px; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+H1 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 120px; HEIGHT: 63px; FONT-SIZE: 14px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+FIELDSET P {
+	LINE-HEIGHT: 30px; HEIGHT: 30px; CLEAR: both
+}
+FIELDSET INPUT {
+	WIDTH: 324px; HEIGHT: 20px
+}
+FIELDSET .small INPUT {
+	WIDTH: 130px
+}
+FIELDSET .fixfloat {
+	POSITION: absolute; TOP: 0px; RIGHT: 16px
+}
+#mobile {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#mobile .checkbox {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: auto; BORDER-TOP-STYLE: none; HEIGHT: auto; BORDER-LEFT-STYLE: none
+}
+FIELDSET DIV.ctn {
+	HEIGHT: 98px; CLEAR: both
+}
+#mobile INPUT {
+	MARGIN: 0px 4px
+}
+#mobile IMG {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 4px
+}
+#mobile LI {
+	LIST-STYLE-TYPE: none; FLOAT: left
+}
+FIELDSET TEXTAREA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 324px; PADDING-RIGHT: 0px; HEIGHT: 92px; OVERFLOW: auto; PADDING-TOP: 0px
+}
+DIV.button {
+	POSITION: absolute; WIDTH: 100%; BOTTOM: 30px; HEIGHT: 27px
+}
+DIV.button P {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 120px; HEIGHT: 30px; PADDING-TOP: 0px
+}
+#enter {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 26px; BORDER-RIGHT-STYLE: none; WIDTH: 55px; BORDER-TOP-STYLE: none; HEIGHT: 27px; BORDER-LEFT-STYLE: none
+}
+#dialback {
+	POSITION: absolute; BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 26px; BORDER-RIGHT-STYLE: none; TEXT-INDENT: 18px; WIDTH: 85px; BOTTOM: 0px; BORDER-TOP-STYLE: none; HEIGHT: 27px; BORDER-LEFT-STYLE: none
+}
+.wrap {
+	POSITION: relative; TEXT-ALIGN: left; WIDTH: 100%; HEIGHT: 100%; FONT-SIZE: 12px
+}
+.head {
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 39px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; HEIGHT: 39px; PADDING-TOP: 0px
+}
+#head {
+	POSITION: relative; HEIGHT: 39px
+}
+#head LABEL {
+	POSITION: absolute; MARGIN: 0px 0px 0px 88px
+}
+.head .right {
+	FLOAT: right; TOP: 0px; RIGHT: 0px
+}
+.head .left {
+	TOP: 0px; LEFT: 0px
+}
+.head .left {
+	POSITION: absolute; WIDTH: 13px; DISPLAY: block; HEIGHT: 39px
+}
+.head .right {
+	POSITION: absolute; WIDTH: 13px; DISPLAY: block; HEIGHT: 39px
+}
+#banner {
+	POSITION: absolute; WIDTH: 120px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 50%; HEIGHT: 240px; TOP: 44px; CURSOR: pointer; RIGHT: 4px
+}
+.decorative1 {
+	POSITION: absolute; WIDTH: 100%; BOTTOM: 71px; HEIGHT: 11px; LEFT: 0px
+}
+.decorative1 P {
+	MARGIN: 0px 120px 0px 0px; HEIGHT: 11px
+}
+.decorative2 P {
+	MARGIN: 0px 120px 0px 0px; HEIGHT: 11px
+}
+.decorative4 P {
+	MARGIN: 0px 120px 0px 0px; HEIGHT: 11px
+}
+.decorative3 P {
+	WIDTH: 4px
+}
+.decorative2 {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 11px; TOP: 39px; LEFT: 0px
+}
+.decorative3 {
+	POSITION: absolute; WIDTH: 4px; TOP: 39px; RIGHT: 128px
+}
+.decorative4 {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 11px; TOP: 102px; LEFT: 0px
+}
+.footer {
+	POSITION: absolute; WIDTH: 100%; BOTTOM: 0px; HEIGHT: 81px; LEFT: 0px
+}
+#error {
+	POSITION: absolute; TEXT-ALIGN: center; LINE-HEIGHT: 24px; MARGIN: 0px 0px 0px -195px; WIDTH: 320px; DISPLAY: none; TOP: 88px; LEFT: 50%
+}
+#message {
+	POSITION: absolute; TEXT-ALIGN: center; LINE-HEIGHT: 24px; MARGIN: 0px 0px 0px -195px; WIDTH: 320px; DISPLAY: none; TOP: 88px; LEFT: 50%
+}
+#error {
+	BACKGROUND: #ffdddd; COLOR: red
+}
+#message {
+	BACKGROUND: #d2f0d7; COLOR: #000
+}
+#logo {
+	Z-INDEX: 3; POSITION: absolute; WIDTH: 72px; DISPLAY: block; HEIGHT: 39px; TOP: 0px; CURSOR: pointer; LEFT: 10px
+}
+.logoDefault {
+	BACKGROUND: url(HTTP://st32.live800.com/live800/chatClient/version2/style/800logo.png) no-repeat center 50%
+}
+FORM .active {
+	BACKGROUND: #ffffea
+}
+#live800 {
+	POSITION: absolute; WIDTH: 61px; BOTTOM: 2px; HEIGHT: 10px; RIGHT: 10px
+}

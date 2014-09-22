@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="2.4"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			classpath*:/applicationContext*.xml
+		</param-value>
+	</context-param>
+	<!-- spring 的编码器 -->
+	<!-- -->
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+	<!-- spring 的安全拦截器 -->
+	<!-- <filter> <filter-name>springSecurityFilterChain</filter-name> <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class> 
+		<init-param> <param-name>targetBeanName</param-name> <param-value>filterChainProxy</param-value> 
+		</init-param> </filter> <filter-mapping> <filter-name>springSecurityFilterChain</filter-name> 
+		<url-pattern>/*</url-pattern> </filter-mapping> -->
+
+
+	<!-- viewface filter begin -->
+	<!-- <filter> <filter-name>struts2</filter-name> <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class> 
+		<init-param> <param-name>config</param-name> <param-value>struts-aivf.xml</param-value> 
+		</init-param> <init-param> <param-name>actionPackages</param-name> <param-value> 
+		com.ailk.viewface </param-value> </init-param> </filter> <filter-mapping> 
+		<filter-name>struts2</filter-name> <url-pattern>*.action</url-pattern> </filter-mapping> -->
+
+	<!-- <listener> <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class> 
+		</listener> <listener> <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class> 
+		</listener> <listener> <listener-class>org.springframework.security.web.session.HttpSessionEventPublisher</listener-class> 
+		</listener> -->
+	<!-- <listener> <listener-class>com.ailk.womc.security.SystemContextLoaderListener</listener-class> 
+		</listener> -->
+
+	<servlet>
+		<servlet-name>sdweb</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/sdweb-servlet.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sdweb</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<!-- <context-param> <param-name>contextConfigLocation</param-name> <param-value> 
+		classpath:applicationContext.xml classpath:applicationContext-mysql.xml classpath:applicationContext-security.xml 
+		</param-value> </context-param> -->
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>403</error-code>
+		<location>/403.jsp</location>
+	</error-page>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<!-- <security-constraint> <web-resource-collection> <web-resource-name>sdweb</web-resource-name> 
+		<url-pattern>/*</url-pattern> <http-method>PUT</http-method> <http-method>HEAD</http-method> 
+		<http-method>OPTIONS</http-method> <http-method>DELETE</http-method> <http-method>TRACE</http-method> 
+		</web-resource-collection> <auth-constraint/> </security-constraint> -->
+
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+</web-app>

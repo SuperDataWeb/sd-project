@@ -1,0 +1,21 @@
+.jcarousel-container {
+	POSITION: relative
+}
+.jcarousel-clip {
+	Z-INDEX: 2; POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.jcarousel-list {
+	Z-INDEX: 1; POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; TOP: 0px; PADDING-TOP: 0px; LEFT: 0px
+}
+.jcarousel-list LI {
+	LIST-STYLE-TYPE: none; WIDTH: 169px; FLOAT: left; HEIGHT: 270px
+}
+.jcarousel-item {
+	LIST-STYLE-TYPE: none; WIDTH: 169px; FLOAT: left; HEIGHT: 270px
+}
+.jcarousel-next {
+	Z-INDEX: 3; DISPLAY: none
+}
+.jcarousel-prev {
+	Z-INDEX: 3; DISPLAY: none
+}

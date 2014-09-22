@@ -1,0 +1,99 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.lhgdig {
+	POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.lhgdig TABLE {
+	FONT: 12px Verdana,Arial,sans-serif
+}
+.lhgdig_content {
+	BACKGROUND-COLOR: #000; VERTICAL-ALIGN: top
+}
+.lhgdig TR {
+	BACKGROUND: #fff
+}
+.lhgdig_inbox {
+	BACKGROUND-COLOR: #fff; WIDTH: 100%; DISPLAY: inline-block; HEIGHT: 100%; OVERFLOW: auto
+}
+.lhgdig_throbber {
+	BACKGROUND-COLOR: #fff; WIDTH: 100%; DISPLAY: inline-block; HEIGHT: 100%; OVERFLOW: auto
+}
+.lhgdig_throbber SPAN {
+	POSITION: relative; PADDING-LEFT: 20px; WIDTH: 65px; DISPLAY: block; BACKGROUND: url(images/wait.gif) no-repeat 0px 0px; HEIGHT: 16px; TOP: 45%; FONT-WEIGHT: bold
+}
+.lhgdig_btns {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #fff; HEIGHT: 0px; PADDING-TOP: 0px
+}
+.lhgdig_bDiv {
+	DISPLAY: none; FLOAT: right; MARGIN-RIGHT: 5px; _margin-right: 2px
+}
+A.lhgdig_button {
+	MARGIN: 1px 4px 0px; OUTLINE-STYLE: none; OUTLINE-WIDTH: medium; PADDING-RIGHT: 13px; DISPLAY: inline-block; BACKGROUND: url(images/d_btn.gif) no-repeat right 0px; HEIGHT: 21px; COLOR: #000; CURSOR: default; TEXT-DECORATION: none
+}
+A.lhgdig_button EM {
+	LINE-HEIGHT: 24px; FONT-STYLE: normal; PADDING-LEFT: 14px; DISPLAY: inline-block; BACKGROUND: url(images/d_btn.gif) no-repeat left 0px; LETTER-SPACING: 2px; HEIGHT: 21px; OVERFLOW: hidden; _position: relative
+}
+A.lhgdig_button:hover {
+	BACKGROUND-POSITION: right -21px; TEXT-DECORATION: none
+}
+A.lhgdig_button:hover EM {
+	BACKGROUND-POSITION: left -21px; TEXT-DECORATION: none
+}
+.lhgdig_xbtn {
+	POSITION: absolute; WIDTH: 44px; BACKGROUND: url(images/d_bg.gif) no-repeat 0px 0px; HEIGHT: 18px; TOP: 1px; CURSOR: default; RIGHT: 10px
+}
+.lhgdig_xbtnover {
+	BACKGROUND-POSITION: 0px -18px
+}
+.lhgdig_leftTop {
+	BACKGROUND-IMAGE: url(images/d_bg.gif); BACKGROUND-REPEAT: no-repeat; FONT-SIZE: 0px
+}
+.lhgdig_rightTop {
+	BACKGROUND-IMAGE: url(images/d_bg.gif); BACKGROUND-REPEAT: no-repeat; FONT-SIZE: 0px
+}
+.lhgdig_leftTop {
+	WIDTH: 5px; BACKGROUND-POSITION: -45px -6px; HEIGHT: 33px
+}
+.lhgdig_rightTop {
+	WIDTH: 4px; BACKGROUND-POSITION: -52px -6px; HEIGHT: 33px
+}
+.lhgdig_leftBottom {
+	BACKGROUND: #fff; BORDER-TOP: #390 1px solid
+}
+.lhgdig_rightBottom {
+	BACKGROUND: #fff; BORDER-TOP: #390 1px solid
+}
+.lhgdig_bottom {
+	BACKGROUND: #fff; BORDER-TOP: #390 1px solid
+}
+.lhgdig_left {
+	BACKGROUND: #fff
+}
+.lhgdig_right {
+	BACKGROUND: #fff
+}
+.lhgdig_left {
+	BORDER-LEFT: #390 1px solid
+}
+.lhgdig_right {
+	BORDER-RIGHT: #390 1px solid
+}
+.lhgdig_top {
+	BACKGROUND-IMAGE: url(images/d_x.gif); BACKGROUND-REPEAT: repeat-x; FONT-SIZE: 0px
+}
+.lhgdig_top {
+	BACKGROUND-POSITION: 0px 0px; CURSOR: move
+}
+.lhgdig_title {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 33px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 33px; COLOR: #fff; FONT-SIZE: 15px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+* HTML.lhgdig_ie6_fixed {
+	BACKGROUND: url(*) fixed
+}
+* HTML.lhgdig_ie6_fixed BODY {
+	HEIGHT: 100%
+}
+* HTML .lhgdig_warp {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; ; TOP: expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight); ; LEFT: expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth)
+}

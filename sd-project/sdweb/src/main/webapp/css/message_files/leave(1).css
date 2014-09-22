@@ -1,0 +1,63 @@
+FORM .active {
+	BORDER-BOTTOM: #519623 2px solid; BORDER-LEFT: #519623 2px solid; BORDER-TOP: #519623 2px solid; BORDER-RIGHT: #519623 2px solid
+}
+DIV.head {
+	BACKGROUND: url(HTTP://st.live800.com/live800/chatClient/version2/style/theme/lvyou/images/bg.jpg) #fff repeat-x 0px -81px
+}
+FIELDSET INPUT {
+	BORDER-BOTTOM: #dfe8d5 1px solid; BORDER-LEFT: #dfe8d5 1px solid; BORDER-TOP: #dfe8d5 1px solid; BORDER-RIGHT: #dfe8d5 1px solid
+}
+FIELDSET TEXTAREA {
+	BORDER-BOTTOM: #dfe8d5 1px solid; BORDER-LEFT: #dfe8d5 1px solid; BORDER-TOP: #dfe8d5 1px solid; BORDER-RIGHT: #dfe8d5 1px solid
+}
+#mobile #textImage {
+	BORDER-BOTTOM: #dfe8d5 1px solid; BORDER-LEFT: #dfe8d5 1px solid; BORDER-TOP: #dfe8d5 1px solid; BORDER-RIGHT: #dfe8d5 1px solid
+}
+#head {
+	BACKGROUND: url(HTTP://st32.live800.com/live800/chatClient/version2/style/theme/lvyou/images/head_bg.png) repeat-x 0px 0px
+}
+#head LABEL {
+	COLOR: #455d0f
+}
+.head .left {
+	BACKGROUND: url(HTTP://st10.live800.com/live800/chatClient/version2/style/theme/lvyou/images/head_left.png) no-repeat
+}
+.head .right {
+	BACKGROUND: url(HTTP://st16.live800.com/live800/chatClient/version2/style/theme/lvyou/images/head_right.png) no-repeat
+}
+.decorative1 P {
+	BACKGROUND: url(HTTP://st32.live800.com/live800/chatClient/version2/style/theme/lvyou/images/dialog_shadow.png) no-repeat center bottom
+}
+.decorative2 P {
+	BACKGROUND: url(HTTP://st8.live800.com/live800/chatClient/version2/style/theme/lvyou/images/bottom_shadow.png) no-repeat center top
+}
+.decorative3 .dtop {
+	WIDTH: 8px; DISPLAY: block; BACKGROUND: url(HTTP://st.live800.com/live800/chatClient/version2/style/theme/lvyou/images/right_shadow_top.png) no-repeat 0px 0px; HEIGHT: 125px
+}
+.decorative3 .dbottom {
+	WIDTH: 8px; DISPLAY: block; BACKGROUND: url(HTTP://st32.live800.com/live800/chatClient/version2/style/theme/lvyou/images/right_shadow_bottom.png) no-repeat 0px 0px; HEIGHT: 124px
+}
+.decorative3 P {
+	BACKGROUND: url(HTTP://st8.live800.com/live800/chatClient/version2/style/theme/lvyou/images/right_shadow_middle.png) repeat-y 0px 0px
+}
+.decorative4 P {
+	BACKGROUND: url(HTTP://st.live800.com/live800/chatClient/version2/style/theme/lvyou/images/dialog_shadow.png) no-repeat center bottom
+}
+.footer {
+	BACKGROUND: url(HTTP://st32.live800.com/live800/chatClient/version2/style/theme/lvyou/images/bg.jpg) repeat-x 0px 0px
+}
+.button #enter {
+	BACKGROUND: url(HTTP://st16.live800.com/live800/chatClient/version2/style/theme/lvyou/images/button.gif) no-repeat 0px 0px
+}
+#dialback {
+	BACKGROUND: url(HTTP://st.live800.com/live800/chatClient/version2/style/theme/lvyou/images/callback.gif) no-repeat 0px 0px
+}
+#mobile #textImage {
+	WIDTH: 40px
+}
+FIELDSET .fixfloat INPUT.active {
+	MARGIN: 0px
+}
+#live800 {
+	BACKGROUND: url(HTTP://st32.live800.com/live800/chatClient/version2/style/theme/lvyou/images/live800.gif) no-repeat center 50%
+}
