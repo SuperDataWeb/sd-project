@@ -6,10 +6,11 @@
     <settings>
         <setting name="cacheEnabled" value="true"/>
         <setting name="defaultStatementTimeout" value="30"/>
-
     </settings>
+    
     <typeAliases>
         <typeAlias alias="functionModule" type="com.wodi.sdweb.model.FunctionModule" />
+        <typeAlias alias="SpProduct" type="com.wodi.sdweb.model.SpProduct" />
       	<!--<typeAlias alias="widgetClass" type="com.ailk.viewface.model.widget.WidgetClass" />
       	<typeAlias alias="widgetParam" type="com.ailk.viewface.model.widget.WidgetParam" />-->
 

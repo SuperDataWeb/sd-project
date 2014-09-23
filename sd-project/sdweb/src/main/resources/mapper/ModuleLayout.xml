@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.wodi.sdweb.dao.ModuleLayoutDao">
+
+    <resultMap type="ModuleLayout" id="ModuleLayoutMap">    
+        <result property="id" column="id" />    
+        <result property="layoutName" column="layout_name" />    
+        <result property="position" column="position" />    
+        <result property="rowNum" column="row_num" />
+        <result property="columnNum" column="column_num" />
+        <result property="status" column="status" />    
+        <result property="created" column="created" />
+        <result property="updated" column="updated" />
+    </resultMap>
+    
+	<insert id="insert" parameterType="ModuleLayout">
+			<![CDATA[ INSERT INTO MODULE_LAYOUT(module_id, layout_id, row_index, column_index, status, created, updated
+			) VALUES( #{moduleId}, #{layoutId}, #{rowIndex}, #{columnIndex}, #{status}, now(), now() )
+				]]>
+	</insert>
+	
+	<select id="pageSelect" resultMap="ModuleLayoutMap" parameterType="map">    
+        <![CDATA[    
+        select  id,                
+           module_id ,          
+           layout_id ,         
+           row_index, 
+           column_index,      
+           status,           
+           created,    
+           updated
+        FROM MODULE_LAYOUT  limit  #{endRow}, #{startRow}
+         ]]>     
+    </select>
+	
+</mapper>
