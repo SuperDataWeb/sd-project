@@ -13,7 +13,7 @@ import com.wodi.sdweb.dao.ImKpiDao;
 //import com.ailk.womc.domain.kpi.ImKpi;
 //import com.ailk.womc.utils.Pagination;
 
-@Repository("imKpiDao")
+//@Repository("imKpiDao")
 public class ImKpiDaoImpl implements ImKpiDao {
 
 	@Resource(name = "sqlSessionMysql")

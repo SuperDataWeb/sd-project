@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="GB2312"?>
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
@@ -16,9 +16,14 @@
 				<value>classpath:config.properties</value>
 			</list>
 		</property>
-        <property name="ignoreUnresolvablePlaceholders" value="true" />
 	</bean>
+
+	<context:component-scan base-package="com.wodi.sdweb.service" />
 	
-	<context:component-scan base-package="com.wodi.sdweb.service"/> 
+	<!-- 
+	扫描DAO接口包自动装配到Spring，需要用到dao.impl里自己实现的类时需要开启这个扫描
+	同时注释掉applicationContext-mybatis.xml中org.mybatis.spring.mapper.MapperScannerConfigurer 
+	
+	<context:component-scan base-package="com.wodi.sdweb.dao" /> -->
 
 </beans>
