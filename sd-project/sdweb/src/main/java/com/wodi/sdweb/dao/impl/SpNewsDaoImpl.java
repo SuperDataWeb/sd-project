@@ -35,7 +35,7 @@ public class SpNewsDaoImpl extends SqlSessionDaoSupport implements
 
 	@Override
 	public void insert(SpNews spNews) {
-		this.getSqlSession().getMapper(SpNewsDao.class).insert(spNews);;
+		this.getSqlSession().getMapper(SpNewsDao.class).insert(spNews);
 	}
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
@@ -50,4 +50,18 @@ public class SpNewsDaoImpl extends SqlSessionDaoSupport implements
        return spNewsList; 
 	}
 
+	@Override
+	public void update(SpNews spNews) {
+		this.getSqlSession().getMapper(SpNewsDao.class).update(spNews);
+	}
+
+	@Override
+	public void delete(SpNews spNews) {
+		this.getSqlSession().getMapper(SpNewsDao.class).delete(spNews);
+	}
+
+	@Override
+	public List<SpNews> selectAll() {
+		return this.getSqlSession().getMapper(SpNewsDao.class).selectAll();
+	}
 }

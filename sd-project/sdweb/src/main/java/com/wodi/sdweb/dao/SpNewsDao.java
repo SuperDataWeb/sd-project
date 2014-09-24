@@ -17,9 +17,11 @@ public interface SpNewsDao {
 	
 	public List<SpNews> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize) throws SQLException;
 	
-//	public void update(SpNews spNews);
-//	
-//	public void delete(SpNews spNews);
+	public void update(SpNews spNews);
+	
+	public void delete(SpNews spNews);
+	
+	public List<SpNews> selectAll();
 	
 //	Pagination<FunctionModule> selectPagination(FunctionModule module);
 //	

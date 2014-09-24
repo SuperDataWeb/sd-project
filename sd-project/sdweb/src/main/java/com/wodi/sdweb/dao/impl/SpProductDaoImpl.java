@@ -35,7 +35,7 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 
 	@Override
 	public void insert(SpProduct product) {
-		this.getSqlSession().getMapper(SpProductDao.class).insert(product);;
+		this.getSqlSession().getMapper(SpProductDao.class).insert(product);
 	}
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
@@ -52,26 +52,22 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 
 	@Override
 	public void update(SpProduct product) {
-		// TODO Auto-generated method stub
-		
+		this.getSqlSession().getMapper(SpProductDao.class).update(product);
 	}
 
 	@Override
 	public void delete(SpProduct product) {
-		// TODO Auto-generated method stub
-		
+		this.getSqlSession().getMapper(SpProductDao.class).delete(product);
 	}
 
 	@Override
 	public List<SpProduct> selectAll() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.getSqlSession().getMapper(SpProductDao.class).selectAll();
 	}
 
 	@Override
 	public List<SpProduct> selectByType(Long typeId) {
-		// TODO Auto-generated method stub
-		return null;
+		return this.getSqlSession().getMapper(SpProductDao.class).selectByType(typeId);
 	}
 
 }

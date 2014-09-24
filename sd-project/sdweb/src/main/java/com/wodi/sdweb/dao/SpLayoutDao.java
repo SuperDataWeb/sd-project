@@ -9,6 +9,13 @@
  */
 package com.wodi.sdweb.dao;
 
+import java.sql.SQLException;
+import java.util.List;
+
+import org.apache.ibatis.annotations.Param;
+
+import com.wodi.sdweb.model.SpLayout;
+
 /**
  * <p>
  * DOCUMENTME <code>com.wodi.sdweb.dao.SpLayoutDao</code>类的说明
@@ -19,4 +26,13 @@ package com.wodi.sdweb.dao;
  */
 public interface SpLayoutDao {
 
+	public void insert(SpLayout spLayout);
+	
+	public List<SpLayout> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize) throws SQLException;
+	
+	public void update(SpLayout spLayout);
+	
+	public void delete(SpLayout spLayout);
+	
+	public List<SpLayout> selectAll();
 }
