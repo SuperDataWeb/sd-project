@@ -3,7 +3,7 @@
 
 <mapper namespace="com.wodi.sdweb.dao.SpOrderDao">
 
-    <resultMap type="SpOrder" id="SpOrderMap">    
+    <resultMap id="SpOrderMap" type="SpOrder" >    
         <result property="id" column="id" />    
         <result property="companyName" column="company_name" />    
         <result property="contact" column="contact" />    
@@ -32,7 +32,7 @@
            status,           
            created,    
            updated
-        FROM SP_ORDER  limit  #{endRow}, #{startRow}
+        FROM SP_ORDER  limit  #{startIndex}, #{pageSize}
          ]]>     
     </select>
 	

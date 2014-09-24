@@ -3,34 +3,43 @@
 
 <mapper namespace="com.wodi.sdweb.dao.SpProductDao">
 
-    <resultMap type="SpProduct" id="SpProductMap">    
-        <result property="id" column="id" />    
-        <result property="productName" column="product_name" />    
-        <result property="description" column="description" />    
-        <result property="presentation" column="presentation" />    
-        <result property="img" column="img" />    
-        <result property="status" column="status" />    
-        <result property="created" column="created" />
-        <result property="updated" column="updated" />
-    </resultMap>
-    
+	<resultMap type="SpProduct" id="SpProductMap">
+		<result property="id" column="id" />
+		<result property="type" column="type" />
+		<result property="productName" column="product_name" />
+		<result property="description" column="description" />
+		<result property="presentation" column="presentation" />
+		<result property="img" column="img" />
+		<result property="status" column="status" />
+		<result property="created" column="created" />
+		<result property="updated" column="updated" />
+	</resultMap>
+
+	<sql id="ProductFields">
+		id, type, product_name, description, presentation, img, status, created,
+		updated
+	</sql>
+
 	<insert id="insert" parameterType="SpProduct">
-			<![CDATA[ INSERT INTO SP_PRODUCT(product_name, description, presentation, img, status, created, updated
-			) VALUES( #{productName}, #{description}, #{presentation}, #{img}, #{status}, now(), now() )
+			<![CDATA[ INSERT INTO SP_PRODUCT( type, product_name, description, presentation, img, status, created, updated
+			) VALUES( #{type}, #{productName}, #{description}, #{presentation}, #{img}, #{status}, now(), now() )
 				]]>
 	</insert>
-	<select id="pageSelect" resultMap="SpProductMap" parameterType="map">    
-        <![CDATA[    
-        select  id,                
-           product_name ,          
-           description ,         
-           presentation,              
-           img,            
-           status,           
-           created,    
-           updated
-        FROM sp_product  limit  #{endRow}, #{startRow}
-         ]]>     
-    </select>
-	
+
+	<select id="selectByType" resultMap="SpProductMap">    
+        select
+           <include refid="ProductFields"/>
+         <![CDATA[ 
+             FROM sp_product where type = #{typeId}
+         ]]>
+	</select>
+
+	<select id="pageSelect" resultMap="SpProductMap" parameterType="map">   
+	    select
+	     <include refid="ProductFields"/>
+         <![CDATA[    
+             FROM sp_product  limit  #{startIndex}, #{pageSize}
+         ]]>
+	</select>
+
 </mapper>

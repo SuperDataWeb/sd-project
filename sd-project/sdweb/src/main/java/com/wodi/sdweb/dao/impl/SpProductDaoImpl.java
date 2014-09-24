@@ -40,14 +40,38 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
-	public List<SpProduct> pageSelect(int startRow, int endRow)
+	public List<SpProduct> pageSelect(int startIndex, int pageSize)
 			throws SQLException {
 		List<SpProduct> spProductList = new ArrayList<SpProduct>();    
         Map params =new HashMap();    
-        params.put("startRow", new Integer(startRow));    
-        params.put("endRow", new Integer(endRow));    
+        params.put("startIndex", new Integer(startIndex));    
+        params.put("pageSize", new Integer(pageSize));    
         spProductList = this.getSqlSession().selectList("com.wodi.sdweb.dao.SpProductDao.pageSelect", params);    
        return spProductList; 
+	}
+
+	@Override
+	public void update(SpProduct product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(SpProduct product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<SpProduct> selectAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<SpProduct> selectByType(Long typeId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

@@ -40,12 +40,12 @@ public class SpNewsDaoImpl extends SqlSessionDaoSupport implements
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
-	public List<SpNews> pageSelect(int startRow, int endRow)
+	public List<SpNews> pageSelect(int startIndex, int pageSize)
 			throws SQLException {
 		List<SpNews> spNewsList = new ArrayList<SpNews>();    
         Map params =new HashMap();    
-        params.put("startRow", new Integer(startRow));    
-        params.put("endRow", new Integer(endRow));    
+        params.put("startIndex", new Integer(startIndex));    
+        params.put("pageSize", new Integer(pageSize));    
         spNewsList = this.getSqlSession().selectList("com.wodi.sdweb.dao.SpNewsDao.pageSelect", params);    
        return spNewsList; 
 	}

@@ -32,19 +32,32 @@ public interface SpProductDao {
 	 */
 	public void insert(SpProduct product);
 	
-	public List<SpProduct> pageSelect(@Param("startRow") int startRow, @Param("endRow") int endRow) throws SQLException;
+	public List<SpProduct> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize) throws SQLException;
 	
-//	/**
-//	 * 更新 product
-//	 * @param product
-//	 */
-//	public void update(SpProduct product);
-//	
-//	/**
-//	 * 删除 product
-//	 * @param product
-//	 */
-//	public void delete(SpProduct product);
+	/**
+	 * 更新 product
+	 * @param product
+	 */
+	public void update(SpProduct product);
+	
+	/**
+	 * 删除 product
+	 * @param product
+	 */
+	public void delete(SpProduct product);
+	
+	/**
+	 * 查询所有产品
+	 * @return
+	 */
+	public List<SpProduct> selectAll();
+	
+	/**
+	 * 根据产品类型Id查询产品
+	 * @param typeId
+	 * @return
+	 */
+	public List<SpProduct> selectByType(@Param("typeId") Long typeId);
 //	
 //	/**
 //	 * 分页查询 product

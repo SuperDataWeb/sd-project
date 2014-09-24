@@ -3,7 +3,7 @@
 
 <mapper namespace="com.wodi.sdweb.dao.SpLayoutDao">
 
-    <resultMap type="SpLayout" id="SpLayoutMap">    
+    <resultMap id="SpLayoutMap" type="SpLayout">    
         <result property="id" column="id" />    
         <result property="layoutName" column="layout_name" />    
         <result property="position" column="position" />    
@@ -30,7 +30,7 @@
            status,           
            created,    
            updated
-        FROM SP_LAYOUT  limit  #{endRow}, #{startRow}
+        FROM SP_LAYOUT  limit  #{startIndex}, #{pageSize}
          ]]>     
     </select>
 	

@@ -31,6 +31,7 @@ public class SpProductTest {
     	product.setImg("/image/ss.png");
     	product.setProductName("�ٴ�ɶɶɶ");
     	product.setStatus(0);
+    	product.setType(1l);
     	logger.info("insert start");
     	try {
     		spProductService.insertSpProduct(product);

@@ -38,25 +38,16 @@ public class SpProductServiceImpl implements SpProductService {
 		spProductDao.insert(product);
 	}
 
-	public SpProductDao getSpProductDao() {
-		return spProductDao;
-	}
-
-	public void setSpProductDao(SpProductDao spProductDao) {
-		this.spProductDao = spProductDao;
+	@Override
+	public List<SpProduct> pageSelect(int startIndex, int pageSize) throws SQLException {
+		List<SpProduct> sps = spProductDao.pageSelect(startIndex, pageSize);
+		return sps;
 	}
 
 	@Override
-	public List<SpProduct> pageSelect(int startRow, int endRow) {
-		List<SpProduct> sps = null;
-		try {
-			sps = spProductDao.pageSelect(startRow, endRow);
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	public List<SpProduct> selectByTypeId(Long typeId) {
+		List<SpProduct> sps = spProductDao.selectByType(typeId);
 		return sps;
-
 	}
 
 }

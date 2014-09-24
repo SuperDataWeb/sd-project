@@ -3,7 +3,7 @@
 
 <mapper namespace="com.wodi.sdweb.dao.SpNewsDao">
 
-    <resultMap type="SpNews" id="SpNewsMap">    
+    <resultMap id="SpNewsMap" type="SpNews">    
         <result property="id" column="id" />    
         <result property="newsTitle" column="news_title" />    
         <result property="newsContent" column="news_content" />    
@@ -27,7 +27,7 @@
            status,           
            created,    
            updated
-        FROM sp_news  limit  #{endRow}, #{startRow}
+        FROM sp_news  limit  #{startIndex}, #{pageSize}
          ]]>     
     </select>
 	

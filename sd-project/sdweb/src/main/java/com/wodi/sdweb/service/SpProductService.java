@@ -9,6 +9,7 @@
  */
 package com.wodi.sdweb.service;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import com.wodi.sdweb.model.SpProduct;
@@ -24,7 +25,21 @@ import com.wodi.sdweb.model.SpProduct;
 public interface SpProductService {
 
 	public void insertSpProduct(SpProduct product);
+	
+	/**
+	 * 根据产品类型查询产品
+	 * @param typeId
+	 * @return
+	 */
+	public List<SpProduct> selectByTypeId(Long typeId);
 
-	public List<SpProduct> pageSelect(int startRow, int endRow);
+	/**
+	 * 分页查询接口
+	 * @param startIndex
+	 * @param pageSize
+	 * @return
+	 */
+	//TODO
+	public List<SpProduct> pageSelect(int startIndex, int pageSize) throws SQLException ;
 
 }

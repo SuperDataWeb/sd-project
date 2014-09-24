@@ -3,7 +3,7 @@
 
 <mapper namespace="com.wodi.sdweb.dao.ModuleLayoutDao">
 
-    <resultMap type="ModuleLayout" id="ModuleLayoutMap">    
+    <resultMap id="ModuleLayoutMap" type="ModuleLayout" >    
         <result property="id" column="id" />    
         <result property="layoutName" column="layout_name" />    
         <result property="position" column="position" />    
@@ -30,7 +30,7 @@
            status,           
            created,    
            updated
-        FROM MODULE_LAYOUT  limit  #{endRow}, #{startRow}
+        FROM MODULE_LAYOUT  limit  #{startIndex}, #{pageSize}
          ]]>     
     </select>
 	

@@ -11,29 +11,11 @@
     <typeAliases>
         <typeAlias alias="functionModule" type="com.wodi.sdweb.model.FunctionModule" />
         <typeAlias alias="SpProduct" type="com.wodi.sdweb.model.SpProduct" />
-      	<!--<typeAlias alias="widgetClass" type="com.ailk.viewface.model.widget.WidgetClass" />
-      	<typeAlias alias="widgetParam" type="com.ailk.viewface.model.widget.WidgetParam" />-->
-
-		<!-- dial 
-        <typeAlias type="com.ailk.womc.domain.system.User" alias="user"/>
-        <typeAlias type="com.ailk.womc.domain.system.SysOrganization" alias="org"/>
-        <typeAlias type="com.ailk.womc.domain.system.Role" alias="role"/>
-        <typeAlias type="com.ailk.womc.domain.system.SysFunction" alias="sysFunc"/>
-        <typeAlias type="com.ailk.womc.domain.system.RoleSysFunction" alias="roleSysFunc"/>
-        <typeAlias type="com.ailk.womc.domain.system.Menu" alias="menu"/>
-        <typeAlias type="com.ailk.womc.domain.system.FunctionURL" alias="furl"/>
-        <typeAlias type="com.ailk.womc.domain.system.ActionLog" alias="actionLog"/>
-        <typeAlias type="com.ailk.womc.domain.system.ActionType" alias="actionType"/>
-        
-        <typeAlias type="com.ailk.womc.domain.setting.DnsProvinceNode" alias="dnsProvinceNode"/>
-        <typeAlias type="com.ailk.womc.domain.setting.Province" alias="province"/>
-        <typeAlias type="com.ailk.womc.domain.setting.DnsServer" alias="dnsServer"/>
-        <typeAlias type="com.ailk.womc.domain.setting.ProvIpsegInfo" alias="provIpsegInfo"/>
-        <typeAlias type="com.ailk.womc.domain.setting.ProvACIpInfo" alias="provACIpInfo"/>
-        <typeAlias type="com.ailk.womc.mybatis.MacAddrTypeHandler" alias="macaddr"/>
-        <typeAlias type="com.ailk.womc.mybatis.CIDRTypeHandler" alias="cidr"/>
-        <typeAlias type="com.ailk.womc.mybatis.INETTypeHandler" alias="inet"/>-->
-        
+        <typeAlias alias="SpProductType" type="com.wodi.sdweb.model.SpProductType" />
+        <typeAlias alias="ModuleLayout" type="com.wodi.sdweb.model.ModuleLayout" />
+        <typeAlias alias="SpLayout" type="com.wodi.sdweb.model.SpLayout" />
+        <typeAlias alias="SpNews" type="com.wodi.sdweb.model.SpNews" />
+        <typeAlias alias="SpOrder" type="com.wodi.sdweb.model.SpOrder" />
         <!-- womc 
         <typeAlias type="com.ailk.womc.domain.kpi.ImKpi" alias="imKpi"/>-->
        

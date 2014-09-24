@@ -3,7 +3,7 @@
 
 <mapper namespace="com.wodi.sdweb.dao.SpProductTypeDao">
 
-    <resultMap type="SpProductType" id="SpProductTypeMap">    
+    <resultMap id="SpProductTypeMap" type="SpProductType">    
         <result property="id" column="id" />    
         <result property="typeName" column="type_name" />    
         <result property="description" column="description" />    
@@ -25,7 +25,7 @@
            status,           
            created,    
            updated
-        FROM SP_PRODUCT_TYPE  limit  #{endRow}, #{startRow}
+        FROM SP_PRODUCT_TYPE  limit  #{startIndex}, #{pageSize}
          ]]>     
     </select>
 	
