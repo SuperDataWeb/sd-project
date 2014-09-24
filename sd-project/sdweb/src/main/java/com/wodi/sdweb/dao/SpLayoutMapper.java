@@ -24,7 +24,7 @@ import com.wodi.sdweb.model.SpLayout;
  * @author tangyong
  * @version $Revision: 1.1 $ $Date: 2014年9月24日 下午4:28:56 $
  */
-public interface SpLayoutDao {
+public interface SpLayoutMapper {
 
 	public void insert(SpLayout spLayout);
 	

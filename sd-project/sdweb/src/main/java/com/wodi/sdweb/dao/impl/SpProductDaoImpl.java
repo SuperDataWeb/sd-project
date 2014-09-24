@@ -18,7 +18,7 @@ import java.util.Map;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import com.wodi.sdweb.dao.SpProductDao;
+import com.wodi.sdweb.dao.SpProductMapper;
 import com.wodi.sdweb.model.SpProduct;
 
 /**
@@ -31,11 +31,11 @@ import com.wodi.sdweb.model.SpProduct;
  */
 @Repository
 public class SpProductDaoImpl extends SqlSessionDaoSupport implements
-		SpProductDao {
+		SpProductMapper {
 
 	@Override
 	public void insert(SpProduct product) {
-		this.getSqlSession().getMapper(SpProductDao.class).insert(product);
+		this.getSqlSession().getMapper(SpProductMapper.class).insert(product);
 	}
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
@@ -52,22 +52,22 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 
 	@Override
 	public void update(SpProduct product) {
-		this.getSqlSession().getMapper(SpProductDao.class).update(product);
+		this.getSqlSession().getMapper(SpProductMapper.class).update(product);
 	}
 
 	@Override
 	public void delete(SpProduct product) {
-		this.getSqlSession().getMapper(SpProductDao.class).delete(product);
+		this.getSqlSession().getMapper(SpProductMapper.class).delete(product);
 	}
 
 	@Override
 	public List<SpProduct> selectAll() {
-		return this.getSqlSession().getMapper(SpProductDao.class).selectAll();
+		return this.getSqlSession().getMapper(SpProductMapper.class).selectAll();
 	}
 
 	@Override
 	public List<SpProduct> selectByType(Long typeId) {
-		return this.getSqlSession().getMapper(SpProductDao.class).selectByType(typeId);
+		return this.getSqlSession().getMapper(SpProductMapper.class).selectByType(typeId);
 	}
 
 }

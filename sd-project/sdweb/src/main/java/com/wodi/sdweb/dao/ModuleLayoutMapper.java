@@ -24,7 +24,7 @@ import com.wodi.sdweb.model.ModuleLayout;
  * @author tangyong
  * @version $Revision: 1.1 $ $Date: 2014年9月24日 下午4:28:28 $
  */
-public interface ModuleLayoutDao {
+public interface ModuleLayoutMapper {
 
 	public void insert(ModuleLayout moduleLayout);
 	

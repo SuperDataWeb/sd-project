@@ -11,7 +11,7 @@ import com.wodi.sdweb.model.SpNews;
  * @author Rory
  *
  */
-public interface SpNewsDao {
+public interface SpNewsMapper {
 
 	public void insert(SpNews spNews);
 	

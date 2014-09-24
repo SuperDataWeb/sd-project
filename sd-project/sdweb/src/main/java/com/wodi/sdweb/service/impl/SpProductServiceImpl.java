@@ -15,7 +15,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wodi.sdweb.dao.SpProductDao;
+import com.wodi.sdweb.dao.SpProductMapper;
 import com.wodi.sdweb.model.SpProduct;
 import com.wodi.sdweb.service.SpProductService;
 
@@ -31,7 +31,7 @@ import com.wodi.sdweb.service.SpProductService;
 public class SpProductServiceImpl implements SpProductService {
 
 	@Autowired
-	private SpProductDao spProductDao;
+	private SpProductMapper spProductDao;
 
 	@Override
 	public void insertSpProduct(SpProduct product) {

@@ -18,7 +18,7 @@ import java.util.Map;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import com.wodi.sdweb.dao.SpOrderDao;
+import com.wodi.sdweb.dao.SpOrderMapper;
 import com.wodi.sdweb.model.SpLayout;
 import com.wodi.sdweb.model.SpOrder;
 
@@ -32,11 +32,11 @@ import com.wodi.sdweb.model.SpOrder;
  */
 @Repository
 public class SpOrderDaoImpl extends SqlSessionDaoSupport implements
-		SpOrderDao {
+		SpOrderMapper {
 
 	@Override
 	public void insert(SpOrder spOrder) {
-		this.getSqlSession().getMapper(SpOrderDao.class).insert(spOrder);
+		this.getSqlSession().getMapper(SpOrderMapper.class).insert(spOrder);
 	}
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
@@ -53,16 +53,16 @@ public class SpOrderDaoImpl extends SqlSessionDaoSupport implements
 
 	@Override
 	public void update(SpOrder spOrder) {
-		this.getSqlSession().getMapper(SpOrderDao.class).update(spOrder);
+		this.getSqlSession().getMapper(SpOrderMapper.class).update(spOrder);
 	}
 
 	@Override
 	public void delete(SpOrder spOrder) {
-		this.getSqlSession().getMapper(SpOrderDao.class).delete(spOrder);
+		this.getSqlSession().getMapper(SpOrderMapper.class).delete(spOrder);
 	}
 
 	@Override
 	public List<SpOrder> selectAll() {
-		return this.getSqlSession().getMapper(SpOrderDao.class).selectAll();
+		return this.getSqlSession().getMapper(SpOrderMapper.class).selectAll();
 	}
 }

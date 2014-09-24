@@ -24,7 +24,7 @@ import com.wodi.sdweb.model.SpProduct;
  * @author tangyong
  * @version $Revision: 1.1 $ $Date: 2014年9月23日 上午10:22:15 $
  */
-public interface SpProductDao {
+public interface SpProductMapper {
 
 	/**
 	 * 插入 product

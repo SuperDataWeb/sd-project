@@ -1,46 +1,35 @@
 package com.wodi.sdweb.dao.impl;
 
-import java.util.Map;
+import java.util.List;
 
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import com.wodi.sdweb.dao.FunctionModuleDao;
+import com.wodi.sdweb.dao.FunctionModuleMapper;
 import com.wodi.sdweb.model.FunctionModule;
-import com.wodi.sdweb.utils.Pagination;
 
 @Repository
-public class FunctionModuleDaoImpl extends SqlSessionDaoSupport implements FunctionModuleDao {
+public class FunctionModuleDaoImpl extends SqlSessionDaoSupport implements FunctionModuleMapper {
 	
 	public void insert(FunctionModule module) {
 		// TODO Auto-generated method stub
-		this.getSqlSession().getMapper(FunctionModuleDao.class).insert(module);
+		this.getSqlSession().getMapper(FunctionModuleMapper.class).insert(module);
 
 	}
 
 	public void update(FunctionModule module) {
 		// TODO Auto-generated method stub
-		this.getSqlSession().getMapper(FunctionModuleDao.class).update(module);
+		this.getSqlSession().getMapper(FunctionModuleMapper.class).update(module);
 	}
 
 	public void delete(FunctionModule module) {
 		// TODO Auto-generated method stub
-		this.getSqlSession().getMapper(FunctionModuleDao.class).delete(module);
+		this.getSqlSession().getMapper(FunctionModuleMapper.class).delete(module);
 	}
 
-	public Pagination<FunctionModule> selectPagination(FunctionModule module) {
+	public List<FunctionModule> selectAll() {
 		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Pagination<FunctionModule> selectPagination(Map<String, Object> param) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Integer count(Map<String, Object> param) {
-		// TODO Auto-generated method stub
-		return null;
+		return this.getSqlSession().getMapper(FunctionModuleMapper.class).selectAll();
 	}
 
 }

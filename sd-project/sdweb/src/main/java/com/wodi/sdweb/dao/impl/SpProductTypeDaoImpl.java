@@ -18,7 +18,7 @@ import java.util.Map;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import com.wodi.sdweb.dao.SpProductTypeDao;
+import com.wodi.sdweb.dao.SpProductTypeMapper;
 import com.wodi.sdweb.model.SpProductType;
 
 /**
@@ -31,26 +31,26 @@ import com.wodi.sdweb.model.SpProductType;
  */
 @Repository
 public class SpProductTypeDaoImpl extends SqlSessionDaoSupport implements
-		SpProductTypeDao {
+		SpProductTypeMapper {
 
 	@Override
 	public void insert(SpProductType spProductType) {
-		this.getSqlSession().getMapper(SpProductTypeDao.class).insert(spProductType);
+		this.getSqlSession().getMapper(SpProductTypeMapper.class).insert(spProductType);
 	}
 
 	@Override
 	public void update(SpProductType spProductType) {
-		this.getSqlSession().getMapper(SpProductTypeDao.class).update(spProductType);
+		this.getSqlSession().getMapper(SpProductTypeMapper.class).update(spProductType);
 	}
 
 	@Override
 	public void delete(SpProductType spProductType) {
-		this.getSqlSession().getMapper(SpProductTypeDao.class).delete(spProductType);
+		this.getSqlSession().getMapper(SpProductTypeMapper.class).delete(spProductType);
 	}
 
 	@Override
 	public List<SpProductType> selectAll() {
-		return this.getSqlSession().getMapper(SpProductTypeDao.class).selectAll();
+		return this.getSqlSession().getMapper(SpProductTypeMapper.class).selectAll();
 	}
 
 }

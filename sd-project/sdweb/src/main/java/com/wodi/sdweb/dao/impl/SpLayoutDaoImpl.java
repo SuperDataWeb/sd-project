@@ -18,7 +18,7 @@ import java.util.Map;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import com.wodi.sdweb.dao.SpLayoutDao;
+import com.wodi.sdweb.dao.SpLayoutMapper;
 import com.wodi.sdweb.model.SpLayout;
 
 /**
@@ -31,11 +31,11 @@ import com.wodi.sdweb.model.SpLayout;
  */
 @Repository
 public class SpLayoutDaoImpl extends SqlSessionDaoSupport implements
-		SpLayoutDao {
+		SpLayoutMapper {
 
 	@Override
 	public void insert(SpLayout spLayout) {
-		this.getSqlSession().getMapper(SpLayoutDao.class).insert(spLayout);
+		this.getSqlSession().getMapper(SpLayoutMapper.class).insert(spLayout);
 	}
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
@@ -52,16 +52,16 @@ public class SpLayoutDaoImpl extends SqlSessionDaoSupport implements
 
 	@Override
 	public void update(SpLayout spLayout) {
-		this.getSqlSession().getMapper(SpLayoutDao.class).update(spLayout);
+		this.getSqlSession().getMapper(SpLayoutMapper.class).update(spLayout);
 	}
 
 	@Override
 	public void delete(SpLayout spLayout) {
-		this.getSqlSession().getMapper(SpLayoutDao.class).delete(spLayout);
+		this.getSqlSession().getMapper(SpLayoutMapper.class).delete(spLayout);
 	}
 
 	@Override
 	public List<SpLayout> selectAll() {
-		return this.getSqlSession().getMapper(SpLayoutDao.class).selectAll();
+		return this.getSqlSession().getMapper(SpLayoutMapper.class).selectAll();
 	}
 }

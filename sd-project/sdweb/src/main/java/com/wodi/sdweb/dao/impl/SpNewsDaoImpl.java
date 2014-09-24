@@ -18,7 +18,7 @@ import java.util.Map;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import com.wodi.sdweb.dao.SpNewsDao;
+import com.wodi.sdweb.dao.SpNewsMapper;
 import com.wodi.sdweb.model.SpNews;
 
 /**
@@ -31,11 +31,11 @@ import com.wodi.sdweb.model.SpNews;
  */
 @Repository
 public class SpNewsDaoImpl extends SqlSessionDaoSupport implements
-		SpNewsDao {
+		SpNewsMapper {
 
 	@Override
 	public void insert(SpNews spNews) {
-		this.getSqlSession().getMapper(SpNewsDao.class).insert(spNews);
+		this.getSqlSession().getMapper(SpNewsMapper.class).insert(spNews);
 	}
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
@@ -52,16 +52,16 @@ public class SpNewsDaoImpl extends SqlSessionDaoSupport implements
 
 	@Override
 	public void update(SpNews spNews) {
-		this.getSqlSession().getMapper(SpNewsDao.class).update(spNews);
+		this.getSqlSession().getMapper(SpNewsMapper.class).update(spNews);
 	}
 
 	@Override
 	public void delete(SpNews spNews) {
-		this.getSqlSession().getMapper(SpNewsDao.class).delete(spNews);
+		this.getSqlSession().getMapper(SpNewsMapper.class).delete(spNews);
 	}
 
 	@Override
 	public List<SpNews> selectAll() {
-		return this.getSqlSession().getMapper(SpNewsDao.class).selectAll();
+		return this.getSqlSession().getMapper(SpNewsMapper.class).selectAll();
 	}
 }

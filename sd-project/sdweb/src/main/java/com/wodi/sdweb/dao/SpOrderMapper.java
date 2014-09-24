@@ -24,7 +24,7 @@ import com.wodi.sdweb.model.SpOrder;
  * @author tangyong
  * @version $Revision: 1.1 $ $Date: 2014年9月24日 下午4:29:52 $
  */
-public interface SpOrderDao {
+public interface SpOrderMapper {
 
 	public void insert(SpOrder spOrder);
 	
