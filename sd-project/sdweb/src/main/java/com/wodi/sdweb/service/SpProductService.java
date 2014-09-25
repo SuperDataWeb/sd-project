@@ -24,7 +24,18 @@ import com.wodi.sdweb.model.SpProduct;
  */
 public interface SpProductService {
 
+	/**
+	 * 插插插入
+	 * @param product
+	 */
 	public void insertSpProduct(SpProduct product);
+	
+	/**
+	 * 根据产品Id查询出产品，顺便关联出产品所属类型
+	 * @param id
+	 * @return
+	 */
+	public SpProduct selectById(Long id);
 	
 	/**
 	 * 根据产品类型查询产品

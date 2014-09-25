@@ -11,6 +11,8 @@ package com.wodi.sdweb.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Param;
+
 import com.wodi.sdweb.model.SpProductType;
 
 /**
@@ -46,4 +48,11 @@ public interface SpProductTypeMapper {
 	 * @return
 	 */
 	public List<SpProductType> selectAll();
+	
+	/**
+	 * 根据产品Id查询产品类型
+	 * @param TypeId
+	 * @return
+	 */
+	public SpProductType selectByTypeId(@Param("typeId") Long typeId);
 }

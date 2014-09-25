@@ -70,4 +70,10 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 		return this.getSqlSession().getMapper(SpProductMapper.class).selectByType(typeId);
 	}
 
+	@Override
+	public SpProduct selectById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

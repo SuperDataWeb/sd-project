@@ -19,6 +19,7 @@ public class SpProduct {
 	private Integer status;
 	private Date created;
 	private Date updated;
+	private SpProductType productType;
 
 	public Long getId() {
 		return id;
@@ -90,6 +91,14 @@ public class SpProduct {
 
 	public void setUpdated(Date updated) {
 		this.updated = updated;
+	}
+
+	public SpProductType getProductType() {
+		return productType;
+	}
+
+	public void setProductType(SpProductType productType) {
+		this.productType = productType;
 	}
 
 	@Override

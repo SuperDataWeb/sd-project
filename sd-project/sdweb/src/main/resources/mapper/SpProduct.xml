@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
-<mapper namespace="com.wodi.sdweb.dao.SpProductDao">
+<mapper namespace="com.wodi.sdweb.dao.SpProductMapper">
 
-	<resultMap type="SpProduct" id="SpProductMap">
+	<resultMap id="spProductMap" type="SpProduct" >
 		<result property="id" column="id" />
 		<result property="type" column="type" />
 		<result property="productName" column="product_name" />
@@ -15,7 +15,7 @@
 		<result property="updated" column="updated" />
 	</resultMap>
 
-	<sql id="ProductFields">
+	<sql id="productFields">
 		id, type, product_name, description, presentation, img, status, created,
 		updated
 	</sql>
@@ -25,18 +25,26 @@
 			) VALUES( #{type}, #{productName}, #{description}, #{presentation}, #{img}, #{status}, now(), now() )
 				]]>
 	</insert>
-
-	<select id="selectByType" resultMap="SpProductMap">    
+	
+    <select id="selectById" resultMap="spProductMap">    
         select
-           <include refid="ProductFields"/>
+           <include refid="productFields"/>
+         <![CDATA[ 
+             FROM sp_product where id = #{id}
+         ]]>
+	</select>
+
+	<select id="selectByType" resultMap="spProductMap">    
+        select
+           <include refid="productFields"/>
          <![CDATA[ 
              FROM sp_product where type = #{typeId}
          ]]>
 	</select>
 
-	<select id="pageSelect" resultMap="SpProductMap" parameterType="map">   
+	<select id="pageSelect" resultMap="spProductMap" parameterType="map">   
 	    select
-	     <include refid="ProductFields"/>
+	     <include refid="productFields"/>
          <![CDATA[    
              FROM sp_product  limit  #{startIndex}, #{pageSize}
          ]]>

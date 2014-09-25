@@ -16,7 +16,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.wodi.sdweb.dao.SpProductMapper;
+import com.wodi.sdweb.dao.SpProductTypeMapper;
 import com.wodi.sdweb.model.SpProduct;
+import com.wodi.sdweb.model.SpProductType;
 import com.wodi.sdweb.service.SpProductService;
 
 /**
@@ -33,9 +35,21 @@ public class SpProductServiceImpl implements SpProductService {
 	@Autowired
 	private SpProductMapper spProductDao;
 
+	@Autowired
+	private SpProductTypeMapper spProductTypeDao;
+	
 	@Override
 	public void insertSpProduct(SpProduct product) {
 		spProductDao.insert(product);
+	}
+	
+	@Override
+	public SpProduct selectById(Long id) {
+		// 貌似可以查一次数据库就能关联出来产品类型 TODO
+		SpProduct sp = spProductDao.selectById(id);
+		SpProductType spt = spProductTypeDao.selectByTypeId(sp.getType());
+		sp.setProductType(spt);
+		return sp;
 	}
 
 	@Override
@@ -49,5 +63,6 @@ public class SpProductServiceImpl implements SpProductService {
 		List<SpProduct> sps = spProductDao.selectByType(typeId);
 		return sps;
 	}
+
 
 }

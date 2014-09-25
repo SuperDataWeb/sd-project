@@ -9,11 +9,7 @@
  */
 package com.wodi.sdweb.dao.impl;
 
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
@@ -51,6 +47,12 @@ public class SpProductTypeDaoImpl extends SqlSessionDaoSupport implements
 	@Override
 	public List<SpProductType> selectAll() {
 		return this.getSqlSession().getMapper(SpProductTypeMapper.class).selectAll();
+	}
+
+	@Override
+	public SpProductType selectByTypeId(Long typeId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

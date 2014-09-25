@@ -1,5 +1,7 @@
 package com.wodi.sdweb;
 
+import java.util.List;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -9,7 +11,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.wodi.sdweb.model.SpProduct;
+import com.wodi.sdweb.model.SpProductType;
 import com.wodi.sdweb.service.SpProductService;
+import com.wodi.sdweb.service.SpProductTypeService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:applicationContext.xml",
@@ -20,6 +24,9 @@ public class SpProductTest {
 
     @Autowired
     private SpProductService spProductService;
+    
+    @Autowired
+    private SpProductTypeService spProductTypeService;
     
 //    @Autowired
 //    private FunctionModuleDao functionModuleDao;
@@ -36,12 +43,30 @@ public class SpProductTest {
     	try {
     		spProductService.insertSpProduct(product);
     		logger.info("size:" + spProductService.pageSelect(4, 10).size());
+    		logger.info("size:" + spProductService.selectByTypeId(1l).size());
 //    		functionModuleDao.insert(new FunctionModule());
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.error(e.getMessage());
 		}
     	logger.info("insert end");
+    }
+    
+    @Test
+    public void testSelectSpProduct() {
+    	Long start = System.currentTimeMillis();
+    	SpProduct sp = spProductService.selectById(2l);
+    	logger.info("time:" + (System.currentTimeMillis() - start));
+    	logger.info("spProduct.type.name: " + sp.getProductType().getTypeName());
+    }
+    
+    @Test
+    public void testSelectSpProductType() {
+    	List<SpProductType> spts = spProductTypeService.selectAll();
+    	Long start = System.currentTimeMillis();
+    	SpProductType spt = spProductTypeService.selectByTypeId(spts.get(0).getId());
+    	logger.info("time:" + (System.currentTimeMillis() - start));
+    	logger.info("spProduct.size: " + spt.getProducts().size());
     }
 
 

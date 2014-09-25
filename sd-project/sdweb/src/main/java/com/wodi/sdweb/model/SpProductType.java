@@ -10,6 +10,7 @@
 package com.wodi.sdweb.model;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * <p>
@@ -27,6 +28,7 @@ public class SpProductType {
 	private Integer status;
 	private Date created;
 	private Date updated;
+	private List<SpProduct> products;
 
 	public Long getId() {
 		return id;
@@ -74,6 +76,14 @@ public class SpProductType {
 
 	public void setUpdated(Date updated) {
 		this.updated = updated;
+	}
+
+	public List<SpProduct> getProducts() {
+		return products;
+	}
+
+	public void setProducts(List<SpProduct> products) {
+		this.products = products;
 	}
 
 }

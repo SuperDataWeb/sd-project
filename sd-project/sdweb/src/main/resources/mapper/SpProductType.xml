@@ -1,32 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
-<mapper namespace="com.wodi.sdweb.dao.SpProductTypeDao">
+<mapper namespace="com.wodi.sdweb.dao.SpProductTypeMapper">
 
-    <resultMap id="SpProductTypeMap" type="SpProductType">    
-        <result property="id" column="id" />    
-        <result property="typeName" column="type_name" />    
-        <result property="description" column="description" />    
-        <result property="status" column="status" />    
-        <result property="created" column="created" />
-        <result property="updated" column="updated" />
-    </resultMap>
-    
+	<resultMap id="spProductTypeMap" type="SpProductType">
+		<result property="id" column="id" />
+		<result property="typeName" column="type_name" />
+		<result property="description" column="description" />
+		<result property="status" column="status" />
+		<result property="created" column="created" />
+		<result property="updated" column="updated" />
+	</resultMap>
+
+	<sql id="productTypeFields">
+		id, type_name, description, status, created, updated
+	</sql>
+
 	<insert id="insert" parameterType="SpProductType">
 			<![CDATA[ INSERT INTO SP_PRODUCT_TYPE(type_name, description, status, created, updated
 			) VALUES( #{typeName}, #{description}, #{status}, now(), now() )
 				]]>
 	</insert>
-	<select id="pageSelect" resultMap="SpProductTypeMap" parameterType="map">    
+	<select id="pageSelect" resultMap="spProductTypeMap"
+		parameterType="map">    
+        select         
+          <include refid="productTypeFields"/>
         <![CDATA[    
-        select  id,                
-           type_name ,          
-           description ,         
-           status,           
-           created,    
-           updated
         FROM SP_PRODUCT_TYPE  limit  #{startIndex}, #{pageSize}
-         ]]>     
-    </select>
+         ]]>
+	</select>
+
+	<select id="selectAll" resultMap="spProductTypeMap">    
+        select
+        <include refid="productTypeFields"/>
+        <![CDATA[    
+        FROM SP_PRODUCT_TYPE
+         ]]>
+	</select>
 	
+	<select id="selectByTypeId" resultMap="spProductTypeMap">    
+        select
+        <include refid="productTypeFields"/>
+        <![CDATA[    
+        FROM SP_PRODUCT_TYPE where id = #{typeId}
+         ]]>
+	</select>
+
 </mapper>

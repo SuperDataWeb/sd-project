@@ -47,6 +47,13 @@ public interface SpProductMapper {
 	public void delete(SpProduct product);
 	
 	/**
+	 * 根据产品Id查询产品
+	 * @param id
+	 * @return
+	 */
+	public SpProduct selectById(@Param("id") Long id);
+	
+	/**
 	 * 查询所有产品
 	 * @return
 	 */
