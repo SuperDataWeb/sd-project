@@ -52,6 +52,12 @@ public interface SpNewsService {
 	public List<SpNews> selectAll() ;
 	
 	/**
+	 * 查询最新新闻
+	 * @return
+	 */
+	public List<SpNews> selectTopList(Long pageSize);
+	
+	/**
 	 * 更新新闻
 	 * @param spNews
 	 */

@@ -40,6 +40,10 @@
     	select * from sp_news where status = 0
     </select>
     
+    <select id="selectTopList" resultMap="SpNewsMap">
+    	select a.* from (select t.* from sp_news t order by updated) a limit #{pageSize}
+    </select>
+    
     <update id="update" parameterType="SpNews">
     	update sp_news t set t.updated = now()
     	<if test="newsTitle != null">

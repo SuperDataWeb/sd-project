@@ -23,6 +23,8 @@ public interface SpNewsMapper {
 	
 	public List<SpNews> selectAll();
 	
+	public List<SpNews> selectTopList(@Param("pageSize") Long pageSize);
+	
 	/**
 	 * 根据新闻Id查询新闻
 	 * @param id

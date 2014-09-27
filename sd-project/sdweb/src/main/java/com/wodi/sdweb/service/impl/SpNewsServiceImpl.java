@@ -10,7 +10,7 @@ import com.wodi.sdweb.dao.SpNewsMapper;
 import com.wodi.sdweb.model.SpNews;
 import com.wodi.sdweb.service.SpNewsService;
 
-@Service
+@Service(value="spNewsService")
 public class SpNewsServiceImpl implements SpNewsService {
 	
 	@Autowired
@@ -39,6 +39,12 @@ public class SpNewsServiceImpl implements SpNewsService {
 	public List<SpNews> selectAll() {
 		// TODO Auto-generated method stub
 		return spNewsDao.selectAll();
+	}
+	
+	@Override
+	public List<SpNews> selectTopList(Long pageSize) {
+		// TODO Auto-generated method stub
+		return spNewsDao.selectTopList(pageSize);
 	}
 
 	@Override
