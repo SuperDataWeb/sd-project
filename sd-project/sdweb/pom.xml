@@ -117,9 +117,14 @@
 			<artifactId>jcommon</artifactId>
 			<version>1.0.23</version>
 		</dependency>
-
-
 		<!-- springframe end -->
+
+
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.6.10</version>
+		</dependency>
 
 		<dependency>
 			<groupId>commons-dbcp</groupId>
