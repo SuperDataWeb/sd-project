@@ -23,6 +23,13 @@ public interface SpNewsMapper {
 	
 	public List<SpNews> selectAll();
 	
+	/**
+	 * 根据新闻Id查询新闻
+	 * @param id
+	 * @return
+	 */
+	public SpNews selectById(@Param("id") Long id);
+	
 //	Pagination<FunctionModule> selectPagination(FunctionModule module);
 //	
 //	Pagination<FunctionModule> selectPagination(Map<String, Object> param);

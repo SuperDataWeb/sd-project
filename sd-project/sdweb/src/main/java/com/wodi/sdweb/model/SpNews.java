@@ -1,6 +1,9 @@
 package com.wodi.sdweb.model;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * 最新消息
@@ -16,6 +19,10 @@ public class SpNews {
 	private Integer status;
 	private Date created;
 	private Date updated;
+	private SimpleDateFormat subFormat = new SimpleDateFormat("MM-dd");
+	private SimpleDateFormat fullFormat = new SimpleDateFormat("yyyy-MM-dd");
+	
+	public SpNews() {}
 	
 	public SpNews(Long id, String newsTitle, String newsContent,
 			String newsAuthor, Integer status, Date created, Date updated) {
@@ -71,6 +78,12 @@ public class SpNews {
 	public void setUpdated(Date updated) {
 		this.updated = updated;
 	}
+	public String getSubDateStr() {
+		return subFormat.format(updated);
+	}
+	public String getFullDateStr() {
+		return fullFormat.format(updated);
+	}
 	@Override
 	public String toString() {
 		return "SpNews [id=" + id + ", newsTitle=" + newsTitle
@@ -78,6 +91,5 @@ public class SpNews {
 				+ ", status=" + status + ", created=" + created + ", updated="
 				+ updated + "]";
 	}
-	
 	
 }
