@@ -17,7 +17,7 @@ public class CommonController {
 	
 	@RequestMapping("/frame.do")
 	public ModelAndView indexFrame(String targetFrame, String targetPage) {
-		ModelAndView model = new ModelAndView("../../index1");
+		ModelAndView model = new ModelAndView("../../index");
 		model.addObject("targetFrame", targetFrame);
 		model.addObject("targetPage", targetPage);
 		return model;
@@ -32,8 +32,8 @@ public class CommonController {
 	public ModelAndView homePage1() {
 		ModelAndView model = new ModelAndView("homePage1");
 		SpProductType spProductTypeSmall =  spProductTypeService.selectByTypeId(1l);
-		SpProductType spProductTypeMiddle =  spProductTypeService.selectByTypeId(1l);
-		SpProductType spProductTypeBusiness =  spProductTypeService.selectByTypeId(1l);
+		SpProductType spProductTypeMiddle =  spProductTypeService.selectByTypeId(2l);
+		SpProductType spProductTypeBusiness =  spProductTypeService.selectByTypeId(3l);
 		
 		model.addObject("spProductTypeSmall", spProductTypeSmall);
 		model.addObject("spProductTypeMiddle", spProductTypeMiddle);

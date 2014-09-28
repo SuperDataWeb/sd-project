@@ -1,10 +1,5 @@
-<%@page import="com.wodi.sdweb.model.SpProductType"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" pageEncoding="UTF-8"%>
-<%
-   SpProductType productType = (SpProductType) request.getAttribute("spProductTypeSmall");
-   System.out.print("产品数量。。。。。。。。。" + productType.getProducts().size());
-%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -166,10 +161,14 @@
 <P class=products_font><A href="<%= request.getContextPath()%>/Product/s/Product3.jsp" onclick="loadProductList('s','Product3')">&#8226;&nbsp;速达3000G-PRO</A>
  --%>
 <P class=products_font>
-    <c:forEach var="product" items="${spProductTypeSmall.products}">
-        <A href="#" onclick="loadProductList('${spProductTypeSmall.id}','${product.id}')">&#8226;&nbsp;${product.productName}</A>
+    <c:forEach var="productSmall" items="${spProductTypeSmall.products}" varStatus="status">
+       <c:if test="${status.index lt 5}">
+          <A href="#" onclick="loadProductList('${spProductTypeSmall.id}','${productSmall.id}')">&#8226;&nbsp;${productSmall.productName}</A>
+       </c:if>
+       <c:if test="${status.count gt 6 and status.index eq 5}">
+			<A href="#" onclick="loadProductList('1','1')">&nbsp;更多...</A><BR>
+       </c:if>
     </c:forEach>
-	<A href="#" onclick="loadProductList('1','1')">&nbsp;更多...</A><BR>
 </P>
 </DIV>
 <!--中型企业ERP -->
@@ -177,8 +176,8 @@
 <H3><IMG src="<%= request.getContextPath()%>/images/index_files/suda_font_b.gif"></H3>
 <P class=products_img><IMG src="<%= request.getContextPath()%>/images/index_files/products_b.gif"></P>
 <P class=products_font>
-    <c:forEach var="product" items="${spProductTypeMiddle.products}">
-        <A href="#" onclick="loadProductList('${spProductTypeMiddle.id}','${product.id}')">&#8226;&nbsp;${product.productName}</A>
+    <c:forEach var="productMiddle" items="${spProductTypeMiddle.products}">
+        <A href="#" onclick="loadProductList('${spProductTypeMiddle.id}','${productMiddle.id}')">&#8226;&nbsp;${productMiddle.productName}</A>
     </c:forEach>
 	<BR>
 </P>
@@ -188,8 +187,8 @@
 <H3><IMG src="<%= request.getContextPath()%>/images/index_files/suda_font_c.gif"></H3>
 <P class=products_img><IMG src="<%= request.getContextPath()%>/images/index_files/products_c.gif"></P>
 <P class=products_font>
-    <c:forEach var="product" items="${spProductTypeBusiness.products}">
-        <A href="#" onclick="loadProductList('${spProductTypeBusiness.id}','${product.id}')">&#8226;&nbsp;${product.productName}</A>
+    <c:forEach var="productBusiness" items="${spProductTypeBusiness.products}">
+        <A href="#" onclick="loadProductList('${spProductTypeBusiness.id}','${productBusiness.id}')">&#8226;&nbsp;${productBusiness.productName}</A>
     </c:forEach>
 </P>
 </DIV>

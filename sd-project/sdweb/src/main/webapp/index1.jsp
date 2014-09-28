@@ -216,31 +216,40 @@
 		</TR>
 		<TR>
 			<TD style="PADDING-LEFT: 9px" colSpan=2>
-			<DIV><A href="#" target=_self onclick="loadHomePage()">
-			<DIV class=navitem>首页</DIV>
-			</A> 
-			<!-- 
-			<A href="Product/s/Product1.do" target=_self>
-			 -->
-			<A href="#" target=_self onclick="loadProductList('1', '1')">
-			<DIV class=navitemLast>中小企业管理</DIV>
-			</A> <A href="#" target=_self onclick="loadProductList('1', '10')">
-			<DIV class=navitemLast>中型企业ERP</DIV>
-			</A> <A href="#" target=_self onclick="loadProductList('1', '20')">
-			<DIV class=navitem>企业级ERP</DIV>
-			</A> <A href="#" target=_self onclick="loadProductList('1', '25')">
-			<DIV class=navitem>行业管理</DIV>
-			</A> <A href="#" target=_self onclick="loadSolutionList()">
-			<DIV class=navitem>全局应用</DIV>
-			</A> <A href="#" target=_self onclick="loadServicesList()">
-			<DIV class=navitem>升级与服务</DIV>
-			</A> <A href="#" target=_self onclick="loadEduList()">
-			<DIV class=navitem>5C教育</DIV>
-			</A> <A href="#" target=_self onclick="loadAboutList('about')">
-			<DIV class=navitem>关于我们</DIV>
-			</A> <A href="#" target=_self onclick="loadAboutList('Job')">
-			<DIV class=navitemZh>人才招聘</DIV>
-			</A></DIV>
+			<DIV>   <A href="#" target=_self onclick="loadHomePage()">
+			          <DIV class=navitem>首页</DIV>
+			        </A> 
+					<!-- 
+					<A href="Product/s/Product1.do" target=_self>
+					 -->
+					<A href="#" target=_self onclick="loadProductList('1', '1')">
+					   <DIV class=navitemLast>中小企业管理</DIV>
+					</A> 
+					<A href="#" target=_self onclick="loadProductList('2', '16')">
+					    <DIV class=navitemLast>中型企业ERP</DIV>
+					</A> 
+					<A href="#" target=_self onclick="loadProductList('3', '22')">
+					    <DIV class=navitem>企业级ERP</DIV>
+					</A> 
+					<A href="#" target=_self onclick="loadProductList('1', '1')">
+					    <DIV class=navitem>行业管理</DIV>
+					</A> 
+					<A href="#" target=_self onclick="loadSolutionList()">
+					    <DIV class=navitem>全局应用</DIV>
+					</A> 
+					<A href="#" target=_self onclick="loadServicesList()">
+					    <DIV class=navitem>升级与服务</DIV>
+					</A> 
+					<A href="#" target=_self onclick="loadEduList()">
+					    <DIV class=navitem>5C教育</DIV>
+					</A> 
+					<A href="#" target=_self onclick="loadAboutList('about')">
+					    <DIV class=navitem>关于我们</DIV>
+					</A> 
+					<A href="#" target=_self onclick="loadAboutList('Job')">
+					    <DIV class=navitemZh>人才招聘</DIV>
+					</A>
+			</DIV>
 			</TD>
 		</TR>
 	</TBODY>

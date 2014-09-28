@@ -64,4 +64,16 @@ public class SpNewsDaoImpl extends SqlSessionDaoSupport implements
 	public List<SpNews> selectAll() {
 		return this.getSqlSession().getMapper(SpNewsMapper.class).selectAll();
 	}
+
+	@Override
+	public List<SpNews> selectTopList(Long pageSize) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public SpNews selectById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

@@ -25,7 +25,7 @@
 <DIV class=newmain_left><img
 	style="BORDER-RIGHT-WIDTH: 0px; WIDTH: 200px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px"
 	id=ctl00_ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ContentPlaceHolder1_imgPro
-	src="<%= request.getContextPath()%>/images/Product/s/20110120093926_300020G-STD.jpg"></DIV>
+	src="<%= request.getContextPath()%>${product.img}"></DIV>
 <DIV class=newmain_right>
 <DIV class=maintext><INPUT id=proName value="3000 -STD"
 	type=hidden name=proname> <STRONG>速达<SPAN

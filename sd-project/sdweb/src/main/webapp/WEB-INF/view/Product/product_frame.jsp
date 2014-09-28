@@ -45,7 +45,7 @@
 <DIV class=pml_tt>中小企业管理</DIV>
 <UL >
     <c:forEach var="product" items="${productType.products}">
-       <LI><A href="#" onclick="loadProduct('${product.id}')">${product.productName}</A></LI>
+       <LI><A href="#" onclick="loadProduct('${productType.id}','${product.id}')">${product.productName}</A></LI>
     </c:forEach>
 </UL>
 </DIV>
