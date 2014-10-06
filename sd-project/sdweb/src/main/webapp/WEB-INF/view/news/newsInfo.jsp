@@ -4,6 +4,7 @@
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<TITLE>公告详细内容</TITLE>
 </head>
 
 <body>

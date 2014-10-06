@@ -1,6 +1,8 @@
 package com.wodi.sdweb.model;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Ò³Ãæ²¼¾Ö
@@ -13,10 +15,13 @@ public class SpLayout {
 	private String layoutName;
 	private Integer position;
 	private Integer rowNum;
-	private String columnNum;
+	private Integer columnNum;
 	private Integer status;
 	private Date created;
 	private Date updated;
+	
+	private List<LayoutRow> rows = new ArrayList<LayoutRow>();
+	
 	public Long getId() {
 		return id;
 	}
@@ -41,10 +46,10 @@ public class SpLayout {
 	public void setRowNum(Integer rowNum) {
 		this.rowNum = rowNum;
 	}
-	public String getColumnNum() {
+	public Integer getColumnNum() {
 		return columnNum;
 	}
-	public void setColumnNum(String columnNum) {
+	public void setColumnNum(Integer columnNum) {
 		this.columnNum = columnNum;
 	}
 	public Integer getStatus() {
@@ -65,13 +70,19 @@ public class SpLayout {
 	public void setUpdated(Date updated) {
 		this.updated = updated;
 	}
+	public List<LayoutRow> getRows() {
+		return rows;
+	}
+	public void setRows(List<LayoutRow> rows) {
+		this.rows = rows;
+	}
+	
 	@Override
 	public String toString() {
 		return "SpLayout [id=" + id + ", layoutName=" + layoutName
 				+ ", position=" + position + ", rowNum=" + rowNum
 				+ ", columnNum=" + columnNum + ", status=" + status
-				+ ", created=" + created + ", updated=" + updated + "]";
+				+ ", created=" + created + ", updated=" + updated + ", rows="
+				+ rows + "]";
 	}
-	
-	
 }

@@ -25,7 +25,9 @@ public class CommonController {
 
 	@RequestMapping("/homePage.do")
 	public ModelAndView homePage() {
-		return new ModelAndView("homePage");
+		ModelAndView view =  new ModelAndView("homePage");
+		view.addObject("includePage", "news/topList.jsp");
+		return view;
 	}
 	
 	@RequestMapping("/homePage1.do")

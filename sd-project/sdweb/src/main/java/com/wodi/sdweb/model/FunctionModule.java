@@ -9,14 +9,19 @@ import java.util.Date;
  */
 public class FunctionModule {
 
+	// function
 	private Long id;
 	private String moduleName;
 	private String url;
-	private Integer span;
 	private String remark;
 	private Integer status;
 	private Date created;
 	private Date updated;
+	
+	// relation
+	private Long layoutId;
+	private Integer rowIndex;
+	private Integer columnIndex;
 	
 	public Long getId() {
 		return id;
@@ -35,12 +40,6 @@ public class FunctionModule {
 	}
 	public void setUrl(String url) {
 		this.url = url;
-	}
-	public Integer getSpan() {
-		return span;
-	}
-	public void setSpan(Integer span) {
-		this.span = span;
 	}
 	public String getRemark() {
 		return remark;
@@ -66,12 +65,31 @@ public class FunctionModule {
 	public void setUpdated(Date updated) {
 		this.updated = updated;
 	}
+	public Long getLayoutId() {
+		return layoutId;
+	}
+	public void setLayoutId(Long layoutId) {
+		this.layoutId = layoutId;
+	}
+	public Integer getRowIndex() {
+		return rowIndex;
+	}
+	public void setRowIndex(Integer rowIndex) {
+		this.rowIndex = rowIndex;
+	}
+	public Integer getColumnIndex() {
+		return columnIndex;
+	}
+	public void setColumnIndex(Integer columnIndex) {
+		this.columnIndex = columnIndex;
+	}
 	@Override
 	public String toString() {
 		return "FunctionModule [id=" + id + ", moduleName=" + moduleName
-				+ ", url=" + url + ", span=" + span + ", remark=" + remark
-				+ ", status=" + status + ", created=" + created + ", updated="
-				+ updated + "]";
+				+ ", url=" + url + ", remark=" + remark + ", status=" + status
+				+ ", created=" + created + ", updated=" + updated
+				+ ", layoutId=" + layoutId + ", rowIndex=" + rowIndex
+				+ ", columnIndex=" + columnIndex + "]";
 	}
 	
 }
