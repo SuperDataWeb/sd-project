@@ -76,4 +76,10 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 		return null;
 	}
 
+	@Override
+	public Integer selectCount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

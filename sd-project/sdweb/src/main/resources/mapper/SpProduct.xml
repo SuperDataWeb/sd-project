@@ -3,7 +3,7 @@
 
 <mapper namespace="com.wodi.sdweb.dao.SpProductMapper">
 
-	<resultMap id="spProductMap" type="SpProduct" >
+	<resultMap id="spProductMap" type="SpProduct">
 		<result property="id" column="id" />
 		<result property="type" column="type" />
 		<result property="productName" column="product_name" />
@@ -16,7 +16,8 @@
 	</resultMap>
 
 	<sql id="productFields">
-		id, type, product_name, description, presentation, img, status, created,
+		id, type, product_name, description, presentation, img,
+		status, created,
 		updated
 	</sql>
 
@@ -25,28 +26,32 @@
 			) VALUES( #{type}, #{productName}, #{description}, #{presentation}, #{img}, #{status}, now(), now() )
 				]]>
 	</insert>
-	
-    <select id="selectById" resultMap="spProductMap">    
-        select
-           <include refid="productFields"/>
+
+	<select id="selectById" resultMap="spProductMap">
+		select
+		<include refid="productFields" />
          <![CDATA[ 
              FROM sp_product where id = #{id}
          ]]>
 	</select>
 
-	<select id="selectByType" resultMap="spProductMap">    
-        select
-           <include refid="productFields"/>
+	<select id="selectByType" resultMap="spProductMap">
+		select
+		<include refid="productFields" />
          <![CDATA[ 
              FROM sp_product where type = #{typeId}
          ]]>
 	</select>
 
-	<select id="pageSelect" resultMap="spProductMap" parameterType="map">   
-	    select
-	     <include refid="productFields"/>
+	<select id="selectCount" resultType="java.lang.Integer">
+		select count(*) FROM sp_product
+	</select>
+
+	<select id="pageSelect" resultMap="spProductMap" parameterType="map">
+		select
+		<include refid="productFields" />
          <![CDATA[    
-             FROM sp_product  limit  #{startIndex}, #{pageSize}
+             FROM sp_product limit #{startIndex}, #{pageSize}
          ]]>
 	</select>
 

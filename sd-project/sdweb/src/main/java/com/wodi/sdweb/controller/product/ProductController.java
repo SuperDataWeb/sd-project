@@ -1,5 +1,7 @@
 package com.wodi.sdweb.controller.product;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -59,12 +61,18 @@ public class ProductController {
 	}
 	
 	@RequestMapping("product.do")
-	public ModelAndView industryProduct(String productTypeId, String productId) {
+	public ModelAndView product(String productTypeId, String productId) {
 		ModelAndView model = new ModelAndView("Product/product");
 		Long id = Long.parseLong(productId);
 		SpProduct product = spProductService.selectById(id);
 		model.addObject("product", product);
 		model.addObject("productId", productId);
+		return model;
+	}
+	
+	@RequestMapping("pageProduct.do")
+	public ModelAndView pageProduct(HttpServletRequest request) {
+		ModelAndView model = new ModelAndView("Product/product");
 		return model;
 	}
 }

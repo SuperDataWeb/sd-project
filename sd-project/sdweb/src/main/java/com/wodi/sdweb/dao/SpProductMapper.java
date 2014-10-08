@@ -59,6 +59,13 @@ public interface SpProductMapper {
 	 */
 	public List<SpProduct> selectAll();
 	
+	
+	/**
+	 * 查询所有产品总数
+	 * @return
+	 */
+	public Integer selectCount();
+	
 	/**
 	 * 根据产品类型Id查询产品
 	 * @param typeId

@@ -20,6 +20,7 @@ import com.wodi.sdweb.dao.SpProductTypeMapper;
 import com.wodi.sdweb.model.SpProduct;
 import com.wodi.sdweb.model.SpProductType;
 import com.wodi.sdweb.service.SpProductService;
+import com.wodi.sdweb.utils.PageModel;
 
 /**
  * <p>
@@ -54,7 +55,10 @@ public class SpProductServiceImpl implements SpProductService {
 
 	@Override
 	public List<SpProduct> pageSelect(int startIndex, int pageSize) throws SQLException {
+		PageModel pageModel = new PageModel();
+		pageModel.setTotal(spProductDao.selectCount());
 		List<SpProduct> sps = spProductDao.pageSelect(startIndex, pageSize);
+		pageModel.setDatas(sps);
 		return sps;
 	}
 

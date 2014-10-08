@@ -41,7 +41,7 @@ public class SpProductTest {
     	product.setType(1l);
     	logger.info("insert start");
     	try {
-    		spProductService.insertSpProduct(product);
+//    		spProductService.insertSpProduct(product);
     		logger.info("size:" + spProductService.pageSelect(4, 10).size());
     		logger.info("size:" + spProductService.selectByTypeId(1l).size());
 //    		functionModuleDao.insert(new FunctionModule());
