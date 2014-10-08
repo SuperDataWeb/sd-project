@@ -34,4 +34,15 @@
          ]]>     
     </select>
 	
+	<select id="selectAll" resultMap="SpLayoutMap">
+		select id,                
+           layout_name ,          
+           position ,         
+           row_num, 
+           column_num,      
+           status,           
+           created,    
+           updated
+        FROM SP_LAYOUT order by position
+	</select>
 </mapper>

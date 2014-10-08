@@ -311,7 +311,7 @@ IMG {
 	TEXT-ALIGN: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
 }
 .nfooter {
-	BACKGROUND-IMAGE: url(../images/nfooterbg.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 12px; LINE-HEIGHT: 24px; MARGIN: 5px 0px 0px 5px; WIDTH: 980px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: "����"; COLOR: #666666; PADDING-TOP: 12px
+	BACKGROUND-IMAGE: url(../images/nfooterbg.jpg); TEXT-ALIGN: center; PADDING-BOTTOM: 12px; LINE-HEIGHT: 24px; MARGIN: 5px 0px 0px 5px; WIDTH: 980px; BACKGROUND-REPEAT: repeat-x; background-size:55px; FONT-FAMILY: "����"; COLOR: #666666; PADDING-TOP: 12px
 }
 .npagemain {
 	PADDING-BOTTOM: 0px; MARGIN-TOP: 5px; PADDING-LEFT: 10px; WIDTH: 982px; PADDING-RIGHT: 10px; PADDING-TOP: 0px

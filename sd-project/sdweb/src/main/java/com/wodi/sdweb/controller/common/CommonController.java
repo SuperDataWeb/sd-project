@@ -1,11 +1,15 @@
 package com.wodi.sdweb.controller.common;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.wodi.sdweb.model.SpLayout;
 import com.wodi.sdweb.model.SpProductType;
+import com.wodi.sdweb.service.SpLayoutService;
 import com.wodi.sdweb.service.SpProductTypeService;
 
 @Controller
@@ -14,6 +18,8 @@ public class CommonController {
 	
 	@Autowired
 	private SpProductTypeService spProductTypeService;
+	@Autowired
+	private SpLayoutService	spLayoutService;
 	
 	@RequestMapping("/frame.do")
 	public ModelAndView indexFrame(String targetFrame, String targetPage) {
@@ -26,7 +32,8 @@ public class CommonController {
 	@RequestMapping("/homePage.do")
 	public ModelAndView homePage() {
 		ModelAndView view =  new ModelAndView("homePage");
-		view.addObject("includePage", "news/topList.jsp");
+		List<SpLayout> layoutList = spLayoutService.selectAll();
+		view.addObject("layoutList", layoutList);
 		return view;
 	}
 	

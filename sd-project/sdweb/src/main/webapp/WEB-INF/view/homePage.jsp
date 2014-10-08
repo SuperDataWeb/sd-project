@@ -7,22 +7,25 @@
 </head>
 
 <body>
-<DIV class=news>
+<DIV>
+<!-- 
 <P class=news_top></P>
-<c:forEach var="item" items="${topList}">
+ -->
+<c:forEach var="layout" items="${layoutList}">
 	<table>
-		<tr>
-			<td align="right" width="20" height="22"></td>
-			<td width="76%" height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">${item.newsTitle}</a></td>
-			<td width="38" height="29" valign="middle"><a
-				href="#" onclick="loadServicesList('sqgm')">${item.subDateStr}</a></td>
-		</tr>
+		<c:forEach var="row" items="${layout.rows}">
+			<tr>
+				<c:forEach var="column" items="${row.columns}">
+					<td>
+						<div>
+							<jsp:include page="${row.module.url}"></jsp:include>
+						</div>
+					</td>
+				</c:forEach>
+			</tr>
+		</c:forEach>
 	</table>
 </c:forEach>
-<div>
-	<jsp:include page="${includePage}"></jsp:include>
-</div>
 </DIV>
 </body>
 </HTML>
