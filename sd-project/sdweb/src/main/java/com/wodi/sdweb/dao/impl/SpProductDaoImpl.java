@@ -40,8 +40,7 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
-	public List<SpProduct> pageSelect(int startIndex, int pageSize)
-			throws SQLException {
+	public List<SpProduct> pageSelect(int startIndex, int pageSize) {
 		List<SpProduct> spProductList = new ArrayList<SpProduct>();    
         Map params =new HashMap();    
         params.put("startIndex", new Integer(startIndex));    

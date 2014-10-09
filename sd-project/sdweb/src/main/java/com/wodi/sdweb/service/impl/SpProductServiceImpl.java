@@ -9,7 +9,6 @@
  */
 package com.wodi.sdweb.service.impl;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,12 +53,12 @@ public class SpProductServiceImpl implements SpProductService {
 	}
 
 	@Override
-	public List<SpProduct> pageSelect(int startIndex, int pageSize) throws SQLException {
+	public PageModel pageSelect(int startIndex, int pageSize) {
 		PageModel pageModel = new PageModel();
 		pageModel.setTotal(spProductDao.selectCount());
 		List<SpProduct> sps = spProductDao.pageSelect(startIndex, pageSize);
 		pageModel.setDatas(sps);
-		return sps;
+		return pageModel;
 	}
 
 	@Override

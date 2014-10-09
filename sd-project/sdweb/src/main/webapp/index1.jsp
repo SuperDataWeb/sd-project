@@ -54,6 +54,16 @@
   			  );
   	}
   	
+  	function loadPageProduct(){
+  		var target = "pageProduct.do";
+  		$.post(  url(target),
+	  			    function(data){
+	  			       //alert(data);
+	  			      $("#contentFrame").html(data);
+	  		        }
+  			  );
+  	}
+  	
   	function loadSolutionList(param) {
   		var target = "solution/frame.do";
   		if (param == undefined)
@@ -227,6 +237,9 @@
 					</A> 
 					<A href="#" target=_self onclick="loadProductList('2', '16')">
 					    <DIV class=navitemLast>中型企业ERP</DIV>
+					</A> 
+					<A href="#" target=_self onclick="loadPageProduct()">
+					    <DIV class=navitemLast>产品中心</DIV>
 					</A> 
 					<A href="#" target=_self onclick="loadProductList('3', '22')">
 					    <DIV class=navitem>企业级ERP</DIV>

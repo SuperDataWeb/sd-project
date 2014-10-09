@@ -32,7 +32,7 @@ public interface SpProductMapper {
 	 */
 	public void insert(SpProduct product);
 	
-	public List<SpProduct> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize) throws SQLException;
+	public List<SpProduct> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize);
 	
 	/**
 	 * ¸üÐÂ product

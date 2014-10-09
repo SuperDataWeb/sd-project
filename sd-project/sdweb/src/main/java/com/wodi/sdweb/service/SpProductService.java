@@ -9,10 +9,10 @@
  */
 package com.wodi.sdweb.service;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import com.wodi.sdweb.model.SpProduct;
+import com.wodi.sdweb.utils.PageModel;
 
 /**
  * <p>
@@ -50,7 +50,6 @@ public interface SpProductService {
 	 * @param pageSize
 	 * @return
 	 */
-	//TODO
-	public List<SpProduct> pageSelect(int startIndex, int pageSize) throws SQLException ;
+	public PageModel pageSelect(int startIndex, int pageSize);
 
 }

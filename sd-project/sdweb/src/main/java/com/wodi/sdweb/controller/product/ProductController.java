@@ -3,6 +3,7 @@ package com.wodi.sdweb.controller.product;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,10 +13,14 @@ import com.wodi.sdweb.model.SpProduct;
 import com.wodi.sdweb.model.SpProductType;
 import com.wodi.sdweb.service.SpProductService;
 import com.wodi.sdweb.service.SpProductTypeService;
+import com.wodi.sdweb.utils.PageModel;
 
 @Controller
 //@RequestMapping("/product")
 public class ProductController {
+	
+	@Value("${page.size}")
+	private String pageSize;
 	
 	@Autowired
 	private SpProductTypeService spProductTypeService;
@@ -72,7 +77,17 @@ public class ProductController {
 	
 	@RequestMapping("pageProduct.do")
 	public ModelAndView pageProduct(HttpServletRequest request) {
-		ModelAndView model = new ModelAndView("Product/product");
+		ModelAndView model = new ModelAndView("Product/productCenter");
+		int startIndex = 0;
+		try {
+			startIndex  = Integer.parseInt(request.getParameter("pager.offset")); 
+		} catch (Exception e) {
+			startIndex = 0;
+		}
+	    int ps = Integer.parseInt(pageSize);
+		PageModel pageModel = spProductService.pageSelect(startIndex, ps);
+		model.addObject("pageProduct", pageModel);
+		model.addObject("pageSize", pageSize);
 		return model;
 	}
 }
