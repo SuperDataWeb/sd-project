@@ -1,0 +1,32 @@
+A.tab:link { FONT-SIZE: 12px; COLOR: #C94200; TEXT-DECORATION: none }
+A.tab:visited { FONT-SIZE: 12px; COLOR: #C94200; TEXT-DECORATION: none }
+A.tab:hover { COLOR: #016b00; text-decoration: underline; }
+
+A.ColorGreenList:link { COLOR: #016b00 }
+A.ColorGreenList:visited { COLOR: #016b00 }
+.menu { MARGIN: 0px 5px }
+.menu LI { DISPLAY: inline; FLOAT: left; WIDTH: 94px; PADDING-TOP: 6px; HEIGHT: 29px; TEXT-ALIGN: center }
+.menu LI A:link { FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff }
+.menu LI A:visited { FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff }
+.menu LI A:hover { FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #f60 }
+
+
+.Tab_menu { MARGIN-LEFT: 5px }
+.Tab_menu LI { PADDING-RIGHT: 10px; DISPLAY: inline; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; MARGIN-RIGHT: 5px; PADDING-TOP: 0px; HEIGHT: 32px }
+.Tab_menu LI A { COLOR: #fff }
+LI.Tab_menu_c { BACKGROUND: url("../images/Menu_bg_c.gif"/*tpa=http://www.buyerp.cn/suda/templets/new/images/Menu_bg_c.gif*/)/*tpa=http://www.nnsuda.com.cn/skin/nnsuda/images/Menu_bg_c.gif*/ repeat-x left bottom }
+LI.Tab_menu_c A { DISPLAY: block; FONT-WEIGHT: bold; COLOR: #016b00; PADDING-TOP:0px }
+
+.c_menu1 { BORDER-RIGHT: #d9dcc6 1px solid; BORDER-TOP: #d9dcc6 1px; BACKGROUND: #fff; BORDER-LEFT: #d9dcc6 1px solid; BORDER-BOTTOM: #d9dcc6 1px }
+.c_menu1 A { FONT-WEIGHT: bold }
+.c_menu1_1 { border-bottom-width: 1px; border-bottom-style: dashed; border-bottom-color: #d9dcc7; }
+
+.tab_hg { line-height: 18px; }
+
+/*qq*/
+.QQbox{position:absolute;right:2px;top:180px;z-index:99;}
+.QQbox .Qlist{background: url("../images/qq/bg.jpg"/*tpa=http://www.buyerp.cn/suda/templets/new/images/qq/bg.jpg*/) no-repeat scroll 0 0 transparent;float:left;left:0;padding:0;width:98px;}
+.press{cursor: pointer;float: right;}
+.customer_a {height:126px;margin:auto;overflow:hidden;padding-top:12px;width:90px;}
+.customer_a a {float: left;padding: 0 7px 7px;text-align: center;}
+.qqlist{vertical-align: middle;}

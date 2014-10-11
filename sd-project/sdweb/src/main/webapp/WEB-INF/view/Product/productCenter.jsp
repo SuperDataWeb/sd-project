@@ -19,7 +19,16 @@
 <META name=GENERATOR content="MSHTML 8.00.7600.16722">
 </HEAD>
 <BODY>
-	<SCRIPT type=text/javascript>
+<SCRIPT type=text/javascript>
+  	function loadPageProduct(){
+  		var target = "pageProduct.do";
+  		$.post(  url(target),
+	  			    function(data){
+	  			       //alert(data);
+	  			      $("#contentFrame").html(data);
+	  		        }
+  			  );
+  	}
 </SCRIPT>
 
 	<DIV class=newmain>
@@ -93,7 +102,7 @@
 					items:总记录数，pager标签正是根据这个值来计算分页参数的 
                     maxPageItems:每页显示的行数，默认为10 
                     maxIndexPages:在循环输出页码的时候，最大输出多少个页码，默认是10  -->
-				          <pg:pager url="pageProduct.do"
+				          <pg:pager url="javascript:loadPageProduct()"
 				             items="${pageProduct.total }" maxPageItems="${pageSize }" maxIndexPages="10" 
 				             export="currentPageNumber=pageNumber">  
 					            <!-- 首页 -->  

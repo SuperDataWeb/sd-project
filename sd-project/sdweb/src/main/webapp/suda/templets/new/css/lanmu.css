@@ -1,0 +1,58 @@
+/*网站基础样式*/
+body,div,ul,li,table,p,form,legend,fieldset,input button,select,textarea,button{ margin:0px; padding:0px; font-family:"宋体"; font-size:12px; }
+ul,li{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/*menu样式*/
+
+.menu_box{ clear:both; width:100%; text-align:center; line-height: 20px; }
+
+                  /**********LOGO在上方样式***********/
+.menu_box_style1_1{clear:both;border:0 solid #cccccc;}
+.menu_box_style1_1_1{float:left;}
+.menu_box_style1_1_2{float:right;padding:5px 0 0 0;}
+.menu_box_style1_2{clear:both;text-align:left;height:39px;background:url("../images/menu_bg_1.jpg"/*tpa=http://www.buyerp.cn/suda/templets/new/images/menu_bg_1.jpg*/)/*tpa=http://www.nnsuda.com.cn/skin/nnsuda/images/menu_bg_1.jpg*/ repeat 0 0;border:0 solid #dddddd;border-width:0 0 0 0;}
+
+.menu_style_1_first{float:left;width:95px;height:39px;text-align:center;background:url("../images/menu_style_1.jpg"/*tpa=http://www.buyerp.cn/suda/templets/new/images/menu_style_1.jpg*/)/*tpa=http://www.nnsuda.com.cn/skin/nnsuda/images/menu_style_1.jpg*/ no-repeat 0 0;}
+.menu_style_1{float:left;width:95px;height:39px;text-align:center;background:url("../images/menu_style_1.jpg"/*tpa=http://www.buyerp.cn/suda/templets/new/images/menu_style_1.jpg*/)/*tpa=http://www.nnsuda.com.cn/skin/nnsuda/images/menu_style_1.jpg*/ no-repeat 0 0;}
+
+a.menu_1:link{display:block;width:95px;height:31px;color:#ffffff;text-decoration: none;font-weight:bold;padding:8px 0 0 0}
+a.menu_1:visited {display:block;width:95px;height:31px;color:#ffffff;text-decoration:none;font-weight:bold;padding:8px 0 0 0}
+a.menu_1:hover {display:block;width:95px;height:31px;color:#ffffff;text-decoration:none;font-weight:bold;padding:8px 0 0 0;background:url("../images/menu_style_1_out.jpg"/*tpa=http://www.buyerp.cn/suda/templets/new/images/menu_style_1_out.jpg*/)/*tpa=http://www.nnsuda.com.cn/skin/nnsuda/images/menu_style_1_out.jpg*/ no-repeat 0 0;}
+
+a.menu_current_1{display:block;width:95px;height:31px;color:#ffffff;text-decoration:none;font-weight:bold;padding:8px 0 0 0;background:url("../images/menu_style_1_out.jpg"/*tpa=http://www.buyerp.cn/suda/templets/new/images/menu_style_1_out.jpg*/)/*tpa=http://www.nnsuda.com.cn/skin/nnsuda/images/menu_style_1_out.jpg*/ no-repeat 0 0;}
+
+/*---------- base ---------*/
+.dropMenu {position:absolute;top:0;z-index:100;width:100px;visibility: hidden;/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#228E38, direction=135, strength=4);*/margin-top: -1px;border: 1px solid #228E38;border-top:0;background:url("../sdimages/mmenubg.gif"/*tpa=http://www.buyerp.cn/suda/templets/new/sdimages/mmenubg.gif*/) repeat-x;padding-top:1px;overflow:hidden;}
+.dropMenu li {font-size:12px;margin-top:1px;text-indent:5px;background:#1E9039;text-align:left;}
+.dropMenu a {width:auto;display:block;color:black;line-height:22px;color:#FFF;}
+.dropMenu a:hover{color:white; background:#00FF00; text-decoration:none;}
+
+
+
+/*dropmenu样式*/
+#MainMenu ul li{position:relative;z-index:2;}
+#MainMenu ul li ul{ position:absolute; background-color:#D5FDD8; left:0; line-height:26px; display:none;}/*一级样式*/
+#MainMenu ul li ul li{ position:relative; width:100px!important; width:120px; height:26px; padding:0px 0 0 0; border:0 solid #fff; border-width:0 0 0px 0; margin-top:1px; background-color:#1E9039;}/*li行样式*/
+#MainMenu ul li ul li ul{ position:absolute; background-color:#D5FDD8; left:120px!important; left:121px; top:-1px; border:0 solid #fff; border-width:0 0 0 0px; display:none;}/*二级样式*/
+#MainMenu ul li ul li ul li ul{ position:absolute; background-color:#D5FDD8; left:120px!important; left:121px; top:-1px; border:0 solid #fff; border-width:0 0 0 0px; display:none;}/*三级样式*/
+
+
+#MainMenu ul li:hover ul{display:block} 
+#MainMenu ul li:hover ul li ul{display:none} 
+#MainMenu ul li ul li:hover ul{display:block} 
+#MainMenu ul li ul li:hover{ background-color:#00FF00}/*鼠标经过时li样式*/
+#MainMenu ul li ul li:hover ul li ul{display:none} 
+#MainMenu ul li ul li ul li:hover ul{display:block} 
+
+/*===============IE专用=======================*/
+#MainMenu ul li.hover ul{display:block} 
+#MainMenu ul li.hover ul li ul{display:none;} 
+#MainMenu ul li ul li.hover ul{display:block;}
+#MainMenu ul li ul li.hover{background-color:#00FF00;}/*鼠标经过时li样式*/
+#MainMenu ul li ul li.hover ul li ul{display:none} 
+#MainMenu ul li ul li ul li.hover ul{display:block;} 
+/*===============IE专用======================*/
+
+#MainMenu ul li ul a{display:block!important;display:inline;height:39px;text-align:left!important; text-align:left; padding-left:15px;color:#fff;overflow:hidden}/*默认a样式*/
+#MainMenu ul li ul a:hover{ color:#fff; text-decoration:none; font-weight: bold; }/*鼠标经过a样式*/
