@@ -13,15 +13,16 @@ import com.wodi.sdweb.model.SpNews;
 import com.wodi.sdweb.service.SpNewsService;
 
 @Controller
-@RequestMapping("/news")
+@RequestMapping("/News")
 public class NewsController {
 	
 	@Resource(name = "spNewsService")
 	SpNewsService spNewsService;
 
+	@RequestMapping("topDataList")
 	public ModelAndView loadTopList() {
 		ModelAndView view = new ModelAndView();
-		view.setViewName("topList");
+		view.setViewName("News/topDataList");
 		List<SpNews> list = spNewsService.selectTopList(10L);
 		view.addObject("topList", list);
 		return view;

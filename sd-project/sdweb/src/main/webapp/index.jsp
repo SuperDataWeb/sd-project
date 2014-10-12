@@ -112,11 +112,6 @@
 <SCRIPT type=text/javascript src="<%= request.getContextPath()%>/js/index_files/transfer.js"></SCRIPT>
 <SCRIPT type=text/javascript src="<%= request.getContextPath()%>/js/index_files/yessdLoadFlash.js"></SCRIPT>
 
-<%--
-<SCRIPT type=text/javascript src="js/product/product_main.js"></SCRIPT>
- --%>
-
-
 
 <META name=Description
 	content=广州沃迪信息科技有限公司是领先的中小企业管理软件供应商,产品包括速达3000,速达5000,速达7000,ERP,HR,CRM及速达财务软件等。>
@@ -142,8 +137,6 @@
 
 <BODY>
 <DIV id=ctl00_NewFuDong></DIV>
-<FORM id=aspnetForm method=post name=aspnetForm action=sdindex.aspx>
-
 
 <DIV class=n_pgmain>
 <DIV id=ctl00_LoadHead>
@@ -248,16 +241,12 @@
 <!-- 
 <iframe id="mainFrame"></iframe>
  -->
-<DIV id="mainFrame" class=news_main style="height: 100%"><!--新闻公告 -->
+<DIV id="mainFrame" class=news_main style="height: 100%;background-color:#FFFFFF; width:984dx"><!--新闻公告 -->
 <DIV id="contentFrame" style="WIDTH: 1000px">
 <table id="frame">
 	<%-- 读取页面布局，生成对应布局和内容链接 --%>
 </table>
 </DIV>
-<%--
-   <iframe name="rightframe" id="rightframe" src="" scrolling="no" align="middle" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%">
-   </iframe>
- --%>
 
 
 <DIV style="WIDTH: 1000px">
@@ -319,7 +308,6 @@
 </TABLE>
 </DIV>
 </DIV>
-</FORM>
 <IFRAME style="DISPLAY: none" src="<%= request.getContextPath()%>/images/index_files/gif.gif"></IFRAME>
 
 
@@ -338,23 +326,9 @@
 </style>
 
 
-<SCRIPT LANGUAGE="JavaScript1.2">
-	
-</script>
+
 
 <SCRIPT src="http://sfhelp.baidu.com/msg/js/583/1867583.js"
 	type=text/javascript charset=gb2312></SCRIPT>
 </BODY>
 </HTML>
-
-
-
-
-<%--
-<%
-    End();
-    } catch(Exception ex) { 
-        printStackTrace(ex);
-    } 
-%>
- --%>

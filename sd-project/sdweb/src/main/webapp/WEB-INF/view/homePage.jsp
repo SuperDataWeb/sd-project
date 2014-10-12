@@ -8,17 +8,16 @@
 
 <body>
 <DIV>
-<!-- 
-<P class=news_top></P>
- -->
 <c:forEach var="layout" items="${layoutList}">
 	<table>
 		<c:forEach var="row" items="${layout.rows}">
 			<tr>
 				<c:forEach var="column" items="${row.columns}">
-					<td>
+					<td height="23">
 						<div>
-							<jsp:include page="${row.module.url}"></jsp:include>
+							<c:if test="${column.module.url != null}">
+								<jsp:include page="${column.module.url}"></jsp:include>
+							</c:if>
 						</div>
 					</td>
 				</c:forEach>
