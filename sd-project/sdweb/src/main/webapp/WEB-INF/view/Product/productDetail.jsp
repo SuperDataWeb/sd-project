@@ -37,7 +37,7 @@
 							<td width="8">&nbsp;</td>
 							<td class="tdbk" valign="top" width="752">
 								<!-- --------------right -->
-								<%@include file="productList.jsp" %>
+								<%@include file="product.jsp" %>
 							</td>
 						</tr>
 					</tbody>

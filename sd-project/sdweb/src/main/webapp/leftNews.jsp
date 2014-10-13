@@ -1,5 +1,10 @@
 <%@ page language="java" pageEncoding="GBK"%>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%--
+message = request("message")
+--%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0157)http://chat10.live800.com/live800/chatClient/chatbox.jsp -->
+<HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
 <title>中小企业管理_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
@@ -11,7 +16,7 @@
 <script src="http://lxbjs.baidu.com/lxb.js?sid=1272542" async="" charset="utf-8" type="text/javascript"></script>
 <script src="http://qiao.baidu.com/site/886/4e9275315db365e8bfde1fe0e12128f9/b.js" async="" charset="utf-8" type="text/javascript"></script>
 <script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
-<script language="javascript" src="suda/templets/new/js/common.js"></script>
+<script language="javascript" src="/suda/templets/new/js/common.js"></script>
 <script src="http://qiao.baidu.com/v3/asset/js/bw.js?v=20140515" charset="UTF-8" type="text/javascript"></script>
 <link charset="utf-8" type="text/css" href="http://lxbjs.baidu.com/float/asset/1001.css" rel="stylesheet">
 <link href="http://qiao.baidu.com/v3/asset/css/m-front-icon.css?v=20140626" type="text/css" rel="stylesheet">
@@ -21,29 +26,69 @@
 <style>@import "http://qiao.baidu.com/v3/asset/css/m-webim-lite.css?v=20130705";</style>
 <script charset="UTF-8" src="http://r.qiao.baidu.com/Refresh.php?callback=BDBridge.rcvbase.__handleRefresh&amp;bid=4ea016ca5ce9420ac90e8dbc&amp;siteid=1272542&amp;t=1412950621171" id="BDBridgeReport" language="javascript" type="text/javascript"></script>
 </head>
-	<body>
-		<div align="center">
-			<div style="background-color: #FFFFFF; width: 984px;">
-				<!-- -------------- top -------------- -->
-				<%@include file="../../../top.jsp" %>
-				<table width="980" align="center" bgcolor="#FFFFFF" border="0"
-					cellpadding="0" cellspacing="0">
-					<tbody>
-						<tr>
-							<td valign="top" width="220">
-								<!------------- left -------------->
-								<%@include file="productLeft.jsp" %>
-							</td>
-							<td width="8">&nbsp;</td>
-							<td class="tdbk" valign="top" width="752">
-								<!-- --------------right -->
-								<%@include file="productList.jsp" %>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<!-- 页脚 -->
-				<!-- -------------------foot---------------- -->
-				<%@include file="../../../foot.jsp" %>
-	</body>
-</html>
+<BODY type="leaveMessage">
+	<table width="220" background="suda/templets/new/images/ind_ti_bg.jpg"
+		border="0" cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td width="143"><img
+					src="suda/templets/new/images/ind_info.jpg" height="33"
+					width="143"></td>
+				<td width="62" align="right">&nbsp;</td>
+				<td width="15" align="right"><img
+					src="suda/templets/new/images/ind_dh_f.jpg" height="33" width="9"></td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="tdbk" width="220" border="0" cellpadding="10"
+		cellspacing="0">
+		<tbody>
+			<tr>
+				<td style="padding-top: 6px" height="155" valign="top" width="200"><p>
+					</p>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tbody>
+							<tr>
+								<td height="20">·<a
+									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140723/4351.html"
+									target="_blank" title="速达财务软件 全面支">速达财务软件 全面支</a>&nbsp;(01-01)
+								</td>
+							</tr>
+							<tr>
+								<td height="20">·<a
+									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4318.html"
+									target="_blank" title=" 买软件加1元随需送促 "><strong>买软件加1元随需送促</strong></a>&nbsp;(01-01)
+								</td>
+							</tr>
+							<tr>
+								<td height="20">·<a
+									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4315.html"
+									target="_blank" title="免费培训课程第11期：">免费培训课程第11期：</a>&nbsp;(01-01)
+								</td>
+							</tr>
+							<tr>
+								<td height="20">·<a
+									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4314.html"
+									target="_blank" title="免费培训课程第10期：">免费培训课程第10期：</a>&nbsp;(01-01)
+								</td>
+							</tr>
+							<tr>
+								<td height="20">·<a
+									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4313.html"
+									target="_blank" title="免费培训课程第8期：">免费培训课程第8期：</a>&nbsp;(01-01)
+								</td>
+							</tr>
+							<tr>
+								<td height="20">·<a
+									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4312.html"
+									target="_blank" title="免费培训课程第6期：">免费培训课程第6期：</a>&nbsp;(01-01)
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<p></p></td>
+			</tr>
+		</tbody>
+	</table>
+</BODY>
+</HTML>

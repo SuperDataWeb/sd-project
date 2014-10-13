@@ -15,7 +15,7 @@ message = request("message")
 <link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
 <script src="http://lxbjs.baidu.com/lxb.js?sid=1272542" async="" charset="utf-8" type="text/javascript"></script>
 <script src="http://qiao.baidu.com/site/886/4e9275315db365e8bfde1fe0e12128f9/b.js" async="" charset="utf-8" type="text/javascript"></script>
-<script src="/suda/templets/new/js/menu.js" type="text/javascript"></script>
+<script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
 <script language="javascript" src="/suda/templets/new/js/common.js"></script>
 <script src="http://qiao.baidu.com/v3/asset/js/bw.js?v=20140515" charset="UTF-8" type="text/javascript"></script>
 <link charset="utf-8" type="text/css" href="http://lxbjs.baidu.com/float/asset/1001.css" rel="stylesheet">
@@ -61,7 +61,7 @@ message = request("message")
 										<tbody>
 											<tr>
 												<td height="26" valign="middle"><img alt=""
-													src="/suda/templets/new/images/li_x.gif" height="17"
+													src="suda/templets/new/images/li_x.gif" height="17"
 													width="17"><strong><font
 														style="font-size: 16px" color="#006600">&nbsp;中小企业管理
 													</font></strong></td>
@@ -89,7 +89,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudacaiwuxilie/20140703/4328.html"
 													title="速达V3+.NET财务STD"><img alt="速达V3+.NET财务STD"
-														src="/suda/uploads/140703/1-140F3143Z1122.png"
+														src="suda/uploads/140703/1-140F3143Z1122.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudacaiwuxilie/20140703/4328.html">速达V3+.NET财务STD</a>特色功能</strong><br>
@@ -143,7 +143,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/suda3000xilie/20111116/suda3000std.html"
 													title="速达3000 STD"><img alt="速达3000 STD"
-														src="/suda/uploads/140512/7-14051220263cC.jpg"
+														src="suda/uploads/140512/7-14051220263cC.jpg"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/suda3000xilie/20111116/suda3000std.html">速达3000
@@ -199,7 +199,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/suda3000xilie/20111116/13.html"
 													title="速达3000 PRO 商业版"><img alt="速达3000 PRO 商业版"
-														src="/suda/uploads/140512/7-140512213GVM.jpg" height="180"
+														src="suda/uploads/140512/7-140512213GVM.jpg" height="180"
 														width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/suda3000xilie/20111116/13.html">速达3000
@@ -255,7 +255,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/suda3000xilie/20111221/suda3000pro.html"
 													title="速达3000 PRO 工业版"><img alt="速达3000 PRO 工业版"
-														src="/suda/uploads/140512/7-140512001SV35.jpg"
+														src="suda/uploads/140512/7-140512001SV35.jpg"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/suda3000xilie/20111221/suda3000pro.html">速达3000
@@ -310,7 +310,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/suda3000xilie/20111215/suda3000BAS.html"
 													title="速达3000 BAS"><img alt="速达3000 BAS"
-														src="/suda/uploads/111103/140627/9-14062GU949129.jpg"
+														src="suda/uploads/111103/140627/9-14062GU949129.jpg"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/suda3000xilie/20111215/suda3000BAS.html">速达3000
@@ -365,7 +365,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudacaiwuxilie/20140703/4329.html"
 													title="速达V3+.NET-财务PRO"><img alt="速达V3+.NET-财务PRO"
-														src="/suda/uploads/140703/1-140F314563aG.png" height="180"
+														src="suda/uploads/140703/1-140F314563aG.png" height="180"
 														width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudacaiwuxilie/20140703/4329.html">速达V3+.NET-财务PRO</a>特色功能</strong><br>
@@ -417,7 +417,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111212/4050.html"
 													title="速达V3-服装管理"><img alt="速达V3-服装管理"
-														src="/suda/uploads/140523/7-140523000433446.jpg"
+														src="suda/uploads/140523/7-140523000433446.jpg"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111212/4050.html">速达V3-服装管理</a>特色功能</strong><br>
@@ -470,7 +470,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111212/4049.html"
 													title="速达V3-食品管理"><img alt="速达V3-食品管理"
-														src="/suda/uploads/soft/131202/1-131202153221446.gif"
+														src="suda/uploads/soft/131202/1-131202153221446.gif"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111212/4049.html">速达V3-食品管理</a>特色功能</strong><br>
@@ -523,7 +523,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140703/4324.html"
 													title="速达V3+.NET服装管理"><img alt="速达V3+.NET服装管理"
-														src="/suda/uploads/140703/1-140F3094443639.png"
+														src="suda/uploads/140703/1-140F3094443639.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140703/4324.html">速达V3+.NET服装管理</a>特色功能</strong><br>
@@ -577,7 +577,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140703/4325.html"
 													title="速达V3+.net食品管理"><img alt="速达V3+.net食品管理"
-														src="/suda/uploads/140703/1-140F3102953141.jpg"
+														src="suda/uploads/140703/1-140F3102953141.jpg"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140703/4325.html">速达V3+.net食品管理</a>特色功能</strong><br>
@@ -632,7 +632,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111222/4182.html"
 													title="速达V3-PRO-商业版"><img alt="速达V3-PRO-商业版"
-														src="/suda/uploads/140522/7-140522004431595.png"
+														src="suda/uploads/140522/7-140522004431595.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111222/4182.html">速达V3-PRO-商业版</a>特色功能</strong><br>
@@ -685,7 +685,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111116/72.html"
 													title="速达V3-PRO-工业版"><img alt="速达V3-PRO-工业版"
-														src="/suda/uploads/140522/7-140522232220348.png"
+														src="suda/uploads/140522/7-140522232220348.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111116/72.html">速达V3-PRO-工业版</a>特色功能</strong><br>
@@ -738,7 +738,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111116/sudaV3std.html"
 													title="速达V3-STD"><img alt="速达V3-STD"
-														src="/suda/uploads/140521/7-14052100022A06.jpg"
+														src="suda/uploads/140521/7-14052100022A06.jpg"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20111116/sudaV3std.html">速达V3-STD</a>特色功能</strong><br>
@@ -791,7 +791,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140702/4323.html"
 													title="速达V3-BAS"><img alt="速达V3-BAS"
-														src="/suda/uploads/140702/1-140F21636005R.png"
+														src="suda/uploads/140702/1-140F21636005R.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140702/4323.html">速达V3-BAS</a>特色功能</strong><br>
@@ -846,7 +846,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140702/4320.html"
 													title="速达V3+.NET-PRO工业版"><img alt="速达V3+.NET-PRO工业版"
-														src="/suda/uploads/140702/1-140F2141542411.png"
+														src="suda/uploads/140702/1-140F2141542411.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140702/4320.html">速达V3+.NET-PRO工业版</a>特色功能</strong><br>
@@ -900,7 +900,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140704/4330.html"
 													title="速达V30+.NET-商业版"><img alt="速达V30+.NET-商业版"
-														src="/suda/uploads/140704/1-140F4155535353.png"
+														src="suda/uploads/140704/1-140F4155535353.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140704/4330.html">速达V30+.NET-商业版</a>特色功能</strong><br>
@@ -954,7 +954,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140704/4331.html"
 													title="速达V30+.NET-工业版"><img alt="速达V30+.NET-工业版"
-														src="/suda/uploads/140704/1-140F416214L34.png"
+														src="suda/uploads/140704/1-140F416214L34.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140704/4331.html">速达V30+.NET-工业版</a>特色功能</strong><br>
@@ -1008,7 +1008,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140704/4332.html"
 													title="速达V300+.NET-商业版"><img alt="速达V300+.NET-商业版"
-														src="/suda/uploads/140704/1-140F421002V93.png"
+														src="suda/uploads/140704/1-140F421002V93.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140704/4332.html">速达V300+.NET-商业版</a>特色功能</strong><br>
@@ -1062,7 +1062,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140704/4333.html"
 													title="速达V300+.NET-工业版"><img alt="速达V300+.NET-工业版"
-														src="/suda/uploads/140704/1-140F421355K49.png"
+														src="suda/uploads/140704/1-140F421355K49.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140704/4333.html">速达V300+.NET-工业版</a>特色功能</strong><br>
@@ -1117,7 +1117,7 @@ message = request("message")
 												<td rowspan="2" width="140" align="center"><a
 													href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140620/4316.html"
 													title="速达V3+.net STD"><img alt="速达V3+.net STD"
-														src="/suda/uploads/111103/140620/9-14062009314GO.png"
+														src="suda/uploads/111103/140620/9-14062009314GO.png"
 														height="180" width="138" border="0"></a></td>
 												<td height="150" valign="top"><strong><a
 														href="/suda/html/chanpinzhongxin/sudaV_3xilie/20140620/4316.html">速达V3+.net
@@ -1168,13 +1168,13 @@ message = request("message")
 											<tr>
 												<td height="22" width="51"><a
 													href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes"><img
-														src="/suda/templets/new/images/pa.gif" style="border: 0"
+														src="suda/templets/new/images/pa.gif" style="border: 0"
 														height="16" width="51"></a></td>
 												<td valign="bottom" width="80">：<a
 													href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes">1601331518</a></td>
 												<td width="51"><a
 													href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes"><img
-														src="/suda/templets/new/images/pa.gif" style="border: 0"
+														src="suda/templets/new/images/pa.gif" style="border: 0"
 														height="16" width="51"></a></td>
 												<td valign="bottom">：<a
 													href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes">4000343668</a></td>

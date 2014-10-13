@@ -15,7 +15,7 @@ message = request("message")
 <link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
 <script src="http://lxbjs.baidu.com/lxb.js?sid=1272542" async="" charset="utf-8" type="text/javascript"></script>
 <script src="http://qiao.baidu.com/site/886/4e9275315db365e8bfde1fe0e12128f9/b.js" async="" charset="utf-8" type="text/javascript"></script>
-<script src="/suda/templets/new/js/menu.js" type="text/javascript"></script>
+<script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
 <script language="javascript" src="/suda/templets/new/js/common.js"></script>
 <script src="http://qiao.baidu.com/v3/asset/js/bw.js?v=20140515" charset="UTF-8" type="text/javascript"></script>
 <link charset="utf-8" type="text/css" href="http://lxbjs.baidu.com/float/asset/1001.css" rel="stylesheet">
@@ -92,7 +92,7 @@ message = request("message")
 												rel="dropmenu16"><span>购买指引</span></a></li>
 											<li class="menu_style_1" id="MainMenuItem"
 												name="MainMenuItem"><a
-												href="/suda/html/chanpinzhongxin/" class="menu_1"
+												href="pageProduct.do" class="menu_1"
 												id="Menu_21" target="_self" rel="dropmenu23">产品中心</a> <!--
                 <ul id="nav" style="text-align:left;">
                 	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>

@@ -10,8 +10,8 @@
 <link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
 <script src="http://lxbjs.baidu.com/lxb.js?sid=1272542" async="" charset="utf-8" type="text/javascript"></script>
 <script src="http://qiao.baidu.com/site/886/4e9275315db365e8bfde1fe0e12128f9/b.js" async="" charset="utf-8" type="text/javascript"></script>
-<script src="/suda/templets/new/js/menu.js" type="text/javascript"></script>
-<script language="javascript" src="/suda/templets/new/js/common.js"></script>
+<script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
+<script language="javascript" src="suda/templets/new/js/common.js"></script>
 <script src="http://qiao.baidu.com/v3/asset/js/bw.js?v=20140515" charset="UTF-8" type="text/javascript"></script>
 <link charset="utf-8" type="text/css" href="http://lxbjs.baidu.com/float/asset/1001.css" rel="stylesheet">
 <link href="http://qiao.baidu.com/v3/asset/css/m-front-icon.css?v=20140626" type="text/css" rel="stylesheet">
@@ -20,6 +20,9 @@
 <link href="http://qiao.baidu.com/v3/asset/css/m-front-invite.css?v=20130705" type="text/css" rel="stylesheet">
 <style>@import "http://qiao.baidu.com/v3/asset/css/m-webim-lite.css?v=20130705";</style>
 <script charset="UTF-8" src="http://r.qiao.baidu.com/Refresh.php?callback=BDBridge.rcvbase.__handleRefresh&amp;bid=4ea016ca5ce9420ac90e8dbc&amp;siteid=1272542&amp;t=1412950621171" id="BDBridgeReport" language="javascript" type="text/javascript"></script>
+<style>
+	body {-moz-user-select:none;}
+</style>
 </head>
 	<body>
 		<div align="center">

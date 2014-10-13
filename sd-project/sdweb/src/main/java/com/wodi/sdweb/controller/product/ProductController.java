@@ -66,8 +66,8 @@ public class ProductController {
 	}
 	
 	@RequestMapping("product.do")
-	public ModelAndView product(String productTypeId, String productId) {
-		ModelAndView model = new ModelAndView("Product/product");
+	public ModelAndView product(String productId) {
+		ModelAndView model = new ModelAndView("Product/productDetail");
 		Long id = Long.parseLong(productId);
 		SpProduct product = spProductService.selectById(id);
 		model.addObject("product", product);

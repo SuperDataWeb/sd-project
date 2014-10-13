@@ -31,9 +31,10 @@ message = request("message")
 		border="0" cellpadding="0" cellspacing="0">
 		<tbody>
 			<tr>
-				<td width="143"><img src="suda/templets/new/images/ind_dh.jpg"
-					height="33" width="143"></td>
-				<td width="62" align="right">&nbsp;</td>
+				<td width="140"><img
+					src="suda/templets/new/images/ind_lxwm.jpg" height="33"
+					width="143"></td>
+				<td align="right">&nbsp;</td>
 				<td width="15" align="right"><img
 					src="suda/templets/new/images/ind_dh_f.jpg" height="33" width="9"></td>
 			</tr>
@@ -43,78 +44,55 @@ message = request("message")
 		cellspacing="0">
 		<tbody>
 			<tr>
-				<td colspan="2" style="padding-top: 8px" height="23" valign="middle"><font
-					color="#006600"> <img src="suda/templets/new/images/dg.jpg"
-						height="11" width="11">&nbsp;<strong></strong></font><br></td>
-			</tr>
-
-
-			<tr>
-				<td height="23" valign="middle" width="35" align="right"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td valign="middle" width="185" align="left">&nbsp;<a
-					href="/suda/html/goumaizhiyin/zhongxiaoqiyeguanli/">中小企业管理</a></td>
-			</tr>
-
-			<tr>
-				<td height="23" valign="middle" width="35" align="right"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td valign="middle" width="185" align="left">&nbsp;<a
-					href="/suda/html/goumaizhiyin/zhongxingqiyeERP/">中型企业ERP</a></td>
-			</tr>
-
-			<tr>
-				<td height="23" valign="middle" width="35" align="right"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td valign="middle" width="185" align="left">&nbsp;<a
-					href="/suda/html/goumaizhiyin/dazhongxingqiyeERP/">大中型企业ERP</a></td>
-			</tr>
-
-			<tr>
-				<td height="23" valign="middle" width="35" align="right"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td valign="middle" width="185" align="left">&nbsp;<a
-					href="/suda/html/goumaizhiyin/zhuanyecaiwuruanjian/">专业财务软件</a></td>
-			</tr>
-
-			<tr>
-				<td height="23" valign="middle" width="35" align="right"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td valign="middle" width="185" align="left">&nbsp;<a
-					href="/suda/html/goumaizhiyin/qiyejiERPxitong/">企业级ERP系统</a></td>
-			</tr>
-
-
-			<tr>
-				<td height="23" valign="middle" align="right">&nbsp;</td>
-				<td valign="middle">&nbsp;<br></td>
-			</tr>
-		</tbody>
-	</table>
-	<table width="220" border="0" cellpadding="0" cellspacing="0">
-		<tbody>
-			<tr>
-				<td height="8"></td>
+				<td height="150" valign="top" width="220"><table height="126"
+						width="97%" align="right" border="0" cellpadding="0"
+						cellspacing="0">
+						<tbody>
+							<tr>
+								<td colspan="2"><img
+									src="suda/templets/new/images/left_tel.jpg" height="83"
+									width="205"></td>
+							</tr>
+							<tr>
+								<td style="padding-top: 8px" height="19" width="45%"
+									align="right"><strong> 销售热线</strong>：</td>
+								<td style="padding-top: 8px" width="55%">400-034-3668</td>
+							</tr>
+							<tr>
+								<td height="19" align="right"><span
+									style="padding-top: 8px"><strong>服务热线</strong>：</span></td>
+								<td height="20">020-85279086</td>
+							</tr>
+							<tr>
+								<td height="19" align="right"><strong>维护专线</strong>：</td>
+								<td height="20">020-85279086</td>
+							</tr>
+							<tr>
+								<td height="19" align="right"><span class="tel_kd_1"><strong>VIP热线</strong></span>：</td>
+								<td height="20">18620607677</td>
+							</tr>
+							<tr>
+								<td height="19" align="right"><span class="tel_kd_1"><strong>VIP热线</strong></span>：</td>
+								<td height="20">18127974810</td>
+							</tr>
+							<tr>
+								<td colspan="2" height="30" align="center"><a
+									target="_blank"
+									href="http://wpa.qq.com/msgrd?v=3&amp;uin=1601331518&amp;site=qq&amp;menu=yes"><img
+										src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
+										title="速达软件咨询" border="0"></a> <a target="_blank"
+									href="http://wpa.qq.com/msgrd?v=3&amp;uin=4000343668&amp;site=qq&amp;menu=yes"><img
+										src="suda/templets/new/images/qq2.jpg" alt="速达软件咨询"
+										title="速达软件咨询" border="0"></a></td>
+							</tr>
+							<tr>
+								<td colspan="2" height="6"></td>
+							</tr>
+						</tbody>
+					</table></td>
 			</tr>
 		</tbody>
 	</table>
-	<%@include file="leftContact.jsp" %>
-	<table width="220" border="0" cellpadding="0" cellspacing="0">
-		<tbody>
-			<tr>
-				<td height="8" width="220"></td>
-			</tr>
-		</tbody>
-	</table>
-	<%@include file="leftWant.jsp" %>
-	<table width="220" border="0" cellpadding="0" cellspacing="0">
-		<tbody>
-			<tr>
-				<td height="8" width="220"></td>
-			</tr>
-		</tbody>
-	</table>
-	<%@include file="leftNews.jsp" %>
 	<!-- /left -->
 </BODY>
 </HTML>

@@ -15,8 +15,8 @@ message = request("message")
 <link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
 <script src="http://lxbjs.baidu.com/lxb.js?sid=1272542" async="" charset="utf-8" type="text/javascript"></script>
 <script src="http://qiao.baidu.com/site/886/4e9275315db365e8bfde1fe0e12128f9/b.js" async="" charset="utf-8" type="text/javascript"></script>
-<script src="/suda/templets/new/js/menu.js" type="text/javascript"></script>
-<script language="javascript" src="/suda/templets/new/js/common.js"></script>
+<script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
+<script language="javascript" src="suda/templets/new/js/common.js"></script>
 <script src="http://qiao.baidu.com/v3/asset/js/bw.js?v=20140515" charset="UTF-8" type="text/javascript"></script>
 <link charset="utf-8" type="text/css" href="http://lxbjs.baidu.com/float/asset/1001.css" rel="stylesheet">
 <link href="http://qiao.baidu.com/v3/asset/css/m-front-icon.css?v=20140626" type="text/css" rel="stylesheet">
@@ -42,7 +42,7 @@ message = request("message")
 		bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0">
 		<tbody>
 			<tr>
-				<td width="10"><img src="/suda/templets/new/images/links.gif"
+				<td width="10"><img src="suda/templets/new/images/links.gif"
 					height="54" width="45"></td>
 				<td width="968" align="center" bgcolor="#FAFAFA">
 					<dd id="flink_[field:id/]">
@@ -96,7 +96,7 @@ message = request("message")
 		<tbody>
 			<tr>
 				<td height="105" align="center"
-					background="/suda/templets/new/images/foot_bg.jpg"
+					background="suda/templets/new/images/foot_bg.jpg"
 					bgcolor="#F0F0F0"><table width="100%" border="0"
 						cellpadding="0" cellspacing="0">
 						<tbody>
@@ -118,11 +118,11 @@ message = request("message")
 					<span class="STYLE6">联系电话：<span class="STYLE13">400-034-3668</span>
 						维护专线：<span class="STYLE13">020-85279086</span> ＱＱ客服：<a
 						href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&amp;uin=1601331518&amp;site=qq&amp;menu=yes  '))window.location='http://wpa.qq.com/msgrd?v=3&amp;uin=1601331518&amp;site=qq&amp;menu=yes'"><img
-							src="/suda/templets/new/images/qq.gif" alt="速达软件" height="16"
+							src="suda/templets/new/images/qq.gif" alt="速达软件" height="16"
 							width="23" border="0"><strong><font
 								color="#CC0000">1601331518</font></strong></a> <a
 						href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&amp;uin=4000343668&amp;site=qq&amp;menu=yes  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://wpa.qq.com/msgrd?v=3&amp;uin=4000343668&amp;site=qq&amp;menu=yes'"><img
-							src="/suda/templets/new/images/qq.gif" alt="速达软件" height="16"
+							src="suda/templets/new/images/qq.gif" alt="速达软件" height="16"
 							width="23" border="0"><strong><font
 								color="#CC0000">4000343668</font></strong></a> 备案/许可证编号：<a
 						href="javascript:if(confirm('http://www.miibeian.gov.cn/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.miibeian.gov.cn/'"
@@ -132,10 +132,10 @@ message = request("message")
 		</tbody>
 	</table>
 
-	<script type="text/javascript" src="/suda/include/js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="suda/include/js/jquery/jquery.js"></script>
 
 	<!--Qq-->
-	<script src="/suda/templets/new/js/QQ.js"></script>
+	<script src="suda/templets/new/js/QQ.js"></script>
 	<div style="top: 124.5px;" class="QQbox" id="divQQbox">
 		<div class="Qlist" style="" id="divOnline">
 			<div style="width: 100px; height: 32px;">
@@ -150,27 +150,27 @@ message = request("message")
 			<div class="customer_a">
 				<a target="_blank"
 					href="http://wpa.qq.com/msgrd?v=3&amp;uin=1601331518&amp;site=qq&amp;menu=yes"><img
-					src="/suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息"
+					src="suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息"
 					title="点击这里给我发消息" border="0"></a> <a target="_blank"
 					href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542"><img
-					src="/suda/templets/new/images/qq/bbbbe.jpg" border="0"></a> <a
+					src="suda/templets/new/images/qq/bbbbe.jpg" border="0"></a> <a
 					target="_blank"
 					href="http://wpa.qq.com/msgrd?v=3&amp;uin=4000343668&amp;site=qq&amp;menu=yes"><img
-					src="/suda/templets/new/images/qq2.jpg" alt="点击这里给我发消息"
+					src="suda/templets/new/images/qq2.jpg" alt="点击这里给我发消息"
 					title="点击这里给我发消息" border="0"></a> <a target="_blank"
 					href="http://wpa.qq.com/msgrd?v=3&amp;uin=4000343668&amp;site=qq&amp;menu=yes"><img
-					src="/suda/templets/new/images/qq2.jpg" alt="点击这里给我发消息"
+					src="suda/templets/new/images/qq2.jpg" alt="点击这里给我发消息"
 					title="点击这里给我发消息" border="0"></a>
 			</div>
 		</div>
 		<div style="display: none;" id="divMenu" onclick="OnlineOver();">
-			<img src="/suda/templets/new/images/qq/arrow_left.gif" class="press"
+			<img src="suda/templets/new/images/qq/arrow_left.gif" class="press"
 				alt="在线客服，点击咨询">
 		</div>
 	</div>
 	<!--/Qq-->
 
-	<script type="text/javascript" src="/suda/images/js/dropdown.js"></script>
+	<script type="text/javascript" src="suda/images/js/dropdown.js"></script>
 	<ul id="dropmenu16" class="dropMenu">
 
 		<li><a href="/suda/html/goumaizhiyin/zhongxiaoqiyeguanli/">中小企业管理</a></li>

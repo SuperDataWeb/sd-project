@@ -1,5 +1,10 @@
 <%@ page language="java" pageEncoding="GBK"%>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%--
+message = request("message")
+--%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0157)http://chat10.live800.com/live800/chatClient/chatbox.jsp -->
+<HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
 <title>中小企业管理_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
@@ -11,7 +16,7 @@
 <script src="http://lxbjs.baidu.com/lxb.js?sid=1272542" async="" charset="utf-8" type="text/javascript"></script>
 <script src="http://qiao.baidu.com/site/886/4e9275315db365e8bfde1fe0e12128f9/b.js" async="" charset="utf-8" type="text/javascript"></script>
 <script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
-<script language="javascript" src="suda/templets/new/js/common.js"></script>
+<script language="javascript" src="/suda/templets/new/js/common.js"></script>
 <script src="http://qiao.baidu.com/v3/asset/js/bw.js?v=20140515" charset="UTF-8" type="text/javascript"></script>
 <link charset="utf-8" type="text/css" href="http://lxbjs.baidu.com/float/asset/1001.css" rel="stylesheet">
 <link href="http://qiao.baidu.com/v3/asset/css/m-front-icon.css?v=20140626" type="text/css" rel="stylesheet">
@@ -21,29 +26,40 @@
 <style>@import "http://qiao.baidu.com/v3/asset/css/m-webim-lite.css?v=20130705";</style>
 <script charset="UTF-8" src="http://r.qiao.baidu.com/Refresh.php?callback=BDBridge.rcvbase.__handleRefresh&amp;bid=4ea016ca5ce9420ac90e8dbc&amp;siteid=1272542&amp;t=1412950621171" id="BDBridgeReport" language="javascript" type="text/javascript"></script>
 </head>
-	<body>
-		<div align="center">
-			<div style="background-color: #FFFFFF; width: 984px;">
-				<!-- -------------- top -------------- -->
-				<%@include file="../../../top.jsp" %>
-				<table width="980" align="center" bgcolor="#FFFFFF" border="0"
-					cellpadding="0" cellspacing="0">
-					<tbody>
-						<tr>
-							<td valign="top" width="220">
-								<!------------- left -------------->
-								<%@include file="productLeft.jsp" %>
-							</td>
-							<td width="8">&nbsp;</td>
-							<td class="tdbk" valign="top" width="752">
-								<!-- --------------right -->
-								<%@include file="productList.jsp" %>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<!-- 页脚 -->
-				<!-- -------------------foot---------------- -->
-				<%@include file="../../../foot.jsp" %>
-	</body>
-</html>
+<BODY type="leaveMessage">
+	<table class="tdbk_4" width="220" bgcolor="#E8F8E7" border="0"
+		cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td height="66" valign="top" width="220"><table width="100%"
+						border="0" cellpadding="0" cellspacing="0">
+						<tbody>
+							<tr>
+								<td width="17%" align="right"><img
+									src="suda/templets/new/images/ind_52.gif" height="17"
+									vspace="5" width="19"></td>
+								<td class="tel_yy" width="83%">告诉我们您的需要：</td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center"><select name="jumpMenu"
+									id="selService">
+										<option value="1">--我要体验--</option>
+										<option value="2">--我要培训--</option>
+										<option value="3">--产品升级--</option>
+										<option value="4">--我要购买--</option>
+										<option value="5">--定制解决方案--</option>
+										<option value="6">--信息反馈--</option>
+										<option value="7">--预约服务--</option>
+										<option value="8">--下载试用--</option>
+								</select> &nbsp; <input name="go_button" id="go_button" value="提交"
+									onclick="window.location.href='/suda/plus/sd_service.php?sid='+document.getElementById('selService').value"
+									type="submit"></td>
+							</tr>
+						</tbody>
+					</table></td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- /left -->
+</BODY>
+</HTML>
