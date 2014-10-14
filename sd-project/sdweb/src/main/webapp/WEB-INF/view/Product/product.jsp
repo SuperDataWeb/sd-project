@@ -65,7 +65,7 @@ message = request("message")
 						<td width="195" height="250" rowspan="2" valign="top"><img
 							src="<%= request.getContextPath()%>${product.img}"
 							alt="${product.productName}" width="180" height="230" vspace="5"
-							border="0" /></a></td>
+							border="0" /></td>
 						<td height="180" valign="top">
 							<table width="533" border="0"
 									cellpadding="0" cellspacing="0">

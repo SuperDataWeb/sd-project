@@ -19,13 +19,19 @@ import com.wodi.sdweb.utils.MailContent;
 import com.wodi.sdweb.utils.MailSender;
 
 @Controller
-@RequestMapping("/services")
+//@RequestMapping("/services")
 public class ServicesController {
 	
 	@RequestMapping("/frame.do")
 	public ModelAndView servicesFrame(String param) {
 		ModelAndView model =  new ModelAndView("Services/services_frame");
 		model.addObject("target", param);
+		return model;
+	}
+	
+	@RequestMapping("/customerService.do")
+	public ModelAndView customerService() {
+		ModelAndView model =  new ModelAndView("CustomerService/zixunfuwu");
 		return model;
 	}
 	

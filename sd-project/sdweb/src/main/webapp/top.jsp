@@ -109,7 +109,7 @@ message = request("message")
                 --></li>
 
 											<li class="menu_style_1" id="MainMenuItem"
-												name="MainMenuItem"><a href="/suda/html/kehufuwu/"
+												name="MainMenuItem"><a href="customerService.do"
 												class="menu_1" id="Menu_21" target="_self" rel="dropmenu50">客户服务</a>
 												<!--
                 <ul id="nav" style="text-align:left;">
