@@ -1,8 +1,10 @@
 package com.wodi.sdweb.controller.news;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.wodi.sdweb.model.SpNews;
 import com.wodi.sdweb.service.SpNewsService;
+import com.wodi.sdweb.utils.PageModel;
 
 @Controller
 @RequestMapping("/News")
@@ -20,22 +23,33 @@ public class NewsController {
 	SpNewsService spNewsService;
 
 	@RequestMapping("topDataList")
-	public ModelAndView loadTopList() {
+	public ModelAndView loadTopList() throws SQLException {
 		ModelAndView view = new ModelAndView();
 		view.setViewName("News/topDataList");
-		List<SpNews> list = spNewsService.selectTopList(10L);
+		List<SpNews> list = spNewsService.selectTopList(10);
 		view.addObject("topList", list);
 		return view;
 	}
 	
-	public ModelAndView loadNewsList() {
-		ModelAndView view = new ModelAndView();
-		
+	@RequestMapping("newsList")
+	public ModelAndView loadNewsList(HttpServletRequest request) throws SQLException {
+		ModelAndView view = new ModelAndView("News/newsList");
+		int startIndex = 0;
+		int pageSize = 10;
+		try {
+			startIndex  = Integer.parseInt(request.getParameter("pager.offset")); 
+			pageSize = Integer.parseInt(request.getParameter("pager.pageSize")); 
+		} catch (Exception e) {
+			startIndex = 0;
+		}
+		PageModel<SpNews> pageModel = spNewsService.pageSelect(startIndex, pageSize);
+		view.addObject("pageNews", pageModel);
+		view.addObject("pageSize", pageSize);
 		return view;
 	}
 	
 	public ModelAndView loadNewsInfo() {
-		ModelAndView view = new ModelAndView();
+		ModelAndView view = new ModelAndView("News/newsInfo");
 		
 		return view;
 	}

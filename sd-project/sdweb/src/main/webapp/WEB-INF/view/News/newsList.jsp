@@ -1,92 +1,164 @@
-<%@ page language="java" pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" pageEncoding="GBK"%>
+<%@ include file="/WEB-INF/view/include/commonjslib.jsp" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0157)http://chat10.live800.com/live800/chatClient/chatbox.jsp -->
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>ÖÐÐ¡ÆóÒµ¹ÜÀí_ËÙ´ïÈí¼þ(¹ãÖÝ)Ö±ÏúÖÐÐÄ-¹Ù·½ÊÚÈ¨,×¨Òµ·þÎñ£¡ËÙ´ïÈí¼þ,ËÙ´ï3000,ËÙ´ï¹ÙÍø,ËÙ´ïÈí¼þ¹ÙÍø,¹ãÖÝËÙ´ïÈí¼þ,ËÙ´ï5000,ËÙ´ï7000</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="suda/templets/new/css/index.css" rel="stylesheet" type="text/css">
+<link href="suda/templets/new/css/style.css" rel="stylesheet" type="text/css">
+<link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
+<script src="http://lxbjs.baidu.com/lxb.js?sid=1272542" async="" charset="utf-8" type="text/javascript"></script>
+<script	src="http://qiao.baidu.com/site/886/4e9275315db365e8bfde1fe0e12128f9/b.js" async="" charset="utf-8" type="text/javascript"></script>
+<script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
+<script language="javascript" src="suda/templets/new/js/common.js"></script>
+<script src="http://qiao.baidu.com/v3/asset/js/bw.js?v=20140515" charset="UTF-8" type="text/javascript"></script>
+<link charset="utf-8" type="text/css" href="http://lxbjs.baidu.com/float/asset/1001.css" rel="stylesheet">
+<link href="http://qiao.baidu.com/v3/asset/css/m-front-icon.css?v=20140626"	type="text/css" rel="stylesheet">
+<script charset="UTF-8"	src="http://r.qiao.baidu.com/Enter.php?callback=BDBridge.rcvbase.__handleEnter&amp;siteid=1272542&amp;bid=&amp;referrer=&amp;word=&amp;coding=&amp;bdclkid=&amp;title=%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86_%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6(%E5%B9%BF%E5%B7%9E)%E7%9B%B4%E9%94%80%E4%B8%AD%E5%BF%83-%E5%AE%98%E6%96%B9%E6%8E%88%E6%9D%83%2C%E4%B8%93%E4%B8%9A%E6%9C%8D%E5%8A%A1%EF%BC%81%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6%2C%E9%80%9F%E8%BE%BE3000%2C%E9%80%9F%E8%BE%BE%E5%AE%98%E7%BD%91%2C%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6%E5%AE%98%E7%BD%91%2C%E5%B9%BF%E5%B7%9E%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6%2C%E9%80%9F%E8%BE%BE5000%2C%E9%80%9F%E8%BE%BE7000&amp;lv=0&amp;lc=0&amp;ls=&amp;lvp=0&amp;vis_type=3&amp;ftime=0&amp;fs=&amp;ltime=0&amp;lang=zh-CN&amp;rsl=1920*1080&amp;tz=UTC%2B9%3A0&amp;cbit=24&amp;t=1412950588703"
+	id="BDBridgeSendData" language="javascript" type="text/javascript"></script>
+<link href="http://qiao.baidu.com/v3/asset/css/m-front-mess.css?v=20130723"	type="text/css" rel="stylesheet">
+<link href="http://qiao.baidu.com/v3/asset/css/m-front-invite.css?v=20130705" type="text/css" rel="stylesheet">
+<style>
+@import "http://qiao.baidu.com/v3/asset/css/m-webim-lite.css?v=20130705"
+	;
+</style>
+<script charset="UTF-8"
+	src="http://r.qiao.baidu.com/Refresh.php?callback=BDBridge.rcvbase.__handleRefresh&amp;bid=4ea016ca5ce9420ac90e8dbc&amp;siteid=1272542&amp;t=1412950621171"
+	id="BDBridgeReport" language="javascript" type="text/javascript"></script>
 </head>
-
-<body>
-<DIV class=news>
-<P class=news_top></P>
-<UL>
-	<LI>
-	<table width="98%" border="0" align="right" cellpadding="0"
+<BODY type="leaveMessage">
+	<table width="100%" border="0" align="center" cellpadding="0"
 		cellspacing="0">
 		<tr>
-			<td width="143" height="22">
-				<img alt="" src="<%= request.getContextPath()%>/images/index_files/title/ind_info.jpg"/>
-			</td>
-			<td width="76%" height="29"></td>
-			<td width="38" height="29" valign="middle">
-				<img alt="" src="<%= request.getContextPath()%>/images/index_files/title/ind_more.jpg"/>
+			<td height="30" valign="middle" style="padding-top: 3px;">
+				¨†Äúµ±Ç°µÄÎ»ÖÃ£º<a href="../../index.htm">Ê×Ò³</a> > <a href="index.htm">Í¨Öª¹«¸æ</a> >
 			</td>
 		</tr>
 	</table>
-	<table width="98%" border="0" align="right" cellpadding="0"
+	<table width="97%" border="0" align="center" cellpadding="0"
 		cellspacing="0">
-	<c:forEach var="item" items="${topList}">
 		<tr>
-			<td align="right" width="20" height="22"></td>
-			<td width="76%" height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">${item.newsTitle}</a></td>
-			<td width="38" height="29" valign="middle"><a
-				href="#" onclick="loadServicesList('sqgm')">${item.subDateStr}</a></td>
+			<td height="1" bgcolor="#CCCCCC"></td>
 		</tr>
-	</c:forEach>
-	<!-- 
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾3000å•†ä¸šè¯•ç”¨ç‰ˆ</a><br>
-			</td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾3000å·¥ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾5000å·¥ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾5000å•†ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾7000å·¥ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾7000å•†ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾V3å…¨ç³»åˆ—è¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾V5å…¨ç³»åˆ—è¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-	 -->
 	</table>
-	</LI>
-</UL>
-</DIV>
-</body>
+	<table width="100%" border="0" align="center" cellpadding="0"
+		cellspacing="0">
+		<tr>
+			<td width="100%" align="center" style="padding-top: 6px;"><span
+				style="padding-top: 6px; padding-bottom: 8px;"> <img src="suda/templets/new/images/banner/12.jpg">
+			</span></td>
+		</tr>
+	</table>
+	<table width="100%" border="0" align="center" cellpadding="15"
+		cellspacing="0">
+		<tr>
+			<td width="729" height="500" valign="top" class="hg">
+               <c:forEach var="product" items="${pageProduct.datas }">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td width="150"><a href="product.do?productId=${product.id}" class='preview'>
+							<img src='<%= request.getContextPath()%>${product.img}'
+									alt='[field:title/]' width='135' height='180' border='0' /></a></td>
+							<td valign="top"><table width="100%" border="0"
+									cellspacing="0" cellpadding="0">
+									<tr>
+										<td width="12%" height="25"><strong>²úÆ·Ãû³Æ£º</strong></td>
+										<td><strong><a href="product.do?productId=${product.id}">${product.productName}</a></strong></td>
+									</tr>
+									<tr>
+										<td height="25"><strong><font color="#006633">Èí¼þ¼Û¸ñ£º</font></strong></td>
+										<td><font color="#FF0000">£¤3580Ôª/Ì×</font>
+											Ôª&nbsp;&nbsp;&nbsp;&nbsp;<strong><font
+												color="#006633">ÓÃ»§Êý£º</font></strong><font color="#FF0000">2ÓÃ»§=1U+1SaaS
+												Ôö¼ÓÕ¾µã£º¾ÖÓòÍø£º2600Ôª/Õ¾µã È«¾ÖÕ¾µã£º465Ôª/Äê/Õ¾µã</font> <!--Ôª&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="#006633">·þÎñ·Ñ/Äê£º</font></strong><font color="#FF0000">£¤</font> Ôª--></td>
+									</tr>
+									<tr>
+										<td height="25" valign="top"><strong><font
+												color="#006633">¹¦ÄÜÄ£¿é£º</font></strong></td>
+										<td><a href="product.do?productId=${product.id}"><span
+												class="jj1">ÕËÎñÏµÍ³,³öÄÉ¹ÜÀí,¹Ì¶¨×Ê²ú,¹¤×Ê¹ÜÀí,ÏÖ½ðÒøÐÐ,ÆÚÄ©´¦Àí,²ÆÎñ·ÖÎö,¹Ì¶¨×Ê²ú,ÏµÍ³Î¬»¤
+											</span></a></td>
+									</tr>
+									<tr>
+										<td height="75" colspan="2" valign="top"><strong><font
+												color="#006633">²úÆ·¼ò½é£º</font></strong><a
+											href="product.do?productId=${product.id}"><span
+												class="jj">${product.presentation}</span></a></td>
+									</tr>
+									<tr>
+										<td colspan="2"><table width="100%" border="0"
+												cellspacing="0" cellpadding="0">
+												<tr>
+													<td height="30">[<a href="../xiazaizhongxin/index.htm"
+														target="_blank"><font color="#0066cc">ÏÂÔØÊÔÓÃ</font></a>]&nbsp;&nbsp;&nbsp;&nbsp;[<a
+														href="javascript:sdlc()"><font color="#0066cc"><strong>ÔÚÏß×ÉÑ¯</strong></font></a>]&nbsp;&nbsp;&nbsp;&nbsp;[<a
+														href="../../plus/sd_service.php-sid=4.htm"
+														target="_blank"><font color="#0066cc">ÌîÐ´¹ºÂòÒâÏò</font></a>]
+													</td>
+													<td><strong><a
+															href="sudacaiwuxilie/20140703/4328.html"><font
+																color="#0000FF">ÏêÏ¸&gt;&gt;</font></a></strong></td>
+												</tr>
+											</table></td>
+									</tr>
+								</table></td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td height="10"></td>
+						</tr>
+						<tr>
+							<td height="15" class="mmm"></td>
+						</tr>
+					</table>
+				</c:forEach>
+			</td>
+		</tr>
+		<tr>
+			<td height="20" align="center" valign="middle" class="hg">
+				<div class="dede_pages">
+					<!-- 
+					items:×Ü¼ÇÂ¼Êý£¬pager±êÇ©ÕýÊÇ¸ù¾ÝÕâ¸öÖµÀ´¼ÆËã·ÖÒ³²ÎÊýµÄ 
+                    maxPageItems:Ã¿Ò³ÏÔÊ¾µÄÐÐÊý£¬Ä¬ÈÏÎª10 
+                    maxIndexPages:ÔÚÑ­»·Êä³öÒ³ÂëµÄÊ±ºò£¬×î´óÊä³ö¶àÉÙ¸öÒ³Âë£¬Ä¬ÈÏÊÇ10  -->
+				          <pg:pager url="pageNews.do"
+				             items="${pageNews.total }" maxPageItems="${pageSize }" maxIndexPages="10" 
+				             export="currentPageNumber=pageNumber">  
+					            <!-- Ê×Ò³ -->  
+					            <pg:first>  
+					                <!-- Éú³ÉÁ´½Ó -->  
+					                <a href="${pageUrl }">Ê×Ò³</a>  
+					      
+					            </pg:first>  
+					            <pg:prev>  
+					                <a href="${pageUrl }">Ç°Ò»Ò³</a>  
+					            </pg:prev>  
+					            <pg:pages>  
+					                <c:choose>  
+					                    <c:when test="${currentPageNumber eq pageNumber }">  
+					                        <strong><font color="red">${pageNumber }</font></strong>
+					                    </c:when>  
+					                    <c:otherwise>  
+					                        <a href="${pageUrl }">${pageNumber }</a>  
+					                    </c:otherwise>  
+					                </c:choose>  
+					            </pg:pages>  
+					            <pg:next>  
+					                <a href="${pageUrl }">ºóÒ»Ò³</a>  
+					            </pg:next>  
+					            <pg:last>  
+					                <a href="${pageUrl }">Î²Ò³</a>  
+					            </pg:last>  
+					        </pg:pager>
+					</div>
+			</td>
+		</tr>
+	</table>
+	<!-- /right -->
+</BODY>
+</HTML>

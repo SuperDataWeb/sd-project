@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.wodi.sdweb.dao.SpNewsMapper;
 import com.wodi.sdweb.model.SpNews;
 import com.wodi.sdweb.service.SpNewsService;
+import com.wodi.sdweb.utils.PageModel;
 
 @Service(value="spNewsService")
 public class SpNewsServiceImpl implements SpNewsService {
@@ -29,10 +30,15 @@ public class SpNewsServiceImpl implements SpNewsService {
 	}
 
 	@Override
-	public List<SpNews> pageSelect(int startIndex, int pageSize)
+	public PageModel<SpNews> pageSelect(int startIndex, int pageSize)
 			throws SQLException {
 		// TODO Auto-generated method stub
-		return spNewsDao.pageSelect(startIndex, pageSize);
+		PageModel<SpNews> pageModel = new PageModel<SpNews>();
+		SpNews news = new SpNews();
+		pageModel.setTotal(spNewsDao.selectCount(news));
+		List<SpNews> sps = spNewsDao.pageSelect(startIndex, pageSize);
+		pageModel.setDatas(sps);
+		return pageModel;
 	}
 
 	@Override
@@ -42,9 +48,9 @@ public class SpNewsServiceImpl implements SpNewsService {
 	}
 	
 	@Override
-	public List<SpNews> selectTopList(Long pageSize) {
+	public List<SpNews> selectTopList(int pageSize) throws SQLException {
 		// TODO Auto-generated method stub
-		return spNewsDao.selectTopList(pageSize);
+		return spNewsDao.pageSelect(0, pageSize);
 	}
 
 	@Override

@@ -13,6 +13,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 import com.wodi.sdweb.model.SpNews;
+import com.wodi.sdweb.utils.PageModel;
 
 /**
  * <p>
@@ -43,7 +44,7 @@ public interface SpNewsService {
 	 * @return
 	 */
 	//TODO
-	public List<SpNews> pageSelect(int startIndex, int pageSize) throws SQLException ;
+	public PageModel<SpNews> pageSelect(int startIndex, int pageSize) throws SQLException ;
 
 	/**
 	 * 查询所有新闻
@@ -55,7 +56,7 @@ public interface SpNewsService {
 	 * 查询最新新闻
 	 * @return
 	 */
-	public List<SpNews> selectTopList(Long pageSize);
+	public List<SpNews> selectTopList(int pageSize) throws SQLException;
 	
 	/**
 	 * 更新新闻

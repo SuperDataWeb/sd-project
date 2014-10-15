@@ -20,7 +20,6 @@
 	</insert>
 	
 	<select id="pageSelect" resultMap="SpNewsMap" parameterType="map">    
-        <![CDATA[    
         select  id,                
            news_title ,          
            news_content ,         
@@ -28,8 +27,23 @@
            status,           
            created,    
            updated
-        FROM sp_news  limit  #{startIndex}, #{pageSize}
-         ]]>     
+        FROM sp_news 
+        <where>
+        	1=1
+        	<if test="newsTitle != null">
+	    		and t.news_title = #{newsTitle}
+	    	</if>
+	    	<if test="newsContent != null">
+	    		and t.newsContent = #{newsContent}
+	    	</if>
+	    	<if test="newsAuthor != null">
+	    		and t.news_author = #{newsAuthor}
+	    	</if>
+	    	<if test="status != null">
+	    		and t.status = #{status}
+	    	</if>
+        </where>
+        ORDER BY updated desc limit  #{startIndex}, #{pageSize}
     </select>
     
     <select id="selectById" resultMap="SpNewsMap">
@@ -40,9 +54,30 @@
     	select * from sp_news where status = 0
     </select>
     
+    <select id="selectCount" parameterType="SpNews" resultType="int">
+    	select count(1) from sp_news t
+    	<where>
+    		1 = 1
+    		<if test="newsTitle != null">
+	    		and t.news_title = #{newsTitle}
+	    	</if>
+	    	<if test="newsContent != null">
+	    		and t.newsContent = #{newsContent}
+	    	</if>
+	    	<if test="newsAuthor != null">
+	    		and t.news_author = #{newsAuthor}
+	    	</if>
+	    	<if test="status != null">
+	    		and t.status = #{status}
+	    	</if>
+    	</where>
+    </select>
+    
+    <!-- 
     <select id="selectTopList" resultMap="SpNewsMap">
     	select a.* from (select t.* from sp_news t order by updated) a limit #{pageSize}
     </select>
+     -->
     
     <update id="update" parameterType="SpNews">
     	update sp_news t set t.updated = now()
