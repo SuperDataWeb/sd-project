@@ -35,6 +35,37 @@ public class ServicesController {
 		return model;
 	}
 	
+	@RequestMapping("/chanPinPeiXun.do")
+	public ModelAndView chanPinPeiXun() {
+		ModelAndView model =  new ModelAndView("CustomerService/chanpinpeixun");
+		return model;
+	}
+	@RequestMapping("/chanPinXuanXing.do")
+	public ModelAndView chanPinXuanXing() {
+		ModelAndView model =  new ModelAndView("CustomerService/chanpinxuanxing");
+		return model;
+	}
+	@RequestMapping("/dingZhiJieJueFangAn.do")
+	public ModelAndView dingZhiJieJueFangAn() {
+		ModelAndView model =  new ModelAndView("CustomerService/dingzhijiejuefangan");
+		return model;
+	}
+	@RequestMapping("/shengJiFuWu.do")
+	public ModelAndView shengJiFuWu() {
+		ModelAndView model =  new ModelAndView("CustomerService/shengjifuwu");
+		return model;
+	}
+	@RequestMapping("/xiangMuShiShi.do")
+	public ModelAndView xiangMuShiShi() {
+		ModelAndView model =  new ModelAndView("CustomerService/xiangmushishi");
+		return model;
+	}
+	@RequestMapping("/shouHouFuWu.do")
+	public ModelAndView shouHouFuWu() {
+		ModelAndView model =  new ModelAndView("CustomerService/shouhoufuwu");
+		return model;
+	}
+	
 	@RequestMapping("{serviceType}.do")
 	public ModelAndView servicesContent(@PathVariable String serviceType) {
 		return new ModelAndView("Services/" + serviceType);

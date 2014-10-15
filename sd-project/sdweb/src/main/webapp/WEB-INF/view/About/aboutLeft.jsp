@@ -7,7 +7,7 @@ message = request("message")
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
-<title>中小企业管理_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
+<title>速达软件代理,花都速达软件,白云速达软件_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <link href="suda/templets/new/css/index.css" rel="stylesheet"
@@ -72,43 +72,77 @@ message = request("message")
 		class="bk">
 		<tr>
 			<td height="23" colspan="2" valign="middle" style="padding-top: 8px"><font
-				color="#006600"> <img src="suda/templets/new/images/dg.jpg" width="11" height="11" />&nbsp;<strong></strong></font><br /></td>
+				color="#006600"> <img
+					src="suda/templets/new/images/dg.jpg"
+					width="11" height="11" />&nbsp;<strong></strong></font><br /></td>
 		</tr>
+
+
 		<tr>
-			<td width="35" height="23" align="right" valign="middle"><img src="suda/templets/new/images/left_01.jpg"
+			<td width="35" height="23" align="right" valign="middle"><img
+				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;<a href="customerService.do" >售前咨询</a></td>
+			<td width="185" align="left" valign="middle">&nbsp;<a
+				href="about.do" >公司简介</a></td>
 		</tr>
+
 		<tr>
-			<td width="35" height="23" align="right" valign="middle"><img src="suda/templets/new/images/left_01.jpg"
+			<td width="35" height="23" align="right" valign="middle"><img
+				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;<a href="chanPinXuanXing.do">产品选型</a></td>
+			<td width="185" align="left" valign="middle">&nbsp;<a
+				href="honor.do">荣誉资质</a></td>
 		</tr>
+
 		<tr>
-			<td width="35" height="23" align="right" valign="middle"><img src="suda/templets/new/images/left_01.jpg"
+			<td width="35" height="23" align="right" valign="middle"><img
+				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;<a href="dingZhiJieJueFangAn.do">定制解决方案</a></td>
+			<td width="185" align="left" valign="middle">&nbsp;<a
+				href="culture.do">企业文化</a></td>
 		</tr>
+
 		<tr>
-			<td width="35" height="23" align="right" valign="middle"><img src="suda/templets/new/images/left_01.jpg"
+			<td width="35" height="23" align="right" valign="middle"><img
+				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;<a href="xiangMuShiShi.do">项目实施</a></td>
+			<td width="185" align="left" valign="middle">&nbsp;<a
+				href="../../xinwenzhongxin/sudaxinwen/index.htm">速达新闻</a></td>
 		</tr>
+
 		<tr>
-			<td width="35" height="23" align="right" valign="middle"><img src="suda/templets/new/images/left_01.jpg"
+			<td width="35" height="23" align="right" valign="middle"><img
+				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;<a href="shouHouFuWu.do">售后服务</a></td>
+			<td width="185" align="left" valign="middle">&nbsp;<a
+				href="../../xinwenzhongxin/xingyezixun/index.htm">行业资讯</a></td>
 		</tr>
+
 		<tr>
-			<td width="35" height="23" align="right" valign="middle"><img src="suda/templets/new/images/left_01.jpg"
+			<td width="35" height="23" align="right" valign="middle"><img
+				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;<a href="shengJiFuWu.do">升级服务</a></td>
+			<td width="185" align="left" valign="middle">&nbsp;<a
+				href="../../xinwenzhongxin/tongzhigonggao/index.htm">通知公告</a></td>
 		</tr>
+
 		<tr>
-			<td width="35" height="23" align="right" valign="middle"><img src="suda/templets/new/images/left_01.jpg"
+			<td width="35" height="23" align="right" valign="middle"><img
+				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;<a href="chanPinPeiXun.do">产品培训</a></td>
+			<td width="185" align="left" valign="middle">&nbsp;<a
+				href="jobs.do">人才招聘</a></td>
 		</tr>
+
+		<tr>
+			<td width="35" height="23" align="right" valign="middle"><img
+				src="suda/templets/new/images/left_01.jpg"
+				width="6" height="12" /></td>
+			<td width="185" align="left" valign="middle">&nbsp;<a
+				href="contact.do">联系我们</a></td>
+		</tr>
+
+
 		<tr>
 			<td height="23" align="right" valign="middle">&nbsp;</td>
 			<td valign="middle">&nbsp;<br /></td>

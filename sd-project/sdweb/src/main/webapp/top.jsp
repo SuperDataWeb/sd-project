@@ -153,7 +153,7 @@ message = request("message")
                 --></li>
 
 											<li class="menu_style_1" id="MainMenuItem"
-												name="MainMenuItem"><a href="/suda/html/about/"
+												name="MainMenuItem"><a href="about.do"
 												class="menu_1" id="Menu_21" target="_self" rel="dropmenu1">关于我们</a>
 												<!--
                 <ul id="nav" style="text-align:left;">

@@ -6,20 +6,38 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/About")
 public class AboutController {
-	
-	@RequestMapping("frame.do")
-	public ModelAndView aboutFrame(String param) {
-		ModelAndView model = new ModelAndView("About/about_frame");
-		model.addObject("target", param);
-		return model;
-	}
 	
 	@RequestMapping("{aboutType}.do")
 	public ModelAndView aboutContent(@PathVariable String aboutType) {
 		
 		return new ModelAndView("About/" + aboutType);
+	}
+	
+	@RequestMapping("about.do")
+	public ModelAndView about() {
+		ModelAndView model = new ModelAndView("About/info");
+		return model;
+	}
+	@RequestMapping("contact.do")
+	public ModelAndView contact() {
+		ModelAndView model = new ModelAndView("About/contact");
+		return model;
+	}
+	@RequestMapping("culture.do")
+	public ModelAndView culture() {
+		ModelAndView model = new ModelAndView("About/culture");
+		return model;
+	}
+	@RequestMapping("honor.do")
+	public ModelAndView honor() {
+		ModelAndView model = new ModelAndView("About/honor");
+		return model;
+	}
+	@RequestMapping("jobs.do")
+	public ModelAndView jobs() {
+		ModelAndView model = new ModelAndView("About/jobs");
+		return model;
 	}
 	
 //	@RequestMapping("product/m/{productIndex}.do")
