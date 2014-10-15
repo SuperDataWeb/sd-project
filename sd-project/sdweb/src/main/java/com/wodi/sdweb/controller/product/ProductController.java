@@ -85,7 +85,7 @@ public class ProductController {
 			startIndex = 0;
 		}
 	    int ps = Integer.parseInt(pageSize);
-		PageModel pageModel = spProductService.pageSelect(startIndex, ps);
+		PageModel<SpProduct> pageModel = spProductService.pageSelect(startIndex, ps);
 		model.addObject("pageProduct", pageModel);
 		model.addObject("pageSize", pageSize);
 		return model;

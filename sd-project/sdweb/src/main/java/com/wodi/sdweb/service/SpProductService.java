@@ -50,6 +50,6 @@ public interface SpProductService {
 	 * @param pageSize
 	 * @return
 	 */
-	public PageModel pageSelect(int startIndex, int pageSize);
+	public PageModel<SpProduct> pageSelect(int startIndex, int pageSize);
 
 }

@@ -11,8 +11,6 @@ package com.wodi.sdweb.utils;
 
 import java.util.List;
 
-import com.wodi.sdweb.model.SpProduct;
-
 /**
  * <p>
  * 分页模型
@@ -21,7 +19,7 @@ import com.wodi.sdweb.model.SpProduct;
  * @author tangyong
  * @version $Revision: 1.1 $ $Date: 2014年10月8日 下午5:30:19 $
  */
-public class PageModel {
+public class PageModel<T> {
 	/**
 	 *  总记录数
 	 */
@@ -30,13 +28,13 @@ public class PageModel {
 	/**
 	 *  当前页的记录集
 	 */
-	private List<SpProduct> datas;
+	private List<T> datas;
 
-	public List<SpProduct> getDatas() {
+	public List<T> getDatas() {
 		return datas;
 	}
 
-	public void setDatas(List<SpProduct> datas) {
+	public void setDatas(List<T> datas) {
 		this.datas = datas;
 	}
 

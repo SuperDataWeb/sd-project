@@ -53,8 +53,8 @@ public class SpProductServiceImpl implements SpProductService {
 	}
 
 	@Override
-	public PageModel pageSelect(int startIndex, int pageSize) {
-		PageModel pageModel = new PageModel();
+	public PageModel<SpProduct> pageSelect(int startIndex, int pageSize) {
+		PageModel<SpProduct> pageModel = new PageModel<SpProduct>();
 		pageModel.setTotal(spProductDao.selectCount());
 		List<SpProduct> sps = spProductDao.pageSelect(startIndex, pageSize);
 		pageModel.setDatas(sps);
