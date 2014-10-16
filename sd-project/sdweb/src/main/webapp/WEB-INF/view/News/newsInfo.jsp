@@ -1,93 +1,118 @@
-<%@ page language="java" pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" pageEncoding="GBK"%>
+<%@ include file="/WEB-INF/view/include/commonjslib.jsp" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0157)http://chat10.live800.com/live800/chatClient/chatbox.jsp -->
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<META content="text/html; charset=gb2312" http-equiv=Content-Type>
-<TITLE>å…¬å‘Šè¯¦ç»†å†…å®¹</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>ÖÐÐ¡ÆóÒµ¹ÜÀí_ËÙ´ïÈí¼þ(¹ãÖÝ)Ö±ÏúÖÐÐÄ-¹Ù·½ÊÚÈ¨,×¨Òµ·þÎñ£¡ËÙ´ïÈí¼þ,ËÙ´ï3000,ËÙ´ï¹ÙÍø,ËÙ´ïÈí¼þ¹ÙÍø,¹ãÖÝËÙ´ïÈí¼þ,ËÙ´ï5000,ËÙ´ï7000</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="suda/templets/new/css/index.css" rel="stylesheet" type="text/css">
+<link href="suda/templets/new/css/style.css" rel="stylesheet" type="text/css">
+<link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
+<script src="http://lxbjs.baidu.com/lxb.js?sid=1272542" async="" charset="utf-8" type="text/javascript"></script>
+<script	src="http://qiao.baidu.com/site/886/4e9275315db365e8bfde1fe0e12128f9/b.js" async="" charset="utf-8" type="text/javascript"></script>
+<script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
+<script language="javascript" src="suda/templets/new/js/common.js"></script>
+<script src="http://qiao.baidu.com/v3/asset/js/bw.js?v=20140515" charset="UTF-8" type="text/javascript"></script>
+<link charset="utf-8" type="text/css" href="http://lxbjs.baidu.com/float/asset/1001.css" rel="stylesheet">
+<link href="http://qiao.baidu.com/v3/asset/css/m-front-icon.css?v=20140626"	type="text/css" rel="stylesheet">
+<script charset="UTF-8"	src="http://r.qiao.baidu.com/Enter.php?callback=BDBridge.rcvbase.__handleEnter&amp;siteid=1272542&amp;bid=&amp;referrer=&amp;word=&amp;coding=&amp;bdclkid=&amp;title=%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86_%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6(%E5%B9%BF%E5%B7%9E)%E7%9B%B4%E9%94%80%E4%B8%AD%E5%BF%83-%E5%AE%98%E6%96%B9%E6%8E%88%E6%9D%83%2C%E4%B8%93%E4%B8%9A%E6%9C%8D%E5%8A%A1%EF%BC%81%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6%2C%E9%80%9F%E8%BE%BE3000%2C%E9%80%9F%E8%BE%BE%E5%AE%98%E7%BD%91%2C%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6%E5%AE%98%E7%BD%91%2C%E5%B9%BF%E5%B7%9E%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6%2C%E9%80%9F%E8%BE%BE5000%2C%E9%80%9F%E8%BE%BE7000&amp;lv=0&amp;lc=0&amp;ls=&amp;lvp=0&amp;vis_type=3&amp;ftime=0&amp;fs=&amp;ltime=0&amp;lang=zh-CN&amp;rsl=1920*1080&amp;tz=UTC%2B9%3A0&amp;cbit=24&amp;t=1412950588703"
+	id="BDBridgeSendData" language="javascript" type="text/javascript"></script>
+<link href="http://qiao.baidu.com/v3/asset/css/m-front-mess.css?v=20130723"	type="text/css" rel="stylesheet">
+<link href="http://qiao.baidu.com/v3/asset/css/m-front-invite.css?v=20130705" type="text/css" rel="stylesheet">
+<style>
+@import "http://qiao.baidu.com/v3/asset/css/m-webim-lite.css?v=20130705"
+	;
+</style>
+<script charset="UTF-8"
+	src="http://r.qiao.baidu.com/Refresh.php?callback=BDBridge.rcvbase.__handleRefresh&amp;bid=4ea016ca5ce9420ac90e8dbc&amp;siteid=1272542&amp;t=1412950621171"
+	id="BDBridgeReport" language="javascript" type="text/javascript"></script>
 </head>
-
-<body>
-<DIV class=news>
-<P class=news_top></P>
-<UL>
-	<LI>
-	<table width="98%" border="0" align="right" cellpadding="0"
+<BODY type="leaveMessage">
+	<table width="100%" border="0" align="center" cellpadding="0"
 		cellspacing="0">
 		<tr>
-			<td width="143" height="22">
-				<img alt="" src="<%= request.getContextPath()%>/images/index_files/title/ind_info.jpg"/>
-			</td>
-			<td width="76%" height="29"></td>
-			<td width="38" height="29" valign="middle">
-				<img alt="" src="<%= request.getContextPath()%>/images/index_files/title/ind_more.jpg"/>
+			<td height="30" valign="middle" style="padding-top: 3px;">
+				¨†Äúµ±Ç°µÄÎ»ÖÃ£º<a href="../../index.htm">Ê×Ò³</a> > <a href="index.htm">Í¨Öª¹«¸æ</a> >
 			</td>
 		</tr>
 	</table>
-	<table width="98%" border="0" align="right" cellpadding="0"
+	<table width="97%" border="0" align="center" cellpadding="0"
 		cellspacing="0">
-	<c:forEach var="item" items="${topList}">
 		<tr>
-			<td align="right" width="20" height="22"></td>
-			<td width="76%" height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">${item.newsTitle}</a></td>
-			<td width="38" height="29" valign="middle"><a
-				href="#" onclick="loadServicesList('sqgm')">${item.subDateStr}</a></td>
+			<td height="1" bgcolor="#CCCCCC"></td>
 		</tr>
-	</c:forEach>
+	</table>
 	<!-- 
+	<table width="100%" border="0" align="center" cellpadding="0"
+		cellspacing="0">
 		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾3000å•†ä¸šè¯•ç”¨ç‰ˆ</a><br>
-			</td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
+			<td width="100%" align="center" style="padding-top: 6px;"><span
+				style="padding-top: 6px; padding-bottom: 8px;"> <img src="suda/templets/new/images/banner/12.jpg">
+			</span></td>
 		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾3000å·¥ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾5000å·¥ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾5000å•†ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾7000å·¥ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾7000å•†ä¸šè¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾V3å…¨ç³»åˆ—è¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-		<tr>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">é€Ÿè¾¾V5å…¨ç³»åˆ—è¯•ç”¨ç‰ˆ</a></td>
-			<td height="29"><a
-				href="#" onclick="loadServicesList('sqgm')">ç«‹å³ä¸‹è½½</a></td>
-		</tr>
-	 -->
 	</table>
-	</LI>
-</UL>
-</DIV>
-</body>
+	 -->
+	<table width="100%" border="0" align="center" cellpadding="15"
+		cellspacing="0">
+		<tr>
+			<td width="729" height="500" valign="top" class="hg">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td width="150">
+								<span class="title">${news.title}</span>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		            	<tbody><tr>
+		                  <td height="26" align="center" bgcolor="#E7F1E8">×÷Õß£º${news.newsAuthor}&nbsp; &nbsp;À´Ô´£º¹ãÖÝËÙ´ïÈí¼þ &nbsp; &nbsp;Ê±¼ä£º${news.fullDateStr}&nbsp; &nbsp;ÔÄ¶Á£º231 ´Î</td>
+		                </tr></tbody>
+		            </table>
+		            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+			            <tbody><tr>
+                  			<td height="10">&nbsp;</td>
+                		</tr>
+                		<tr>
+                  			<td><!--ÄÚÈÝµ÷ÓÃ-->
+                    		<p class="hg"></p>
+                    		${news.content}
+                    		<br><br>     
+							<div id="ckepop">
+								<span class="jiathis_txt">·ÖÏíµ½£º</span>
+								<a title="·ÖÏíµ½QQ¿Õ¼ä" class="jiathis_button_qzone"><span class="jiathis_txt jiathis_separator jtico jtico_qzone">QQ¿Õ¼ä</span></a>
+								<a title="·ÖÏíµ½ÐÂÀËÎ¢²©" class="jiathis_button_tsina"><span class="jiathis_txt jiathis_separator jtico jtico_tsina">ÐÂÀËÎ¢²©</span></a>
+								<a title="·ÖÏíµ½ÈËÈËÍø" class="jiathis_button_renren"><span class="jiathis_txt jiathis_separator jtico jtico_renren">ÈËÈËÍø</span></a>
+								<a title="·ÖÏíµ½¿ªÐÄÍø" class="jiathis_button_kaixin001"><span class="jiathis_txt jiathis_separator jtico jtico_kaixin001">¿ªÐÄÍø</span></a>
+								<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">¸ü¶à</a>
+								<a class="jiathis_counter_style"><span title="ÀÛ¼Æ·ÖÏí0´Î" id="jiathis_counter_38" class="jiathis_button_expanded jiathis_counter jiathis_bubble_style">0</span></a>
+							</div>
+							<script type="text/javascript" src="http://v2.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+	                    	<br> <br>
+							<p class="hg"> <strong>ËÙ´ïÈí¼þ£¨¹ãÖÝ£©ÏúÊÛ·þÎñÖÐÐÄ</strong><br>
+								  µØÖ·£º¹ãÖÝÊÐ·¬Ø®Çø´óÊ¯588ºÅ½ðâùÉÌÒµ´óÏÃ301ÊÒ<br>
+								  ÏúÊÛÈÈÏß£º400-034-3668<br>
+								  ·þÎñÈÈÏß£º020-85279086<br>
+								  Î¬»¤×¨Ïß£º020-31001310<br>
+								  VIP ×¨Ïß£º18620607677¡¡18127974810
+								</p><table width="300" border="0" cellpadding="0" cellspacing="0">
+								  <tbody><tr>
+								    <td height="22" width="51"><a href="tencent://message/?uin=1601331518&amp;Site=ËÙ´ïÈí¼þ×ÉÑ¯&amp;Menu=yes"><img src="/suda/templets/new/images/pa.gif" style="border:0" height="16" width="51"></a></td>
+								    <td valign="bottom" width="80">£º<a href="tencent://message/?uin=1601331518&amp;Site=ËÙ´ïÈí¼þ×ÉÑ¯&amp;Menu=yes">1601331518</a></td>
+								    <td width="51"><a href="tencent://message/?uin=4000343668&amp;Site=ËÙ´ïÈí¼þ×ÉÑ¯&amp;Menu=yes"><img src="/suda/templets/new/images/pa.gif" style="border:0" height="16" width="51"></a></td>
+								    <td valign="bottom">£º<a href="tencent://message/?uin=4000343668&amp;Site=ËÙ´ïÈí¼þ×ÉÑ¯&amp;Menu=yes">4000343668</a></td>
+								  </tr>
+								</tbody></table>
+								<p></p>
+							<p class="pageLink" align="center"></p></td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-- /right -->
+</BODY>
+</HTML>
