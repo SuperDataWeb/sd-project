@@ -6,6 +6,7 @@
 	<resultMap id="spProductMap" type="SpProduct">
 		<result property="id" column="id" />
 		<result property="type" column="type" />
+		<result property="series" column="series" />
 		<result property="productName" column="product_name" />
 		<result property="description" column="description" />
 		<result property="presentation" column="presentation" />
@@ -16,14 +17,14 @@
 	</resultMap>
 
 	<sql id="productFields">
-		id, type, product_name, description, presentation, img,
+		id, type, series, product_name, description, presentation, img,
 		status, created,
 		updated
 	</sql>
 
 	<insert id="insert" parameterType="SpProduct">
-			<![CDATA[ INSERT INTO SP_PRODUCT( type, product_name, description, presentation, img, status, created, updated
-			) VALUES( #{type}, #{productName}, #{description}, #{presentation}, #{img}, #{status}, now(), now() )
+			<![CDATA[ INSERT INTO SP_PRODUCT( type, series, product_name, description, presentation, img, status, created, updated
+			) VALUES( #{type}, #{series}, #{productName}, #{description}, #{presentation}, #{img}, #{status}, now(), now() )
 				]]>
 	</insert>
 
@@ -40,6 +41,14 @@
 		<include refid="productFields" />
          <![CDATA[ 
              FROM sp_product where type = #{typeId}
+         ]]>
+	</select>
+	
+	<select id="selectBySeries" resultMap="spProductMap">
+		select
+		<include refid="productFields" />
+         <![CDATA[ 
+             FROM sp_product where series = #{seriesId}
          ]]>
 	</select>
 

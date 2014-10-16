@@ -145,7 +145,7 @@ message = request("message")
 
 											<li class="menu_style_1" id="MainMenuItem"
 												name="MainMenuItem"><a
-												href="/suda/html/xiazaizhongxin/" class="menu_1"
+												href="pageProductDownload.do" class="menu_1"
 												id="Menu_21" target="_self" rel="dropmenu36">下载中心</a> <!--
                 <ul id="nav" style="text-align:left;">
                 	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>

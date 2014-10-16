@@ -12,6 +12,7 @@ public class SpProduct {
 
 	private Long id;
 	private Long type;
+	private Long series;
 	private String productName;
 	private String description;
 	private String presentation;
@@ -20,6 +21,7 @@ public class SpProduct {
 	private Date created;
 	private Date updated;
 	private SpProductType productType;
+	private SpProductSeries productSeries;
 
 	public Long getId() {
 		return id;
@@ -99,6 +101,22 @@ public class SpProduct {
 
 	public void setProductType(SpProductType productType) {
 		this.productType = productType;
+	}
+
+	public Long getSeries() {
+		return series;
+	}
+
+	public void setSeries(Long series) {
+		this.series = series;
+	}
+
+	public SpProductSeries getProductSeries() {
+		return productSeries;
+	}
+
+	public void setProductSeries(SpProductSeries productSeries) {
+		this.productSeries = productSeries;
 	}
 
 	@Override

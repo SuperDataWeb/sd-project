@@ -9,7 +9,6 @@
  */
 package com.wodi.sdweb.dao;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
@@ -72,25 +71,11 @@ public interface SpProductMapper {
 	 * @return
 	 */
 	public List<SpProduct> selectByType(@Param("typeId") Long typeId);
-//	
-//	/**
-//	 * 分页查询 product
-//	 * @param product
-//	 * @return
-//	 */
-//	Pagination<SpProduct> selectPagination(SpProduct product);
-//	
-//	/**
-//	 * 分页查询 param
-//	 * @param param
-//	 * @return
-//	 */
-//	Pagination<SpProduct> selectPagination(Map<String, Object> param);
-//	
-//	/**
-//	 * 总数查询
-//	 * @param param
-//	 * @return
-//	 */
-//	public Integer count(Map<String, Object> param);
+	
+	/**
+	 * 根据产品系列Id查询产品
+	 * @param seriesId
+	 * @return
+	 */
+	public List<SpProduct> selectBySeries(@Param("seriesId") Long seriesId);
 }

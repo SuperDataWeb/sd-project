@@ -11,7 +11,9 @@
     <typeAliases>
         <typeAlias alias="functionModule" type="com.wodi.sdweb.model.FunctionModule" />
         <typeAlias alias="SpProduct" type="com.wodi.sdweb.model.SpProduct" />
+        <typeAlias alias="SpProductDownload" type="com.wodi.sdweb.model.SpProductDownload" />
         <typeAlias alias="SpProductType" type="com.wodi.sdweb.model.SpProductType" />
+        <typeAlias alias="SpProductSeries" type="com.wodi.sdweb.model.SpProductSeries" />
         <typeAlias alias="ModuleLayout" type="com.wodi.sdweb.model.ModuleLayout" />
         <typeAlias alias="SpLayout" type="com.wodi.sdweb.model.SpLayout" />
         <typeAlias alias="SpNews" type="com.wodi.sdweb.model.SpNews" />

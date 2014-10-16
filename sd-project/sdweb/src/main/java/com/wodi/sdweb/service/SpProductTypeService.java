@@ -37,7 +37,7 @@ public interface SpProductTypeService {
 	
 	
 	/**
-	 * 根据产品Id查询产品类型，并关联查询出产品列表
+	 * 根据产品类型Id查询产品类型，并关联查询出产品列表
 	 * @return
 	 */
 	public SpProductType selectByTypeId(Long typeId);

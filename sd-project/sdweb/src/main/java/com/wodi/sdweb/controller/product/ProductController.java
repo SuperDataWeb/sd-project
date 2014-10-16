@@ -1,5 +1,7 @@
 package com.wodi.sdweb.controller.product;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +12,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.wodi.sdweb.model.SpProduct;
+import com.wodi.sdweb.model.SpProductDownload;
+import com.wodi.sdweb.model.SpProductSeries;
 import com.wodi.sdweb.model.SpProductType;
+import com.wodi.sdweb.service.SpProductDownloadService;
+import com.wodi.sdweb.service.SpProductSeriesService;
 import com.wodi.sdweb.service.SpProductService;
 import com.wodi.sdweb.service.SpProductTypeService;
 import com.wodi.sdweb.utils.PageModel;
@@ -27,6 +33,12 @@ public class ProductController {
 	
 	@Autowired
 	private SpProductService spProductService;
+	
+	@Autowired
+	private SpProductDownloadService spProductDownloadService;
+	
+	@Autowired
+	private SpProductSeriesService spProductSeriesService;
 	
 	@RequestMapping("product_{productType}/frame.do")
 	public ModelAndView productFrame(@PathVariable String productType, String param) {
@@ -90,4 +102,48 @@ public class ProductController {
 		model.addObject("pageSize", pageSize);
 		return model;
 	}
+	
+	@RequestMapping("pageProductDownload.do")
+	public ModelAndView pageProductDownload(HttpServletRequest request) {
+		ModelAndView model = new ModelAndView("DownloadCenter/downloadCenter");
+		//查询出所有的产品系列
+		List<SpProductSeries> series = spProductSeriesService.selectAll();
+		model.addObject("allSeries", series);
+		int startIndex = 0;
+		int pageSize = 7;
+		try {
+			startIndex  = Integer.parseInt(request.getParameter("pager.offset"));
+			pageSize = Integer.parseInt(request.getParameter("pager.pageSiz")); 
+		} catch (Exception e) {
+			startIndex = 0;
+		}
+		PageModel<SpProductDownload> pageModel = spProductDownloadService.pageSelect(startIndex, pageSize);
+		model.addObject("pageProductDownload", pageModel);
+		model.addObject("pageSize", pageSize);
+		return model;
+	}
+	
+	@RequestMapping("pageProductDownloadBySeries.do")
+	public ModelAndView pageProductDownloadBySeries(HttpServletRequest request, String seriesId) {
+		ModelAndView model = new ModelAndView("DownloadCenter/downloadSeriesCenter");
+		//查询出所有的产品系列
+		List<SpProductSeries> series = spProductSeriesService.selectAll();
+		model.addObject("allSeries", series);
+		int startIndex = 0;
+		int pageSize = 7;
+		try {
+			startIndex  = Integer.parseInt(request.getParameter("pager.offset"));
+			pageSize = Integer.parseInt(request.getParameter("pager.pageSiz")); 
+		} catch (Exception e) {
+			startIndex = 0;
+		}
+		Long sid = Long.parseLong(seriesId);
+		SpProductSeries sss = spProductSeriesService.selectBySeriesId(sid);
+		PageModel<SpProductDownload> pageModel = spProductDownloadService.pageSelect(startIndex, pageSize, sid);
+		model.addObject("pageProductDownload", pageModel);
+		model.addObject("productSeries", sss);
+		model.addObject("pageSize", pageSize);
+		return model;
+	}
+	
 }

@@ -50,7 +50,7 @@ public interface SpProductTypeMapper {
 	public List<SpProductType> selectAll();
 	
 	/**
-	 * 根据产品Id查询产品类型
+	 * 根据产品类型Id查询产品类型
 	 * @param TypeId
 	 * @return
 	 */

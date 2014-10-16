@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.wodi.sdweb.dao.SpProductSeriesMapper">
+
+	<resultMap id="spProductSeriesMap" type="SpProductSeries">
+		<result property="id" column="id" />
+		<result property=seriesName column="series_name" />
+		<result property="description" column="description" />
+		<result property="img" column="img" />
+		<result property="status" column="status" />
+		<result property="created" column="created" />
+		<result property="updated" column="updated" />
+	</resultMap>
+
+	<sql id="productSeriesFields">
+		id, series_name, description, img, status, created, updated
+	</sql>
+
+	<insert id="insert" parameterType="SpProductSeries">
+			<![CDATA[ INSERT INTO SP_PRODUCT_SERIES(series_name, description, img, status, created, updated
+			) VALUES( #{seriesName}, #{description}, #{img}, #{status}, now(), now() )
+				]]>
+	</insert>
+	<select id="pageSelect" resultMap="spProductSeriesMap"
+		parameterType="map">    
+        select         
+          <include refid="productSeriesFields"/>
+        <![CDATA[    
+        FROM SP_PRODUCT_SERIES  limit  #{startIndex}, #{pageSize}
+         ]]>
+	</select>
+
+	<select id="selectAll" resultMap="spProductSeriesMap">    
+        select
+        <include refid="productSeriesFields"/>
+        <![CDATA[    
+        FROM SP_PRODUCT_SERIES
+         ]]>
+	</select>
+	
+	<select id="selectBySeriesId" resultMap="spProductSeriesMap">    
+        select
+        <include refid="productSeriesFields"/>
+        <![CDATA[    
+        FROM SP_PRODUCT_SERIES where id = #{seriesId}
+         ]]>
+	</select>
+
+</mapper>
