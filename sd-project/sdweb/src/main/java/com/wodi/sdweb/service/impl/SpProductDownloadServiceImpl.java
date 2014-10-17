@@ -57,4 +57,9 @@ public class SpProductDownloadServiceImpl implements SpProductDownloadService {
 		return spProductDownloadPage;
 	}
 
+	@Override
+	public SpProductDownload selectById(Long id) {
+		return spProductDownloadDao.selectById(id);
+	}
+
 }

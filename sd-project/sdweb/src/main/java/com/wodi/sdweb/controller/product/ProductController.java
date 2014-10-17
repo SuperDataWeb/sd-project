@@ -25,8 +25,11 @@ import com.wodi.sdweb.utils.PageModel;
 //@RequestMapping("/product")
 public class ProductController {
 	
-	@Value("${page.size}")
-	private String pageSize;
+	@Value("${product.page.size}")
+	private String productPageSize;
+	
+	@Value("${product.download.page.size}")
+	private String productDownloadPageSize;
 	
 	@Autowired
 	private SpProductTypeService spProductTypeService;
@@ -96,10 +99,10 @@ public class ProductController {
 		} catch (Exception e) {
 			startIndex = 0;
 		}
-	    int ps = Integer.parseInt(pageSize);
+	    int ps = Integer.parseInt(productPageSize);
 		PageModel<SpProduct> pageModel = spProductService.pageSelect(startIndex, ps);
 		model.addObject("pageProduct", pageModel);
-		model.addObject("pageSize", pageSize);
+		model.addObject("pageSize", productPageSize);
 		return model;
 	}
 	
@@ -110,16 +113,15 @@ public class ProductController {
 		List<SpProductSeries> series = spProductSeriesService.selectAll();
 		model.addObject("allSeries", series);
 		int startIndex = 0;
-		int pageSize = 7;
+		int pageSize = Integer.parseInt(productDownloadPageSize); 
 		try {
 			startIndex  = Integer.parseInt(request.getParameter("pager.offset"));
-			pageSize = Integer.parseInt(request.getParameter("pager.pageSiz")); 
 		} catch (Exception e) {
 			startIndex = 0;
 		}
 		PageModel<SpProductDownload> pageModel = spProductDownloadService.pageSelect(startIndex, pageSize);
 		model.addObject("pageProductDownload", pageModel);
-		model.addObject("pageSize", pageSize);
+		model.addObject("pageSize", productDownloadPageSize);
 		return model;
 	}
 	
@@ -130,10 +132,9 @@ public class ProductController {
 		List<SpProductSeries> series = spProductSeriesService.selectAll();
 		model.addObject("allSeries", series);
 		int startIndex = 0;
-		int pageSize = 7;
+		int pageSize = Integer.parseInt(productDownloadPageSize); 
 		try {
 			startIndex  = Integer.parseInt(request.getParameter("pager.offset"));
-			pageSize = Integer.parseInt(request.getParameter("pager.pageSiz")); 
 		} catch (Exception e) {
 			startIndex = 0;
 		}
@@ -142,8 +143,16 @@ public class ProductController {
 		PageModel<SpProductDownload> pageModel = spProductDownloadService.pageSelect(startIndex, pageSize, sid);
 		model.addObject("pageProductDownload", pageModel);
 		model.addObject("productSeries", sss);
-		model.addObject("pageSize", pageSize);
+		model.addObject("pageSize", productDownloadPageSize);
 		return model;
 	}
 	
+	@RequestMapping("download.do")
+	public ModelAndView download(String productDownloadId) {
+		ModelAndView model = new ModelAndView("DownloadCenter/downloadForm");
+		Long pdi = Long.parseLong(productDownloadId);
+		SpProductDownload spd = spProductDownloadService.selectById(pdi);
+		model.addObject("productDownload", spd);
+		return model;
+	}
 }

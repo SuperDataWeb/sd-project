@@ -5,7 +5,7 @@
 
 	<resultMap id="spProductSeriesMap" type="SpProductSeries">
 		<result property="id" column="id" />
-		<result property=seriesName column="series_name" />
+		<result property="seriesName" column="series_name" />
 		<result property="description" column="description" />
 		<result property="img" column="img" />
 		<result property="status" column="status" />

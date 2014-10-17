@@ -49,5 +49,13 @@ public interface SpProductDownloadService {
 	 * @return
 	 */
 	public PageModel<SpProductDownload> pageSelect(int startIndex, int pageSize, Long seriesId);
+	
+	
+	/**
+	 * 根据id查询产品下载
+	 *  @param id
+	 * @return
+	 */
+	public SpProductDownload selectById(Long id);
 
 }

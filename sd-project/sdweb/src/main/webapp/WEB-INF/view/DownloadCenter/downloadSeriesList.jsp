@@ -14,24 +14,8 @@ message = request("message")
 <link href="suda/templets/new/css/index.css" rel="stylesheet" type="text/css">
 <link href="suda/templets/new/css/style.css" rel="stylesheet" type="text/css">
 <link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
-<script src="http://lxbjs.baidu.com/lxb.js?sid=1272542" async="" charset="utf-8" type="text/javascript"></script>
-<script	src="http://qiao.baidu.com/site/886/4e9275315db365e8bfde1fe0e12128f9/b.js" async="" charset="utf-8" type="text/javascript"></script>
 <script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
-<script language="javascript" src="suda/templets/new/js/common.js"></script>
-<script src="http://qiao.baidu.com/v3/asset/js/bw.js?v=20140515" charset="UTF-8" type="text/javascript"></script>
-<link charset="utf-8" type="text/css" href="http://lxbjs.baidu.com/float/asset/1001.css" rel="stylesheet">
-<link href="http://qiao.baidu.com/v3/asset/css/m-front-icon.css?v=20140626"	type="text/css" rel="stylesheet">
-<script charset="UTF-8"	src="http://r.qiao.baidu.com/Enter.php?callback=BDBridge.rcvbase.__handleEnter&amp;siteid=1272542&amp;bid=&amp;referrer=&amp;word=&amp;coding=&amp;bdclkid=&amp;title=%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86_%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6(%E5%B9%BF%E5%B7%9E)%E7%9B%B4%E9%94%80%E4%B8%AD%E5%BF%83-%E5%AE%98%E6%96%B9%E6%8E%88%E6%9D%83%2C%E4%B8%93%E4%B8%9A%E6%9C%8D%E5%8A%A1%EF%BC%81%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6%2C%E9%80%9F%E8%BE%BE3000%2C%E9%80%9F%E8%BE%BE%E5%AE%98%E7%BD%91%2C%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6%E5%AE%98%E7%BD%91%2C%E5%B9%BF%E5%B7%9E%E9%80%9F%E8%BE%BE%E8%BD%AF%E4%BB%B6%2C%E9%80%9F%E8%BE%BE5000%2C%E9%80%9F%E8%BE%BE7000&amp;lv=0&amp;lc=0&amp;ls=&amp;lvp=0&amp;vis_type=3&amp;ftime=0&amp;fs=&amp;ltime=0&amp;lang=zh-CN&amp;rsl=1920*1080&amp;tz=UTC%2B9%3A0&amp;cbit=24&amp;t=1412950588703"
-	id="BDBridgeSendData" language="javascript" type="text/javascript"></script>
-<link href="http://qiao.baidu.com/v3/asset/css/m-front-mess.css?v=20130723"	type="text/css" rel="stylesheet">
-<link href="http://qiao.baidu.com/v3/asset/css/m-front-invite.css?v=20130705" type="text/css" rel="stylesheet">
-<style>
-@import "http://qiao.baidu.com/v3/asset/css/m-webim-lite.css?v=20130705"
-	;
-</style>
-<script charset="UTF-8"
-	src="http://r.qiao.baidu.com/Refresh.php?callback=BDBridge.rcvbase.__handleRefresh&amp;bid=4ea016ca5ce9420ac90e8dbc&amp;siteid=1272542&amp;t=1412950621171"
-	id="BDBridgeReport" language="javascript" type="text/javascript"></script>
+<script src="suda/templets/new/js/common.js" language="javascript"></script>
 </head>
 <BODY type="leaveMessage">
 	<table width="100%" border="0" align="center" cellpadding="0"
@@ -39,7 +23,8 @@ message = request("message")
 		<tr>
 			<td height="30" valign="middle" style="padding-top: 3px;">
 				▎您当前的位置：<a href="../../../index.htm">首页</a> > <a
-				href="../index.htm">下载中心</a> > 
+				href="pageProductDownload.do">下载中心</a> > <a href="pageProductDownloadBySeries.do?seriesId=${productSeries.id}">${productSeries.seriesName }</a>
+				>
 			</td>
 		</tr>
 	</table>
@@ -70,8 +55,8 @@ message = request("message")
 								<tr>
 									<td width="90" height="25" align="center" bgcolor="#DEF1E1"><strong><font
 											color="#006600">产品系列</font></strong></td>
-									<td bgcolor="#F3FAF4">&nbsp;
-										<c:forEach var="series" items="${allSeries}">
+									<td bgcolor="#F3FAF4">&nbsp; 
+									   <c:forEach var="series" items="${allSeries}">
 										   <a href="pageProductDownloadBySeries.do?seriesId=${series.id}">${series.seriesName}</a>
 										</c:forEach>
 									</td>
@@ -113,11 +98,10 @@ message = request("message")
 							<td width="110" rowspan="3" align="center" valign="middle"
 								bgcolor="#FFFFFF"
 								style="border-bottom-style: double; border-bottom-width: 1px; border-bottom-color: #999999"><img
-								src="../../../uploads/allimg/111213/2-1112131550360-L.jpg"
-								alt="<strong><font color='#FF0000'>${productDownload.name }</font></strong>  "
+								src="suda/uploads/allimg/111213/2-1112131550360-L.jpg"
 								width="102" height="82"></td>
 							<td height="25" bgcolor="#F3FAF4"><a
-								href="20111213/4157.html" target="_blank"><strong><strong><font
+								href="download.do?productDownloadId=${productDownload.id }" target="_blank"><strong><strong><font
 											color='#FF0000'>${productDownload.name }</font></strong></strong> </a></td>
 						</tr>
 						<tr>
@@ -128,7 +112,7 @@ message = request("message")
 							<td height="25" align="right" bgcolor="#FFFFFF"
 								style="border-bottom-style: double; border-bottom-width: 1px; border-bottom-color: #999999"><font
 								color="#666666">下载:${productDownload.downloads } 次 版本：${productDownload.version } 发布日期：${productDownload.releaseDate }</font> <strong><a
-									href="20111213/4157.html" target="_blank">立即下载</a></strong>&nbsp;</td>
+									href="download.do?productDownloadId=${productDownload.id }" target="_blank">立即下载</a></strong>&nbsp;</td>
 						</tr>
 					</table>
 				</c:forEach>
@@ -145,9 +129,10 @@ message = request("message")
 					items:总记录数，pager标签正是根据这个值来计算分页参数的 
                     maxPageItems:每页显示的行数，默认为10 
                     maxIndexPages:在循环输出页码的时候，最大输出多少个页码，默认是10  -->
-					<pg:pager url="pageProductDownload.do" items="${pageProductDownload.total }"
+					<pg:pager url="pageProductDownloadBySeries.do" items="${pageProductDownload.total }"
 						maxPageItems="${pageSize }" maxIndexPages="10"
 						export="currentPageNumber=pageNumber">
+						<pg:param name="seriesId" />
 						<!-- 首页 -->
 						<pg:first>
 							<!-- 生成链接 -->

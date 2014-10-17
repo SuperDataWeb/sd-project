@@ -38,7 +38,7 @@
 	
 	<select id="selectBySeries" resultMap="spProductDownloadMap">
 		select
-		<include refid="productFields" />
+		<include refid="productDownloadFields" />
          <![CDATA[ 
              FROM SP_PRODUCT_DOWNLOAD where series = #{seriesId}
          ]]>
@@ -54,7 +54,7 @@
 
 	<select id="pageSelect" resultMap="spProductDownloadMap" parameterType="map">
 		select
-		<include refid="productFields" />
+		<include refid="productDownloadFields" />
          <![CDATA[    
              FROM SP_PRODUCT_DOWNLOAD limit #{startIndex}, #{pageSize}
          ]]>
@@ -62,7 +62,7 @@
 	
 	<select id="pageSelectBySeries" resultMap="spProductDownloadMap" parameterType="map">
 		select
-		<include refid="productFields" />
+		<include refid="productDownloadFields" />
          <![CDATA[    
              FROM SP_PRODUCT_DOWNLOAD where series = #{seriesId} limit #{startIndex}, #{pageSize}
          ]]>

@@ -3,7 +3,7 @@ var $=jQuery;
 var htm="";
 htm+="<div class='QQbox'  id='divQQbox' >";
 htm+="<div class='Qlist' style=\"display:none;\" id='divOnline'>";
-htm+="<div style='width:100px;height:32px;'><img src=\"/suda/templets/new/images/qq/top.jpg\" border=\"0\" style=\"cursor:pointer;\" id=\"imgMap\" usemap=\"#Map\" onclick=\"hideMsgBox(event);\" title=\"点击隐藏\" />";
+htm+="<div style='width:100px;height:32px;'><img src=\"suda/templets/new/images/qq/top.jpg\" border=\"0\" style=\"cursor:pointer;\" id=\"imgMap\" usemap=\"#Map\" onclick=\"hideMsgBox(event);\" title=\"点击隐藏\" />";
 htm+="<map name=\"Map\" id=\"Map\"><area shape=\"rect\" coords=\"55,0,97,10\" target=\"_self\" href=\"javascript:void(0)\" /></map>";
 htm+="</div>";
 htm += "<div class=\"customer_a\">";

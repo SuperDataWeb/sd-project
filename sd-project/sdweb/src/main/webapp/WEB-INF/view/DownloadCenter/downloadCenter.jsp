@@ -22,12 +22,13 @@
 						<tr>
 							<td valign="top" width="220">
 								<!------------- left -------------->
-								<%@include file="productLeft.jsp" %>
+								<%@include file="downloadLeft.jsp" %>
 							</td>
 							<td width="8">&nbsp;</td>
 							<td class="tdbk" valign="top" width="752">
 								<!-- --------------right -->
-								<%@include file="product.jsp" %>
+								<%@include file="downloadList.jsp" %>
+								<!-----------------------------------right  end------->
 							</td>
 						</tr>
 					</tbody>
@@ -35,7 +36,7 @@
 				<!-- Ò³½Å -->
 				<!-- -------------------foot---------------- -->
 				<%@include file="../../../foot.jsp" %>
-				</div>
-		</div>		
+		    </div>		
+		 </div>   
 	</body>
 </html>
