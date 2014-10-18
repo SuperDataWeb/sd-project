@@ -57,14 +57,13 @@ message = request("message")
 									</tr>
 									<tr>
 										<td height="20" valign="top"><strong><font
-												color="#006633">软件价格：</font></strong><font color="#FF0000">￥5680元/套</font>
+												color="#006633">软件价格：</font></strong><font color="#FF0000">￥${product.price}元/套</font>
 											元&nbsp;&nbsp;&nbsp;<strong><font color="#006633">用户数：</font></strong><font
-											color="#FF0000">3用户=1U+2SaaS 增加站点：局域网：2600元/站点
-												全局站点：465元/年/站点</font> <!--元&nbsp;&nbsp;&nbsp;<strong><font color="#006633">服务费/年：</font></strong><font color="#FF0000">￥</font> 元--></td>
+											color="#FF0000">${product.userNum}</font> <!--元&nbsp;&nbsp;&nbsp;<strong><font color="#006633">服务费/年：</font></strong><font color="#FF0000">￥</font> 元--></td>
 									</tr>
 									<tr>
 										<td height="20" valign="top" class="hg"><strong><font
-												color="#006633">功能模块：</font></strong>采购管理,销售管理,仓库管理,POS管理,现金银行,分销管理,财务系统,固定资产,工资系统,分支机构,网店管理,客户关系,办公管理,特殊功能</td>
+												color="#006633">功能模块：</font></strong>${product.module}</td>
 									</tr>
 									<tr>
 										<td height="70" valign="top" class="hg"><font
@@ -81,9 +80,9 @@ message = request("message")
 								alt="填写速达V3+.NET服装管理申购表" width="150" height="38" border="0"></a>
 							<a target="_blank"
 							href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1601331518&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1601331518&site=qq&menu=yes'"><img
-								src="<%= request.getContextPath()%>${product.img}"
+								src="suda/templets/new/images/online_02.jpg"
 								alt="在线咨询${product.productName}" width="150" height="38"
-								border="0"></a> <a href="../../../xiazaizhongxin/index.htm"
+								border="0"></a> <a href="pageProductDownload.do"
 							target="_blank"><img
 								src="suda/templets/new/images/online_03.jpg" width="150"
 								height="38" border="0"></a></td>

@@ -106,5 +106,11 @@ message = request("message")
  
 <script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F4e9275315db365e8bfde1fe0e12128f9' type='text/javascript'%3E%3C/script%3E")) </script>
     <!-- /footer -->
+<script language="javascript"> 
+	function sdlc(){
+		window.open ('http://sighttp.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes','LiveChat','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no')
+	}
+</script>
+    
 </BODY>
 </HTML>

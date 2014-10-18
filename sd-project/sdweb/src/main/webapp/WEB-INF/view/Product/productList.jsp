@@ -58,16 +58,15 @@ message = request("message")
 									</tr>
 									<tr>
 										<td height="25"><strong><font color="#006633">软件价格：</font></strong></td>
-										<td><font color="#FF0000">￥3580元/套</font>
+										<td><font color="#FF0000">￥${product.price}元/套</font>
 											元&nbsp;&nbsp;&nbsp;&nbsp;<strong><font
-												color="#006633">用户数：</font></strong><font color="#FF0000">2用户=1U+1SaaS
-												增加站点：局域网：2600元/站点 全局站点：465元/年/站点</font> <!--元&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="#006633">服务费/年：</font></strong><font color="#FF0000">￥</font> 元--></td>
+												color="#006633">用户数：</font></strong><font color="#FF0000">${product.userNum}</font> <!--元&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="#006633">服务费/年：</font></strong><font color="#FF0000">￥</font> 元--></td>
 									</tr>
 									<tr>
 										<td height="25" valign="top"><strong><font
 												color="#006633">功能模块：</font></strong></td>
 										<td><a href="product.do?productId=${product.id}"><span
-												class="jj1">账务系统,出纳管理,固定资产,工资管理,现金银行,期末处理,财务分析,固定资产,系统维护
+												class="jj1">${product.module}
 											</span></a></td>
 									</tr>
 									<tr>
@@ -80,14 +79,14 @@ message = request("message")
 										<td colspan="2"><table width="100%" border="0"
 												cellspacing="0" cellpadding="0">
 												<tr>
-													<td height="30">[<a href="../xiazaizhongxin/index.htm"
+													<td height="30">[<a href="pageProductDownload.do"
 														target="_blank"><font color="#0066cc">下载试用</font></a>]&nbsp;&nbsp;&nbsp;&nbsp;[<a
 														href="javascript:sdlc()"><font color="#0066cc"><strong>在线咨询</strong></font></a>]&nbsp;&nbsp;&nbsp;&nbsp;[<a
 														href="../../plus/sd_service.php-sid=4.htm"
 														target="_blank"><font color="#0066cc">填写购买意向</font></a>]
 													</td>
 													<td><strong><a
-															href="sudacaiwuxilie/20140703/4328.html"><font
+															href="product.do?productId=${product.id}"><font
 																color="#0000FF">详细&gt;&gt;</font></a></strong></td>
 												</tr>
 											</table></td>

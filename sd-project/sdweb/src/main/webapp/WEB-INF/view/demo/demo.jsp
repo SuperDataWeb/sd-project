@@ -28,7 +28,7 @@
 		<div align="center">
 			<div style="background-color: #FFFFFF; width: 984px;">
 				<!-- -------------- top -------------- -->
-				<%@include file="top.jsp" %>
+				<%@include file="../../../top.jsp" %>
 				<table width="980" align="center" bgcolor="#FFFFFF" border="0"
 					cellpadding="0" cellspacing="0">
 					<tbody>
@@ -47,6 +47,6 @@
 				</table>
 				<!-- Ò³½Å -->
 				<!-- -------------------foot---------------- -->
-				<%@include file="foot.jsp" %>
+				<%@include file="../../../foot.jsp" %>
 	</body>
 </html>

@@ -75,7 +75,7 @@ message = request("message")
 														<span style="line-height: 25px"> <strong><a
 																href="product.do?productId=${product.id}">${product.productName}</a> 主要功能模块</strong>
 													</span> <br>
-														采购管理、销售管理、仓库管理、POS管理、分销管理、网店管理、现金银行、帐务管理、工资核算、分支机构、客户关系 <br>
+														${product.module} <br>
 														&nbsp;</td>
 													<td rowspan="2" width="140" align="center"><a
 														href="product.do?productId=${product.id}"
@@ -89,7 +89,7 @@ message = request("message")
 															日常经营管理，协调业务流转<br> ● 互联网/局域网多用户、多仓库远程应用<br> ●
 															数据实时同步管理和移动办公，安全稳定
 														</p> <br> <span style="line-height: 35px"> <strong><font
-																color="#006633">软件价格：</font></strong><font color="#FF0000">￥2360元/套</font>
+																color="#006633">软件价格：</font></strong><font color="#FF0000">￥${product.price}元/套</font>
 															元
 													</span> <br> [<a href="/suda/plus/sd_service.php?sid=4"><font
 															color="#006600">我要购买</font></a>] &nbsp;[<a

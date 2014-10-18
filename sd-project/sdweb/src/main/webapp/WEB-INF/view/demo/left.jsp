@@ -98,7 +98,7 @@ message = request("message")
 			</tr>
 		</tbody>
 	</table>
-	<%@include file="leftContact.jsp" %>
+	<%@include file="../../../leftContact.jsp" %>
 	<table width="220" border="0" cellpadding="0" cellspacing="0">
 		<tbody>
 			<tr>
@@ -106,7 +106,7 @@ message = request("message")
 			</tr>
 		</tbody>
 	</table>
-	<%@include file="leftWant.jsp" %>
+	<%@include file="../../../leftWant.jsp" %>
 	<table width="220" border="0" cellpadding="0" cellspacing="0">
 		<tbody>
 			<tr>
@@ -114,7 +114,7 @@ message = request("message")
 			</tr>
 		</tbody>
 	</table>
-	<%@include file="leftNews.jsp" %>
+	<%@include file="../../../leftNews.jsp" %>
 	<!-- /left -->
 </BODY>
 </HTML>

@@ -16,6 +16,11 @@ public class SpProduct {
 	private String productName;
 	private String description;
 	private String presentation;
+	private int price;
+	/**用户数*/
+	private String userNum;
+	/**功能模块*/
+	private String module;
 	private String img;
 	private Integer status;
 	private Date created;
@@ -61,6 +66,30 @@ public class SpProduct {
 
 	public void setPresentation(String presentation) {
 		this.presentation = presentation;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public String getUserNum() {
+		return userNum;
+	}
+
+	public void setUserNum(String userNum) {
+		this.userNum = userNum;
+	}
+
+	public String getModule() {
+		return module;
+	}
+
+	public void setModule(String module) {
+		this.module = module;
 	}
 
 	public String getImg() {
