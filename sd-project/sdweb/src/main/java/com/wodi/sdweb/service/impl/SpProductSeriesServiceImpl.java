@@ -51,6 +51,17 @@ public class SpProductSeriesServiceImpl implements SpProductSeriesService {
 	public List<SpProductSeries> selectAll() {
 		return spProductSeriesDao.selectAll();
 	}
+	
+
+	@Override
+	public List<SpProductSeries> selectAllAndProduct() {
+		List<SpProductSeries> spss = spProductSeriesDao.selectAll();
+		for(SpProductSeries sps : spss){
+			sps.setProducts(spProductDao.selectBySeries(sps.getId()));
+		}
+		return spss;
+	}
+
 
 	@Override
 	public SpProductSeries selectProductBySeriesId(Long seriesId) {

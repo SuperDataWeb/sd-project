@@ -9,7 +9,6 @@
  */
 package com.wodi.sdweb.dao.impl;
 
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -77,6 +76,12 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 
 	@Override
 	public Integer selectCount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<SpProduct> selectBySeries(Long seriesId) {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -36,6 +36,12 @@ public interface SpProductSeriesService {
 	public List<SpProductSeries> selectAll();
 	
 	/**
+	 * 查询所有产品系列并关联产品
+	 * @return
+	 */
+	public List<SpProductSeries> selectAllAndProduct();
+	
+	/**
 	 * 根据产品系列Id查询产品系列
 	 * @param seriesId
 	 * @return

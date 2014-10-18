@@ -21,7 +21,7 @@ message = request("message")
 	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
 		<tr>
 			<td height="30" valign="middle" style="padding-top: 3px;">
-				▎您当前的位置：<a href="../../../../index.htm">首页</a> > <a href="../../index.htm" >产品中心</a> > <a href="../index.htm" >速达V3+.net系列</a> >
+				▎您当前的位置：<a href="../../../../index.htm">首页</a> > <a href="pageProduct.do" >产品中心</a> >
 			</td>
 		</tr>
 	</table>

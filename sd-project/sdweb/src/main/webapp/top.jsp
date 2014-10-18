@@ -78,7 +78,7 @@ message = request("message")
 												class="menu_1" id="Menu_20" target="_self"><font
 													color="#FFFFFF">สืาณ</font></a></li>
 											<li class="menu_style_1" name="MainMenuItem"><a
-												class="menu_1" href="/suda/html/goumaizhiyin/"
+												class="menu_1" href="buyGurid.do"
 												rel="dropmenu16"><span>นบย๒ึธาý</span></a></li>
 											<li class="menu_style_1" id="MainMenuItem"
 												name="MainMenuItem"><a

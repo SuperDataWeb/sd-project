@@ -85,8 +85,10 @@ public class ProductController {
 		ModelAndView model = new ModelAndView("Product/productDetail");
 		Long id = Long.parseLong(productId);
 		SpProduct product = spProductService.selectById(id);
+		List<SpProductSeries> series = spProductSeriesService.selectAllAndProduct();
 		model.addObject("product", product);
 		model.addObject("productId", productId);
+		model.addObject("allSeries", series);
 		return model;
 	}
 	
@@ -99,10 +101,12 @@ public class ProductController {
 		} catch (Exception e) {
 			startIndex = 0;
 		}
+		List<SpProductSeries> series = spProductSeriesService.selectAllAndProduct();
 	    int ps = Integer.parseInt(productPageSize);
 		PageModel<SpProduct> pageModel = spProductService.pageSelect(startIndex, ps);
 		model.addObject("pageProduct", pageModel);
 		model.addObject("pageSize", productPageSize);
+		model.addObject("allSeries", series);
 		return model;
 	}
 	
@@ -111,7 +115,6 @@ public class ProductController {
 		ModelAndView model = new ModelAndView("DownloadCenter/downloadCenter");
 		//查询出所有的产品系列
 		List<SpProductSeries> series = spProductSeriesService.selectAll();
-		model.addObject("allSeries", series);
 		int startIndex = 0;
 		int pageSize = Integer.parseInt(productDownloadPageSize); 
 		try {
@@ -122,6 +125,7 @@ public class ProductController {
 		PageModel<SpProductDownload> pageModel = spProductDownloadService.pageSelect(startIndex, pageSize);
 		model.addObject("pageProductDownload", pageModel);
 		model.addObject("pageSize", productDownloadPageSize);
+		model.addObject("allSeries", series);
 		return model;
 	}
 	
@@ -130,7 +134,6 @@ public class ProductController {
 		ModelAndView model = new ModelAndView("DownloadCenter/downloadSeriesCenter");
 		//查询出所有的产品系列
 		List<SpProductSeries> series = spProductSeriesService.selectAll();
-		model.addObject("allSeries", series);
 		int startIndex = 0;
 		int pageSize = Integer.parseInt(productDownloadPageSize); 
 		try {
@@ -144,6 +147,7 @@ public class ProductController {
 		model.addObject("pageProductDownload", pageModel);
 		model.addObject("productSeries", sss);
 		model.addObject("pageSize", productDownloadPageSize);
+		model.addObject("allSeries", series);
 		return model;
 	}
 	
@@ -153,6 +157,23 @@ public class ProductController {
 		Long pdi = Long.parseLong(productDownloadId);
 		SpProductDownload spd = spProductDownloadService.selectById(pdi);
 		model.addObject("productDownload", spd);
+		return model;
+	}
+	
+	@RequestMapping("buyGurid.do")
+	public ModelAndView buyGurid(String productTypeId) {
+		ModelAndView model = new ModelAndView("BuyGurid/buyGurid");
+		List<SpProductType> spts = spProductTypeService.selectAll();
+		SpProductType productType = null;
+		Long pti = null;
+		if(null == productTypeId){
+			pti = spts.get(0).getId();
+		}else{
+			pti = Long.parseLong(productTypeId);
+		}
+		productType = spProductTypeService.selectByTypeId(pti);
+		model.addObject("spProductTypes", spts);
+		model.addObject("productType", productType);
 		return model;
 	}
 }
