@@ -2,7 +2,7 @@ CREATE DATABASE  IF NOT EXISTS `wodi` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `wodi`;
 -- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
 --
--- Host: localhost    Database: wodi
+-- Host: 127.0.0.1    Database: wodi
 -- ------------------------------------------------------
 -- Server version	5.7.3-m13
 
@@ -33,7 +33,7 @@ CREATE TABLE `function_module` (
   `CREATED` datetime DEFAULT NULL,
   `UPDATED` datetime DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='功能模块';
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COMMENT='功能模块';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,14 +42,7 @@ CREATE TABLE `function_module` (
 
 LOCK TABLES `function_module` WRITE;
 /*!40000 ALTER TABLE `function_module` DISABLE KEYS */;
-INSERT INTO `function_module` VALUES (1, '展示flash', 'Index/flashModule.jsp', 'flash', '0', '2014-10-12 15:53:42', '2014-10-12 15:53:46');
-INSERT INTO `function_module` VALUES (2, '新闻公告', 'News/topList.jsp', '新闻列表', '0', '2014-10-12 15:54:22', '2014-10-12 15:54:25');
-INSERT INTO `function_module` VALUES (3, '产品中心', NULL, '产品展示中心', '0', '2014-10-12 15:54:48', '2014-10-12 15:54:50');
-INSERT INTO `function_module` VALUES (4, '解决方案', NULL, '方案范例', '0', '2014-10-12 15:55:24', '2014-10-12 15:55:26');
-INSERT INTO `function_module` VALUES (5, '公司介绍', NULL, '公司、软件信息', '0', '2014-10-12 15:56:07', '2014-10-12 15:56:14');
-INSERT INTO `function_module` VALUES (6, '常见问题', NULL, '问题列表', '0', '2014-10-12 15:56:46', '2014-10-12 15:56:49');
-INSERT INTO `function_module` VALUES (7, '相关信息', NULL, '相关信息', '0', '2014-10-12 15:57:54', '2014-10-12 15:57:57');
-
+INSERT INTO `function_module` VALUES (1,'展示flash','Index/flashModule.jsp','flash','0','2014-10-12 15:53:42','2014-10-12 15:53:46'),(2,'新闻公告','News/topList.jsp','新闻列表','0','2014-10-12 15:54:22','2014-10-12 15:54:25'),(3,'产品中心',NULL,'产品展示中心','0','2014-10-12 15:54:48','2014-10-12 15:54:50'),(4,'解决方案',NULL,'方案范例','0','2014-10-12 15:55:24','2014-10-12 15:55:26'),(5,'公司介绍',NULL,'公司、软件信息','0','2014-10-12 15:56:07','2014-10-12 15:56:14'),(6,'常见问题',NULL,'问题列表','0','2014-10-12 15:56:46','2014-10-12 15:56:49'),(7,'相关信息',NULL,'相关信息','0','2014-10-12 15:57:54','2014-10-12 15:57:57');
 /*!40000 ALTER TABLE `function_module` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -74,7 +67,7 @@ CREATE TABLE `module_layout` (
   KEY `layout_fk_idx` (`LAYOUT_ID`),
   CONSTRAINT `layout_fk` FOREIGN KEY (`LAYOUT_ID`) REFERENCES `sp_layout` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `module_fk` FOREIGN KEY (`MODULE_ID`) REFERENCES `function_module` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='模块布局表';
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='模块布局表';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -83,13 +76,7 @@ CREATE TABLE `module_layout` (
 
 LOCK TABLES `module_layout` WRITE;
 /*!40000 ALTER TABLE `module_layout` DISABLE KEYS */;
-INSERT INTO `module_layout` VALUES (1, 1, 1, '0', '0', '0', '2014-10-12 15:59:20', '2014-10-12 15:59:23');
-INSERT INTO `module_layout` VALUES (2, 2, 1, '0', '1', '0', '2014-10-12 15:59:50', '2014-10-12 15:59:53');
-INSERT INTO `module_layout` VALUES (3, 3, 2, '0', '1', '0', '2014-10-12 16:00:44', NULL);
-INSERT INTO `module_layout` VALUES (4, 4, 2, '0', '0', '0', '2014-10-12 16:01:03', NULL);
-INSERT INTO `module_layout` VALUES (5, 6, 3, '0', '0', '0', '2014-10-12 16:03:53', NULL);
-INSERT INTO `module_layout` VALUES (6, 5, 3, '0', '1', '0', '2014-10-12 16:04:07', NULL);
-
+INSERT INTO `module_layout` VALUES (1,1,1,'0','0','0','2014-10-12 15:59:20','2014-10-12 15:59:23'),(2,2,1,'0','1','0','2014-10-12 15:59:50','2014-10-12 15:59:53'),(3,3,2,'0','1','0','2014-10-12 16:00:44',NULL),(4,4,2,'0','0','0','2014-10-12 16:01:03',NULL),(5,6,3,'0','0','0','2014-10-12 16:03:53',NULL),(6,5,3,'0','1','0','2014-10-12 16:04:07',NULL);
 /*!40000 ALTER TABLE `module_layout` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -261,11 +248,13 @@ DROP TABLE IF EXISTS `sp_product_series`;
 CREATE TABLE `sp_product_series` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `series_name` varchar(50) DEFAULT NULL COMMENT '产品系列的名称',
-  `description` varchar(255) DEFAULT NULL COMMENT '描述信息',
+  `description` varchar(500) DEFAULT NULL COMMENT '描述信息',
   `img` varchar(255) DEFAULT NULL COMMENT '图片路径',
   `status` char(1) DEFAULT NULL COMMENT '状态 1有效， 0 无效',
   `created` datetime DEFAULT NULL COMMENT '创建时间',
   `updated` datetime DEFAULT NULL COMMENT '更新时间',
+  `alias` varchar(45) DEFAULT NULL,
+  `simple_desc` varchar(150) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8 COMMENT='产品系列';
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -276,7 +265,7 @@ CREATE TABLE `sp_product_series` (
 
 LOCK TABLES `sp_product_series` WRITE;
 /*!40000 ALTER TABLE `sp_product_series` DISABLE KEYS */;
-INSERT INTO `sp_product_series` VALUES (1,'速达3000系列',NULL,NULL,'1','2014-10-17 11:11:12','2014-10-17 11:11:12'),(2,'速达5000系列',NULL,NULL,'1','2014-10-17 11:11:12','2014-10-17 11:11:12'),(3,'速达7000系列',NULL,NULL,'1','2014-10-17 11:11:12','2014-10-17 11:11:12'),(4,'速达财务系列',NULL,NULL,'1','2014-10-17 11:11:12','2014-10-17 11:11:12'),(5,'速达V3+.net系列',NULL,NULL,'1','2014-10-17 11:11:12','2014-10-17 11:11:12'),(6,'速达V5+.net系列',NULL,NULL,'1','2014-10-17 11:11:12','2014-10-17 11:11:12'),(7,'速达V7+.net系列',NULL,NULL,'1','2014-10-17 11:11:12','2014-10-17 11:11:12');
+INSERT INTO `sp_product_series` VALUES (1,'速达3000系列','一体化管理进销存、往来业务、POS、固定资产、人事工资与财务核算。|精准导航，全方位的决策分析，往来款情况、销售情况、库存情况等能够即点即现。|自定义报表设计，兼容WORD和EXCEL的常用功能，管理更加数字化、信息化。|提高客户满意度、缔造良好客户关系，功能卓越，风格简捷，易学易用。','suda/templets/new/images/suda_3000.jpg','1','2014-10-17 11:11:12','2014-10-17 11:11:12','速达3000','专门为中国中小企业用户度身定做的一款管理软件'),(2,'速达5000系列','工业版和商业版为不同行业企业提供管理解决方案。|先进的ERP流程控制技术全面促进各系统协同。|支持集团数据整合和网络信息共享，建立高效的信息化管理系统。|基于全新的全局SaaS应用模式，集供应链管理、生产、财务、电子商务等为一体的企业ERP系统。 ','suda/templets/new/images/suda_5000.jpg','1','2014-10-17 11:11:12','2014-10-17 11:11:12','速达5000','适用于中型企业用户的一款管理软件'),(3,'速达7000系列','支持中大型企业集中管理，分散经营的业务运营模式。|集供应链、生产、财务、人力资源、集团管理等为一体。|自定义报表设计，兼容WORD和EXCEL的常用功能，管理更加数字化、信息化。|易学易用、轻松管理，务流程更加合理、系统化，办公管理趋于协同化、自动化。','suda/templets/new/images/suda_7000.jpg','1','2014-10-17 11:11:12','2014-10-17 11:11:12','速达7000','适合中国中大型企业使用的企业级ERP产品'),(4,'速达财务系列','按最新财务会计制度设计，完全满足企业财务电算化的管理要求。|高度集成财务、出纳、现金银行、固定资产、人事工资等模块。|贴近实务的例子帐，结合真实企业财务管理设置的帐务及业务流程。|强大财务分析系统，帐证表穿透式逐层查询，按业务流程设置的权限及诸多权限选项。 ','suda/templets/new/images/suda_cw.jpg','1','2014-10-17 11:11:12','2014-10-17 11:11:12','速达财务','让财务管理更容易'),(5,'速达V3+.net系列','以“进销存、财务一体化管理应用”为主体，采用了全新的OPEN式数据结构。|产品融入完善的资金流、物流控制机制和业务数据分析功能。|全面支持Builder-Ⅱ二次研发工具和全新SaaS应用结构。|大大优化资源配置，对速达3000系列产品的数据有着很好的兼容性。','suda/templets/new/images/suda_V3.jpg','1','2014-10-17 11:11:12','2014-10-17 11:11:12','速达V3+.net系列','高端V-ERP系列基础版本'),(6,'速达V5+.net系列','《速达V5 ERP管理平台》采用了全新的OPEN式数据结构。|全面整合采购、销售、库存、生产和财务等管理环节，为企业搭建全新的一体化管理解决方案。|全面支持Builder-Ⅱ二次研发工具和全新SaaS应用结构。|大大优化资源配置，对速达5000系列产品的数据有着很好的兼容性。','suda/templets/new/images/suda_V5.jpg','1','2014-10-17 11:11:12','2014-10-17 11:11:12','速达V5+.net系列','高端V-ERP系列版本'),(7,'速达V7+.net系列','速达V7企业级ERP管理平台采用了全新的OPEN式数据结构。|高度集成业务与财务运作，实现企业对经营管理、数据分析、成本控制、管理流程的协调控制。|全面支持Builder-Ⅱ二次研发工具和全新SaaS应用结构。|大大优化资源配置，对速达7000系列产品的数据有着很好的兼容性。','suda/templets/new/images/suda_V7.jpg','1','2014-10-17 11:11:12','2014-10-17 11:11:12','速达V7+.net系列','高端企业级V-ERP系列版本');
 /*!40000 ALTER TABLE `sp_product_series` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -317,4 +306,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-10-18 16:54:17
+-- Dump completed on 2014-10-19 22:39:08

@@ -6,6 +6,8 @@
 	<resultMap id="spProductSeriesMap" type="SpProductSeries">
 		<result property="id" column="id" />
 		<result property="seriesName" column="series_name" />
+		<result property="alias" column="alias" />
+		<result property="simpleDesc" column="simple_desc" />
 		<result property="description" column="description" />
 		<result property="img" column="img" />
 		<result property="status" column="status" />
@@ -14,12 +16,12 @@
 	</resultMap>
 
 	<sql id="productSeriesFields">
-		id, series_name, description, img, status, created, updated
+		id, series_name, alias, simple_desc, description, img, status, created, updated
 	</sql>
 
 	<insert id="insert" parameterType="SpProductSeries">
-			<![CDATA[ INSERT INTO SP_PRODUCT_SERIES(series_name, description, img, status, created, updated
-			) VALUES( #{seriesName}, #{description}, #{img}, #{status}, now(), now() )
+			<![CDATA[ INSERT INTO SP_PRODUCT_SERIES(series_name, alias, simple_desc, description, img, status, created, updated
+			) VALUES( #{seriesName}, #{alias}, #{simpleDesc}, #{description}, #{img}, #{status}, now(), now() )
 				]]>
 	</insert>
 	<select id="pageSelect" resultMap="spProductSeriesMap"

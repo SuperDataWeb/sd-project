@@ -176,4 +176,17 @@ public class ProductController {
 		model.addObject("productType", productType);
 		return model;
 	}
+	
+	
+	@RequestMapping("indexSeriesProduct.do")
+	public ModelAndView indexSeriesProduct() {
+		ModelAndView model = new ModelAndView("Index/seriesProducts");
+		List<SpProductSeries> sps = spProductSeriesService.selectAllAndProduct();
+		for(SpProductSeries ss : sps){
+			//设置一下list的描述信息，方便展示
+			ss.setDescs();
+		}
+		model.addObject("productSeries", sps);
+		return model;
+	}
 }
