@@ -28,7 +28,6 @@ CREATE TABLE `function_module` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `MODULE_NAME` varchar(50) DEFAULT NULL,
   `URL` varchar(255) DEFAULT NULL,
-  `SPAN` char(1) DEFAULT NULL,
   `REMARK` varchar(255) DEFAULT NULL,
   `STATUS` char(1) DEFAULT NULL,
   `CREATED` datetime DEFAULT NULL,
@@ -43,6 +42,14 @@ CREATE TABLE `function_module` (
 
 LOCK TABLES `function_module` WRITE;
 /*!40000 ALTER TABLE `function_module` DISABLE KEYS */;
+INSERT INTO `function_module` VALUES (1, '展示flash', 'Index/flashModule.jsp', 'flash', '0', '2014-10-12 15:53:42', '2014-10-12 15:53:46');
+INSERT INTO `function_module` VALUES (2, '新闻公告', 'News/topList.jsp', '新闻列表', '0', '2014-10-12 15:54:22', '2014-10-12 15:54:25');
+INSERT INTO `function_module` VALUES (3, '产品中心', NULL, '产品展示中心', '0', '2014-10-12 15:54:48', '2014-10-12 15:54:50');
+INSERT INTO `function_module` VALUES (4, '解决方案', NULL, '方案范例', '0', '2014-10-12 15:55:24', '2014-10-12 15:55:26');
+INSERT INTO `function_module` VALUES (5, '公司介绍', NULL, '公司、软件信息', '0', '2014-10-12 15:56:07', '2014-10-12 15:56:14');
+INSERT INTO `function_module` VALUES (6, '常见问题', NULL, '问题列表', '0', '2014-10-12 15:56:46', '2014-10-12 15:56:49');
+INSERT INTO `function_module` VALUES (7, '相关信息', NULL, '相关信息', '0', '2014-10-12 15:57:54', '2014-10-12 15:57:57');
+
 /*!40000 ALTER TABLE `function_module` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -76,6 +83,13 @@ CREATE TABLE `module_layout` (
 
 LOCK TABLES `module_layout` WRITE;
 /*!40000 ALTER TABLE `module_layout` DISABLE KEYS */;
+INSERT INTO `module_layout` VALUES (1, 1, 1, '0', '0', '0', '2014-10-12 15:59:20', '2014-10-12 15:59:23');
+INSERT INTO `module_layout` VALUES (2, 2, 1, '0', '1', '0', '2014-10-12 15:59:50', '2014-10-12 15:59:53');
+INSERT INTO `module_layout` VALUES (3, 3, 2, '0', '1', '0', '2014-10-12 16:00:44', NULL);
+INSERT INTO `module_layout` VALUES (4, 4, 2, '0', '0', '0', '2014-10-12 16:01:03', NULL);
+INSERT INTO `module_layout` VALUES (5, 6, 3, '0', '0', '0', '2014-10-12 16:03:53', NULL);
+INSERT INTO `module_layout` VALUES (6, 5, 3, '0', '1', '0', '2014-10-12 16:04:07', NULL);
+
 /*!40000 ALTER TABLE `module_layout` ENABLE KEYS */;
 UNLOCK TABLES;
 
