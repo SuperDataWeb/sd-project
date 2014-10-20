@@ -21,7 +21,8 @@ message = request("message")
 	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
 		<tr>
 			<td height="30" valign="middle" style="padding-top: 3px;">
-				▎您当前的位置：<a href="../../../../index.htm">首页</a> > <a href="pageProduct.do" >产品中心</a> >
+				▎您当前的位置：<a href="../../../../index.htm">首页</a> > <a href="pageProduct.do" >产品中心</a> > <a href="pageProductBySeries.do?seriesId=${product.productSeries.id}">${product.productSeries.seriesName }</a>
+				>
 			</td>
 		</tr>
 	</table>
@@ -108,8 +109,7 @@ message = request("message")
 										<p>
 											<strong><span style="font-size: 16px">速达V3+.net-服装管理核心功能</span></strong><br />
 											<br />
-										<table border="1" cellpadding="0" cellspacing="0"
-											style="width: 756px" width="756">
+										<table border="1" cellpadding="0" cellspacing="0" width="100%">
 											<tbody>
 												<tr>
 													<td>&nbsp;</td>
@@ -204,7 +204,7 @@ message = request("message")
 										<div>
 											<strong>采购管理<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F3101040T9.jpg"
-												style="width: 750px; height: 498px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能:</strong>
@@ -223,7 +223,7 @@ message = request("message")
 										<div>
 											<strong>销售管理<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F3101104A6.jpg"
-												style="width: 750px; height: 496px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能:</strong>
@@ -245,7 +245,7 @@ message = request("message")
 										<div>
 											<strong>仓库管理<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F310114L51.jpg"
-												style="width: 750px; height: 501px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能：</strong>
@@ -267,7 +267,7 @@ message = request("message")
 										<div>
 											<strong>POS管理<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F31012063R.jpg"
-												style="width: 750px; height: 498px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能:</strong>
@@ -284,7 +284,7 @@ message = request("message")
 										<div>
 											<strong>分销管理<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F3101224395.jpg"
-												style="width: 750px; height: 496px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能:</strong>
@@ -308,7 +308,7 @@ message = request("message")
 										<div>
 											<strong>网店管理<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F310125IF.jpg"
-												style="width: 750px; height: 501px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能:</strong>
@@ -328,7 +328,7 @@ message = request("message")
 										<div>
 											<strong>现金银行<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F3101314107.jpg"
-												style="width: 750px; height: 500px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能:</strong>
@@ -346,7 +346,7 @@ message = request("message")
 										<div>
 											<strong>财务系统<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F3101333L6.jpg"
-												style="width: 750px; height: 498px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能</strong>
@@ -369,7 +369,7 @@ message = request("message")
 										<div>
 											<strong>固定资产<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F31013523E.jpg"
-												style="width: 750px; height: 499px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能：</strong>
@@ -386,7 +386,7 @@ message = request("message")
 										<div>
 											<strong>工资核算：<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F3101412941.jpg"
-												style="width: 750px; height: 497px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>工资管理：工资数据录入，记件数据录入，支付工资，费用分配。</div>
 										<div>
@@ -398,7 +398,7 @@ message = request("message")
 										<div>
 											<strong>分支机构<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F3101433E6.jpg"
-												style="width: 750px; height: 497px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能</strong>
@@ -414,7 +414,7 @@ message = request("message")
 										<div>
 											<strong>客户关系<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F31014553I.jpg"
-												style="width: 750px; height: 496px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能:</strong>
@@ -432,7 +432,7 @@ message = request("message")
 										<div>
 											<strong>办公管理<br /> <img alt=""
 												src="suda/uploads/allimg/140703/1-140F31015134X.jpg"
-												style="width: 750px; height: 499px" /></strong>
+												style="width: 720px; height: 458px" /></strong>
 										</div>
 										<div>
 											<strong>核心功能：</strong>

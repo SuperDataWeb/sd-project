@@ -86,4 +86,17 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 		return null;
 	}
 
+	@Override
+	public List<SpProduct> pageSelectBySeries(int startIndex, int pageSize,
+			Long seriesId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Integer selectCountBySeries(Long seriesId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

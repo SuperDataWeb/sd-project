@@ -33,6 +33,17 @@ public interface SpProductMapper {
 	
 	public List<SpProduct> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize);
 	
+	
+	/**
+	 * 根据不同产品系列进行分页
+	 * @param startIndex
+	 * @param pageSize
+	 * @param seriesId
+	 * @return
+	 */
+	public List<SpProduct> pageSelectBySeries(@Param("startIndex") int startIndex,
+			                                  @Param("pageSize") int pageSize,
+			                                  @Param("seriesId") Long seriesId);
 	/**
 	 * 更新 product
 	 * @param product
@@ -64,6 +75,13 @@ public interface SpProductMapper {
 	 * @return
 	 */
 	public Integer selectCount();
+	
+	/**
+	 * 根据系列id 查询该系列下产品总数
+	 * @param seriesId
+	 * @return
+	 */
+	public Integer selectCountBySeries(@Param("seriesId") Long seriesId);
 	
 	/**
 	 * 根据产品类型Id查询产品

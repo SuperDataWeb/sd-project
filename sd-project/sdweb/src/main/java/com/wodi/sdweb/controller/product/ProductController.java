@@ -110,6 +110,28 @@ public class ProductController {
 		return model;
 	}
 	
+	@RequestMapping("pageProductBySeries.do")
+	public ModelAndView pageProductBySeries(HttpServletRequest request, String seriesId) {
+		ModelAndView model = new ModelAndView("Product/productSeriesCenter");
+		//查询出所有的产品系列
+		List<SpProductSeries> series = spProductSeriesService.selectAllAndProduct();
+		int startIndex = 0;
+		int pageSize = Integer.parseInt(productPageSize); 
+		try {
+			startIndex  = Integer.parseInt(request.getParameter("pager.offset"));
+		} catch (Exception e) {
+			startIndex = 0;
+		}
+		Long sid = Long.parseLong(seriesId);
+		SpProductSeries sss = spProductSeriesService.selectBySeriesId(sid);
+		PageModel<SpProduct> pageModel = spProductService.pageSelect(startIndex, pageSize, sid);
+		model.addObject("pageProduct", pageModel);
+		model.addObject("productSeries", sss);
+		model.addObject("pageSize", productPageSize);
+		model.addObject("allSeries", series);
+		return model;
+	}
+	
 	@RequestMapping("pageProductDownload.do")
 	public ModelAndView pageProductDownload(HttpServletRequest request) {
 		ModelAndView model = new ModelAndView("DownloadCenter/downloadCenter");

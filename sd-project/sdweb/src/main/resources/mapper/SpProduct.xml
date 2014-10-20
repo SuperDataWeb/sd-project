@@ -57,12 +57,24 @@
 	<select id="selectCount" resultType="java.lang.Integer">
 		select count(*) FROM sp_product
 	</select>
+	
+	<select id="selectCountBySeries" resultType="java.lang.Integer">
+		select count(*) FROM sp_product where series = #{seriesId}
+	</select>
 
 	<select id="pageSelect" resultMap="spProductMap" parameterType="map">
 		select
 		<include refid="productFields" />
          <![CDATA[    
              FROM sp_product limit #{startIndex}, #{pageSize}
+         ]]>
+	</select>
+	
+		<select id="pageSelectBySeries" resultMap="spProductMap" parameterType="map">
+		select
+		<include refid="productFields" />
+         <![CDATA[    
+             FROM sp_product where series = #{seriesId} limit #{startIndex}, #{pageSize}
          ]]>
 	</select>
 

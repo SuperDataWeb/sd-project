@@ -52,4 +52,13 @@ public interface SpProductService {
 	 */
 	public PageModel<SpProduct> pageSelect(int startIndex, int pageSize);
 
+	
+	/**
+	 * 按不同的产品序列进行 分页查询接口
+	 * @param startIndex
+	 * @param pageSize
+	 *  @param seriesId
+	 * @return
+	 */
+	public PageModel<SpProduct> pageSelect(int startIndex, int pageSize, Long seriesId);
 }

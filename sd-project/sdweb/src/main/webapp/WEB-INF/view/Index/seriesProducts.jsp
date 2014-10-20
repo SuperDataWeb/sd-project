@@ -37,7 +37,7 @@ message = request("message")
 					<ul class="Tab_menu">
 					   <c:forEach var="series" items="${productSeries}" varStatus="status">
 						<li id="tab_menu1_${status.index+1}" onmouseover="setTab1('tab_menu1_','tab_menu1_0_',${status.index+1},8)"><a
-							href="/suda/html/chanpinzhongxin/suda3000xilie/">${series.alias }</a></li>
+							href="pageProductBySeries.do?seriesId=${series.id}">${series.alias }</a></li>
 					   </c:forEach>
 					</ul>
 				</td>
@@ -73,16 +73,16 @@ message = request("message")
 	                                      <td width="0" valign="middle" background="suda/templets/new/images/yjk_02.gif" ><table cellspacing="0" cellpadding="0" width="97%" border="0">
 	                                          <tbody>
 	                                            <tr>
-	                                              <td height="18"><a class="ColorGreenList" style="FONT-WEIGHT: bold" href="/suda/html/chanpinzhongxin/suda3000xilie/" >${series.seriesName }成员：</a></td>
+	                                              <td height="18"><a class="ColorGreenList" style="FONT-WEIGHT: bold" href="pageProductBySeries.do?seriesId=${series.id}" >${series.seriesName }成员：</a></td>
 	                                            </tr>
 	                                            <tr>
 	                                              <td height="18" style="PADDING-RIGHT: 5px">
-	                                                <c:forEach var="product" items="${series.products }" varStatus="seriesStatus">
-	                                                  <c:if test="${seriesStatus.index lt 3}">
+	                                                <c:forEach var="product" items="${series.products }" varStatus="productStatus">
+	                                                  <c:if test="${productStatus.index lt 3}">
 	                                                  		<a class="ColorGreenList" title="${product.productName }" href="product.do?productId=${product.id }" >${product.productName }</a> |
 													  </c:if>
 													</c:forEach>  
-	                                                <a class="ColorGreenList" href="/suda/html/chanpinzhongxin/suda3000xilie/" >更多&gt;&gt;</a>
+	                                                <a class="ColorGreenList" href="pageProductBySeries.do?seriesId=${series.id}" >更多&gt;&gt;</a>
 	                                              </td>
 	                                            </tr>
 	                                          </tbody>
@@ -111,12 +111,12 @@ message = request("message")
 	                              <td height="35"><table width="475" border="0" cellspacing="0" cellpadding="0">
 	                                  <tr>
 	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　
-	                                    
-	                                    <a href="/suda/html/chanpinzhongxin/suda3000xilie/20111116/suda3000std.html
-	"  class="tab">产品详情</a>
-	                                    
+	                                    <c:forEach var="product" items="${series.products }" varStatus="productStatus">
+	                                      <c:if test="${productStatus.index eq 0}">
+	                                    	<a href="product.do?productId=${product.id}"  class="tab">产品详情</a>
+	                                      </c:if>
+	                                    </c:forEach>
 	                                    </td>
-	                                    
 	                                    <td width="10" valign="middle">&nbsp;</td>
 	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'" class="tab">在线咨询</a></td>
 	                                    <td width="10" valign="middle">&nbsp;</td>
@@ -125,8 +125,6 @@ message = request("message")
 	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="/suda/plus/sd_service.php?sid=1"  class="tab">我要体验</a></td>
 	                                    <td width="10" valign="middle">&nbsp;</td>
 	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="/suda/plus/sd_service.php?sid=2"  target="_blank" class="tab">我要培训</a></td>
-	                                    
-	                                    
 	                                  </tr>
 	                                </table></td>
 	                            </tr>

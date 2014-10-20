@@ -15,8 +15,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.wodi.sdweb.dao.SpProductMapper;
+import com.wodi.sdweb.dao.SpProductSeriesMapper;
 import com.wodi.sdweb.dao.SpProductTypeMapper;
 import com.wodi.sdweb.model.SpProduct;
+import com.wodi.sdweb.model.SpProductDownload;
+import com.wodi.sdweb.model.SpProductSeries;
 import com.wodi.sdweb.model.SpProductType;
 import com.wodi.sdweb.service.SpProductService;
 import com.wodi.sdweb.utils.PageModel;
@@ -38,6 +41,9 @@ public class SpProductServiceImpl implements SpProductService {
 	@Autowired
 	private SpProductTypeMapper spProductTypeDao;
 	
+	@Autowired
+	private SpProductSeriesMapper spProductSeriesDao;
+	
 	@Override
 	public void insertSpProduct(SpProduct product) {
 		spProductDao.insert(product);
@@ -48,7 +54,9 @@ public class SpProductServiceImpl implements SpProductService {
 		// 貌似可以查一次数据库就能关联出来产品类型 TODO
 		SpProduct sp = spProductDao.selectById(id);
 		SpProductType spt = spProductTypeDao.selectByTypeId(sp.getType());
+		SpProductSeries sps = spProductSeriesDao.selectBySeriesId(sp.getSeries());
 		sp.setProductType(spt);
+		sp.setProductSeries(sps);
 		return sp;
 	}
 
@@ -65,6 +73,16 @@ public class SpProductServiceImpl implements SpProductService {
 	public List<SpProduct> selectByTypeId(Long typeId) {
 		List<SpProduct> sps = spProductDao.selectByType(typeId);
 		return sps;
+	}
+
+	@Override
+	public PageModel<SpProduct> pageSelect(int startIndex, int pageSize,
+			Long seriesId) {
+		PageModel<SpProduct> spProductPage = new PageModel<SpProduct>();
+		spProductPage.setTotal(spProductDao.selectCountBySeries(seriesId));
+		List<SpProduct> datas = spProductDao.pageSelectBySeries(startIndex, pageSize, seriesId);
+		spProductPage.setDatas(datas);
+		return spProductPage;
 	}
 
 
