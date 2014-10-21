@@ -102,7 +102,7 @@ message = request("message")
 									<td height="2" bgcolor="#1E9039"></td>
 								</tr>
 							</table>
-                            <%@ include file="sudav7/速达V70+.net-商业版.jsp" %>
+                            <%@ include file="suda3000/速达3000 BAS.jsp" %>
 						</td>
 					</tr>
 				</table>

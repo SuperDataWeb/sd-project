@@ -3,10 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
-<title>速达V70+.net-商业版_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
-<meta name="keywords" content="速达,V70+.net-,商业,版,《,速达V70+.net" />
+<title>速达V70+.net-工业版_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
+<meta name="keywords" content="速达,V70+.net-,工业,版,《,速达V70+.net" />
 <meta name="description"
-	content="《速达V70+.net-商业版》集企业级ERP系统、财务管理、项目管理、企业预算控制、客户关系管理、工作日志、进出口管理、质量管理、人力资源管理、集团管理、工作互动平台服务于一体" />
+	content="《速达V70+.net-工业版》集企业级ERP系统、财务管理、项目管理、企业预算控制、客户关系管理、工作日志、进出口管理、质量管理、人力资源管理、集团管理、工作互动平台服务于一体" />
 <link href="suda/templets/new/css/index.css" rel="stylesheet"
 	type="text/css">
 	<link href="suda/templets/new/css/style.css" rel="stylesheet"
@@ -23,7 +23,7 @@
 			<td class="hg" style="padding-top: 8px">
 				<!--内容调用-->
 				<p>
-					<span style="font-size: 14px;"><strong>速达V70+.net-商业版
+					<span style="font-size: 14px;"><strong>速达V70+.net-工业版
 							核心功能</strong></span><br /> <br />
 					<table border="1" cellpadding="0" cellspacing="0" width="100%">
 						<tbody>
@@ -52,6 +52,19 @@
 							<tr>
 								<td style="width: 81px;"><strong>售后管理</strong></td>
 								<td style="width: 672px;">服务反馈单，维修派工单，维修验收，维修发货单</td>
+							</tr>
+							<tr>
+								<td style="width: 81px;"><strong>生产系统</strong></td>
+								<td style="width: 672px;">主生产计划，MRP运算，加工单，费用分摊，验收单，成本计算表</td>
+							</tr>
+							<tr>
+								<td style="width: 81px;"><strong>工序管理</strong></td>
+								<td style="width: 672px;">工序计划单，工序流程卡，开工记录，调度表，产品交接单</td>
+							</tr>
+							<tr>
+								<td style="width: 81px;"><strong>委托加工</strong></td>
+								<td style="width: 672px;">
+									主生产计划，委托加工单，加工领料单，加工验收单，加工费用单，加工费用分摊，加工成本计算表</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>应收应付</strong></td>
@@ -254,6 +267,41 @@
 					<div>客户资料管理，服务类型管理，维修类型</div>
 					<div>&nbsp;</div>
 					<div>
+						<strong>生产系统<br /> <img alt=""
+							src="suda/uploads/allimg/140707/1-140FG53302K4.jpg"
+							style="width: 720px; height: 458px" /></strong>
+					</div>
+					<div>
+						<strong>核心功能</strong>
+					</div>
+					<div>主生产计划管理：主生产计划、主生产计划维护、主生产计划审核</div>
+					<div>加工单管理：生产加工、返修加工、加工单维护、加工单审核、加工单自动生成请购单</div>
+					<div>验收单管理：验收单、验收单维护、验收单审核</div>
+					<div>在制品单管理：在制品单、在制品单维护、在制品单审核</div>
+					<div>生产流程设置</div>
+					<div>
+						<strong>核心报表</strong>
+					</div>
+					<div>
+						材料消耗明细表、主生产计划汇总表、主生产计划明细表、加工验收汇总表、加工单明细表、直接材料领用汇总表、直接材料领用明细表、在制品成本计算表、在制品数量汇总表、在制品数量明细表、生产日报、材料消耗汇总表、验收单汇总表、验收单明细表、加工单完成情况分析汇总表、加工单完成情况明细表、主生产计划跟踪到加工单</div>
+					<div>&nbsp;</div>
+					<div>
+						<strong>委托加工<br /> <img alt=""
+							src="suda/uploads/allimg/140707/1-140FG53459131.jpg"
+							style="width: 720px; height: 458px" /></strong>
+					</div>
+					<div>
+						<strong>核心功能</strong>
+					</div>
+					<div>主生产计划管理：主生产计划，委托加工单，加工单审核，</div>
+					<div>加工管理，加工领料单，加工验收单，加工费用单，加工费用分摊，加工成本计算表。</div>
+					<div>
+						<strong>核心报表</strong>
+					</div>
+					<div>
+						委托加工单汇总表，委托加工单明细表，加工领料单汇总表，加工领料单明细表，加工验收单汇总表，加工验收单明细表，加工费用单汇总表，加工费用单明细表</div>
+					<div>&nbsp;</div>
+					<div>
 						<strong>质量管理<br /> <img alt=""
 							src="suda/uploads/allimg/140707/1-140FG535203G.jpg"
 							style="width: 720px; height: 458px" /></strong>
@@ -429,7 +477,7 @@
 						&nbsp; &nbsp;行动管理，服务管理。 &bull;</div>
 					<div>
 						<strong>核心报表<span class="Apple-tab-span"
-							style="white-space: pre;"> </span>：
+							style="white-space: pre"> </span>：
 						</strong>
 					</div>
 					<div>
@@ -527,6 +575,7 @@
 					<div>功能模块自定义、业务流程图设计、自定义基础资料、自定义单据样式设计、自定义计算字段。</div>
 					<div>查询报表设计、统计过滤设计、打印样式设计</div>
 					<div>&nbsp;</div>
+					<br /> <br />
 				</p> <br><br />
 					<div id="ckepop">
 						<span class="jiathis_txt">分享到：</span> <a

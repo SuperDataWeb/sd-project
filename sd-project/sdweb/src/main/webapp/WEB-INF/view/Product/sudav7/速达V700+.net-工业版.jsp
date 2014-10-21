@@ -3,10 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
-<title>速达V70+.net-商业版_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
-<meta name="keywords" content="速达,V70+.net-,商业,版,《,速达V70+.net" />
+<title>速达V700+.net-工业版_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
+<meta name="keywords" content="速达,V700+.net-,工业,版,《,速达V700+.n" />
 <meta name="description"
-	content="《速达V70+.net-商业版》集企业级ERP系统、财务管理、项目管理、企业预算控制、客户关系管理、工作日志、进出口管理、质量管理、人力资源管理、集团管理、工作互动平台服务于一体" />
+	content="《速达V700+.net-工业版》集企业级ERP系统、分销管理（BDM）、财务管理、项目管理、企业预算控制、客户关系管理、工作日志、进出口管理、质量管理、人力资源管理、集团管理、工作互" />
 <link href="suda/templets/new/css/index.css" rel="stylesheet"
 	type="text/css">
 	<link href="suda/templets/new/css/style.css" rel="stylesheet"
@@ -23,7 +23,7 @@
 			<td class="hg" style="padding-top: 8px">
 				<!--内容调用-->
 				<p>
-					<span style="font-size: 14px;"><strong>速达V70+.net-商业版
+					<span style="font-size: 16px;"><strong>速达V700+.net-工业版
 							核心功能</strong></span><br /> <br />
 					<table border="1" cellpadding="0" cellspacing="0" width="100%">
 						<tbody>
@@ -52,6 +52,19 @@
 							<tr>
 								<td style="width: 81px;"><strong>售后管理</strong></td>
 								<td style="width: 672px;">服务反馈单，维修派工单，维修验收，维修发货单</td>
+							</tr>
+							<tr>
+								<td style="width: 81px;"><strong>生产系统</strong></td>
+								<td style="width: 672px;">主生产计划，MRP运算，加工单，费用分摊，验收单，成本计算表</td>
+							</tr>
+							<tr>
+								<td style="width: 81px;"><strong>工序管理</strong></td>
+								<td style="width: 672px;">工序计划单，工序流程卡，开工记录，调度表，产品交接单</td>
+							</tr>
+							<tr>
+								<td style="width: 81px;"><strong>委托加工</strong></td>
+								<td style="width: 672px;">
+									主生产计划，委托加工单，加工领料单，加工验收单，加工费用单，加工费用分摊，加工成本计算表</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>应收应付</strong></td>
@@ -116,7 +129,7 @@
 							<tr>
 								<td style="width: 81px;"><strong>分销管理</strong></td>
 								<td style="width: 672px;">
-									分销机构加盟、分销数据下载、分销机构设置、分销订单审批、分销采购订单、分销货品授权、分销销售订单、分销数据上传、自定义查询</td>
+									企业总部注册，分销机构设置，库存查询授权，分销货品授权，自定义查询，分销销售订单，分销订单审批</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>网店管理</strong></td>
@@ -136,7 +149,7 @@
 					<br /> <br /> <br />
 					<div>
 						<strong>采购管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53103354.jpg"
+							src="suda/uploads/allimg/140707/1-140FG61U3347.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -160,7 +173,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>销售管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG531249E.jpg"
+							src="suda/uploads/allimg/140707/1-140FG61Z9121.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -185,7 +198,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>仓库系统<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53140546.jpg"
+							src="suda/uploads/allimg/140707/1-140FG61923622.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -212,7 +225,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>POS系统管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53155a8.jpg"
+							src="suda/uploads/allimg/140707/1-140FG61939252.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -229,7 +242,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>进出口管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53211256.jpg"
+							src="suda/uploads/allimg/140707/1-140FG61954933.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -244,7 +257,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>售后管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53232402.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62010924.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -254,8 +267,43 @@
 					<div>客户资料管理，服务类型管理，维修类型</div>
 					<div>&nbsp;</div>
 					<div>
+						<strong>生产系统<br /> <img alt=""
+							src="suda/uploads/allimg/140707/1-140FG620315N.jpg"
+							style="width: 720px; height: 458px" /></strong>
+					</div>
+					<div>
+						<strong>核心功能</strong>
+					</div>
+					<div>主生产计划管理：主生产计划、主生产计划维护、主生产计划审核</div>
+					<div>加工单管理：生产加工、返修加工、加工单维护、加工单审核、加工单自动生成请购单</div>
+					<div>验收单管理：验收单、验收单维护、验收单审核</div>
+					<div>在制品单管理：在制品单、在制品单维护、在制品单审核</div>
+					<div>生产流程设置</div>
+					<div>
+						<strong>核心报表</strong>
+					</div>
+					<div>
+						材料消耗明细表、主生产计划汇总表、主生产计划明细表、加工验收汇总表、加工单明细表、直接材料领用汇总表、直接材料领用明细表、在制品成本计算表、在制品数量汇总表、在制品数量明细表、生产日报、材料消耗汇总表、验收单汇总表、验收单明细表、加工单完成情况分析汇总表、加工单完成情况明细表、主生产计划跟踪到加工单</div>
+					<div>&nbsp;</div>
+					<div>
+						<strong>委托加工<br /> <img alt=""
+							src="suda/uploads/allimg/140707/1-140FG6204Sa.jpg"
+						    style="width: 720px; height: 458px" /></strong>
+					</div>
+					<div>
+						<strong>核心功能</strong>
+					</div>
+					<div>主生产计划管理：主生产计划，委托加工单，加工单审核，</div>
+					<div>加工管理，加工领料单，加工验收单，加工费用单，加工费用分摊，加工成本计算表。</div>
+					<div>
+						<strong>核心报表</strong>
+					</div>
+					<div>
+						委托加工单汇总表，委托加工单明细表，加工领料单汇总表，加工领料单明细表，加工验收单汇总表，加工验收单明细表，加工费用单汇总表，加工费用单明细表</div>
+					<div>&nbsp;</div>
+					<div>
 						<strong>质量管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG535203G.jpg"
+							src="suda/uploads/allimg/140707/1-140FG6210Q64.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -274,7 +322,7 @@
 					</div>
 					<div>
 						<strong>应收应付<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53555430.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62133c5.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -290,7 +338,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>现金银行<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53611440.jpg"
+							src="suda/uploads/allimg/140707/1-140FG6214H02.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -307,7 +355,7 @@
 					</div>
 					<div>
 						<strong>财务系统：<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG5362b63.jpg"
+							src="suda/uploads/allimg/140707/1-140FG6220E51.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -331,13 +379,13 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>出纳系统<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53A9311.jpg"
+							src="suda/uploads/allimg/140707/1-140FG6222M06.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>
 					</div>
-					<div>&nbsp;日记账录入：对公司其他费用的收入和支出录入凭证。</div>
+					<div>日记账录入：对公司其他费用的收入和支出录入凭证。</div>
 					<div>票据管理和银行对账单可以使你公司的现金账目更加清晰。</div>
 					<div>出纳会计对账和出纳银行对账可以让财务更加清楚的知道账目不容出错，</div>
 					<div>
@@ -347,7 +395,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>固定资产<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53G1609.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62243b5.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -364,7 +412,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>工资核算：<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53I0138.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62259206.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>工资管理：工资数据录入，记件数据录入计算员工工资，支付工资，三费计提，工资费用分配。</div>
@@ -375,7 +423,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>预算管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53K1b7.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62314V2.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -385,7 +433,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>合并报表<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53RSJ.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62400346.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -403,7 +451,7 @@
 					</div>
 					<div>
 						<strong>分支机构<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53Ta58.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62420425.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -419,7 +467,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>客户关系<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53Z4622.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62435135.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -429,7 +477,7 @@
 						&nbsp; &nbsp;行动管理，服务管理。 &bull;</div>
 					<div>
 						<strong>核心报表<span class="Apple-tab-span"
-							style="white-space: pre;"> </span>：
+							style="white-space: pre"> </span>：
 						</strong>
 					</div>
 					<div>
@@ -437,7 +485,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>办公管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG5391SK.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62451913.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -447,7 +495,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>日常工作<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53934114.jpg"
+							src="suda/uploads/allimg/140707/1-140FG625063F.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -457,7 +505,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>人力资源<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG5394ND.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62520501.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -471,24 +519,23 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>分销管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG5400c31.jpg"
+							src="suda/uploads/allimg/140707/1-140FG6253Vc.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
 						<strong>核心功能:</strong>
 					</div>
-					<div>分销机构加盟后与总部和其他分销机构组成分销体系。</div>
-					<div>分销机构下载总部授权货品对接本地货品。</div>
-					<div>分销机构向总部提交或接受总部下达的分销订单。</div>
-					<div>分销机构经授权可以查询其他机构的分销货品库存。</div>
+					<div>分销管理:分销机构要在企业总部注册，总部对分销机构进行设置，对权限的一个控制</div>
+					<div>对分销机构一个销售货品的授权，</div>
+					<div>支持自定义查询，对分销机构的销售订单可以进行查询和审批</div>
 					<div>
 						<strong>核心报表：</strong>
 					</div>
-					<div>分销机构库存明细表，分销货品多机构库存，分销机构销售汇总表，分销机构销售明细表</div>
+					<div>分销机构销售汇总表，分销机构销售明细表，分销机构库存明细表，分销货品多机构库存。</div>
 					<div>&nbsp;</div>
 					<div>
 						<strong>网店管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG54023452.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62A61N.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -506,7 +553,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>项目管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG540414L.jpg"
+							src="suda/uploads/allimg/140707/1-140FG62G3134.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>

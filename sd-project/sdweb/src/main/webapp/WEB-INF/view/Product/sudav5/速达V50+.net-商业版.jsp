@@ -3,10 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
-<title>速达V70+.net-商业版_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
-<meta name="keywords" content="速达,V70+.net-,商业,版,《,速达V70+.net" />
+<title>速达V50+.net-商业版_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
+<meta name="keywords" content="速达,V50+.net-,商业,版,《,速达V50+.net" />
 <meta name="description"
-	content="《速达V70+.net-商业版》集企业级ERP系统、财务管理、项目管理、企业预算控制、客户关系管理、工作日志、进出口管理、质量管理、人力资源管理、集团管理、工作互动平台服务于一体" />
+	content="《速达V50+.net-商业版》作为ERP管理系统，创造性的将B/S C/S Android结构融为一体。软件全面实现供应链业务管理、资金管理、财务管理、客户关系管理、异地分销、远程配送、多机构集团" />
 <link href="suda/templets/new/css/index.css" rel="stylesheet"
 	type="text/css">
 	<link href="suda/templets/new/css/style.css" rel="stylesheet"
@@ -23,120 +23,114 @@
 			<td class="hg" style="padding-top: 8px">
 				<!--内容调用-->
 				<p>
-					<span style="font-size: 14px;"><strong>速达V70+.net-商业版
-							核心功能</strong></span><br /> <br />
+					<span style="font-size: 16px;"><strong>速达V50+.net-商业版
+							核心模块</strong></span><br /> <br />
 					<table border="1" cellpadding="0" cellspacing="0" width="100%">
 						<tbody>
 							<tr>
 								<td style="width: 81px;"><strong>采购管理</strong></td>
-								<td style="width: 672px;">采购计划，请购单，采购订单，采购开单，估价入库，采购费用分摊，</td>
+								<td style="width: 673px;">采购计划，请购单，采购订单，采购开单，估价入库，采购费用分摊，</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>销售管理</strong></td>
-								<td style="width: 672px;">销售计划，销售订单，委托代销，发出商品，销售开单。</td>
+								<td style="width: 673px;">销售计划，销售订单，委托代销，发出商品，销售开单。</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>仓库管理</strong></td>
-								<td style="width: 672px;">
+								<td style="width: 673px;">
 									出入库单，领料单，调拨单，调价单，组装单，拆卸单，盘点单，报损单，其他收货单，其他发货单</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>POS</strong><strong>系统</strong></td>
-								<td style="width: 672px;">
+								<td style="width: 673px;">
 									发放抵用券，POS销售单，储值卡充值，出入款单，调整批次，POS日结，POS日结单，积分调整，积分返现，兑换奖品</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>进出口管理</strong></td>
-								<td style="width: 672px;">进口订单，出口订单，进口单证，出口单证，装箱单</td>
+								<td style="width: 673px;">进口订单，出口订单，进口单证，出口单证，装箱单</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>售后管理</strong></td>
-								<td style="width: 672px;">服务反馈单，维修派工单，维修验收，维修发货单</td>
+								<td style="width: 673px;">服务反馈单，维修派工单，维修验收，维修发货单</td>
+							</tr>
+							<tr>
+								<td style="width: 81px;"><strong>质量管理</strong></td>
+								<td style="width: 673px;">报检单，检验单，项目检验单，内检费用单，设备校验单。</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>应收应付</strong></td>
-								<td style="width: 672px;">应收款单，应付款单，往来账核销</td>
+								<td style="width: 673px;">应收款单，应付款单，往来账核销</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>现金银行</strong></td>
-								<td style="width: 672px;">费用申请，费用支出、其他收入、银行存取款</td>
+								<td style="width: 673px;">费用申请，费用支出、其他收入、银行存取款</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>财务系统</strong></td>
-								<td style="width: 672px;">
+								<td style="width: 673px;">
 									凭证录入、现金流量分配，凭证制作，自动转账，出纳签字，凭证审核、凭证登账、结转损益、期末调汇。期未结账</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>出纳管理</strong></td>
-								<td style="width: 672px;">
+								<td style="width: 673px;">
 									日记账录入，票据管理，银行对账单录入，出纳会计对账，出纳银行对账，出纳结账。</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>固定资产</strong></td>
-								<td style="width: 672px;">资产增加，资产减少，固定资产变动，工作量录入，计提折旧</td>
+								<td style="width: 673px;">资产增加，资产减少，固定资产变动，工作量录入，计提折旧</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>工资系统</strong></td>
-								<td style="width: 672px;">工资数据录入，计件工资录入，工资费用分配，三费计提，工资支付</td>
+								<td style="width: 673px;">工资数据录入，计件工资录入，工资费用分配，三费计提，工资支付</td>
 							</tr>
 							<tr>
-								<td style="width: 81px;"><strong>预算管理</strong></td>
-								<td style="width: 672px;">预算方案，预算编制，自定义预算报表，预算分析</td>
-							</tr>
-							<tr>
-								<td style="width: 81px;"><strong>合并报表</strong></td>
-								<td style="width: 672px;">
+								<td style="width: 81px; height: 33px;"><strong>合并报表</strong></td>
+								<td style="width: 673px; height: 33px;">
 									公司信息，报表模板设计，抵消项目，抵消项目模板，工作目录，报表录入，抵消分录，合并报表</td>
 							</tr>
 							<tr>
 								<td style="width: 81px; height: 33px;"><strong>分支机构</strong></td>
-								<td style="width: 672px; height: 33px;">请配单，配送单，DRP运算</td>
+								<td style="width: 673px; height: 33px;">请配单，配送单，DRP运算</td>
 							</tr>
 							<tr>
-								<td style="width: 81px; height: 33px;"><strong>客户关系</strong></td>
-								<td style="width: 672px; height: 33px;">
+								<td style="width: 81px;"><strong>客户关系</strong></td>
+								<td style="width: 673px;">
 									客户管理，销售管理，货品管理，费用管理，联系人管理，机会管理，行动管理，服务反馈。</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>办公管理</strong></td>
-								<td style="width: 672px;">审批模板，文件审批，公告管理，新闻管理，留言薄，备忘录。</td>
+								<td style="width: 673px;">审批模板，文件审批，公告管理，新闻管理，留言薄，备忘录。</td>
 							</tr>
 							<tr>
-								<td style="width: 81px;"><strong>日常工作</strong></td>
-								<td style="width: 672px;">邮件管理，通讯录，我的工作，日程安排，工作日记</td>
+								<td style="width: 81px;"><strong>工作管理</strong></td>
+								<td style="width: 673px;">邮件管理，通讯录，我的工作，日程安排，工作日记</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>人力资源</strong></td>
-								<td style="width: 672px;">入职申请，用工合同，离职申请，薪金调整，工作调动。</td>
-							</tr>
-							<tr>
-								<td style="width: 81px;"><strong>质量管理</strong></td>
-								<td style="width: 672px;">报检单，检验单，项目检验单，内检费用单，设备校验单。</td>
-							</tr>
-							<tr>
-								<td style="width: 81px;"><strong>分销管理</strong></td>
-								<td style="width: 672px;">
-									分销机构加盟、分销数据下载、分销机构设置、分销订单审批、分销采购订单、分销货品授权、分销销售订单、分销数据上传、自定义查询</td>
+								<td style="width: 673px;">入职申请，用工合同，离职申请，薪金调整，工作调动。</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>网店管理</strong></td>
-								<td style="width: 672px;">
+								<td style="width: 673px;">
 									网店注册，下载商品，网店订单，网店发货，网店收款，网店退换货，网点付款</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>项目管理</strong></td>
-								<td style="width: 672px;">项目资料，项目任务，任务类别，项目进度。</td>
+								<td style="width: 673px;">项目资料，项目任务，任务类别，项目进度。</td>
 							</tr>
 							<tr>
 								<td style="width: 81px;"><strong>特殊功能</strong></td>
-								<td style="width: 672px;">经理查询， Builder平台,云管理平台，数据中心，报表中心，</td>
+								<td style="width: 673px;">经理查询，
+									Builder平台,云管理平台，全时培训，数据中心，报表中心，审核中心企业电商平台</td>
 							</tr>
 						</tbody>
 					</table>
-					<br /> <br /> <br />
+					<br /> <img alt=""
+						src="suda/uploads/allimg/140705/1-140F5130102A3.jpg"
+						style="width: 720px; height: 458px" /><br /> <br />
 					<div>
 						<strong>采购管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53103354.jpg"
+							src="suda/uploads/allimg/140705/1-140F513012IY.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -160,8 +154,8 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>销售管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG531249E.jpg"
-							style="width: 720px; height: 458px" /></strong>
+							src="suda/uploads/allimg/140705/1-140F5130150253.jpg"
+							style="width: 720px; height: 458px"/></strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>
@@ -185,8 +179,8 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>仓库系统<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53140546.jpg"
-							style="width: 720px; height: 458px" /></strong>
+							src="suda/uploads/allimg/140705/1-140F5130210561.jpg"
+							style="width: 720px; height: 458px"/></strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>
@@ -212,7 +206,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>POS系统管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53155a8.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130229B4.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -229,8 +223,8 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>进出口管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53211256.jpg"
-							style="width: 720px; height: 458px" /></strong>
+							src="suda/uploads/allimg/140705/1-140F51302511R.jpg"
+							style="width: 720px; height: 458px"/></strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>
@@ -244,7 +238,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>售后管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53232402.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130313964.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -255,8 +249,8 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>质量管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG535203G.jpg"
-							style="width: 720px; height: 458px" /></strong>
+							src="suda/uploads/allimg/140705/1-140F5130341252.jpg"
+							style="width: 720px; height: 458px"/></strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>
@@ -274,7 +268,7 @@
 					</div>
 					<div>
 						<strong>应收应付<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53555430.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130412M6.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -290,7 +284,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>现金银行<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53611440.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130430959.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -307,7 +301,7 @@
 					</div>
 					<div>
 						<strong>财务系统：<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG5362b63.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130454517.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -331,7 +325,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>出纳系统<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53A9311.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130512338.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -347,7 +341,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>固定资产<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53G1609.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130531426.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -364,7 +358,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>工资核算：<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53I0138.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130550942.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>工资管理：工资数据录入，记件数据录入计算员工工资，支付工资，三费计提，工资费用分配。</div>
@@ -374,9 +368,7 @@
 					<div>工资月度明细表，工资结构分析表，个人所得税明细表，工资支付汇总表。</div>
 					<div>&nbsp;</div>
 					<div>
-						<strong>预算管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53K1b7.jpg"
-							style="width: 720px; height: 458px" /></strong>
+						<strong>预算管理</strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>
@@ -385,7 +377,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>合并报表<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53RSJ.jpg"
+							src="suda/uploads/allimg/140705/1-140F51306163b.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -403,7 +395,7 @@
 					</div>
 					<div>
 						<strong>分支机构<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53Ta58.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130642935.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -419,59 +411,24 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>客户关系<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53Z4622.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130F11Y.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
 						<strong>核心功能:</strong>
 					</div>
-					<div>客户关系管理：客户管理，销售管理，货品管理，费用管理，联系人管理，机会管理， &nbsp; &nbsp;
-						&nbsp; &nbsp;行动管理，服务管理。 &bull;</div>
+					<div>客户关系管理：客户管理，销售管理，货品管理，费用管理，联系人管理，机会管理，行动管理，服务管理。&nbsp;</div>
 					<div>
-						<strong>核心报表<span class="Apple-tab-span"
-							style="white-space: pre;"> </span>：
-						</strong>
+						<strong>核心报表：</strong>
 					</div>
 					<div>
 						客户结构分析，客户销售利润，滞销货品分析，机会状态分析，机会费用分析，服务反馈分析，服务绩效分析，畅销货品分析。</div>
 					<div>&nbsp;</div>
-					<div>
-						<strong>办公管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG5391SK.jpg"
-							style="width: 720px; height: 458px" /></strong>
-					</div>
-					<div>
-						<strong>核心功能</strong>
-					</div>
-					<div>办公管理：审批模板，文件审批，公告管理，新闻管理，留言薄，备忘录。</div>
 					<div>&nbsp;</div>
-					<div>
-						<strong>日常工作<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG53934114.jpg"
-							style="width: 720px; height: 458px" /></strong>
-					</div>
-					<div>
-						<strong>核心功能</strong>
-					</div>
-					<div>日常工作：邮件管理，通讯录管理，我的工作，日程安排，工作日记</div>
-					<div>&nbsp;</div>
-					<div>
-						<strong>人力资源<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG5394ND.jpg"
-							style="width: 720px; height: 458px" /></strong>
-					</div>
-					<div>
-						<strong>核心功能</strong>
-					</div>
-					<div>人力资源管理：新员工入职申请管理，用工合同的管理，离职申请，薪金调整，工作调动管理</div>
-					<div>
-						<strong>核心报表</strong>
-					</div>
-					<div>入职申请汇总表，离职申请汇总表，工作调动汇总表，薪资调整汇总表，用工合同管理表</div>
 					<div>&nbsp;</div>
 					<div>
 						<strong>分销管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG5400c31.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130K4E9.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -488,7 +445,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>网店管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG54023452.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130QAG.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
@@ -499,6 +456,7 @@
 					<div>网店订单：可以查看网上店铺的所有订单。</div>
 					<div>网店发货：可以在软件里面直接操作店铺进行发货，网店退换货，网店收款，网店付款。</div>
 					<div>支持淘宝、拍拍、京东等主流电商平台数据对接。</div>
+					<div>支持《速达大商圈》电商平台数据接口。</div>
 					<div>
 						<strong>核心报表</strong>
 					</div>
@@ -506,7 +464,7 @@
 					<div>&nbsp;</div>
 					<div>
 						<strong>项目管理<br /> <img alt=""
-							src="suda/uploads/allimg/140707/1-140FG540414L.jpg"
+							src="suda/uploads/allimg/140705/1-140F5130S6230.jpg"
 							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
