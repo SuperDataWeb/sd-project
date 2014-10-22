@@ -29,8 +29,8 @@
 								商业版 核心模块</strong></span><br /> <br /> &nbsp;
 					</p>
 					<table border="1" cellpadding="0" cellspacing="0"
-						style="padding-bottom: 0px; line-height: 20px; margin: 0px; padding-left: 0px; border-spacing: 0px; width: 754px; padding-right: 0px; border-collapse: collapse; font-family: 宋体; color: rgb(51, 51, 51); padding-top: 0px"
-						width="754">
+						style="padding-bottom: 0px; line-height: 20px; margin: 0px; padding-left: 0px; border-spacing: 0px; width: 720px; padding-right: 0px; border-collapse: collapse; font-family: 宋体; color: rgb(51, 51, 51); padding-top: 0px"
+						width="720">
 						<tbody>
 							<tr>
 								<td>&nbsp;</td>

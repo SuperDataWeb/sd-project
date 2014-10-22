@@ -48,7 +48,7 @@ message = request("message")
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>
 							<td width="150"><a href="product.do?productId=${product.id}" class='preview'>
-							<img src='<%= request.getContextPath()%>${product.img}'
+							<img src='${product.img}'
 									alt='[field:title/]' width='135' height='180' border='0' /></a></td>
 							<td valign="top"><table width="100%" border="0"
 									cellspacing="0" cellpadding="0">

@@ -325,7 +325,7 @@
 					<div>
 						<strong>工资核算：<br /> <img alt=""
 							src="suda/uploads/allimg/140702/1-140F21G5494O.jpg"
-							style="width: 750px; height: 500px" /></strong>
+							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>工资管理：工资数据录入，记件数据录入，支付工资，费用分配。</div>
 					<div>

@@ -26,7 +26,7 @@
 					<div>
 						<strong>速达V3+.net-财务PRO&nbsp; 核心模块：</strong><br />
 						<table border="1" bordercolor="#bf9d43" cellpadding="0"
-							cellspacing="0" class="tablemod" width="750">
+							cellspacing="0" class="tablemod" width="720">
 							<tbody>
 								<tr class="tr1">
 									<td style="text-align: center; width: 85px"><strong><strong><span

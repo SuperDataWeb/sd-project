@@ -34,7 +34,7 @@
 					<table border="1" bordercolor="#bf9d43" cellpadding="0"
 						cellspacing="0" class="tablemod"
 						style="padding-bottom: 0px; background-color: rgb(254, 247, 229); margin: 0px; padding-left: 0px; padding-right: 0px; font-family: 宋体; color: rgb(0, 0, 0); font-size: 12px; padding-top: 0px"
-						width="750">
+						width="720">
 						<tbody
 							style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px">
 							<tr class="tr1"
@@ -281,11 +281,11 @@
 					</table>
 					<p style="text-align: left">&nbsp;</p>
 					<div class="sub-wrap" id="J_SubWrap"
-						style="z-index: 99999998; position: relative; padding-bottom: 0px; line-height: 18px; margin: 0px 0px 0px 5px; padding-left: 0px; width: 750px; padding-right: 0px; padding-top: 0px">
+						style="z-index: 99999998; position: relative; padding-bottom: 0px; line-height: 18px; margin: 0px 0px 0px 5px; padding-left: 0px; width: 720px; padding-right: 0px; padding-top: 0px">
 						<div class="tshop-psm ke-post J_DetailSection" id="description"
 							style="padding-bottom: 0px; line-height: 1.5; margin: 0px 0px 20px; padding-left: 0px; padding-right: 0px; clear: both; font-size: 14px; padding-top: 0px">
 							<div class="content" id="J_DivItemDesc"
-								style="position: relative !important; padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 746px; padding-right: 0px; word-wrap: break-word; height: 12494px; overflow: hidden; padding-top: 10px">
+								style="position: relative !important; padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 720px; padding-right: 0px; word-wrap: break-word; height: 12494px; overflow: hidden; padding-top: 10px">
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
 									<span style="font-size: medium"><strong><span
@@ -297,7 +297,7 @@
 									style="text-align: left; padding-bottom: 0px; margin: 1.12em 0px; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
 									<img align="absMiddle" alt=""
 										src="suda/uploads/allimg/140627/1932401a9-0.jpg"
-										style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px" />
+										style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px" />
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
@@ -335,7 +335,7 @@
 									style="text-align: left; padding-bottom: 0px; margin: 1.12em 0px; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
 									<img align="absMiddle" alt=""
 										src="suda/uploads/allimg/140627/19324022G-1.jpg"
-										style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px" />
+										style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px" />
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 1.12em 0px; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
@@ -376,7 +376,7 @@
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
 									<img align="absMiddle" alt=""
 										src="suda/uploads/allimg/140627/1932403293-2.jpg"
-										style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px" />
+										style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px" />
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
@@ -424,7 +424,7 @@
 									<strong><span style="font-family: 宋体; font-size: 10pt"><img
 											align="absMiddle" alt=""
 											src="suda/uploads/allimg/140627/1932403E9-3.jpg"
-											style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px" /></span></strong>
+											style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px" /></span></strong>
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
@@ -472,8 +472,8 @@
 										style="font-family: 宋体; color: red; font-size: 24pt"><img
 											align="absMiddle" alt="" height="517"
 											src="suda/uploads/allimg/140627/1932402F6-4.jpg"
-											style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-											width="779" /></span></b>
+											style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+											/></span></b>
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
@@ -528,8 +528,8 @@
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
 									<img align="absMiddle" alt="" height="517"
 										src="suda/uploads/allimg/140627/1932402192-5.jpg"
-										style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-										width="779" />
+										style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+										 />
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
@@ -560,8 +560,8 @@
 									<strong><span style="font-family: 宋体; font-size: 10pt"><img
 											align="absMiddle" alt="" height="517"
 											src="suda/uploads/allimg/140627/1932402N8-6.jpg"
-											style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-											width="779" /><br /> 核心功能</span></strong><br /> <span
+											style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+											 /><br /> 核心功能</span></strong><br /> <span
 										style="font-family: 宋体; font-size: 10pt">应收账款管理：销售应收款业务、现金折扣业务、预收款处理、呆死账处理、</span><br />
 									<span style="font-family: 宋体; font-size: 10pt">退货款抵应收款、采购款抵销售款、自动生成财务凭证</span><br />
 									<span style="font-family: 宋体; font-size: 10pt">应付账款管理：采购应付款业务、现金折扣处理、预付款处理、呆死账处理、</span><br />
@@ -588,8 +588,8 @@
 									<strong><span style="font-family: 宋体; font-size: 10pt"><img
 											align="absMiddle" alt="" height="517"
 											src="suda/uploads/allimg/140627/193240E57-7.jpg"
-											style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-											width="779" /><br /> 核心功能</span></strong><br /> <span
+											style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+											 /><br /> 核心功能</span></strong><br /> <span
 										style="font-family: 宋体; font-size: 10pt">银行存取款管理：出纳存取现金、票据资金转存银行、分支资金转入总部、总部资金下拨分支</span><br />
 									<span style="font-family: 宋体; font-size: 10pt">费用支出管理、其他收入管理</span><br />
 									<strong><span style="font-family: 宋体; font-size: 10pt">核心报表</span></strong><br />
@@ -607,8 +607,8 @@
 										style="font-family: 宋体; color: red; font-size: 24pt"><img
 											align="absMiddle" alt="" height="517"
 											src="suda/uploads/allimg/140627/1932402594-8.jpg"
-											style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-											width="779" /></span></b>
+											style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+											/></span></b>
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
@@ -643,8 +643,8 @@
 									<strong><span style="font-family: 宋体; font-size: 10pt"><img
 											align="absMiddle" alt="" height="517"
 											src="suda/uploads/allimg/140627/1932402O9-9.jpg"
-											style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-											width="779" /><br /> 核心功能</span></strong><br /> <span
+											style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+											 /><br /> 核心功能</span></strong><br /> <span
 										style="font-family: 宋体; font-size: 10pt">现金日记帐管理：登记出纳日记账、单据导入日记账、凭证导入日记账</span><br />
 									<span style="font-family: 宋体; font-size: 10pt">库存现金盘点管理：按账户盘点、按币种盘点、自动核对</span><br />
 									<span style="font-family: 宋体; font-size: 10pt">支票管理：支票购买管理、支票领用管理、支票支付管理、支票核销管理、支票作废</span><br />
@@ -669,8 +669,8 @@
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
 									<img align="absMiddle" alt="" height="517"
 										src="suda/uploads/allimg/140627/1932405026-10.jpg"
-										style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-										width="779" />
+										style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+										/>
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
@@ -705,8 +705,8 @@
 									<strong><span style="font-family: 宋体; font-size: 10pt"><img
 											align="absMiddle" alt="" height="517"
 											src="suda/uploads/allimg/140627/193240G51-11.jpg"
-											style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-											width="779" /><br /> 核心功能</span></strong><br /> <span
+											style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+											 /><br /> 核心功能</span></strong><br /> <span
 										style="font-family: 宋体; font-size: 10pt">计件工人工资管理、员工工资单管理、三费计提管理、工资分配管理</span><br />
 									<span style="font-family: 宋体; font-size: 10pt">实际支付工资管理、员工资料管理、计件工种管理、计件工序管理</span><br />
 									<span style="font-family: 宋体; font-size: 10pt">工资项目管理、项目类别管理</span><br />
@@ -726,8 +726,8 @@
 										style="font-family: 宋体; font-size: 24pt"><img
 											align="absMiddle" alt="" height="517"
 											src="suda/uploads/allimg/140627/1932405258-12.jpg"
-											style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-											width="779" /></span></b>
+											style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+											/></span></b>
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">
@@ -749,8 +749,8 @@
 										style="font-family: 宋体; color: red; font-size: 24pt"><img
 											align="absMiddle" alt="" height="517"
 											src="suda/uploads/allimg/140627/19324020K-13.jpg"
-											style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
-											width="779" /></span></b>
+											style="width: 720px; height: 458px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top; padding-top: 0px"
+											/></span></b>
 								</p>
 								<p
 									style="text-align: left; padding-bottom: 0px; margin: 0cm 0cm 0pt; padding-left: 0px; padding-right: 0px; font-family: tahoma, arial, 宋体, sans-serif; padding-top: 0px">

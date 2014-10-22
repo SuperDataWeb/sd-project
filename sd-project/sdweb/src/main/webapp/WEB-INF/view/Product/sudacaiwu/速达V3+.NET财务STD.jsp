@@ -156,7 +156,7 @@
 					<div>
 						<strong>期末处理：<br /> <img alt=""
 							src="suda/uploads/allimg/140703/1-140F3145005595.jpg"
-							style="width: 750px; height: 495px" /></strong>
+							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
 						<strong>核心功能：</strong>
@@ -170,7 +170,7 @@
 					<div>
 						<strong>系统维护：<br /> <img alt=""
 							src="suda/uploads/allimg/140703/1-140F314504T55.jpg"
-							style="width: 750px; height: 496px" /></strong>
+							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>

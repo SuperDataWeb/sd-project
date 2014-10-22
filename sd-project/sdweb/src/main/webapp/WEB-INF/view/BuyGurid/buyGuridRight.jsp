@@ -80,7 +80,7 @@ message = request("message")
 													<td rowspan="2" width="140" align="center"><a
 														href="product.do?productId=${product.id}"
 														title="${product.productName}"><img alt="${product.productName}"
-															src="<%= request.getContextPath()%>${product.img}"
+															src="${product.img}"
 															height="180" width="138" border="0"></a></td>
 													<td height="150" valign="top"><strong><a
 															href="product.do?productId=${product.id}">${product.productName}</a>特色功能</strong><br>

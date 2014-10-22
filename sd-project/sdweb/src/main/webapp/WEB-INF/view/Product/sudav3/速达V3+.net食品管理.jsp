@@ -303,7 +303,7 @@
 					<div>
 						<strong>固定资产<br /> <img alt=""
 							src="suda/uploads/allimg/140703/1-140F3112214X9.jpg"
-							style="width: 750px; height: 498px" /></strong>
+							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
 						<strong>核心功能：</strong>

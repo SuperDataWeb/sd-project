@@ -202,7 +202,7 @@
 					<div>
 						<strong>POS系统管理<br /> <img alt=""
 							src="suda/uploads/allimg/140707/1-140FF9241UH.jpg"
-							style="width: 750px; height: 501px;" /></strong>
+							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>

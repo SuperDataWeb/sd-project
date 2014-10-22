@@ -47,7 +47,7 @@ message = request("message")
 
 					<tr>
 						<td width="195" height="250" rowspan="2" valign="top"><img
-							src="<%= request.getContextPath()%>${product.img}"
+							src="${product.img}"
 							alt="${product.productName}" width="180" height="230" vspace="5"
 							border="0" /></td>
 						<td height="180" valign="top">
@@ -102,7 +102,7 @@ message = request("message")
 									<td height="2" bgcolor="#1E9039"></td>
 								</tr>
 							</table>
-                            <%@ include file="suda3000/ËÙ´ï3000 BAS.jsp" %>
+							<jsp:include page="${product.detailUrl}"/>
 						</td>
 					</tr>
 				</table>

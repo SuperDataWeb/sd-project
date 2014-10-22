@@ -214,7 +214,7 @@
 					<div>
 						<strong>售后管理<br /> <img alt=""
 							src="suda/uploads/allimg/140704/1-140F4221526250.jpg"
-							style="width: 750px; height: 496px;" /></strong>
+							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>
@@ -225,7 +225,7 @@
 					<div>
 						<strong>生产系统<br /> <img alt=""
 							src="suda/uploads/allimg/140704/1-140F4221545329.jpg"
-							style="width: 750px; height: 495px;" /></strong>
+							style="width: 720px; height: 458px" /></strong>
 					</div>
 					<div>
 						<strong>核心功能</strong>

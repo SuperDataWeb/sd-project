@@ -8,14 +8,12 @@
 <meta name="keywords" content="速达3000pro,速达3000pro价格,速达3000pr" />
 <meta name="description"
 	content="《速达3000 G-PRO工业版》充分汲取速达近百万企业用户的成功应用经验，具备了良好的操作性、易用性。系统基于全新的全局SaaS应用新模式，集进销存、财务、POS、CRM为一体，其强大的功" />
-<link href="suda/templets/new/css/index.css" rel="stylesheet"
-	type="text/css">
-	<link href="suda/templets/new/css/style.css" rel="stylesheet"
-		type="text/css">
-		<link href="suda/templets/new/css/lanmu.css" type="text/css"
-			rel="stylesheet">
-			<script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
-			<script src="suda/templets/new/js/common.js" language="javascript"></script>
+<link href="suda/templets/new/css/index.css" rel="stylesheet" type="text/css">
+<link href="suda/templets/new/css/style.css" rel="stylesheet" type="text/css">
+<link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
+<link href="suda/templets/new/style/layout.css" rel="stylesheet" type="text/css" />
+<script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
+<script src="suda/templets/new/js/common.js" language="javascript"></script>
 </head>
 
 <body>
@@ -37,7 +35,7 @@
 					<table border="1" bordercolor="#bf9d43" cellpadding="0"
 						cellspacing="0" class="tablemod"
 						style="padding-bottom: 0px; background-color: rgb(254, 247, 229); margin: 0px; padding-left: 0px; padding-right: 0px; font-family: 宋体; color: rgb(0, 0, 0); font-size: 12px; padding-top: 0px"
-						width="750">
+						width="720">
 						<tbody
 							style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px">
 							<tr class="tr1"
@@ -234,7 +232,7 @@
 							<img alt="" class="err-product"
 							id="80b1b3c541794d688af4de7c4223aa59&#10;"
 							src="suda/uploads/allimg/140627/191IKP8-1.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="94d10754e5d34b0da60df0a2837fe0aa&#10;"
 							src="suda/uploads/allimg/140627/191IJ619-2.jpg"
@@ -242,7 +240,7 @@
 							<img alt="" class="err-product"
 							id="99844dc08c5f43cba248af826826e892&#10;"
 							src="suda/uploads/allimg/140627/191IH613-3.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="2123034830734f83b5e91e95b8938e3d&#10;"
 							src="suda/uploads/allimg/140627/191IKO3-4.jpg"
@@ -250,7 +248,7 @@
 							<img alt="" class="err-product"
 							id="ce77c1a7efc64408a6a6de0ea8c34190&#10;"
 							src="suda/uploads/allimg/140627/191IK592-5.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="0e32c6d5da23460e9e108529420e04aa&#10;"
 							src="suda/uploads/allimg/140627/191IGI8-6.jpg"
@@ -258,7 +256,7 @@
 							<img alt="" class="err-product"
 							id="65999476f2df4f5b97c182e0371281d3&#10;"
 							src="suda/uploads/allimg/140627/191IM5F-7.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="e4984b4152cc40f5a785cfb99dd5a621&#10;"
 							src="suda/uploads/allimg/140627/191IH3R-8.jpg"
@@ -266,7 +264,7 @@
 							<img alt="" class="err-product"
 							id="3ba4c4d1d4134e91a35a14db68ed0391&#10;"
 							src="suda/uploads/allimg/140627/191IL1F-9.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="dfe1c36ce7374f22aef054432945eb4b&#10;"
 							src="suda/uploads/allimg/140627/191IH2S-10.jpg"
@@ -274,7 +272,7 @@
 							<img alt="" class="err-product"
 							id="831e143b74634676bc7925e7c020e764&#10;"
 							src="suda/uploads/allimg/140627/191IH3V-11.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="5fb1a05deb0743baabe215478f234989&#10;"
 							src="suda/uploads/allimg/140627/191IL450-12.jpg"
@@ -282,7 +280,7 @@
 							<img alt="" class="err-product"
 							id="bb487017e4364981a1aa3e3f9d9a8a98&#10;"
 							src="suda/uploads/allimg/140627/191IH444-13.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="aed82d638a33409eaf6386d2e63702d4&#10;"
 							src="suda/uploads/allimg/140627/191IGY4-14.jpg"
@@ -290,7 +288,7 @@
 							<img alt="" class="err-product"
 							id="10f963148c8b440bb213a8b8611c1ba6&#10;"
 							src="suda/uploads/allimg/140627/191IMR9-15.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="938022140391471b9e080897e6fb3634&#10;"
 							src="suda/uploads/allimg/140627/191IM248-16.jpg"
@@ -298,7 +296,7 @@
 							<img alt="" class="err-product"
 							id="3447fa10da3e4c0fa624b96f683c4ba3&#10;"
 							src="suda/uploads/allimg/140627/191IK916-17.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="8518fd00ff5e48b38be636a371891143&#10;"
 							src="suda/uploads/allimg/140627/191ILT7-18.jpg"
@@ -306,7 +304,7 @@
 							<img alt="" class="err-product"
 							id="bfdab4fdbea74f858c82d57fb5ad2d69&#10;"
 							src="suda/uploads/allimg/140627/191IGG2-19.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="f8d9bcbef5c14895997e7c05630f9ff4&#10;"
 							src="suda/uploads/allimg/140627/191ILK9-20.jpg"
@@ -314,7 +312,7 @@
 							<img alt="" class="err-product"
 							id="a6fff833bd63436abe2b4382d59248c1&#10;"
 							src="suda/uploads/allimg/140627/191IJ531-21.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="0329c91cf9734f489c8d5cb6de4e5a0b&#10;"
 							src="suda/uploads/allimg/140627/191II327-22.jpg"
@@ -322,7 +320,7 @@
 							<img alt="" class="err-product"
 							id="9244feca7a2c41e589accd145fcbfd76&#10;"
 							src="suda/uploads/allimg/140627/191IMN5-23.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<img alt="" class="err-product"
 							id="c32bb9f60dcb47aca90faed9a03e9f9a&#10;"
 							src="suda/uploads/allimg/140627/191IJa0-24.jpg"
@@ -330,7 +328,7 @@
 							<img alt="" class="err-product"
 							id="82eb878ca1ff46cfba6ce09ac74f6025&#10;"
 							src="suda/uploads/allimg/140627/191IIN2-25.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 							<br /> <br /> <font color="#696969">*
 								网站描述软件产品功能与包装或软件有出入的情况下，以包装或软件实际功能为准。</font><br /> <br /> <strong><font
 								color="#696969">您希望继续了解速达软件吗？</font><br /> <br /> <a

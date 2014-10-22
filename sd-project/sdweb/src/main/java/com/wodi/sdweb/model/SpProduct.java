@@ -21,6 +21,8 @@ public class SpProduct {
 	private String userNum;
 	/**功能模块*/
 	private String module;
+	/**产品详细信息url*/
+	private String detailUrl;
 	private String img;
 	private Integer status;
 	private Date created;
@@ -90,6 +92,14 @@ public class SpProduct {
 
 	public void setModule(String module) {
 		this.module = module;
+	}
+
+	public String getDetailUrl() {
+		return detailUrl;
+	}
+
+	public void setDetailUrl(String detailUrl) {
+		this.detailUrl = detailUrl;
 	}
 
 	public String getImg() {

@@ -24,11 +24,6 @@
 			<td class="hg" style="padding-top: 8px">
 				<!--内容调用-->
 				<p>
-					<p>&nbsp;</p>
-					<p>
-						<span style="display: none">K7U广西速达软件销售服务中心<span
-							style="display: none">&nbsp;</span></span>
-					</p>
 					<p
 						style="text-align: left; padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102); padding-top: 0px">
 						<span style="font-size: medium"><strong
@@ -41,7 +36,7 @@
 					<table border="1" bordercolor="#bf9d43" cellpadding="0"
 						cellspacing="0" class="tablemod"
 						style="padding-bottom: 0px; background-color: rgb(254, 247, 229); margin: 0px; padding-left: 0px; padding-right: 0px; font-family: 宋体; color: rgb(0, 0, 0); font-size: 12px; padding-top: 0px"
-						width="750">
+						width="720">
 						<tbody
 							style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px">
 							<tr class="tr1"
@@ -194,7 +189,7 @@
 						<span style="font-size: medium"><img alt=""
 							class="err-product" id="9f700f272a6f4785a0eea1610c1550e5&#10;"
 							src="suda/uploads/allimg/140627/19213I593-1.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -215,7 +210,7 @@
 							<img alt="" class="err-product"
 							id="0733e2ba5b0c496da18ea1fb9d449b7b&#10;"
 							src="suda/uploads/allimg/140627/19213J249-4.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -236,7 +231,7 @@
 							<img alt="" class="err-product"
 							id="bc9735553f9c48a28e227fb47d65d922&#10;"
 							src="suda/uploads/allimg/140627/19213HP8-7.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -250,7 +245,7 @@
 							<img alt="" class="err-product"
 							id="cfade61682604856bb993ee8e259f793&#10;"
 							src="suda/uploads/allimg/140627/19213J409-9.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -264,7 +259,7 @@
 							<img alt="" class="err-product"
 							id="3f41debdabb84e149b33871298031747&#10;"
 							src="suda/uploads/allimg/140627/19213M4J-11.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -278,7 +273,7 @@
 							<img alt="" class="err-product"
 							id="00d2603b6367406d817e91fb310cc162&#10;"
 							src="suda/uploads/allimg/140627/19213KI4-13.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -292,7 +287,7 @@
 							<img alt="" class="err-product"
 							id="d4bdf9bdd6304f3ebafeaf3ebffd69c1&#10;"
 							src="suda/uploads/allimg/140627/19213K2W-15.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -306,7 +301,7 @@
 							<img alt="" class="err-product"
 							id="2c3e34ab3cb94530b6fb8369d77cd76b&#10;"
 							src="suda/uploads/allimg/140627/19213H241-17.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -320,7 +315,7 @@
 							<img alt="" class="err-product"
 							id="9f9bc90e459546eb947e3327719ad287&#10;"
 							src="suda/uploads/allimg/140627/19213LW9-19.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -334,7 +329,7 @@
 							<img alt="" class="err-product"
 							id="0b555e7b413841c1a47538e385dfb373&#10;"
 							src="suda/uploads/allimg/140627/19213H108-21.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><span
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)">
 						</span><br
 							style="line-height: 18px; font-family: Arial, Verdana, 宋体; color: rgb(102, 102, 102)" />
@@ -348,7 +343,7 @@
 						<img alt="" class="err-product"
 							id="8701eb6c91f1415cb4c19f659f06a4cd&#10;"
 							src="suda/uploads/allimg/140627/19213HJ5-23.jpg"
-							style="background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><br />
+							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; line-height: 18px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: Arial, Verdana, 宋体; background-position: 50% 50%; color: rgb(102, 102, 102); vertical-align: middle; padding-top: 0px" /><br />
 						<br /> <br /> <font color="#696969">*
 							网站描述软件产品功能与包装或软件有出入的情况下，以包装或软件实际功能为准。</font><br /> <br /> <strong><font
 							color="#696969">您希望继续了解速达软件吗？</font><br /> <br /> <a
