@@ -47,7 +47,7 @@ message = request("message")
 							<tr>
 								<td>
 									<!--内容调用-->
-									<p class="hg"></p>
+									<p class="hg" />
 									<table width="100%" border="0" cellpadding="0" cellspacing="0">
 										<tbody>
 											<tr>
@@ -69,9 +69,9 @@ message = request("message")
 										<table width="100%" border="0" cellpadding="0" cellspacing="0">
 											<tbody>
 												<tr>
-													<td rowspan="2" height="150" valign="top" width="330"><strong>《<a
+													<td class="hg" rowspan="2" height="150" valign="top" width="330"><strong>《<a
 															href="product.do?productId=${product.id}">${product.productName}</a>》
-													</strong> ${product.presentation}<br>
+													</strong> ${product.description}<br>
 														<span style="line-height: 25px"> <strong><a
 																href="product.do?productId=${product.id}">${product.productName}</a> 主要功能模块</strong>
 													</span> <br>
@@ -82,12 +82,12 @@ message = request("message")
 														title="${product.productName}"><img alt="${product.productName}"
 															src="${product.img}"
 															height="180" width="138" border="0"></a></td>
-													<td height="150" valign="top"><strong><a
+													<td height="150" valign="top" class="hg"><strong><a
 															href="product.do?productId=${product.id}">${product.productName}</a>特色功能</strong><br>
-														<p>
-															● 导航图操作界面，易学易用<br> ● 集进销存、POS、财务、CRM为一体<br> ●
-															日常经营管理，协调业务流转<br> ● 互联网/局域网多用户、多仓库远程应用<br> ●
-															数据实时同步管理和移动办公，安全稳定
+														<p class="hg">
+														   <c:forEach var="feature" items="${product.featuresList}">
+																● ${feature}<br>
+															</c:forEach>
 														</p> <br> <span style="line-height: 35px"> <strong><font
 																color="#006633">软件价格：</font></strong><font color="#FF0000">￥${product.price}元/套</font>
 															元
@@ -119,7 +119,6 @@ message = request("message")
 											</tbody>
 										</table>
 									</c:forEach>
-									<p></p>
 									<p class="hg">
 										<strong>速达软件（广州）销售服务中心</strong><br>
 										地址：广州市番禺区大石588号金怡商业大厦301室<br> 销售热线：400-034-3668<br>

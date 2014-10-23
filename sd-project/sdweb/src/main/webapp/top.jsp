@@ -172,5 +172,10 @@ message = request("message")
 		</tr>
 	</table>
 			<!-- /header -->
+				<style>
+body {
+	-moz-user-select: none;
+}
+</style>
 </BODY>
 </HTML>

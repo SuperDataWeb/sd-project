@@ -10,9 +10,6 @@
 <link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
 <script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
 <script src="suda/templets/new/js/common.js" language="javascript"></script>
-<style>
-	body {-moz-user-select:none;}
-</style>
 </head>
 	<body>
 		<div align="center">

@@ -10,6 +10,7 @@
 		<result property="productName" column="product_name" />
 		<result property="description" column="description" />
 		<result property="presentation" column="presentation" />
+		<result property="features" column="features" />
 		<result property="price" column="price" />
 		<result property="userNum" column="user_num" />
 		<result property="module" column="module" />
@@ -21,13 +22,13 @@
 	</resultMap>
 
 	<sql id="productFields">
-		id, type, series, product_name, description, presentation, price, user_num, module, detail_url, img,
+		id, type, series, product_name, description, presentation, features, price, user_num, module, detail_url, img,
 		status, created, updated
 	</sql>
 
 	<insert id="insert" parameterType="SpProduct">
-			<![CDATA[ INSERT INTO SP_PRODUCT( type, series, product_name, description, presentation, price, user_num, module, detail_url, img, status, created, updated
-			) VALUES( #{type}, #{series}, #{productName}, #{description}, #{presentation}, #{price}, #{userNum}, #{module}, #{detailUrl}, #{img}, #{status}, now(), now() )
+			<![CDATA[ INSERT INTO SP_PRODUCT( type, series, product_name, description, presentation, features, price, user_num, module, detail_url, img, status, created, updated
+			) VALUES( #{type}, #{series}, #{productName}, #{description}, #{presentation}, #{features}, #{price}, #{userNum}, #{module}, #{detailUrl}, #{img}, #{status}, now(), now() )
 				]]>
 	</insert>
 

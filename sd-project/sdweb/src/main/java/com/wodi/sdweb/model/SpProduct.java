@@ -1,6 +1,8 @@
 package com.wodi.sdweb.model;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * 产品
@@ -16,6 +18,8 @@ public class SpProduct {
 	private String productName;
 	private String description;
 	private String presentation;
+	/**特色功能，购买指引时需要展示，用‘|’分割*/
+	private String features;
 	private int price;
 	/**用户数*/
 	private String userNum;
@@ -29,6 +33,8 @@ public class SpProduct {
 	private Date updated;
 	private SpProductType productType;
 	private SpProductSeries productSeries;
+	/**将features描述信息填充到改list，方便购买指引里面那个特色功能*/
+	private List<String> featuresList;
 
 	public Long getId() {
 		return id;
@@ -158,6 +164,51 @@ public class SpProduct {
 		this.productSeries = productSeries;
 	}
 
+	public String getFeatures() {
+		return features;
+	}
+
+	public void setFeatures(String features) {
+		this.features = features;
+	}
+
+	public List<String> getFeaturesList() {
+		return featuresList;
+	}
+
+	public void setFeaturesList(List<String> featuresList) {
+		this.featuresList = featuresList;
+	}
+
+	/**
+	 * 使用presentation中的部分信息设置到description，
+	 * 方便购买指引和产品中心对产品简介的展示。
+	 */
+	public void setDescription(){
+		if(null != getPresentation()){
+			int length = 80;
+			if(getPresentation().length() < 80){
+				length = getPresentation().length();
+			}
+			setDescription(getPresentation().substring(0, length));
+		}
+	}
+	
+	/**
+	 * 使用features中的部分信息设置到featuresList，
+	 * 方便购买指引页面的展示。
+	 */
+	public void setFeaturesList(){
+		if(null != features){
+			String[] ds = features.split("\\|");
+			List<String> feats = new ArrayList<String>();
+			for(String s : ds){
+				feats.add(s);
+			}
+			setFeaturesList(feats);
+		}
+	}
+	
 	@Override
 	public String toString() {
 		return "SpProduct [id=" + id + ", productName=" + productName

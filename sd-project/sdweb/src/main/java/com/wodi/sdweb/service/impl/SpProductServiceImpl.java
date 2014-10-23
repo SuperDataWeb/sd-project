@@ -18,7 +18,6 @@ import com.wodi.sdweb.dao.SpProductMapper;
 import com.wodi.sdweb.dao.SpProductSeriesMapper;
 import com.wodi.sdweb.dao.SpProductTypeMapper;
 import com.wodi.sdweb.model.SpProduct;
-import com.wodi.sdweb.model.SpProductDownload;
 import com.wodi.sdweb.model.SpProductSeries;
 import com.wodi.sdweb.model.SpProductType;
 import com.wodi.sdweb.service.SpProductService;
@@ -65,6 +64,9 @@ public class SpProductServiceImpl implements SpProductService {
 		PageModel<SpProduct> pageModel = new PageModel<SpProduct>();
 		pageModel.setTotal(spProductDao.selectCount());
 		List<SpProduct> sps = spProductDao.pageSelect(startIndex, pageSize);
+		for(SpProduct product : sps){
+			product.setDescription();
+		}
 		pageModel.setDatas(sps);
 		return pageModel;
 	}
@@ -81,6 +83,9 @@ public class SpProductServiceImpl implements SpProductService {
 		PageModel<SpProduct> spProductPage = new PageModel<SpProduct>();
 		spProductPage.setTotal(spProductDao.selectCountBySeries(seriesId));
 		List<SpProduct> datas = spProductDao.pageSelectBySeries(startIndex, pageSize, seriesId);
+		for(SpProduct product : datas){
+			product.setDescription();
+		}
 		spProductPage.setDatas(datas);
 		return spProductPage;
 	}

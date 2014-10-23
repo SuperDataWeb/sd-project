@@ -62,17 +62,17 @@ message = request("message")
 												color="#006633">用户数：</font></strong><font color="#FF0000">${product.userNum}</font> <!--元&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="#006633">服务费/年：</font></strong><font color="#FF0000">￥</font> 元--></td>
 									</tr>
 									<tr>
-										<td height="25" valign="top"><strong><font
+										<td height="25" valign="top" ><strong><font
 												color="#006633">功能模块：</font></strong></td>
-										<td><a href="product.do?productId=${product.id}"><span
+										<td class="hg"><a href="product.do?productId=${product.id}"><span
 												class="jj1">${product.module}
 											</span></a></td>
 									</tr>
 									<tr>
-										<td height="75" colspan="2" valign="top"><strong><font
+										<td height="75" colspan="2" valign="top" class="hg"><strong><font
 												color="#006633">产品简介：</font></strong><a
 											href="product.do?productId=${product.id}"><span
-												class="jj">${product.presentation}</span></a></td>
+												class="jj">${product.description}……</span></a></td>
 									</tr>
 									<tr>
 										<td colspan="2"><table width="100%" border="0"

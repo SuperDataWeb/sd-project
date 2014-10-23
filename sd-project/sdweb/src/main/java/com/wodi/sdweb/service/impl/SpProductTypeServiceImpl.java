@@ -55,6 +55,10 @@ public class SpProductTypeServiceImpl implements SpProductTypeService {
 		SpProductType productType = spProductTypeDao.selectByTypeId(typeId);
 		List<SpProduct> sps = spProductDao.selectByType(typeId);
 		if(null != sps && sps.size() !=0 ){
+			for(SpProduct product : sps){
+				product.setDescription();
+				product.setFeaturesList();
+			}
 			productType.setProducts(sps);
 		}
 		return productType;

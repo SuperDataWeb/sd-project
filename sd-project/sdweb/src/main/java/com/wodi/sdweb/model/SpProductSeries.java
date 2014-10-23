@@ -18,6 +18,7 @@ public class SpProductSeries {
 	private String alias;
 	/**简短介绍，也是为了首页产品系列选项卡而设置*/
 	private String simpleDesc;
+	/** 描述信息用‘|’分割 */
 	private String description;
 	private String img;
 	private Integer status;
