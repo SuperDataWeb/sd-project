@@ -12,6 +12,7 @@ public class FunctionModule {
 	// function
 	private Long id;
 	private String moduleName;
+	private String moduleWidth;
 	private String url;
 	private String remark;
 	private Integer status;
@@ -83,13 +84,20 @@ public class FunctionModule {
 	public void setColumnIndex(Integer columnIndex) {
 		this.columnIndex = columnIndex;
 	}
+	public String getModuleWidth() {
+		return moduleWidth;
+	}
+	public void setModuleWidth(String moduleWidth) {
+		this.moduleWidth = moduleWidth;
+	}
 	@Override
 	public String toString() {
 		return "FunctionModule [id=" + id + ", moduleName=" + moduleName
-				+ ", url=" + url + ", remark=" + remark + ", status=" + status
-				+ ", created=" + created + ", updated=" + updated
-				+ ", layoutId=" + layoutId + ", rowIndex=" + rowIndex
-				+ ", columnIndex=" + columnIndex + "]";
+				+ ", moduleWidth=" + moduleWidth + ", url=" + url + ", remark="
+				+ remark + ", status=" + status + ", created=" + created
+				+ ", updated=" + updated + ", layoutId=" + layoutId
+				+ ", rowIndex=" + rowIndex + ", columnIndex=" + columnIndex
+				+ "]";
 	}
 	
 }

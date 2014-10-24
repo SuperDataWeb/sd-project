@@ -5,6 +5,7 @@
 	<resultMap id="ModuleResultMap" type="functionModule">
 		<id property="id" column="id" jdbcType="DECIMAL" />
 		<result property="moduleName" column="module_name" jdbcType="VARCHAR" />
+		<result property="moduleWidth" column="module_width" jdbcType="VARCHAR" />
 		<result property="url" column="url" jdbcType="VARCHAR" />
 		<result property="remark" column="remark" jdbcType="VARCHAR" />
 		<result property="status" column="status" jdbcType="DECIMAL" />
@@ -20,8 +21,8 @@
 	</sql>
 
 	<insert id="insert" parameterType="functionModule">
-			<![CDATA[ INSERT INTO function_module(  module_name, url, remark, status, created, updated
-			) VALUES( #{moduleName}, #{url}, #{remark}, #{status}, now(), now() )
+			<![CDATA[ INSERT INTO function_module(  module_name, module_width, url, remark, status, created, updated
+			) VALUES( #{moduleName}, #{moduleWidth}, #{url}, #{remark}, #{status}, now(), now() )
 				]]>
 	</insert>
 
@@ -29,6 +30,9 @@
 		<![CDATA[ UPDATE function_module SET updated = now() ]]>
 		<if test="moduleName != null">
 				<![CDATA[, module_name = #{moduleName}]]>
+		</if>
+		<if test="moduleWidth != null">
+				<![CDATA[, module_width = #{moduleWidth}]]>
 		</if>
 		<if test="url != null">
 				<![CDATA[, url = #{url}]]>
@@ -57,6 +61,9 @@
 			<if test="moduleName != null">
 				<![CDATA[, module_name = #{moduleName}]]>
 			</if>
+			<if test="moduleWidth != null">
+				<![CDATA[, module_width = #{moduleWidth}]]>
+			</if>
 			<if test="url != null">
 				<![CDATA[, url = #{url}]]>
 			</if>
@@ -81,6 +88,9 @@
 			</if>
 			<if test="moduleName != null">
 				<![CDATA[, module_name = #{moduleName}]]>
+			</if>
+			<if test="moduleWidth != null">
+				<![CDATA[, module_width = #{moduleWidth}]]>
 			</if>
 			<if test="url != null">
 				<![CDATA[, url = #{url}]]>

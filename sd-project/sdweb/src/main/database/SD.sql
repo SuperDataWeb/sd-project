@@ -27,6 +27,7 @@ DROP TABLE IF EXISTS `function_module`;
 CREATE TABLE `function_module` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `MODULE_NAME` varchar(50) DEFAULT NULL,
+  `MODULE_WIDTH` varchar(10) DEFAULT NULL,
   `URL` varchar(255) DEFAULT NULL,
   `REMARK` varchar(255) DEFAULT NULL,
   `STATUS` char(1) DEFAULT NULL,
@@ -42,7 +43,7 @@ CREATE TABLE `function_module` (
 
 LOCK TABLES `function_module` WRITE;
 /*!40000 ALTER TABLE `function_module` DISABLE KEYS */;
-INSERT INTO `function_module` VALUES (1,'展示flash','Index/flashModule.jsp','flash','0','2014-10-12 15:53:42','2014-10-12 15:53:46'),(2,'新闻公告','News/topList.jsp','新闻列表','0','2014-10-12 15:54:22','2014-10-12 15:54:25'),(3,'产品中心',NULL,'产品展示中心','0','2014-10-12 15:54:48','2014-10-12 15:54:50'),(4,'解决方案',NULL,'方案范例','0','2014-10-12 15:55:24','2014-10-12 15:55:26'),(5,'公司介绍',NULL,'公司、软件信息','0','2014-10-12 15:56:07','2014-10-12 15:56:14'),(6,'常见问题',NULL,'问题列表','0','2014-10-12 15:56:46','2014-10-12 15:56:49'),(7,'相关信息',NULL,'相关信息','0','2014-10-12 15:57:54','2014-10-12 15:57:57');
+INSERT INTO `function_module` VALUES (1,'展示flash','610','Index/flashModule.jsp','flash','0','2014-10-12 15:53:42','2014-10-12 15:53:46'),(2,'新闻公告','272','News/topList.jsp','新闻列表','0','2014-10-12 15:54:22','2014-10-12 15:54:25'),(3,'产品中心','698','Index/indexSeriesProducts.jsp','产品展示中心','0','2014-10-12 15:54:48','2014-10-12 15:54:50'),(4,'解决方案','272','Index/indexSolutions.jsp','方案范例','0','2014-10-12 15:55:24','2014-10-12 15:55:26'),(5,'公司介绍','698','Index/indexIntroduce.jsp','公司、软件信息','0','2014-10-12 15:56:07','2014-10-12 15:56:14'),(6,'常见问题','272','Index/indexProblem.jsp','问题列表','0','2014-10-12 15:56:46','2014-10-12 15:56:49'),(7,'相关信息','272','Index/indexNewsExample.jsp','相关信息','0','2014-10-12 15:57:54','2014-10-12 15:57:57');
 /*!40000 ALTER TABLE `function_module` ENABLE KEYS */;
 UNLOCK TABLES;
 

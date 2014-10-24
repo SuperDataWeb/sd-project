@@ -12,14 +12,17 @@
 	<table>
 		<c:forEach var="row" items="${layout.rows}">
 			<tr>
-				<c:forEach var="column" items="${row.columns}">
-					<td height="23">
+				<c:forEach var="column" items="${row.columns}" varStatus="columnStatus">
+					<td width="${column.module.moduleWidth}" height="23">
 						<div>
 							<c:if test="${column.module.url != null}">
 								<jsp:include page="${column.module.url}"></jsp:include>
 							</c:if>
 						</div>
 					</td>
+					<c:if test="${!columnStatus.last}">
+						<td width="8">&nbsp;</td>
+					</c:if>
 				</c:forEach>
 			</tr>
 		</c:forEach>
