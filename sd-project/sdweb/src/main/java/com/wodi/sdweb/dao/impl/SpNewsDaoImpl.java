@@ -9,7 +9,6 @@
  */
 package com.wodi.sdweb.dao.impl;
 
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -40,8 +39,7 @@ public class SpNewsDaoImpl extends SqlSessionDaoSupport implements
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
-	public List<SpNews> pageSelect(int startIndex, int pageSize)
-			throws SQLException {
+	public List<SpNews> pageSelect(int startIndex, int pageSize) {
 		List<SpNews> spNewsList = new ArrayList<SpNews>();    
         Map params =new HashMap();    
         params.put("startIndex", new Integer(startIndex));    

@@ -48,7 +48,7 @@ public class SpNewsServiceImpl implements SpNewsService {
 	}
 	
 	@Override
-	public List<SpNews> selectTopList(int pageSize) throws SQLException {
+	public List<SpNews> selectTopList(int pageSize) {
 		// TODO Auto-generated method stub
 		return spNewsDao.pageSelect(0, pageSize);
 	}

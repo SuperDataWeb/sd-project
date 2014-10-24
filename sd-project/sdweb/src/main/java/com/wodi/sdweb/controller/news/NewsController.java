@@ -22,7 +22,7 @@ public class NewsController {
 	@Resource(name = "spNewsService")
 	SpNewsService spNewsService;
 
-	@RequestMapping("topDataList")
+	@RequestMapping("/topDataList.do")
 	public ModelAndView loadTopList() throws SQLException {
 		ModelAndView view = new ModelAndView();
 		view.setViewName("News/topDataList");

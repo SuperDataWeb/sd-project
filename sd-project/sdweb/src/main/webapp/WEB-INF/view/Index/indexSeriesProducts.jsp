@@ -19,16 +19,7 @@ message = request("message")
 <script src="suda/templets/new/js/common.js" type="text/javascript"></script>
 </head>
 <BODY type="leaveMessage">
-   <table width="980" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
-      <tr>
-        <td width="272" align="center" valign="middle" bgcolor="#FFFFFF" class="bgwaikuang_4">
-	        <a href="/suda/plus/sd_service.php?sid=8"><img src="suda/templets/new/images/On_03.jpg"  width="272" height="56" border="0"></a>
-	        <a href="/suda/plus/sd_service.php?sid=1"  target="_blank"><img src="suda/templets/new/images/On_02.jpg"  width="272" height="56" border="0"></a>
-	        <a href="/suda/html/knowledge/video/"  target="_blank"><img src="suda/templets/new/images/On_01.jpg"  width="272" height="55" border="0"></a>
-	        <a href="/suda/html/knowledge/faqs/"  target="_blank"><img src="suda/templets/new/images/On_04.jpg"  width="272" height="55" border="0"></a>
-        </td>
-        <td width="8">&nbsp;</td>
-        <td width="698" valign="top"><!--速达产品选项卡开始-->
+    <!--速达产品选项卡开始-->
           <table style="BORDER-RIGHT: #d9dcc7 1px solid; BORDER-TOP: #d9dcc7 1px solid; BORDER-LEFT: #d9dcc7 1px solid; BORDER-BOTTOM: #d9dcc7 1px solid" height="175" cellspacing="0" cellpadding="0" width="100%" border="0">
             <tbody>
               <tr>
@@ -137,14 +128,6 @@ message = request("message")
               </tr>
             </tbody>
           </table>
-          <!--速达产品选项卡结束--></td>
-      </tr>
-    </table>
-    
-    <table width="980" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
-      <tr>
-        <td height="8"></td>
-      </tr>
-    </table>
+          <!--速达产品选项卡结束-->
 </BODY>
 </HTML>

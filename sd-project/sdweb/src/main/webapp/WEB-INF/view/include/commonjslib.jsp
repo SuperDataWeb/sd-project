@@ -13,4 +13,3 @@
   	var WEB_ROOT = '${ctx}/';
   	var contextPath = '<%= request.getContextPath()%>';
 </script>
-<script type="text/javascript" src="<%=request.getContextPath()%>/viewFace/js/commons.js"></script>

@@ -56,7 +56,7 @@ public interface SpNewsService {
 	 * 查询最新新闻
 	 * @return
 	 */
-	public List<SpNews> selectTopList(int pageSize) throws SQLException;
+	public List<SpNews> selectTopList(int pageSize);
 	
 	/**
 	 * 更新新闻

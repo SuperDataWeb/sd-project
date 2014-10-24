@@ -30,18 +30,6 @@
         FROM sp_news 
         <where>
         	1=1
-        	<if test="newsTitle != null">
-	    		and t.news_title = #{newsTitle}
-	    	</if>
-	    	<if test="newsContent != null">
-	    		and t.newsContent = #{newsContent}
-	    	</if>
-	    	<if test="newsAuthor != null">
-	    		and t.news_author = #{newsAuthor}
-	    	</if>
-	    	<if test="status != null">
-	    		and t.status = #{status}
-	    	</if>
         </where>
         ORDER BY updated desc limit  #{startIndex}, #{pageSize}
     </select>

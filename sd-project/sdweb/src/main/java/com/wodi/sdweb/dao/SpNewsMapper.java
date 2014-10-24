@@ -1,6 +1,5 @@
 package com.wodi.sdweb.dao;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
@@ -15,7 +14,7 @@ public interface SpNewsMapper {
 
 	public void insert(SpNews spNews);
 	
-	public List<SpNews> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize) throws SQLException;
+	public List<SpNews> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize);
 	
 	public void update(SpNews spNews);
 	
