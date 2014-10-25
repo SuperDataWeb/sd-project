@@ -74,7 +74,7 @@ message = request("message")
 						<div class="menu_box_style1_2" id="MainMenu">
 							<ul>
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem"><a
-									href="http://www.buyerp.cn/suda" class="menu_1" id='Menu_20'
+									href="index.do" class="menu_1" id='Menu_20'
 									target='_self'><font color="#FFFFFF">Ê×Ò³</font></a></li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">

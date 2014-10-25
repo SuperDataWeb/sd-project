@@ -1,4 +1,5 @@
 <%@ page language="java" pageEncoding="GBK"%>
+<%@ include file="/WEB-INF/view/include/commonjslib.jsp" %>
 <%--
 message = request("message")
 --%>
