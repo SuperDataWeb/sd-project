@@ -7,14 +7,14 @@
 </head>
 
 <body>
-	<table width="100%" height="230" border="0" cellpadding="0" cellspacing="0">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
 		<tbody>
 		<tr valign="top">
-			<td valign="top">
+			<td valign="top" height="224">
 				<c:forEach var="item" items="${topList}">
 				<table width="100%" border="0" cellpadding="0" cellspacing="0" >
 					<tbody>
-					<tr align="top">
+					<tr>
 						<td height="23" width="20" align="right"><img src="<%= request.getContextPath()%>/suda/templets/new/images/li.gif" height="13" width="11"></td>
 						<td height="23" >&nbsp;<a href="#" onclick="loadServicesList('sqgm')">${item.newsTitle}</a></td>
 						<td width="38" height="23"  valign="middle"><a

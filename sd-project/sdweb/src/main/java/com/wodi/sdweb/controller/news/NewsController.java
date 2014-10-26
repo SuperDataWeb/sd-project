@@ -26,7 +26,7 @@ public class NewsController {
 	public ModelAndView loadTopList() throws SQLException {
 		ModelAndView view = new ModelAndView();
 		view.setViewName("News/topDataList");
-		List<SpNews> list = spNewsService.selectTopList(10);
+		List<SpNews> list = spNewsService.selectTopList(8);
 		view.addObject("topList", list);
 		return view;
 	}

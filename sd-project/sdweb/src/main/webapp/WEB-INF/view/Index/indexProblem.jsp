@@ -42,7 +42,7 @@ message = request("message")
 	<table width="100%" border="0" cellpadding="0" cellspacing="0"
 		class="bk">
 		<tr>
-			<td height="203" valign="top" style="padding-top: 6px">
+			<td height="181" valign="top" style="padding-top: 6px">
 				<!--调用解决方案-->
 				<table width="100%" border="0" cellspacing="0" cellpadding="0">
 
@@ -106,6 +106,7 @@ message = request("message")
 							href="/suda/html/knowledge/faqs/20120107/4223.html">最新的V5-top工业，安装注</a></td>
 						<td width="38">01-07</td>
 					</tr>
+					<!-- 
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
@@ -113,6 +114,7 @@ message = request("message")
 							href="/suda/html/knowledge/faqs/20120107/4222.html">MRP运算参数说明</a></td>
 						<td width="38">01-07</td>
 					</tr>
+					 -->
 
 				</table>
 			</td>

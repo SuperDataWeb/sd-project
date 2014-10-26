@@ -37,7 +37,7 @@ message = request("message")
 	<table width="100%" border="0" cellpadding="0" cellspacing="0"
 		class="bk">
 		<tr>
-			<td height="159" valign="top" style="padding-top: 6px">
+			<td height="181" valign="top" style="padding-top: 6px">
 				<!--调用解决方案-->
 				<table width="100%" border="0" cellspacing="0" cellpadding="0">
 					<tr>
@@ -89,7 +89,13 @@ message = request("message")
 							href="/suda/html/jiejuefangan/gexinghuafangan/20120209/4300.html">卫生纸加工企业</a></td>
 						<td width="38">02-09</td>
 					</tr>
-
+					<tr>
+						<td width="20" height="22" align="right"><img
+							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
+						<td>&nbsp;<a title="卫生纸加工企业"
+							href="/suda/html/jiejuefangan/gexinghuafangan/20120209/4300.html">卫生纸加工企业</a></td>
+						<td width="38">02-09</td>
+					</tr>
 				</table>
 			</td>
 		</tr>

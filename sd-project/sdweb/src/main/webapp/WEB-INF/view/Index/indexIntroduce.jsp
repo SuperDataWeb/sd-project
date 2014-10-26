@@ -58,7 +58,7 @@ message = request("message")
 				</td>
 			</tr>
 			<tr>
-				<td height="165" align="right" valign="middle"><table
+				<td height="181" align="right" valign="middle"><table
 						width="99%" height="136" border="0" align="left" cellpadding="0"
 						cellspacing="0" id="tab_menu2_0_1">
 						<tbody>

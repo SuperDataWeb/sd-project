@@ -25,8 +25,10 @@
 	
 	$(document).ready(function(){
 		// 开始设置幻灯片参数
-		var roll_pic_width = 712; // 图片宽度
-		var roll_pic_height = 265; // 图片高度
+		//var roll_pic_width = 712; // 图片宽度
+		//var roll_pic_height = 265; // 图片高度
+		var roll_pic_width = 697; // 图片宽度
+		var roll_pic_height = 224; // 图片高度
 		var roll_text_height = 0; // 文字高度
 		var roll_bgcolor = '#FF0000'; // 幻灯片背景色
 		var roll_flash = 'images/roll_pic_new.swf'; // 幻灯片flash地址，请将此flash下载保存到你的服务器，以免失效

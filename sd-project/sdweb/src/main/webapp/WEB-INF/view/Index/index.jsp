@@ -105,7 +105,7 @@
 					<c:forEach var="row" items="${layout.rows}">
 						<tr>
 							<c:forEach var="column" items="${row.columns}" varStatus="columnStatus">
-								<td width="${column.module.moduleWidth}" height="23">
+								<td width="${column.module.moduleWidth}" height="224">
 									<div>
 										<c:if test="${column.module.url != null}">
 											<jsp:include page="${column.module.url}"></jsp:include>
