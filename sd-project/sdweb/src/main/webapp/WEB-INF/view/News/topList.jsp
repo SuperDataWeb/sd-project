@@ -27,27 +27,10 @@
           </tbody></table>
           <table class="bk" width="100%" border="0" cellpadding="0" cellspacing="0">
             <tbody><tr>
-              <td id="dataListTD" style="padding-top:8px" height="145" valign="top"><!--调用新闻公告-->
+              <td id="dataListTD" style="padding-top:8px" height="181" valign="top"><!--调用新闻公告-->
                
               </td>
             </tr>
           </tbody></table>
-          <!-- 
-	<table width="98%" border="0" align="right" cellpadding="0"
-		cellspacing="0">
-		<tr>
-			<td width="143" height="22">
-				<img alt="" src="<%= request.getContextPath()%>/images/index_files/title/ind_info.jpg"/>
-			</td>
-			<td width="76%" height="29"></td>
-			<td width="38" height="29" valign="middle">
-				<img alt="" src="<%= request.getContextPath()%>/images/index_files/title/ind_more.jpg"/>
-			</td>
-		</tr>
-	</table>
-	
-	<div id="dataListDiv">
-	</div>
-           -->
 </DIV>
 </body>

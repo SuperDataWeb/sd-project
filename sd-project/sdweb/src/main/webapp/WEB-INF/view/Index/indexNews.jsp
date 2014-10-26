@@ -39,7 +39,7 @@ message = request("message")
 						<table width="100%" border="0" cellpadding="0" cellspacing="0"
 							class="bk">
 							<tr>
-								<td height="145" valign="top" style="padding-top: 8px">
+								<td height="191" valign="top" style="padding-top: 8px">
 									<!--调用新闻公告-->
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									   <c:forEach var="item" items="${topList}">
