@@ -2,7 +2,7 @@ CREATE DATABASE  IF NOT EXISTS `wodi` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `wodi`;
 -- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
 --
--- Host: localhost    Database: wodi
+-- Host: 127.0.0.1    Database: wodi
 -- ------------------------------------------------------
 -- Server version	5.7.3-m13
 
@@ -43,7 +43,7 @@ CREATE TABLE `function_module` (
 
 LOCK TABLES `function_module` WRITE;
 /*!40000 ALTER TABLE `function_module` DISABLE KEYS */;
-INSERT INTO `function_module` VALUES (1,'展示flash','610','Index/flashModule.jsp','flash','0','2014-10-12 15:53:42','2014-10-12 15:53:46'),(2,'新闻公告','272','News/topList.jsp','新闻列表','0','2014-10-12 15:54:22','2014-10-12 15:54:25'),(3,'产品中心','698','Index/indexSeriesProducts.jsp','产品展示中心','0','2014-10-12 15:54:48','2014-10-12 15:54:50'),(4,'解决方案','272','Index/indexSolutions.jsp','方案范例','0','2014-10-12 15:55:24','2014-10-12 15:55:26'),(5,'公司介绍','698','Index/indexIntroduce.jsp','公司、软件信息','0','2014-10-12 15:56:07','2014-10-12 15:56:14'),(6,'常见问题','272','Index/indexProblem.jsp','问题列表','0','2014-10-12 15:56:46','2014-10-12 15:56:49'),(7,'相关信息','272','Index/indexNewsExample.jsp','相关信息','0','2014-10-12 15:57:54','2014-10-12 15:57:57');
+INSERT INTO `function_module` VALUES (1,'展示flash','610','indexFlashModule.jsp','flash','0','2014-10-12 15:53:42','2014-10-12 15:53:46'),(2,'新闻公告','272','indexNews.jsp','新闻列表','0','2014-10-12 15:54:22','2014-10-12 15:54:25'),(3,'产品中心','698','indexSeriesProducts.jsp','产品展示中心','0','2014-10-12 15:54:48','2014-10-12 15:54:50'),(4,'解决方案','272','indexSolutions.jsp','方案范例','0','2014-10-12 15:55:24','2014-10-12 15:55:26'),(5,'公司介绍','698','indexIntroduce.jsp','公司、软件信息','0','2014-10-12 15:56:07','2014-10-12 15:56:14'),(6,'常见问题','272','indexProblem.jsp','问题列表','0','2014-10-12 15:56:46','2014-10-12 15:56:49'),(7,'相关信息','272','indexNewsExample.jsp','相关信息','0','2014-10-12 15:57:54','2014-10-12 15:57:57');
 /*!40000 ALTER TABLE `function_module` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -310,4 +310,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-10-24 18:23:02
+-- Dump completed on 2014-10-25 15:29:07
