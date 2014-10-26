@@ -7,7 +7,6 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		alert("----");
 		var url = "<%= request.getContextPath()%>/News/topDataList.do";
 		$.post(url, function(data) {
 			$("#dataListTD").html(data);
