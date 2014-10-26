@@ -22,7 +22,7 @@ public class NewsController {
 	@Resource(name = "spNewsService")
 	SpNewsService spNewsService;
 
-	@RequestMapping("/topDataList.do")
+	@RequestMapping("topDataList")
 	public ModelAndView loadTopList() throws SQLException {
 		ModelAndView view = new ModelAndView();
 		view.setViewName("News/topDataList");
@@ -48,9 +48,11 @@ public class NewsController {
 		return view;
 	}
 	
-	public ModelAndView loadNewsInfo() {
-		ModelAndView view = new ModelAndView("News/newsInfo");
-		
+	@RequestMapping("newsInfo")
+	public ModelAndView loadNewsInfo(String newsId) {
+		ModelAndView view = new ModelAndView("News/newsDetail");
+		SpNews news = spNewsService.selectById(Long.parseLong(newsId));
+		view.addObject("news", view);
 		return view;
 	}
 	

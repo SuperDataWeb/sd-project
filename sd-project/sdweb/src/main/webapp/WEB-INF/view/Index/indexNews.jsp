@@ -48,9 +48,9 @@ message = request("message")
 												src="suda/templets/new/images/li.gif" width="11"
 												height="13" /></td>
 											<td>&nbsp;[<a
-												href="/suda/html/xinwenzhongxin/tongzhigonggao/20140723/4351.html">${item.newsTitle}</a>]<a
+												href="News/newsInfo.do?newsId=${item.id}">${item.newsTitle}</a>]<a
 												title="速达财务软件  全面支持"
-												href="/suda/html/xinwenzhongxin/tongzhigonggao/20140723/4351.html">${item.newsAuthor}</a></td>
+												href="News/newsInfo.do?newsId=${item.id}">${item.newsAuthor}</a></td>
 											<td width="68">${item.fullDateStr}</td>
 										</tr>
 									   </c:forEach>
