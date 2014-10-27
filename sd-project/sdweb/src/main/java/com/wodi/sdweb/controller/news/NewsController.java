@@ -16,7 +16,7 @@ import com.wodi.sdweb.service.SpNewsService;
 import com.wodi.sdweb.utils.PageModel;
 
 @Controller
-@RequestMapping("/News")
+//@RequestMapping("/News")
 public class NewsController {
 	
 	@Resource(name = "spNewsService")
@@ -33,7 +33,7 @@ public class NewsController {
 	
 	@RequestMapping("newsList")
 	public ModelAndView loadNewsList(HttpServletRequest request) throws SQLException {
-		ModelAndView view = new ModelAndView("News/newsList");
+		ModelAndView view = new ModelAndView("News/newsCenter");
 		int startIndex = 0;
 		int pageSize = 10;
 		try {
@@ -48,11 +48,11 @@ public class NewsController {
 		return view;
 	}
 	
-	@RequestMapping("newsInfo")
+	@RequestMapping("newsInfo.do")
 	public ModelAndView loadNewsInfo(String newsId) {
 		ModelAndView view = new ModelAndView("News/newsDetail");
 		SpNews news = spNewsService.selectById(Long.parseLong(newsId));
-		view.addObject("news", view);
+		view.addObject("news", news);
 		return view;
 	}
 	
