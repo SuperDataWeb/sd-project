@@ -27,11 +27,11 @@ message = request("message")
 							cellpadding="0" cellspacing="0"
 							background="suda/templets/new/images/ind_ti_bg.jpg">
 							<tr>
-								<td width="140"><a href=""><img
+								<td width="140"><a href="newsList.do"><img
 										src="suda/templets/new/images/ind_xwgg.jpg" width="143"
 										height="33" border="0" /></a></td>
 								<td align="right">&nbsp;</td>
-								<td width="15" align="right"><a href=""><img
+								<td width="15" align="right"><a href="newsList.do"><img
 										src="suda/templets/new/images/ind_more.jpg" alt="ËÙ´ï"
 										width="57" height="33" style="border: 0" /></a></td>
 							</tr>

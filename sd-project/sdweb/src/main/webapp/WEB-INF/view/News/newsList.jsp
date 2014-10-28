@@ -33,18 +33,13 @@ message = request("message")
 	src="http://r.qiao.baidu.com/Refresh.php?callback=BDBridge.rcvbase.__handleRefresh&amp;bid=4ea016ca5ce9420ac90e8dbc&amp;siteid=1272542&amp;t=1412950621171"
 	id="BDBridgeReport" language="javascript" type="text/javascript"></script>
 	
-<style type="text/css">
-.hg {
-    line-height: 20px;
-}
-</style>
 </head>
 <BODY type="leaveMessage">
 	<table width="100%" border="0" align="center" cellpadding="0"
 		cellspacing="0">
 		<tr>
 			<td height="30" valign="middle" style="padding-top: 3px;">
-				▎您当前的位置：<a href="../index.do">首页</a> > <a href="index.htm">通知公告</a> >
+				▎您当前的位置：<a href="index.do">首页</a> > <a href="index.htm">通知公告</a> >
 			</td>
 		</tr>
 	</table>
@@ -62,14 +57,14 @@ message = request("message")
 			</span></td>
 		</tr>
 	</table>
-	<table width="100%" border="0" align="center" cellpadding="15"
+	<table class="news1" width="100%" border="0" align="center" cellpadding="15"
 		cellspacing="0">
 		<tr>
 			<td width="729" height="500" valign="top" class="hg">
                <c:forEach var="news" items="${pageNews.datas }">
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<table  width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tbody><tr>
-		                    <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
+		                    <td class="news" height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
 		                    <td class="news" width="83%"> <a href="newsInfo.do?newsId=${news.id}" title="${news.newsTitle}">${news.newsTitle}</a></td>
 		                    <td class="news" width="100" align="right">${news.fullDateStr}</td>
 		                  </tr>
