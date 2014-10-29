@@ -8,14 +8,44 @@ import java.util.Date;
  *
  */
 public class SpOrder {
+	
+	public enum OrderType{
+		/**在线留言*/
+		zxly,
+		
+		/**我要体验*/
+		wyty,
+		
+		/**我要培训*/
+		wypx,
+		
+		/**产品升级*/
+		cpsj,
+		
+		/**我要购买*/
+		wygm,
+		
+		/**信息反馈*/
+		xxfk,
+		
+		/**下载试用*/
+		xzsy,
+		
+	}
 
 	private Long id;
+	private String contactUser;
 	private String companyName;
-	private String contact;
-	private String contact_user;
+	private String contactTel;
+	private String companyLocation;
+	private String companyAddress;
 	private String email;
-	private String address;
+	/**主题 or 产品名称*/
+	private String topic;
+	/**详细说明 or 备注信息*/
 	private String remark;
+	/**不同的订单类型*/
+	private OrderType orderType;
 	private Integer status;
 	private Date created;
 	private Date updated;
@@ -25,23 +55,35 @@ public class SpOrder {
 	public void setId(Long id) {
 		this.id = id;
 	}
+	public String getContactUser() {
+		return contactUser;
+	}
+	public void setContactUser(String contactUser) {
+		this.contactUser = contactUser;
+	}
 	public String getCompanyName() {
 		return companyName;
 	}
 	public void setCompanyName(String companyName) {
 		this.companyName = companyName;
 	}
-	public String getContact() {
-		return contact;
+	public String getContactTel() {
+		return contactTel;
 	}
-	public void setContact(String contact) {
-		this.contact = contact;
+	public void setContactTel(String contactTel) {
+		this.contactTel = contactTel;
 	}
-	public String getContact_user() {
-		return contact_user;
+	public String getCompanyLocation() {
+		return companyLocation;
 	}
-	public void setContact_user(String contact_user) {
-		this.contact_user = contact_user;
+	public void setCompanyLocation(String companyLocation) {
+		this.companyLocation = companyLocation;
+	}
+	public String getCompanyAddress() {
+		return companyAddress;
+	}
+	public void setCompanyAddress(String companyAddress) {
+		this.companyAddress = companyAddress;
 	}
 	public String getEmail() {
 		return email;
@@ -49,17 +91,23 @@ public class SpOrder {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public String getAddress() {
-		return address;
+	public String getTopic() {
+		return topic;
 	}
-	public void setAddress(String address) {
-		this.address = address;
+	public void setTopic(String topic) {
+		this.topic = topic;
 	}
 	public String getRemark() {
 		return remark;
 	}
 	public void setRemark(String remark) {
 		this.remark = remark;
+	}
+	public OrderType getOrderType() {
+		return orderType;
+	}
+	public void setOrderType(OrderType orderType) {
+		this.orderType = orderType;
 	}
 	public Integer getStatus() {
 		return status;
@@ -78,14 +126,6 @@ public class SpOrder {
 	}
 	public void setUpdated(Date updated) {
 		this.updated = updated;
-	}
-	@Override
-	public String toString() {
-		return "SpOrder [id=" + id + ", companyName=" + companyName
-				+ ", contact=" + contact + ", contact_user=" + contact_user
-				+ ", email=" + email + ", address=" + address + ", remark="
-				+ remark + ", status=" + status + ", created=" + created
-				+ ", updated=" + updated + "]";
 	}
 	
 	

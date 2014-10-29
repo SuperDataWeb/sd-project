@@ -9,7 +9,6 @@
  */
 package com.wodi.sdweb.dao.impl;
 
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -19,7 +18,6 @@ import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
 
 import com.wodi.sdweb.dao.SpOrderMapper;
-import com.wodi.sdweb.model.SpLayout;
 import com.wodi.sdweb.model.SpOrder;
 
 /**
@@ -41,8 +39,7 @@ public class SpOrderDaoImpl extends SqlSessionDaoSupport implements
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
-	public List<SpOrder> pageSelect(int startIndex, int pageSize)
-			throws SQLException {
+	public List<SpOrder> pageSelect(int startIndex, int pageSize) {
 		List<SpOrder> spOrderList = new ArrayList<SpOrder>();    
         Map params =new HashMap();    
         params.put("startIndex", new Integer(startIndex));    

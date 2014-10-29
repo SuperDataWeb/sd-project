@@ -5,33 +5,35 @@
 
     <resultMap id="SpOrderMap" type="SpOrder" >    
         <result property="id" column="id" />    
-        <result property="companyName" column="company_name" />    
-        <result property="contact" column="contact" />    
         <result property="contactUser" column="contact_user" />
+        <result property="companyName" column="company_name" />    
+         <result property="contactTel" column="contact_tel" />
+        <result property="companyLocation" column="company_location" />
+        <result property="companyAddress" column="company_address" />    
         <result property="email" column="email" />
-        <result property="address" column="address" />
+        <result property="topic" column="topic" />
+        <result property="remark" column="remark" />
+        <result property="orderType" column="order_type" />
         <result property="status" column="status" />    
         <result property="created" column="created" />
         <result property="updated" column="updated" />
     </resultMap>
     
+    <sql id="orderFields">
+		id, contact_user, company_name, contact_tel, company_location, company_address, email, topic, remark, order_type, 
+		status, created, updated
+	</sql>
+    
 	<insert id="insert" parameterType="SpOrder">
-			<![CDATA[ INSERT INTO SP_ORDER(company_name, contact, contact_user, email, address, status, created, updated, remark
-			) VALUES( #{companyName}, #{contact}, #{contactUser}, #{email}, #{address}, #{status}, now(), now(), #{remark})
+			<![CDATA[ INSERT INTO SP_ORDER(contact_user, company_name, contact_tel, company_location, company_address, email, topic, remark, order_type, status, created, updated
+			) VALUES( #{contactUser}, #{companyName}, #{contactTel}, #{companyLocation}, #{companyAddress}, #{email}, #{topic}, #{remark}, #{orderType}, #{status}, now(), now())
 				]]>
 	</insert>
 	
 	<select id="pageSelect" resultMap="SpOrderMap" parameterType="map">    
+        select 
+        <include refid="productFields" />
         <![CDATA[    
-        select  id,                
-           company_name ,          
-           contact ,         
-           contact_user, 
-           email,
-           address,  
-           status,           
-           created,    
-           updated
         FROM SP_ORDER  limit  #{startIndex}, #{pageSize}
          ]]>     
     </select>

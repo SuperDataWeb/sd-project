@@ -9,7 +9,6 @@
  */
 package com.wodi.sdweb.dao;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
@@ -18,7 +17,7 @@ import com.wodi.sdweb.model.SpOrder;
 
 /**
  * <p>
- * DOCUMENTME <code>com.wodi.sdweb.dao.SpOrderDao</code>类的说明
+ * DOCUMENTME <code>com.wodi.sdweb.dao.SpOrderMapper</code>类的说明
  * </p>
  *
  * @author tangyong
@@ -28,7 +27,7 @@ public interface SpOrderMapper {
 
 	public void insert(SpOrder spOrder);
 	
-	public List<SpOrder> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize) throws SQLException;
+	public List<SpOrder> pageSelect(@Param("startIndex") int startIndex, @Param("pageSize") int pageSize);
 	
 	public void update(SpOrder spOrder);
 	
