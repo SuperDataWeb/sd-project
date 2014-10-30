@@ -101,7 +101,7 @@ message = request("message")
 								alt="<strong><font color='#FF0000'>${productDownload.name }</font></strong>  "
 								width="102" height="82"></td>
 							<td height="25" bgcolor="#F3FAF4"><a
-								href="download.do?productDownloadId=${productDownload.id }" target="_blank"><strong><strong><font
+								href="#" target="_blank"><strong><strong><font
 											color='#FF0000'>${productDownload.name }</font></strong></strong> </a></td>
 						</tr>
 						<tr>
@@ -111,8 +111,8 @@ message = request("message")
 						<tr>
 							<td height="25" align="right" bgcolor="#FFFFFF"
 								style="border-bottom-style: double; border-bottom-width: 1px; border-bottom-color: #999999"><font
-								color="#666666">下载:${productDownload.downloads } 次 版本：${productDownload.version } 发布日期：${productDownload.releaseDate }</font> <strong><a
-									href="download.do?productDownloadId=${productDownload.id }" target="_blank">立即下载</a></strong>&nbsp;</td>
+								color="#666666">下载:${productDownload.downloads } 次 版本：${productDownload.version } 发布日期：${productDownload.releaseDate }</font> 
+								<!-- <strong><a href="download.do?productDownloadId=${productDownload.id }" target="_blank">立即下载</a></strong> -->&nbsp;</td>
 						</tr>
 					</table>
 				</c:forEach>

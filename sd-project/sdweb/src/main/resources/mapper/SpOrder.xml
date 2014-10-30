@@ -32,7 +32,7 @@
 	
 	<select id="pageSelect" resultMap="SpOrderMap" parameterType="map">    
         select 
-        <include refid="productFields" />
+        <include refid="orderFields" />
         <![CDATA[    
         FROM SP_ORDER  limit  #{startIndex}, #{pageSize}
          ]]>     

@@ -42,7 +42,7 @@ message = request("message")
 			<td width="35" height="23" align="right" valign="middle"><img
 				src="suda/templets/new/images/left_01.jpg" width="6" height="12" /></td>
 			<td width="180" align="left" valign="middle">&nbsp;<a
-				href="/suda/plus/guestbook.php">在线留言</a></td>
+				href="zaiXianLiuYan.do">在线留言</a></td>
 		</tr>
 		<tr>
 			<td width="35" height="23" align="right" valign="middle"><img
@@ -55,44 +55,44 @@ message = request("message")
 
 		<tr>
 			<td width='35' height='23' align='right' valign='middle'><img
-				src='templets/new/images/left_01.jpg' width='6' height='12' /></td>
+				src='suda/templets/new/images/left_01.jpg' width='6' height='12' /></td>
 			<td width='180' align='left' valign='middle'>&nbsp;<a
-				href=sd_service.php?sid=1>我要体验</a></td>
+				href="interact.do">我要体验</a></td>
 		</tr>
 
 		<tr>
 			<td width='35' height='23' align='right' valign='middle'><img
-				src='templets/new/images/left_01.jpg' width='6' height='12' /></td>
+				src='suda/templets/new/images/left_01.jpg' width='6' height='12' /></td>
 			<td width='180' align='left' valign='middle'>&nbsp;<a
-				href=sd_service.php?sid=2>我要培训</a></td>
+				href="woYaoPeiXun.do">我要培训</a></td>
 		</tr>
 
 		<tr>
 			<td width='35' height='23' align='right' valign='middle'><img
-				src='templets/new/images/left_01.jpg' width='6' height='12' /></td>
+				src='suda/templets/new/images/left_01.jpg' width='6' height='12' /></td>
 			<td width='180' align='left' valign='middle'>&nbsp;<a
-				href=sd_service.php?sid=3>产品升级</a></td>
+				href="chanPinShengJi.do">产品升级</a></td>
 		</tr>
 
 		<tr>
 			<td width='35' height='23' align='right' valign='middle'><img
-				src='templets/new/images/left_01.jpg' width='6' height='12' /></td>
+				src='suda/templets/new/images/left_01.jpg' width='6' height='12' /></td>
 			<td width='180' align='left' valign='middle'>&nbsp;<a
-				href=sd_service.php?sid=4>我要购买</a></td>
+				href="woYaoGouMai.do">我要购买</a></td>
 		</tr>
 
 		<tr>
 			<td width='35' height='23' align='right' valign='middle'><img
-				src='templets/new/images/left_01.jpg' width='6' height='12' /></td>
+				src='suda/templets/new/images/left_01.jpg' width='6' height='12' /></td>
 			<td width='180' align='left' valign='middle'>&nbsp;<a
-				href=sd_service.php?sid=6>信息反馈</a></td>
+				href="xinXiFanKui.do">信息反馈</a></td>
 		</tr>
 
 		<tr>
 			<td width='35' height='23' align='right' valign='middle'><img
-				src='templets/new/images/left_01.jpg' width='6' height='12' /></td>
+				src='suda/templets/new/images/left_01.jpg' width='6' height='12' /></td>
 			<td width='180' align='left' valign='middle'>&nbsp;<a
-				href=sd_service.php?sid=8>下载试用</a></td>
+				href="xiaZaiShiYong.do">下载试用</a></td>
 		</tr>
 
 		<tr>

@@ -12,6 +12,8 @@
 	rel="stylesheet">
 <script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
 <script src="suda/templets/new/js/common.js" language="javascript"></script>
+<script src="suda/templets/new/js/nativeplace.js" language="javascript"></script>
+<script src="suda/include/js/jquery/jquery.js" type="text/javascript" ></script>
 <style>
 <!--
 .inputte{float:left;width:700px;height:35px;}
@@ -27,7 +29,7 @@
 <div align="center">
   <div style="background-color:#FFFFFF; width:984px;">
      <!-- -------------- top -------------- -->
-			<%@include file="../../../top.jsp"%>  
+	 <%@include file="../../../top.jsp"%>  
   <table width="980" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
       <tr>
         <td height="3"></td>
@@ -76,7 +78,7 @@ function doValidate() {
           </table>
           <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
-              <td width="100%" align="center" style="padding-top:6px;"><span style="padding-top:6px; padding-bottom:8px;"><img src="/suda/templets/new/images/fuwu.jpg"  width="730" height="105"></span></td>
+              <td width="100%" align="center" style="padding-top:6px;"><span style="padding-top:6px; padding-bottom:8px;"><img src="suda/templets/new/images/fuwu.jpg"  width="730" height="105"></span></td>
             </tr>
           </table>
           <table width="100%" border="0" align="center" cellpadding="10" cellspacing="0">
@@ -84,7 +86,7 @@ function doValidate() {
               <td height="500" valign="top" class="hg"><!--反馈表开始-->
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td height="30" valign="top"><img src="/suda/templets/new/images/li_x.gif"  width="17" height="17"> <strong>
+                    <td height="30" valign="top"><img src="suda/templets/new/images/li_x.gif"  width="17" height="17"> <strong>
 					<font size="3">产品升级</font></strong>&#9758;</td>
                   </tr>
                   <tr>
@@ -186,13 +188,12 @@ function doValidate() {
       </tr>
     </table>
     <!-- 页脚 -->
-			<!-- -------------------foot---------------- -->
-			<%@include file="../../../foot.jsp"%> </div>
+	<!-- -------------------foot---------------- -->
+	<%@include file="../../../foot.jsp"%> 
+ </div>
 </div>
 </body>
 </html>
-<script type="text/javascript" src="//include/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="//data/enums/nativeplace.js"></script>
 
 <script language="javascript">
 	var $ = jQuery;

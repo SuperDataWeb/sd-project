@@ -2,7 +2,7 @@ CREATE DATABASE  IF NOT EXISTS `wodi` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `wodi`;
 -- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
 --
--- Host: localhost    Database: wodi
+-- Host: 127.0.0.1    Database: wodi
 -- ------------------------------------------------------
 -- Server version	5.7.3-m13
 
@@ -149,17 +149,20 @@ DROP TABLE IF EXISTS `sp_order`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `sp_order` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `COMPANY_NAME` varchar(255) DEFAULT NULL,
-  `CONTACT` varchar(50) DEFAULT NULL,
-  `CONTACT_USER` varchar(255) DEFAULT NULL,
-  `EMAIL` varchar(255) DEFAULT NULL,
-  `ADDRESS` varchar(255) DEFAULT NULL,
+  `contact_user` varchar(100) DEFAULT NULL,
+  `company_name` varchar(255) DEFAULT NULL,
+  `contact_tel` varchar(20) DEFAULT NULL,
+  `company_location` varchar(50) DEFAULT NULL,
+  `company_address` varchar(255) DEFAULT NULL,
   `STATUS` char(2) DEFAULT NULL,
   `CREATED` datetime DEFAULT NULL,
   `UPDATED` datetime DEFAULT NULL,
   `REMARK` varchar(255) DEFAULT NULL,
+  `topic` varchar(255) DEFAULT NULL,
+  `order_type` varchar(4) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='订单表';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -168,6 +171,7 @@ CREATE TABLE `sp_order` (
 
 LOCK TABLES `sp_order` WRITE;
 /*!40000 ALTER TABLE `sp_order` DISABLE KEYS */;
+INSERT INTO `sp_order` VALUES (1,'日日日','按时大大','12322',NULL,'珠江新城',NULL,'2014-10-31 00:28:39','2014-10-31 00:28:39','的','3000-std',NULL,NULL),(2,'硕大的','撒旦','12322',NULL,'珠江新城',NULL,'2014-10-31 00:31:15','2014-10-31 00:31:15','打算','3000-std','wyty',NULL);
 /*!40000 ALTER TABLE `sp_order` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -310,4 +314,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-10-30 17:49:41
+-- Dump completed on 2014-10-31  0:34:23

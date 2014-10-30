@@ -114,7 +114,7 @@ message = request("message")
 								</li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
-									<a href="/suda/plus/sd_service.php?sid=1" class="menu_1"
+									<a href="interact.do" class="menu_1"
 									id='Menu_21' target='_self'>互动交流</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>
