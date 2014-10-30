@@ -2,7 +2,7 @@ CREATE DATABASE  IF NOT EXISTS `wodi` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `wodi`;
 -- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
 --
--- Host: 127.0.0.1    Database: wodi
+-- Host: localhost    Database: wodi
 -- ------------------------------------------------------
 -- Server version	5.7.3-m13
 
@@ -34,7 +34,7 @@ CREATE TABLE `function_module` (
   `CREATED` datetime DEFAULT NULL,
   `UPDATED` datetime DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COMMENT='功能模块';
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COMMENT='功能模块';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,7 +43,7 @@ CREATE TABLE `function_module` (
 
 LOCK TABLES `function_module` WRITE;
 /*!40000 ALTER TABLE `function_module` DISABLE KEYS */;
-INSERT INTO `function_module` VALUES (1,'展示flash','610','indexFlashModule.jsp','flash','0','2014-10-12 15:53:42','2014-10-12 15:53:46'),(2,'新闻公告','272','indexNews.jsp','新闻列表','0','2014-10-12 15:54:22','2014-10-12 15:54:25'),(3,'产品中心','698','indexSeriesProducts.jsp','产品展示中心','0','2014-10-12 15:54:48','2014-10-12 15:54:50'),(4,'解决方案','272','indexSolutions.jsp','方案范例','0','2014-10-12 15:55:24','2014-10-12 15:55:26'),(5,'公司介绍','698','indexIntroduce.jsp','公司、软件信息','0','2014-10-12 15:56:07','2014-10-12 15:56:14'),(6,'常见问题','272','indexProblem.jsp','问题列表','0','2014-10-12 15:56:46','2014-10-12 15:56:49'),(7,'相关信息','272','indexNewsExample.jsp','相关信息','0','2014-10-12 15:57:54','2014-10-12 15:57:57');
+INSERT INTO `function_module` VALUES (1,'展示flash','610','indexFlashModule.jsp','flash','0','2014-10-12 15:53:42','2014-10-12 15:53:46'),(2,'新闻公告','272','indexNews.jsp','新闻列表','0','2014-10-12 15:54:22','2014-10-12 15:54:25'),(3,'产品中心','698','indexSeriesProducts.jsp','产品展示中心','0','2014-10-12 15:54:48','2014-10-12 15:54:50'),(4,'解决方案','272','indexSolutions.jsp','方案范例','0','2014-10-12 15:55:24','2014-10-12 15:55:26'),(5,'公司介绍','698','indexIntroduce.jsp','公司、软件信息','0','2014-10-12 15:56:07','2014-10-12 15:56:14'),(6,'常见问题','272','indexProblem.jsp','问题列表','0','2014-10-12 15:56:46','2014-10-12 15:56:49'),(7,'相关信息','698','indexNewsExample.jsp','相关信息','0','2014-10-12 15:57:54','2014-10-12 15:57:57'),(8,'快速指引','272','indexQuickTabs.jsp','快速指引栏','0','2014-10-12 15:57:54','2014-10-12 15:57:54');
 /*!40000 ALTER TABLE `function_module` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -68,7 +68,7 @@ CREATE TABLE `module_layout` (
   KEY `layout_fk_idx` (`LAYOUT_ID`),
   CONSTRAINT `layout_fk` FOREIGN KEY (`LAYOUT_ID`) REFERENCES `sp_layout` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `module_fk` FOREIGN KEY (`MODULE_ID`) REFERENCES `function_module` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='模块布局表';
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COMMENT='模块布局表';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -77,7 +77,7 @@ CREATE TABLE `module_layout` (
 
 LOCK TABLES `module_layout` WRITE;
 /*!40000 ALTER TABLE `module_layout` DISABLE KEYS */;
-INSERT INTO `module_layout` VALUES (1,1,1,'0','0','0','2014-10-12 15:59:20','2014-10-12 15:59:23'),(2,2,1,'0','1','0','2014-10-12 15:59:50','2014-10-12 15:59:53'),(3,3,2,'0','1','0','2014-10-12 16:00:44',NULL),(4,4,2,'0','0','0','2014-10-12 16:01:03',NULL),(5,6,3,'0','0','0','2014-10-12 16:03:53',NULL),(6,5,3,'0','1','0','2014-10-12 16:04:07',NULL);
+INSERT INTO `module_layout` VALUES (1,1,1,'0','0','0','2014-10-12 15:59:20','2014-10-12 15:59:23'),(2,2,1,'0','1','0','2014-10-12 15:59:50','2014-10-12 15:59:53'),(3,3,2,'0','1','0','2014-10-12 16:00:44',NULL),(4,4,2,'0','0','0','2014-10-12 16:01:03',NULL),(5,6,3,'0','0','0','2014-10-12 16:03:53',NULL),(6,5,3,'0','1','0','2014-10-12 16:04:07',NULL),(7,7,4,'0','1','0','2014-10-12 16:04:07',NULL),(8,8,4,'0','0','0','2014-10-12 16:04:07',NULL);
 /*!40000 ALTER TABLE `module_layout` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -310,4 +310,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-10-25 15:29:07
+-- Dump completed on 2014-10-30 17:49:41

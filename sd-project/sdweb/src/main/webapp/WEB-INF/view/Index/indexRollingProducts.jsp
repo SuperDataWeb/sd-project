@@ -88,74 +88,74 @@ message = request("message")
 									cellspacing="0" cellpadding="0">
 									<tr>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/sudacaiwuxilie/20140703/4328.html"
+											href="product.do?productId=14"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/140703/1-140F3143Z1122.png"
 												alt="速达V3+.NET财务STD" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/sudacaiwuxilie/20140703/4328.html"
+											href="product.do?productId=14"
 											title="速达V3+.NET财务STD" target="_blank">速达V3+.NET财务STD</a></td>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/suda3000xilie/20111116/suda3000std.html"
+											href="product.do?productId=1"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/140512/7-14051220263cC.jpg"
 												alt="速达3000 STD" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/suda3000xilie/20111116/suda3000std.html"
+											href="product.do?productId=1"
 											title="速达3000 STD" target="_blank">速达3000 STD</a></td>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/suda3000xilie/20111116/13.html"
+											href="product.do?productId=3"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/140512/7-140512213GVM.jpg"
 												alt="速达3000 PRO 商业版" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/suda3000xilie/20111116/13.html"
+											href="product.do?productId=3"
 											title="速达3000 PRO 商业版" target="_blank">速达3000 PRO 商业版</a></td>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/suda3000xilie/20111221/suda3000pro.html"
+											href="product.do?productId=4"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/140512/7-140512001SV35.jpg"
 												alt="速达3000 PRO 工业版" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/suda3000xilie/20111221/suda3000pro.html"
+											href="product.do?productId=4"
 											title="速达3000 PRO 工业版" target="_blank">速达3000 PRO 工业版</a></td>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/suda7000_tingshou_/20111222/4180.html"
+											href="product.do?productId=38"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/140603/7-140603233Q2405.jpg"
 												alt="速达7000 PRO 工业版" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/suda7000_tingshou_/20111222/4180.html"
+											href="product.do?productId=38"
 											title="速达7000 PRO 工业版" target="_blank">7000 PRO 工业版版</a></td>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/suda7000_tingshou_/20111222/4181.html"
+											href="product.do?productId=39"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/soft/131130/1-13113009561M23.gif"
 												alt="速达7000 Pro 商业版" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/suda7000_tingshou_/20111222/4181.html"
+											href="product.do?productId=39"
 											title="速达7000 Pro 商业版" target="_blank">速达7000 Pro 商业版</a></td>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/suda5000xilie/20111116/14.html"
+											href="product.do?productId=36"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/140602/7-140602233010337.jpg"
 												alt="速达5000 PRO 商业版" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/suda5000xilie/20111116/14.html"
+											href="product.do?productId=36"
 											title="速达5000 PRO 商业版" target="_blank">速达5000 PRO 商业版</a></td>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/suda5000xilie/20111116/15.html"
+											href="product.do?productId=37"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/140602/7-140602233J3J0.jpg"
 												alt="速达5000 PRO 工业版" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/suda5000xilie/20111116/15.html"
+											href="product.do?productId=37"
 											title="速达5000 PRO 工业版" target="_blank">速达5000 PRO 工业版</a></td>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/suda3000xilie/20111215/suda3000BAS.html"
+											href="product.do?productId=28"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/111103/140627/9-14062GU949129.jpg"
 												alt="速达3000 BAS" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/suda3000xilie/20111215/suda3000BAS.html"
+											href="product.do?productId=28"
 											title="速达3000 BAS" target="_blank">速达3000 BAS</a></td>
 										<td width="137px" height="110px" align="center"><a
-											href="/suda/html/chanpinzhongxin/sudaV_7xilie/20111116/75.html"
+											href="product.do?productId=40"
 											target="_blank"><img width="65" height="85"
 												src="suda/uploads/140603/7-140603231P2347.jpg"
 												alt="速达V7-PRO-商业版" border="0" /></a><br> <a
-											href="/suda/html/chanpinzhongxin/sudaV_7xilie/20111116/75.html"
+											href="product.do?productId=40"
 											title="速达V7-PRO-商业版" target="_blank">速达V7-PRO-商业版</a></td>
 
 									</tr>

@@ -22,7 +22,7 @@
 				<tr>
 					<td width="610" valign="top">
 						<!--flash模块开始--> 
-						<%@include file="indexFlash.jsp"%>
+						<%@include file="indexFlashModule.jsp"%>
 						<!--flash模块结束-->
 					</td>
 					<td width="8">&nbsp;</td>
