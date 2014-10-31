@@ -66,79 +66,79 @@ message = request("message")
               <table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111213/4099.html" title="牛奶生产企业">牛奶生产企业</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111213_4099.do" title="牛奶生产企业">牛奶生产企业</a></td>
                     <td class="news" width="100" align="right">2012-02-05</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111116/26.html" title="产品升级应用案例">产品升级应用案例</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111116_26.do" title="产品升级应用案例">产品升级应用案例</a></td>
                     <td class="news" width="100" align="right">2012-02-05</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111116/25.html" title="分公司性质销售企业">分公司性质销售企业</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111116_25.do" title="分公司性质销售企业">分公司性质销售企业</a></td>
                     <td class="news" width="100" align="right">2012-02-05</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111116/24.html" title="分销系统解决方案">分销系统解决方案</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111116_24.do" title="分销系统解决方案">分销系统解决方案</a></td>
                     <td class="news" width="100" align="right">2012-02-05</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111116/23.html" title="中小企业财务解决方案">中小企业财务解决方案</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111116_23.do" title="中小企业财务解决方案">中小企业财务解决方案</a></td>
                     <td class="news" width="100" align="right">2012-02-05</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111116/22.html" title="制造企业管理解决方案">制造企业管理解决方案</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111116_22.do" title="制造企业管理解决方案">制造企业管理解决方案</a></td>
                     <td class="news" width="100" align="right">2012-02-05</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111116/21.html" title="信息化带动工业化 企业发展的关键">信息化带动工业化 企业发展的关键</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111116_21.do" title="信息化带动工业化 企业发展的关键">信息化带动工业化 企业发展的关键</a></td>
                     <td class="news" width="100" align="right">2012-02-05</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111213/4104.html" title="食品批发行业">食品批发行业</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111213_4104.do" title="食品批发行业">食品批发行业</a></td>
                     <td class="news" width="100" align="right">2012-02-05</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111213/4105.html" title="远程连锁企业解决方案">远程连锁企业解决方案</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111213_4105.do" title="远程连锁企业解决方案">远程连锁企业解决方案</a></td>
                     <td class="news" width="100" align="right">2012-02-05</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111213/4100.html" title="销售电器的超市">销售电器的超市</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111213_4100.do" title="销售电器的超市">销售电器的超市</a></td>
                     <td class="news" width="100" align="right">2012-02-02</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111213/4101.html" title="汽车美容行业">汽车美容行业</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111213_4101.do" title="汽车美容行业">汽车美容行业</a></td>
                     <td class="news" width="100" align="right">2012-02-02</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111213/4102.html" title="涂料建材批发行业">涂料建材批发行业</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111213_4102.do" title="涂料建材批发行业">涂料建材批发行业</a></td>
                     <td class="news" width="100" align="right">2012-02-02</td>
                   </tr>
                 </tbody></table><table class="mmm" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tbody><tr>
                     <td height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-                    <td class="news" width="83%">[解决方案] <a href="/suda/html/jiejuefangan/jiejuefangan/20111213/4103.html" title="手机连锁行业">手机连锁行业</a></td>
+                    <td class="news" width="83%">[解决方案] <a href="solution_20111213_4103.do" title="手机连锁行业">手机连锁行业</a></td>
                     <td class="news" width="100" align="right">2012-02-02</td>
                   </tr>
                 </tbody></table>
@@ -153,18 +153,20 @@ message = request("message")
                     maxPageItems:每页显示的行数，默认为10 
                     maxIndexPages:在循环输出页码的时候，最大输出多少个页码，默认是10  -->
 				          <pg:pager url="pageProduct.do"
-				             items="${pageNews.total }" maxPageItems="${pageSize }" maxIndexPages="10" 
+				             items="13" maxPageItems="20" maxIndexPages="10" 
 				             export="currentPageNumber=pageNumber">  
 					            <!-- 首页 -->  
 					            <pg:first>  
 					                <!-- 生成链接 -->  
-					                <a href="${pageUrl }">首页</a>  
+					                <a href="#">首页</a>  
 					      
 					            </pg:first>  
 					            <pg:prev>  
-					                <a href="${pageUrl }">前一页</a>  
+					                <a href="#">前一页</a>  
 					            </pg:prev>  
 					            <pg:pages>  
+					            	<strong><font color="red">1</font></strong>
+					            	<!-- 
 					                <c:choose>  
 					                    <c:when test="${currentPageNumber eq pageNumber }">  
 					                        <strong><font color="red">${pageNumber }</font></strong>
@@ -173,88 +175,30 @@ message = request("message")
 					                        <a href="${pageUrl }">${pageNumber }</a>  
 					                    </c:otherwise>  
 					                </c:choose>  
+					            	 -->
 					            </pg:pages>  
 					            <pg:next>  
-					                <a href="${pageUrl }">后一页</a>  
+					                <a href="#">后一页</a>  
 					            </pg:next>  
 					            <pg:last>  
-					                <a href="${pageUrl }">尾页</a>  
+					                <a href="#">尾页</a>  
 					            </pg:last>  
 					        </pg:pager>
 					</div>
               
-              
+              <!-- 
                <div class="dede_pages">
                    <ul class="pagelist">
                     <li><span class="pageinfo">共 <strong>1</strong>页<strong>13</strong>条记录</span></li>
 
                    </ul>
                 </div>
+               -->
               </td>
             </tr>
           </tbody>
 	</table>
 	
-	
-	
-	
-	
-	<table class="news1" width="100%" border="0" align="center" cellpadding="15"
-		cellspacing="0">
-		<tr>
-			<td width="729" height="500" valign="top" class="hg">
-               <c:forEach var="news" items="${pageNews.datas }">
-					<table  width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tbody><tr>
-		                    <td class="news" height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-		                    <td class="news" width="83%"> <a href="newsInfo.do?newsId=${news.id}" title="${news.newsTitle}">${news.newsTitle}</a></td>
-		                    <td class="news" width="100" align="right">${news.fullDateStr}</td>
-		                  </tr>
-		                </tbody>
-					</table>
-				</c:forEach>
-			</td>
-		</tr>
-		<tr>
-			<td height="20" align="center" valign="middle" class="hg">
-				<div class="dede_pages">
-					<!-- 
-					items:总记录数，pager标签正是根据这个值来计算分页参数的 
-                    maxPageItems:每页显示的行数，默认为10 
-                    maxIndexPages:在循环输出页码的时候，最大输出多少个页码，默认是10  -->
-				          <pg:pager url="pageProduct.do"
-				             items="${pageNews.total }" maxPageItems="${pageSize }" maxIndexPages="10" 
-				             export="currentPageNumber=pageNumber">  
-					            <!-- 首页 -->  
-					            <pg:first>  
-					                <!-- 生成链接 -->  
-					                <a href="${pageUrl }">首页</a>  
-					      
-					            </pg:first>  
-					            <pg:prev>  
-					                <a href="${pageUrl }">前一页</a>  
-					            </pg:prev>  
-					            <pg:pages>  
-					                <c:choose>  
-					                    <c:when test="${currentPageNumber eq pageNumber }">  
-					                        <strong><font color="red">${pageNumber }</font></strong>
-					                    </c:when>  
-					                    <c:otherwise>  
-					                        <a href="${pageUrl }">${pageNumber }</a>  
-					                    </c:otherwise>  
-					                </c:choose>  
-					            </pg:pages>  
-					            <pg:next>  
-					                <a href="${pageUrl }">后一页</a>  
-					            </pg:next>  
-					            <pg:last>  
-					                <a href="${pageUrl }">尾页</a>  
-					            </pg:last>  
-					        </pg:pager>
-					</div>
-			</td>
-		</tr>
-	</table>
 	<!-- /right -->
 </BODY>
 </HTML>

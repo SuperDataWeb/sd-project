@@ -25,11 +25,11 @@ message = request("message")
 	<table width="100%" border="0" cellpadding="0" cellspacing="0"
 		background="suda/templets/new/images/ind_ti_bg.jpg">
 		<tr>
-			<td width="140"><a href="/suda/html/jiejuefangan/"><img
+			<td width="140"><a href="solutionList.do"><img
 					src="suda/templets/new/images/ind_fangan.jpg" width="143"
 					height="33" border="0" /></a></td>
 			<td align="right">&nbsp;</td>
-			<td width="15" align="right"><a href="/suda/html/jiejuefangan/"><img
+			<td width="15" align="right"><a href="solutionList.do"><img
 					src="suda/templets/new/images/ind_more.jpg" alt="速达" width="57"
 					height="33" style="border: 0" /></a></td>
 		</tr>
@@ -44,56 +44,56 @@ message = request("message")
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="食品代理企业"
-							href="/suda/html/jiejuefangan/gexinghuafangan/20120212/4303.html">食品代理企业</a></td>
+							href="solutionInfo_20120212_4303.do">食品代理企业</a></td>
 						<td width="38">07-12</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="多公司多帐套应用方案"
-							href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/30.html">多公司多帐套应用方案</a></td>
+							href="solutionInfo2011_1116_30.do">多公司多帐套应用方案</a></td>
 						<td width="38">02-15</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="驻外分支机构应用方案"
-							href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/sudasaas.html">驻外分支机构应用方案</a></td>
+							href="solutionInfo_2011_1116/sudasaas.do">驻外分支机构应用方案</a></td>
 						<td width="38">02-14</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="移动办公应用方案"
-							href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/sudasaas.html">移动办公应用方案</a></td>
+							href="solutionInfo2011/1116/sudasaas.do">移动办公应用方案</a></td>
 						<td width="38">02-14</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="市政服务企业"
-							href="/suda/html/jiejuefangan/gexinghuafangan/20120210/sdcwstd.html">市政服务企业</a></td>
+							href="solutionInfo20120210/sdcwstd.do">市政服务企业</a></td>
 						<td width="38">02-13</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="机床电器企业"
-							href="/suda/html/jiejuefangan/gexinghuafangan/20120212/4302.html">机床电器企业</a></td>
+							href="solutionInfo20120212/4302.do">机床电器企业</a></td>
 						<td width="38">02-12</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="卫生纸加工企业"
-							href="/suda/html/jiejuefangan/gexinghuafangan/20120209/4300.html">卫生纸加工企业</a></td>
+							href="solutionInfo20120209/4300.do">卫生纸加工企业</a></td>
 						<td width="38">02-09</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="卫生纸加工企业"
-							href="/suda/html/jiejuefangan/gexinghuafangan/20120209/4300.html">卫生纸加工企业</a></td>
+							href="solutionInfo20120209/4300.do">卫生纸加工企业</a></td>
 						<td width="38">02-09</td>
 					</tr>
 				</table>

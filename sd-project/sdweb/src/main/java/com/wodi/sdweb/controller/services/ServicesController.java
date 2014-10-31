@@ -66,7 +66,7 @@ public class ServicesController {
 		return model;
 	}
 	
-	@RequestMapping("{serviceType}.do")
+//	@RequestMapping("{serviceType}.do")
 	public ModelAndView servicesContent(@PathVariable String serviceType) {
 		return new ModelAndView("Services/" + serviceType);
 	}

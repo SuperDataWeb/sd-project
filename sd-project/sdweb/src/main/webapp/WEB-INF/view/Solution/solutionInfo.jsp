@@ -35,7 +35,7 @@
 		cellspacing="0">
 		<tr>
 			<td height="30" valign="middle" style="padding-top: 3px;">
-				▎您当前的位置：<a href="index.do">首页</a> > <a href="newsList.do">解决方案</a> >
+				▎您当前的位置：<a href="index.do">首页</a> > <a href="solutionList.do">解决方案</a> >
 			</td>
 		</tr>
 	</table>
@@ -45,74 +45,8 @@
 			<td height="1" bgcolor="#CCCCCC"></td>
 		</tr>
 	</table>
-	<!-- 
-	<table width="100%" border="0" align="center" cellpadding="0"
-		cellspacing="0">
-		<tr>
-			<td width="100%" align="center" style="padding-top: 6px;"><span
-				style="padding-top: 6px; padding-bottom: 8px;"> <img src="suda/templets/new/images/banner/12.jpg">
-			</span></td>
-		</tr>
-	</table>
-	 -->
-	<table width="100%" border="0" align="center" cellpadding="15"
-		cellspacing="0">
-		<tr>
-			<td width="729" height="500" valign="top" class="hg">
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td height="50" align="center">
-								<span class="title">${news.newsTitle}</span>
-							</td>
-						</tr>
-					</table>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-		            	<tbody><tr>
-		                  <td height="26" align="center" bgcolor="#E7F1E8">作者：${news.newsAuthor}&nbsp; &nbsp;来源：广州速达软件 &nbsp; &nbsp;时间：${news.fullDateStr}&nbsp; &nbsp;阅读：231 次</td>
-		                </tr></tbody>
-		            </table>
-		            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-			            <tbody><tr>
-                  			<td height="10">&nbsp;</td>
-                		</tr>
-                		<tr>
-                  			<td><!--内容调用-->
-                    		<p class="hg"></p>
-                    		${news.newsContent}
-                    		<br><br>     
-							<div id="ckepop">
-								<span class="jiathis_txt">分享到：</span>
-								<a title="分享到QQ空间" class="jiathis_button_qzone"><span class="jiathis_txt jiathis_separator jtico jtico_qzone">QQ空间</span></a>
-								<a title="分享到新浪微博" class="jiathis_button_tsina"><span class="jiathis_txt jiathis_separator jtico jtico_tsina">新浪微博</span></a>
-								<a title="分享到人人网" class="jiathis_button_renren"><span class="jiathis_txt jiathis_separator jtico jtico_renren">人人网</span></a>
-								<a title="分享到开心网" class="jiathis_button_kaixin001"><span class="jiathis_txt jiathis_separator jtico jtico_kaixin001">开心网</span></a>
-								<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
-								<a class="jiathis_counter_style"><span title="累计分享0次" id="jiathis_counter_38" class="jiathis_button_expanded jiathis_counter jiathis_bubble_style">0</span></a>
-							</div>
-							<script type="text/javascript" src="http://v2.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
-	                    	<br> <br>
-							<p class="hg"> <strong>速达软件（广州）销售服务中心</strong><br>
-								  地址：广州市番禺区大石588号金怡商业大厦301室<br>
-								  销售热线：400-034-3668<br>
-								  服务热线：020-85279086<br>
-								  维护专线：020-31001310<br>
-								  VIP 专线：18620607677　18127974810
-								</p><table width="300" border="0" cellpadding="0" cellspacing="0">
-								  <tbody><tr>
-								    <td height="22" width="51"><a href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes"><img src="suda/templets/new/images/pa.gif" style="border:0" height="16" width="51"></a></td>
-								    <td valign="bottom" width="80">：<a href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes">1601331518</a></td>
-								    <td width="51"><a href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes"><img src="suda/templets/new/images/pa.gif" style="border:0" height="16" width="51"></a></td>
-								    <td valign="bottom">：<a href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes">4000343668</a></td>
-								  </tr>
-								</tbody></table>
-								<p></p>
-							<p class="pageLink" align="center"></p></td>
-						</tr>
-					</tbody>
-				</table>
-			</td>
-		</tr>
-	</table>
+	<jsp:include page="${target}"></jsp:include>
+	<%@include file="../../../share.jsp" %>
 	<!-- /right -->
 </BODY>
 </HTML>

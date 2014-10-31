@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class AboutController {
 	
-	@RequestMapping("{aboutType}.do")
+//	@RequestMapping("about{aboutType}.do")
 	public ModelAndView aboutContent(@PathVariable String aboutType) {
 		
 		return new ModelAndView("About/" + aboutType);
