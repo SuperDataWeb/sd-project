@@ -298,8 +298,8 @@
                 </table>
                 
                 
-                <form action="guestbook.php"  method="post" name="form1" id="form1">
-                  <input type='hidden' name='action' value='save' />	
+                <form method='post' accept-charset="UTF-8"  action="saveOrder.do" onsubmit="return doValidate()">
+                  <input type="hidden" name="orderType"  value="zxly"/>
                   <table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
                     <tr>
                       <td height="28" colspan="2" bgcolor="#EAEAEA"><strong>　快速留言：</strong><font color="#FF6633">(带*为必填项目)</font></td>
@@ -308,38 +308,32 @@
                       <td width="115" height="26">　姓　　名：</td>
                       <td width="591">&nbsp;
                         <!--<input name="name" type="text" id="name" />-->
-                        <input type="text" maxlength="10" name="uname" size="30" value="" class="ipt-txt"/>
+                        <input type="text" maxlength="10" name="contactUser" size="30" value="" class="ipt-txt"/>
                         <font color="#FF6633">*</font></td>
                     </tr>
                     <tr bgcolor="#FFFFFF">
                       <td height="26">　公司名称：</td>
                       <td>&nbsp;
-                        <input name="company" type="text" id="company" />
-                        <font color="#FF6633">*</font>　<font color="#CCCCCC">(管理员可见)</font></td>
-                    </tr>
-                    <tr bgcolor="#FFFFFF">
-                      <td height="26">　联系电话：</td>
-                      <td>&nbsp;
-                        <input name="call" type="text" id="call" />
+                        <input name="companyName" type="text" id="company" />
                         <font color="#FF6633">*</font>　<font color="#CCCCCC">(管理员可见)</font></td>
                     </tr>
                     <tr bgcolor="#FFFFFF">
                       <td height="26">　手机号码：</td>
                       <td>&nbsp;
-                        <input name="tel" type="text" id="call" />
+                        <input name="contactTel" type="text" id="call" />
                         <font color="#CCCCCC">(管理员可见)</font></td>
                     </tr>
                     <tr bgcolor="#FFFFFF">
                       <td height="26">　公司地址：</td>
                       <td>&nbsp;
-                        <input name="address" type="text" id="address" size="45" />
+                        <input name="companyAddress" type="text" id="address" size="45" />
                         <font color="#FF6633">*</font>　<font color="#CCCCCC">(管理员可见)</font></td>
                     </tr>
                     <tr bgcolor="#FFFFFF">
                       <td>　留言内容：</td>
                       <td>&nbsp;
                         <!--<textarea name="lytext" cols="65" rows="8" id="lytext"></textarea>-->
-                        <textarea name="msg" cols="38" rows="5" class="textarea ipt-txt"></textarea>
+                        <textarea name="remark" cols="38" rows="5" class="textarea ipt-txt"></textarea>
                         <font color="#FF6633">*</font></td>
                     </tr>
                     <tr bgcolor="#FFFFFF">

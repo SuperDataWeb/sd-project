@@ -49,6 +49,13 @@ public class SpOrder {
 	private Integer status;
 	private Date created;
 	private Date updated;
+	
+	//非数据库字段，provice-area就是companyLocation
+	/**省份*/
+	private String provice;
+	/**市区*/
+	private String area;
+	
 	public Long getId() {
 		return id;
 	}
@@ -126,6 +133,18 @@ public class SpOrder {
 	}
 	public void setUpdated(Date updated) {
 		this.updated = updated;
+	}
+	public String getProvice() {
+		return provice;
+	}
+	public void setProvice(String provice) {
+		this.provice = provice;
+	}
+	public String getArea() {
+		return area;
+	}
+	public void setArea(String area) {
+		this.area = area;
 	}
 	
 	

@@ -99,9 +99,8 @@ function doValidate() {
                   </tr>
                 </table>
                 <table width=100% align=center cellpadding=3 cellspacing=0 bgcolor='#FFFFFF'>
-                  <form name='feedback' method='post' enctype="multipart/form-data"  action="sd_service.php" onsubmit="return doValidate()">
-				  	<input type='hidden' name="action" value="save" />
-                    <input type="hidden" name="sid" value="4" />
+                  <form method='post' accept-charset="UTF-8"  action="saveOrder.do" onsubmit="return doValidate()">
+				  	<input type="hidden" name="orderType"  value="wygm"/>
                     <tr>
                       <td height=30 colspan="2" bgcolor='#EAEAEA'><strong>　基本信息 　　</strong> <font color="#FF6633"> 请您留下相关信息，以便我们与您进一步沟通。</font></td>
                     </tr>
@@ -110,17 +109,17 @@ function doValidate() {
                     </tr>
                     <tr>
                       <td width='16%' height=25 bgcolor='ffffff'>　姓　　名</td>
-                      <td bgcolor='ffffff'><input name='linkman' type='text' value=''>
+                      <td bgcolor='ffffff'><input name='contactUser' type='text' value=''>
                         <!--<font color="#FF6633">(*)</font>--></td>
                     </tr>
                     <tr>
                       <td width='16%' height=25 bgcolor='ffffff'>　公司名称</td>
-                      <td bgcolor='ffffff'><input name='companyname' type='text' value=''>
+                      <td bgcolor='ffffff'><input name='companyName' type='text' value=''>
                         </td>
                     </tr>
                     <tr>
                       <td width='16%' height=25 bgcolor='ffffff'>　联系电话</td>
-                      <td bgcolor='ffffff'><input name='phone' type='text' value=''>
+                      <td bgcolor='ffffff'><input name='contactTel' type='text' value=''>
                         </td>
                     </tr>
                     <tr>
@@ -138,7 +137,7 @@ function doValidate() {
                     </tr>
                     <tr>
                       <td width='16%' height=25 bgcolor='ffffff'>　公司地址</td>
-                      <td bgcolor='ffffff'><input name='address' type='text' value='' size="45">
+                      <td bgcolor='ffffff'><input name='companyAddress' type='text' value='' size="45">
                         </td>
                     </tr>
                     <tr>
@@ -154,10 +153,10 @@ function doValidate() {
 					
 			<tr>
                 <td width='20%' height=25 bgcolor='ffffff'>需购买软件名称</td>
-                <td bgcolor='ffffff'><input name='sdname[1]' type='text' value=''></td>
+                <td bgcolor='ffffff'><input name='topic' type='text' value=''></td>
            </tr>
 		<tr><td width='20%' height=25 bgcolor='ffffff'>备注留言</td><td bgcolor='ffffff'>
-						<textarea cols='10' rows='5' name='sdname[2]' style='width:300px;height:90px;'></textarea>
+						<textarea cols='10' rows='5' name='remark' style='width:300px;height:90px;'></textarea>
 					</td></tr>
 					
                     <tr>
