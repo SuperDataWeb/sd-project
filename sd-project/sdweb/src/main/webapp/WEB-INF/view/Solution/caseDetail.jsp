@@ -32,7 +32,7 @@
 							<td width="8">&nbsp;</td>
 							<td class="tdbk" valign="top" width="752">
 								<!-- --------------right -->
-								<%@include file="solutionInfo.jsp" %>
+								<%@include file="caseInfo.jsp" %>
 							</td>
 						</tr>
 					</tbody>

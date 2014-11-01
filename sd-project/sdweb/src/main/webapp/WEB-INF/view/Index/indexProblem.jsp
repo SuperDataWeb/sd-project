@@ -25,7 +25,7 @@ message = request("message")
 	<table width="100%" border="0" cellpadding="0" cellspacing="0"
 		background="suda/templets/new/images/ind_ti_bg.jpg">
 		<tr>
-			<td width="140"><a href="/suda/html/knowledge/faqs/"><img
+			<td width="140"><a href="caseList.do"><img
 					src="suda/templets/new/images/ind_wenti.jpg" width="143"
 					height="33" border="0" /></a></td>
 			<td><div id="apDiv1"
@@ -34,7 +34,7 @@ message = request("message")
 						height="10">
 				</div></td>
 			<td width="15" align="right"><a
-				href="/suda/html/knowledge/faqs/"><img
+				href="caseList.do"><img
 					src="suda/templets/new/images/ind_more.jpg" alt="ËÙ´ï" width="57"
 					height="33" style="border: 0" /></a></td>
 		</tr>

@@ -31,7 +31,7 @@
 	id="BDBridgeReport" language="javascript" type="text/javascript"></script>
 </head>
 <BODY type="leaveMessage">
-	<table cellpadding="0" cellspacing="15" border="0" align="center" width="100%">
+	<table cellpadding="15" cellspacing="0" border="0" align="center" width="100%">
         
         
         <tbody><tr>

@@ -32,8 +32,20 @@ public class SolutionController {
 	public ModelAndView solutionList() {
 		ModelAndView model = new ModelAndView("Solution/solutionCenter");
 		return model;
+	}
+	
+	@RequestMapping("caseList.do")
+	public ModelAndView caseList() {
+		ModelAndView model = new ModelAndView("Solution/caseCenter");
+		return model;
 	} 
 	
+	@RequestMapping("case_{dir}_{target}.do")
+	public ModelAndView caseDetail(@PathVariable String dir, @PathVariable String target) {
+		ModelAndView model = new ModelAndView("Solution/caseDetail");
+		model.addObject("target", dir + "/" + target + ".jsp");
+		return model;
+	}
 	
 //	@RequestMapping("product/m/{productIndex}.do")
 //	public ModelAndView mProduct(@PathVariable String solutionIndex) {

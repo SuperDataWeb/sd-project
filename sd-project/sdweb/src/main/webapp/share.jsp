@@ -17,6 +17,8 @@ message = request("message")
 <script src="suda/templets/new/js/common.js" language="javascript"></script>
 </head>
 <BODY type="leaveMessage">
+	<table width="100%" border="0" cellpadding="15" cellspacing="0">
+	<tr><td>
 	<div id="ckepop">
 		<span class="jiathis_txt">分享到：</span>
 		<a title="分享到QQ空间" class="jiathis_button_qzone"><span class="jiathis_txt jiathis_separator jtico jtico_qzone">QQ空间</span></a>
@@ -44,6 +46,8 @@ message = request("message")
 	</tbody></table>
 	<p></p>
 	<p class="pageLink" align="center"></p>
+	</td></tr>
+	</table>
 	<!-- /share -->
 </BODY>
 </HTML>

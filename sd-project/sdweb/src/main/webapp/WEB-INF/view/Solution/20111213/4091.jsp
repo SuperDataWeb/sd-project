@@ -33,20 +33,19 @@
 <BODY type="leaveMessage">
 	<table cellpadding="15" cellspacing="0" border="0" align="center" width="100%">
         
-        
         <tbody><tr>
-          <td class="hg" height="174" valign="top" width="729"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <td class="hg" height="174" valign="top" width="729"><table border="0" cellpadding="0" cellspacing="0" width="100%">
               <tbody><tr>
-                <td height="50" align="center"><span class="title">手机连锁行业</span></td>
+                <td align="center" height="50"><span class="title">产品升级应用案例</span></td>
               </tr>
             </tbody></table>
-              <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tbody><tr>
-                  <td height="26" align="center" bgcolor="#E7F1E8">作者：<a href="index.htm">广州速达软件</a>&nbsp; &nbsp;来源：速达官网 &nbsp; &nbsp;时间2012-02-02&nbsp; &nbsp;阅读：
-                   <script src="/suda/plus/count.php?view=yes&amp;aid=4103&amp;mid=0" type="text/javascript" language="javascript"></script>136 次</td>
+                  <td align="center" bgcolor="#E7F1E8" height="26">作者：<a href="index.htm">suda</a>&nbsp; &nbsp;来源：www.superdata.com.cn &nbsp; &nbsp;时间2012-02-05&nbsp; &nbsp;阅读：
+                   <script src="/suda/plus/count.php?view=yes&amp;aid=4091&amp;mid=0" type="text/javascript" language="javascript"></script>124 次</td>
                 </tr>
               </tbody></table>
-            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tbody><tr>
                   <td height="10">&nbsp;</td>
                 </tr>
@@ -54,36 +53,27 @@
                   <td><!--内容调用-->
                     <p class="hg">　　
                     </p><p>
-	客户简介：</p>
+	客户简介：<br>
+	　　巢湖顺达水暖设备有限公司主要经营水泥管，现在由于业务扩展需要增加两个站点，以前使用的是<strong>速达3000STD</strong>觉得使用起来比较方便，但为了满足业务的需要和使得管理更加完善，希望软件满足以下要求：<br>
+	　　1.把<strong>速达3000STD</strong>里面的基础资料能够导入到软件中；<br>
+	　　2.当发生业务往来时能做进销存业务并进行账务处理。<br>
+	　　3.有对固定资产的管理；<br>
+	　　4.能够对货品进行<strong>组装拆卸</strong>；<br>
+	　　5.如果有订单到期的话，软件能够提醒订单到期；<br>
+	　　6.对供应商的应付款快到期时也能有个提醒功能。</p>
 <p>
-	　　河南XX商务有限公司是一家专业的手机零售连锁企业。是河南最早从事手机零售的企业之一，与河南的各大商场均建立了紧密的合作关系，如家乐福、家世界、佳乐家、佳家源等。经营范围已遍布河南的五区下县,拥有十八家连锁超市。是手机连锁店最多的企业，商场营业面积超过1000平米的有8个连锁店。公司自成立以来，一直遵循“用诚信缔造永恒将低价进行到底”的经营理念，向广大顾客承诺：原装正品、价格至低、实行三包、优质服务。这种以诚信为本的经营体制为河南地区的广大顾客真正带来了实惠，在河南手机通讯行业赢得了一致好评。<br>
-	　　公司拥有专业的手机管理人员25名、销售人员600多人、售后服务人员10人。公司上下团结一心，以低廉的价格、优质的服务和务实的工作作风深得广大顾客的信赖，树立了河南人自己的品牌。管理软件需求如下：1、手机根据串号销售，根据串号维修手机<br>
-	　　2、总部与下属18个分支机构数据能够实时连接<br>
-	　　3、采购和销售业务相对独立，财务部门按照单子入账<br>
-	　　4、对同一型号不同串号的手机能分颜色进行管理<br>
-	　　5、、公司有很多客户同时又是我们散件的供货商，要求能够处理此类业务<br>
-	　　6、公司领导每周要查看，业务员销售明细报表，客户采购总表以及各分支机构的业绩排名表<br>
-	　　7、公司老板经常出差，要求能够及时查看公司的销售报表<br>
-	　　8、经常在节假日进行促销，包括赠品、打折等方式。（赠品的来源为公司自主采购，然后厂家报销费用）<br>
-	　　</p>
+	建议解决方案：<br>
+	　　经过对巢湖顺达水暖设备有限公司情况的分析，推荐使用3G<strong>速达3000PRO</strong>网络3用户。因为3G<strong>速达3000PRO</strong>能够满足该客户的以上需要，分析如下：<br>
+	　　1.在<strong>速达3000PRO</strong>里面有导入导出功能，能把<strong>速达3000STD</strong>里面的基础资料导入到帐套里面，而在<strong>速达3000STD</strong>里面只有导出没有导入功能。<br>
+	　　2.<strong>速达3000PRO</strong>是一款进销存和财务相结合的软件，客户可以根据需要选结合使用还是分开使用。<br>
+	　　3.软件提供固定资产模块对固定资产进行有效的管理。<br>
+	　　4.在做货品资料时可以看到有个组装拆卸这个选项，通过它来实现货品的组装或拆卸的管理。<br>
+	　　5.在软件的“文件”菜单下，通过“超期订单“来查看哪些订单到期。<br>
+	　　6.在软件的“文件”菜单下，通过“超期应付款“来查看哪些应付款快到期，以便及时对供应商进行付款。 推荐过程以产品的功能为引导，着重以产品的性能，价格优势。</p>
 <p>
-	　　建议解决方案：</p>
+	<strong>suda</strong>销售的<strong>速达3000STD</strong>，<strong>速达3000pro</strong>，<strong>速达3000XP</strong>，<strong>速达5000</strong>，<strong>速达7000</strong>能很好的处理产品升级应用案例</p>
 <p>
-	　　要求：根据需求为客户提供一套信息化解决方案。案例解析：<br>
-	　　1、手机串号管理是一个比较复杂的问题，公司目前主要是对售后维修加强管理，因此，进货不需要记录串号，但是销售时需要记录手机串号，以便于维修查询和统计维修记录。可以在现款销售单增加自定义字段，输入<strong>手机串号</strong>，或者在摘要中输入手机串号，将来在《商品销售明细表》中就可以查询每部手机的售后维修情况。（如果企业发展到一定的规模，管理更加严格，就可以使用批号管理来解决此问题。）<br>
-	　　2、使用<strong>online远程</strong>功能，每个客户端每年只需要365元。<br>
-	　　3、因为各部门相对独立，采购负责采购业务模块，销售部门负责销售业务模块，财务负责审核监督。<br>
-	　　4、在规格内容里加入颜色属性。<br>
-	　　5、<strong>3000PRO</strong>以上版本，有双重身份管理，在客户资料中，新增“核算供应商”选项（<strong>速达3000标准版</strong>无此功能），做法很简单，进入客户编辑界面，在“核算供应商”选项前打勾（“√”）即可。<br>
-	　　6、查看<strong>3000XP</strong>以上版本有数据中心，查询非常方便。<br>
-	　　7、使用online远程客户端加一个移动SDPASS，每天1元钱，轻松搞定此问题。<br>
-	　　8、3000PRO以上产品增加了赠品的管理</p>
-<p>
-	<strong>速达软件官网</strong>销售的<strong>速达</strong><strong>3000pro</strong>，<strong>速达</strong><strong>3000xp</strong>，<strong>速达</strong><strong>5000</strong>，<strong>速达</strong><strong>7000</strong>，都能很好的处理手机连锁行业解决方案</p>
-<p>
-	keywords:<a href="http://www.buyerp.cn/"><strong>广州速达</strong>,<strong>速达软件官网</strong>,<strong>速达财务</strong>,<strong>速达</strong><strong>3000pro</strong>,<strong>速达</strong><strong>3000xp</strong>,<strong>速达</strong><strong>7000</strong>,<strong>速达软件</strong>,<strong>速达社区</strong>,<strong>速达</strong><strong>V</strong></a></p>
-<p>
-	&nbsp;</p>
+	keywords:<a href="http://www.buyerp.cn"><strong>广州速达,速达官网,速达财务,速达3000pro,速达3000xp,速达7000,速达软件,速达社区,速达V,suda,www.superdata.com.cn</strong></a></p>
 
                      <p></p>
                     <br><br>     
