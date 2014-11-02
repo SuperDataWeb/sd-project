@@ -26,13 +26,8 @@ message = request("message")
 		background="suda/templets/new/images/ind_ti_bg.jpg">
 		<tr>
 			<td width="140"><a href="caseList.do"><img
-					src="suda/templets/new/images/ind_wenti.jpg" width="143"
+					src="suda/templets/new/images/ind_alfx.jpg" width="143"
 					height="33" border="0" /></a></td>
-			<td><div id="apDiv1"
-					style="position: relative; left: -56px; top: -5px;">
-					<img src="suda/templets/new/images/hot_04.gif" width="26"
-						height="10">
-				</div></td>
 			<td width="15" align="right"><a
 				href="caseList.do"><img
 					src="suda/templets/new/images/ind_more.jpg" alt="ËÙ´ï" width="57"
