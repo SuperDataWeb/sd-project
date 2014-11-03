@@ -45,14 +45,14 @@ message = request("message")
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="速达软件启动时，提示找"
-							href="/suda/html/knowledge/faqs/20140723/4352.html">速达软件启动时，提示找</a></td>
+							href="这里会跳">速达软件启动时，提示找</a></td>
 						<td width="38">07-23</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="速达3000R-Std 8.78 客户端登"
-							href="/suda/html/knowledge/faqs/20120107/4229.html">速达3000R-Std
+							href="这里会跳">速达3000R-Std
 								8.78 客户端登</a></td>
 						<td width="38">01-20</td>
 					</tr>
@@ -60,7 +60,7 @@ message = request("message")
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="3000E-XP 有8个远程客户端，"
-							href="/suda/html/knowledge/faqs/20120107/4228.html">3000E-XP
+							href="这里会跳">3000E-XP
 								有8个远程客户端，</a></td>
 						<td width="38">01-07</td>
 					</tr>
@@ -68,21 +68,21 @@ message = request("message")
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="8.80以后要求注册，注册以"
-							href="/suda/html/knowledge/faqs/20120107/4227.html">8.80以后要求注册，注册以</a></td>
+							href="这里会跳">8.80以后要求注册，注册以</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="产品换机器后，提示重新"
-							href="/suda/html/knowledge/faqs/20120107/4226.html">产品换机器后，提示重新</a></td>
+							href="这里会跳">产品换机器后，提示重新</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="速达5000 3.81的更新说明"
-							href="/suda/html/knowledge/faqs/20120107/4225.html">速达5000
+							href="这里会跳">速达5000
 								3.81的更新说明</a></td>
 						<td width="38">01-07</td>
 					</tr>
@@ -90,7 +90,7 @@ message = request("message")
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="5000G 3.81 局域网站点用户跟"
-							href="/suda/html/knowledge/faqs/20120107/4224.html">5000G
+							href="这里会跳">5000G
 								3.81 局域网站点用户跟</a></td>
 						<td width="38">01-07</td>
 					</tr>
@@ -98,7 +98,7 @@ message = request("message")
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="最新的V5-top工业，安装注"
-							href="/suda/html/knowledge/faqs/20120107/4223.html">最新的V5-top工业，安装注</a></td>
+							href="这里会跳">最新的V5-top工业，安装注</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					<!-- 
@@ -106,7 +106,7 @@ message = request("message")
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="MRP运算参数说明"
-							href="/suda/html/knowledge/faqs/20120107/4222.html">MRP运算参数说明</a></td>
+							href="这里会跳">MRP运算参数说明</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					 -->

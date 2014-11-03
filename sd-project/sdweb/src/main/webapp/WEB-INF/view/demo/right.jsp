@@ -22,7 +22,7 @@ message = request("message")
 		<tbody>
 			<tr>
 				<td style="padding-top: 3px;" height="30" valign="middle">
-					▎您当前的位置：<a href="http://www.buyerp.cn/suda/">首页</a> &gt; <a
+					▎您当前的位置：<a href="index.do">首页</a> &gt; <a
 					href="/suda/html/goumaizhiyin/">购买指引</a> &gt; <a
 					href="/suda/html/goumaizhiyin/zhongxiaoqiyeguanli/">中小企业管理</a> &gt;
 				</td>

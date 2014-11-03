@@ -298,7 +298,7 @@
                 </table>
                 
                 
-                <form method='post' accept-charset="UTF-8"  action="saveOrder.do" onsubmit="return doValidate()">
+                <form name="order" id="order" method='post' accept-charset="UTF-8">
                   <input type="hidden" name="orderType"  value="zxly"/>
                   <table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
                     <tr>
@@ -337,22 +337,9 @@
                         <font color="#FF6633">*</font></td>
                     </tr>
                     <tr bgcolor="#FFFFFF">
-                    	<td width="10%" align="center" nowrap> 验证码：</td>
-                          <td>
-                            <table border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                              <td width="80">&nbsp;
-                              <input name="validate" type="text" id="vdcode2" class="ipt-txt" style="width:60px;text-transform: uppercase;" />
-                              </td>
-                              <td>&nbsp;<img src='../include/vdimgck.php'/></td>
-                            </tr>
-                          </table>
-                         </td>
-                    </tr>
-                    <tr bgcolor="#FFFFFF">
                       <td height="26">&nbsp;</td>
                       <td>&nbsp;
-                        <input type="submit" name="Submit3" value="提交" />
+                        <input type="submit" name="Submit3"  onclick="saveOrder();" value="提交" />
                         &nbsp;
                         <input type="reset" name="Submit22" value="重置" />
                         <input name="enews" type="hidden" id="enews" value="AddGbook" /></td>

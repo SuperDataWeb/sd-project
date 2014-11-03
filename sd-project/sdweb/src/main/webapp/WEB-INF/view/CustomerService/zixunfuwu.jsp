@@ -5,11 +5,11 @@
 <title>咨询服务_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
-<link href="../../../suda/templets/new/css/index.css" rel="stylesheet"
+<link href="suda/templets/new/css/index.css" rel="stylesheet"
 	type="text/css">
-<link href="../../../suda/templets/new/css/style.css" rel="stylesheet"
+<link href="suda/templets/new/css/style.css" rel="stylesheet"
 	type="text/css">
-<link href="../../../suda/templets/new/css/lanmu.css" type="text/css"
+<link href="suda/templets/new/css/lanmu.css" type="text/css"
 	rel="stylesheet">
 <script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
 <script src="suda/templets/new/js/common.js" language="javascript"></script>
@@ -34,7 +34,7 @@
 								cellspacing="0">
 								<tr>
 									<td height="30" valign="middle" style="padding-top: 3px;">
-										▎您当前的位置：<a href="../../../index.htm">首页</a> > <a href="customerService.do">客户服务</a> > <a	href="customerService.do">售前咨询</a> >
+										▎您当前的位置：<a href="index.do">首页</a> > <a href="customerService.do">客户服务</a> > <a	href="customerService.do">售前咨询</a> >
 									</td>
 								</tr>
 							</table>

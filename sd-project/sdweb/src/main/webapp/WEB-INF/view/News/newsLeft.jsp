@@ -143,56 +143,56 @@ li {
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="suda/html/about/info/">公司简介</a></td>
+					href="about.do">公司简介</a></td>
 			</tr>
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="/suda/html/about/honor/">荣誉资质</a></td>
+					href="honor.do">荣誉资质</a></td>
 			</tr>
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="/suda/html/about/culture/">企业文化</a></td>
+					href="culture.do">企业文化</a></td>
 			</tr>
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="/suda/html/xinwenzhongxin/sudaxinwen/">速达新闻</a></td>
+					href="这里会跳">速达新闻</a></td>
 			</tr>
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="/suda/html/xinwenzhongxin/xingyezixun/">行业资讯</a></td>
+					href="这里会跳">行业资讯</a></td>
 			</tr>
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="/suda/html/xinwenzhongxin/tongzhigonggao/">通知公告</a></td>
+					href="这里会跳">通知公告</a></td>
 			</tr>
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="suda/html/about/jobs/">人才招聘</a></td>
+					href="jobs.do">人才招聘</a></td>
 			</tr>
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="suda/html/about/contact/">联系我们</a></td>
+					href="contact.do">联系我们</a></td>
 			</tr>
 
 

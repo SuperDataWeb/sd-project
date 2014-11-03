@@ -23,7 +23,7 @@ message = request("message")
 		<tbody>
 			<tr>
 				<td style="padding-top: 3px;" height="30" valign="middle">
-					▎您当前的位置：<a href="http://www.buyerp.cn/suda/">首页</a> &gt; <a
+					▎您当前的位置：<a href="index.do">首页</a> &gt; <a
 					href="buyGurid.do">购买指引</a> &gt; <a
 					href="buyGurid.do?productTypeId=${productType.id }">${productType.typeName }</a> &gt;
 				</td>
@@ -91,11 +91,11 @@ message = request("message")
 														</p> <br> <span style="line-height: 35px"> <strong><font
 																color="#006633">软件价格：</font></strong><font color="#FF0000">￥${product.price}元/套</font>
 															元
-													</span> <br> [<a href="/suda/plus/sd_service.php?sid=4"><font
+													</span> <br> [<a href="woYaoGouMai.do"><font
 															color="#006600">我要购买</font></a>] &nbsp;[<a
 														href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&amp;uin={dede:global.nsd_qq/}&amp;site=qq&amp;menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&amp;uin={dede:global.nsd_qq/}&amp;site=qq&amp;menu=yes'"><font
 															color="#006600">我要咨询</font></a>] &nbsp;[<a
-														href="/suda/plus/sd_service.php?sid=3"><font
+														href="chanPinShengJi.do"><font
 															color="#006600">我要试用</font></a>]</td>
 												</tr>
 												<tr>

@@ -31,7 +31,7 @@
 							<!-- --------------right  start-->
 							<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
 								<tr>
-									<td height="30" valign="middle" style="padding-top: 3px;">您当前的位置：<a href="../../../index.htm">首页</a> > <a	href="customerService.do">客户服务</a> > <a href="dingZhiJieJueFangAn.do">定制解决方案</a> > </td>
+									<td height="30" valign="middle" style="padding-top: 3px;">您当前的位置：<a href="index.do">首页</a> > <a	href="customerService.do">客户服务</a> > <a href="dingZhiJieJueFangAn.do">定制解决方案</a> > </td>
 								</tr>
 							</table>
 							<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">

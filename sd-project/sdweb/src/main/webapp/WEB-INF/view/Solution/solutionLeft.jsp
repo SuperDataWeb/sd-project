@@ -144,7 +144,7 @@ li {
 		          <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
 		              <tbody><tr>
 		                <td align="right" height="23" width="35"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		                <td>&nbsp;<a href="/suda/html/jiejuefangan/jiejuefangan/">解决方案</a></td>
+		                <td>&nbsp;<a href="这里会跳">解决方案</a></td>
 		              </tr>
 		              <tr>
 		                <td align="right" height="23"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
@@ -154,7 +154,7 @@ li {
 		          <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
 		              <tbody><tr>
 		                <td align="right" height="23" width="22"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		                <td width="88">&nbsp;<a href="/suda/html/jiejuefangan/anlifenxi/">案例分析</a></td>
+		                <td width="88">&nbsp;<a href="这里会跳">案例分析</a></td>
 		              </tr>
 		              <tr>
 		                <td align="right" height="23">&nbsp;</td>
@@ -166,35 +166,35 @@ li {
 		  </tr>
 		  <tr>
 		    <td colspan="2" height="23" valign="middle"> 　　<img src="suda/templets/new/images/dg.jpg" height="11" width="11">&nbsp;
-		    <a href="/suda/html/jiejuefangan/dianxingyingyong/"><strong><font color="#006600">典型应用</font></strong></a></td>
+		    <a href="这里会跳"><strong><font color="#006600">典型应用</font></strong></a></td>
 		  </tr>
 		  <tr>
 		    <td align="right" height="23" valign="middle" width="35"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		    <td align="left" valign="middle" width="185">&nbsp;<a href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/30.html">多公司多帐套应用方案</a></td>
+		    <td align="left" valign="middle" width="185">&nbsp;<a href="这里会跳">多公司多帐套应用方案</a></td>
 		  </tr>
 			<tr>
 		    <td align="right" height="23" valign="middle" width="35"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		    <td align="left" valign="middle" width="185">&nbsp;<a href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/sudasaas.html">驻外分支机构应用方案</a></td>
+		    <td align="left" valign="middle" width="185">&nbsp;<a href="这里会跳">驻外分支机构应用方案</a></td>
 		  </tr>
 		<tr>
 		    <td align="right" height="23" valign="middle" width="35"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		    <td align="left" valign="middle" width="185">&nbsp;<a href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/sudasaas.html">移动办公应用方案</a></td>
+		    <td align="left" valign="middle" width="185">&nbsp;<a href="这里会跳">移动办公应用方案</a></td>
 		  </tr>
 		<tr>
 		    <td align="right" height="23" valign="middle" width="35"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		    <td align="left" valign="middle" width="185">&nbsp;<a href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/31.html">连锁经营应用方案</a></td>
+		    <td align="left" valign="middle" width="185">&nbsp;<a href="这里会跳">连锁经营应用方案</a></td>
 		  </tr>
 		<tr>
 		    <td align="right" height="23" valign="middle" width="35"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		    <td align="left" valign="middle" width="185">&nbsp;<a href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/29.html">多店面经营应用方案</a></td>
+		    <td align="left" valign="middle" width="185">&nbsp;<a href="这里会跳">多店面经营应用方案</a></td>
 		  </tr>
 		<tr>
 		    <td align="right" height="23" valign="middle" width="35"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		    <td align="left" valign="middle" width="185">&nbsp;<a href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/28.html">家庭服务器部署</a></td>
+		    <td align="left" valign="middle" width="185">&nbsp;<a href="这里会跳">家庭服务器部署</a></td>
 		  </tr>
 		<tr>
 		    <td align="right" height="23" valign="middle" width="35"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		    <td align="left" valign="middle" width="185">&nbsp;<a href="/suda/html/jiejuefangan/dianxingyingyong/2011/1116/27.html">企业局域网应用方案</a></td>
+		    <td align="left" valign="middle" width="185">&nbsp;<a href="这里会跳">企业局域网应用方案</a></td>
 		  </tr>
 		
 		  <tr>

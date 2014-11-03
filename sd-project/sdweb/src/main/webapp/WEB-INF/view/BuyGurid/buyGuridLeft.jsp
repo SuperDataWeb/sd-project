@@ -15,7 +15,7 @@ message = request("message")
 <link href="suda/templets/new/css/style.css" rel="stylesheet" type="text/css">
 <link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
 <script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
-<script src="/suda/templets/new/js/common.js" language="javascript"></script>
+<script src="suda/templets/new/js/common.js" language="javascript"></script>
 </head>
 <BODY type="leaveMessage">
 	<table width="220" background="suda/templets/new/images/ind_ti_bg.jpg"

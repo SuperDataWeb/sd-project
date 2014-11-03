@@ -37,15 +37,15 @@ message = request("message")
 								<td class="c_menu1" id="tab_menu2_1"
 									onMouseOver="setTab2('tab_menu2_','tab_menu2_0_',1,4)"
 									align="middle" width="100" height="28"><a
-									class="ColorGreenList" href="/suda/html/about/info/">关于速达</a></td>
+									class="ColorGreenList" href="about.do">关于速达</a></td>
 								<td class="c_menu1_1" id="tab_menu2_2"
 									onMouseOver="setTab2('tab_menu2_','tab_menu2_0_',2,4)"
 									align="middle" width="100"><a class="ColorGreenList"
-									href="/suda/html/chanpinzhongxin/">速达产品</a></td>
+									href="pageProduct.do">速达产品</a></td>
 								<td class="c_menu1_1" id="tab_menu2_3"
 									onMouseOver="setTab2('tab_menu2_','tab_menu2_0_',3,4)"
 									align="middle" width="100"><a class="ColorGreenList"
-									href="/suda/html/about/honor/">荣誉资质</a></td>
+									href="honor.do">荣誉资质</a></td>
 								<td class="c_menu1_1" id="tab_menu2_4"
 									onMouseOver="setTab2('tab_menu2_','tab_menu2_0_',4,4)"
 									align="middle" width="100"><a class="ColorGreenList"
@@ -70,7 +70,7 @@ message = request("message")
 									</p></td>
 								<td width="72%" align="left" valign="middle" class="tab_hg">
 									广州速达软件销售服务中心欢迎您！速达软件多年成功实施经验、完善的售后服务体系，为您提供专业企业管理软件、ERP系统解决方案！咨询：400-034-3668&nbsp;&nbsp;<a
-									href="/suda/html/about/info/"><font color="#0000FF">详细>></font></a>
+									href="这里会跳"><font color="#0000FF">详细>></font></a>
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td height="6"></td>
@@ -109,28 +109,28 @@ message = request("message")
 						<tbody>
 							<tr>
 								<td width="167" height="130" align="center" valign="middle"><a
-									href="/suda/html/honor/2011/1116/53.html" target="_blank"><img
+									href="这里会跳" target="_blank"><img
 										src="suda/uploads/111216/1-1112160U120262.jpg" /></a></td>
 								<td width="167" height="130" align="center" valign="middle"><a
-									href="/suda/html/honor/2011/1116/54.html" target="_blank"><img
+									href="这里会跳" target="_blank"><img
 										src="suda/uploads/111216/1-1112160U0162a.jpg" /></a></td>
 								<td width="167" height="130" align="center" valign="middle"><a
-									href="/suda/html/honor/2011/1116/51.html" target="_blank"><img
+									href="这里会跳" target="_blank"><img
 										src="suda/uploads/111216/1-1112160S640W9.jpg" /></a></td>
 								<td width="167" height="130" align="center" valign="middle"><a
-									href="/suda/html/honor/2011/1116/52.html" target="_blank"><img
+									href="这里会跳" target="_blank"><img
 										src="suda/uploads/111216/1-1112160S55VH.jpg" /></a></td>
 
 							</tr>
 							<tr>
 								<td height="16" align="center" valign="top"><a
-									href="/suda/html/honor/2011/1116/53.html" target="_blank">速达软件独立运营商证书</a></td>
+									href="这里会跳" target="_blank">速达软件独立运营商证书</a></td>
 								<td height="16" align="center" valign="top"><a
-									href="/suda/html/honor/2011/1116/54.html" target="_blank">速达软件售后服务中心</a></td>
+									href="这里会跳" target="_blank">速达软件售后服务中心</a></td>
 								<td height="16" align="center" valign="top"><a
-									href="/suda/html/honor/2011/1116/51.html" target="_blank">2011年最佳服务奖证书</a></td>
+									href="这里会跳" target="_blank">2011年最佳服务奖证书</a></td>
 								<td height="16" align="center" valign="top"><a
-									href="/suda/html/honor/2011/1116/52.html" target="_blank">速达V-ERP广州合作事业部证</a></td>
+									href="这里会跳" target="_blank">速达V-ERP广州合作事业部证</a></td>
 
 							</tr>
 						</tbody>

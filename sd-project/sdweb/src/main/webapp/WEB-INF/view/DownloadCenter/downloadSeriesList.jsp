@@ -22,7 +22,7 @@ message = request("message")
 		cellspacing="0">
 		<tr>
 			<td height="30" valign="middle" style="padding-top: 3px;">
-				▎您当前的位置：<a href="../../../index.htm">首页</a> > <a
+				▎您当前的位置：<a href="index.do">首页</a> > <a
 				href="pageProductDownload.do">下载中心</a> > <a href="pageProductDownloadBySeries.do?seriesId=${productSeries.id}">${productSeries.seriesName }</a>
 				>
 			</td>
@@ -71,7 +71,7 @@ message = request("message")
 				</table>
 
 				<form name="formsearch searchform"
-					action="http://www.buyerp.cn/suda/plus/search.php">
+					action="这里会跳">
 					<input type="hidden" name="searchtype" value="title" />
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>

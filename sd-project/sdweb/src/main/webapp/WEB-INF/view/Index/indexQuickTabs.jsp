@@ -19,9 +19,9 @@ message = request("message")
 <script src="suda/templets/new/js/common.js" type="text/javascript"></script>
 </head>
 <BODY type="leaveMessage">
-    <a href="/suda/plus/sd_service.php?sid=8"><img src="suda/templets/new/images/On_03.jpg"  width="272" height="56" border="0"></a>
-    <a href="/suda/plus/sd_service.php?sid=1"  target="_blank"><img src="suda/templets/new/images/On_02.jpg"  width="272" height="56" border="0"></a>
-    <a href="/suda/html/knowledge/video/"  target="_blank"><img src="suda/templets/new/images/On_01.jpg"  width="272" height="55" border="0"></a>
-    <a href="/suda/html/knowledge/faqs/"  target="_blank"><img src="suda/templets/new/images/On_04.jpg"  width="272" height="55" border="0"></a>
+    <a href="xiaZaiShiYong.do"><img src="suda/templets/new/images/On_03.jpg"  width="272" height="56" border="0"></a>
+    <a href="interact.do"  target="_blank"><img src="suda/templets/new/images/On_02.jpg"  width="272" height="56" border="0"></a>
+    <a href="这里会跳"  target="_blank"><img src="suda/templets/new/images/On_01.jpg"  width="272" height="55" border="0"></a>
+    <a href="这里会跳"  target="_blank"><img src="suda/templets/new/images/On_04.jpg"  width="272" height="55" border="0"></a>
 </BODY>
 </HTML>

@@ -111,11 +111,11 @@ message = request("message")
 	                                    <td width="10" valign="middle">&nbsp;</td>
 	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'" class="tab">在线咨询</a></td>
 	                                    <td width="10" valign="middle">&nbsp;</td>
-	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="/suda/plus/sd_service.php?sid=4"  target="_blank" class="tab">我要购买</a></td>
+	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="woYaoGouMai.do"  target="_blank" class="tab">我要购买</a></td>
 	                                    <td width="10" valign="middle">&nbsp;</td>
-	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="/suda/plus/sd_service.php?sid=1"  class="tab">我要体验</a></td>
+	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="interact.do"  class="tab">我要体验</a></td>
 	                                    <td width="10" valign="middle">&nbsp;</td>
-	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="/suda/plus/sd_service.php?sid=2"  target="_blank" class="tab">我要培训</a></td>
+	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="woYaoPeiXun.do"  target="_blank" class="tab">我要培训</a></td>
 	                                  </tr>
 	                                </table></td>
 	                            </tr>

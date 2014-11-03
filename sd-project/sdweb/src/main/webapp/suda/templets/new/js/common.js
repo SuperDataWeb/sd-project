@@ -24,7 +24,10 @@ con.style.display=i==cursel?"block":"none";
 }
 }
 
-function saveOder() {
+function saveOrder() {
+	if(!doValidate()){
+		return;
+	}
 	var form  = document.getElementById("order");
 	var provice = $('#Provice option:selected').text();
 	var area = $('#Area option:selected').text();
@@ -36,4 +39,26 @@ function saveOder() {
 	}
     form.action = encodeURI("saveOrder.do?provice=" + provice + "&area="+ area);
     form.submit();
+}
+
+function doValidate() {
+	var user = document.order.contactUser.value;
+	var company = document.order.companyName.value;
+	if(!user || null == user || "" == user){
+		  alert('请填写姓名！');
+		  document.order.contactUser.focus();
+		  return false;
+	}
+	if(!company || null == company || "" == company){
+		  alert('请填写公司名称！');
+		  document.order.companyName.focus();
+		  return false;
+	}
+	var phoneNumReg = /(^[0-9]{3,4}-[0-9]{7,8}$)|(^[0-9]{7,8}$)|(^[0-9]{3,4}[0-9]{7,8}$)|(^0{0,1}13[0-9]{9}$)/;
+	if(!phoneNumReg.test(document.order.contactTel.value)) {
+		  alert('信息有误！为能更好为您服务，请认真填写信息哦！');
+		  document.order.contactTel.focus();
+		  return false;
+	}
+	return true;
 }

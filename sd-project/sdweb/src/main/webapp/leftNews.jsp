@@ -40,37 +40,37 @@ message = request("message")
 						<tbody>
 							<tr>
 								<td height="20">·<a
-									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140723/4351.html"
+									href="这里会跳"
 									target="_blank" title="速达财务软件 全面支">速达财务软件 全面支</a>&nbsp;(01-01)
 								</td>
 							</tr>
 							<tr>
 								<td height="20">·<a
-									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4318.html"
+									href="这里会跳"
 									target="_blank" title=" 买软件加1元随需送促 "><strong>买软件加1元随需送促</strong></a>&nbsp;(01-01)
 								</td>
 							</tr>
 							<tr>
 								<td height="20">·<a
-									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4315.html"
+									href="这里会跳"
 									target="_blank" title="免费培训课程第11期：">免费培训课程第11期：</a>&nbsp;(01-01)
 								</td>
 							</tr>
 							<tr>
 								<td height="20">·<a
-									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4314.html"
+									href="这里会跳"
 									target="_blank" title="免费培训课程第10期：">免费培训课程第10期：</a>&nbsp;(01-01)
 								</td>
 							</tr>
 							<tr>
 								<td height="20">·<a
-									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4313.html"
+									href="这里会跳"
 									target="_blank" title="免费培训课程第8期：">免费培训课程第8期：</a>&nbsp;(01-01)
 								</td>
 							</tr>
 							<tr>
 								<td height="20">·<a
-									href="/suda/html/xinwenzhongxin/tongzhigonggao/20140620/4312.html"
+									href="这里会跳"
 									target="_blank" title="免费培训课程第6期：">免费培训课程第6期：</a>&nbsp;(01-01)
 								</td>
 							</tr>

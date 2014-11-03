@@ -32,7 +32,7 @@
 							<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
 								<tr>
 									<td height="30" valign="middle" style="padding-top: 3px;">
-										▎您当前的位置：<a href="../../../index.htm">首页</a> > <a href="customerService.do">客户服务</a> > <a href="xiangMuShiShi.do">项目实施</a> >
+										▎您当前的位置：<a href="index.do">首页</a> > <a href="customerService.do">客户服务</a> > <a href="xiangMuShiShi.do">项目实施</a> >
 									</td>
 								</tr>
 							</table>

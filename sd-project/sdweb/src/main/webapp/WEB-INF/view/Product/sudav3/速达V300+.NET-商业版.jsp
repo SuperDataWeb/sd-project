@@ -339,13 +339,13 @@
 							<tr>
 								<td width="51" height="22"><a
 									href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes"><img
-										src="/suda/templets/new/images/pa.gif" width="51" height="16"
+										src="suda/templets/new/images/pa.gif" width="51" height="16"
 										style="border: 0" /></a></td>
 								<td width="80" valign="bottom">：<a
 									href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes">1601331518</a></td>
 								<td width="51"><a
 									href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes"><img
-										src="/suda/templets/new/images/pa.gif" width="51" height="16"
+										src="suda/templets/new/images/pa.gif" width="51" height="16"
 										style="border: 0" /></a></td>
 								<td valign="bottom">：<a
 									href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes">4000343668</a></td>

@@ -43,7 +43,7 @@ message = request("message")
 					<tr>
 						<td height="203" valign="top" style="padding-top: 6px"><p
 								align="center">
-								<a href="/suda/html/xinwenzhongxin/sudaxinwen/20111116/4.html"><img
+								<a href="这里会跳"><img
 									src="suda/templets/new/images/list_a.jpg" width="132"
 									height="135" border="0"></a>
 								<!--调用常见问题-->
@@ -65,7 +65,7 @@ message = request("message")
 							height="33" /></td>
 						<td width="208" align="center"><strong>Builder-Ⅲ二次开发</strong></td>
 						<td width="10" align="right"><a
-							href="/suda/html/xinwenzhongxin/sudaxinwen/20111116/8.html"><img
+							href="这里会跳"><img
 								src="suda/templets/new/images/ind_dh_f.jpg" alt="广西速达"
 								width="9" height="33" style="border: 0" /></a></td>
 					</tr>
@@ -75,7 +75,7 @@ message = request("message")
 					<tr>
 						<td height="203" valign="top" style="padding-top: 6px"><p
 								align="center">
-								<a href="/suda/html/xinwenzhongxin/sudaxinwen/20111116/8.html"><img
+								<a href="这里会跳"><img
 									src="suda/templets/new/images/list_c.jpg" width="123"
 									height="135" border="0"></a>
 								<!--调用常见问题-->
@@ -106,7 +106,7 @@ message = request("message")
 					<tr>
 						<td height="203" valign="top" style="padding-top: 6px"><p
 								align="center">
-								<a href="/suda/html/xinwenzhongxin/sudaxinwen/20111116/69.html"><img
+								<a href="这里会跳"><img
 									src="suda/templets/new/images/list_b.jpg" width="119"
 									height="135" border="0"></a>
 								<!--调用常见问题-->

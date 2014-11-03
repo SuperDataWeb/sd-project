@@ -62,14 +62,14 @@ message = request("message")
 						<tr>
 							<td height="10"></td>
 						</tr>
-					</table> <a href="/suda/html/about/info/" target=_blank>关于我们</a> ▏ <a
-					href="/suda/html/about/contact/" target=_blank>联系我们</a> ▏ <a
-					href="/suda/plus/guestbook.php" target=_blank>客户留言</a> ▏ <a
-					href="/suda/data/sitemap.html" target=_blank>网站地图</a> <br />
+					</table> <a href="about.do" target=_blank>关于我们</a> ▏ <a
+					href="contact.do" target=_blank>联系我们</a> ▏ <a
+					href="zaiXianLiuYan.do" target=_blank>客户留言</a> ▏ <a
+					href="这里会跳" target=_blank>网站地图</a> <br />
 				<br /> <span class="ind_hg"> Copyright &copy; 2002-2011
-						广州市亿旭软件技术有限公司 版权所有<br /> 速达软件指定运营商：<a href="/suda/index.htm"><font
+						广州市亿旭软件技术有限公司 版权所有<br /> 速达软件指定运营商：<a href="这里会跳"><font
 							color="#009933"><b>广州市亿旭软件技术有限公司</b></font></a> 速达软件售后服务机构：<a
-						href="/suda/index.htm"><font color="#009933"><b>速达软件（广州）销售服务中心</b></font></a>
+						href="这里会跳"><font color="#009933"><b>速达软件（广州）销售服务中心</b></font></a>
 				</span><br /> 地址：广州市番禺区大石588号金怡商业大厦301室 <span class="STYLE6">
 						E_mail：yixusales@163.com </span> <script language="javascript"
 						type="text/javascript" src="http://js.users.51.la/6020683.js"></script><br />

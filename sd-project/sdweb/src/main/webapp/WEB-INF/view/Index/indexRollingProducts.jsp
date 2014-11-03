@@ -31,10 +31,10 @@ message = request("message")
 						<td valign="middle"><span class="ind_14px">
 								您希望继续了解速达软件吗？ </span><br /> <br /> <span class="ind_hg ind_hs">[我要咨询]：如果您存在任何疑问，请拨打我们的电话，我们将竭诚为您服务！
 								<br /> [我要试用]：现在就试用速达软件吧，您将体验信息化管理给您带来的乐趣！ <br />
-								[我要购买]：想购买速达软件吗?请立即填写《<a href="/suda/plus/sd_service.php?sid=4"
+								[我要购买]：想购买速达软件吗?请立即填写《<a href="woYaoGouMai.do"
 								target="_blank">产品申购表</a>》,我们将尽快与您联系！ <br />
 								[我要培训]：如果您对我们的培训课程感兴趣，请填写《<a
-								href="/suda/plus/sd_service.php?sid=2" target="_blank">培训申请表</a>》！
+								href="woYaoPeiXun.do" target="_blank">培训申请表</a>》！
 						</span><br></td>
 					</tr>
 				</table>
@@ -46,24 +46,24 @@ message = request("message")
 							href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'"><img
 								src="suda/templets/new/images/sd_46.jpg" width="76" height="74"
 								border="0"></a></td>
-						<td align="center"><a href="/suda/plus/sd_service.php?sid=3"><img
+						<td align="center"><a href="chanPinShengJi.do"><img
 								src="suda/templets/new/images/sd_48.jpg" width="76" height="74"
 								border="0"></a></td>
-						<td align="center"><a href="/suda/plus/sd_service.php?sid=4"
+						<td align="center"><a href="woYaoGouMai.do"
 							target="_blank"><img
 								src="suda/templets/new/images/sd_50.jpg" width="76" height="74"
 								border="0"></a></td>
-						<td align="center"><a href="/suda/plus/sd_service.php?sid=2"><img
+						<td align="center"><a href="woYaoPeiXun.do"><img
 								src="suda/templets/new/images/sd_43.jpg" width="76" height="74"
 								border="0"></a></td>
 					</tr>
 					<tr>
 						<td height="27" align="center"><a
 							href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'">我要咨询</a></td>
-						<td align="center"><a href="/suda/plus/sd_service.php?sid=3">我要试用</a></td>
-						<td align="center"><a href="/suda/plus/sd_service.php?sid=4"
+						<td align="center"><a href="chanPinShengJi.do">我要试用</a></td>
+						<td align="center"><a href="woYaoGouMai.do"
 							target="_blank">我要购买</a></td>
-						<td align="center"><a href="/suda/plus/sd_service.php?sid=2"
+						<td align="center"><a href="woYaoPeiXun.do"
 							target="_blank">我要培训</a></td>
 					</tr>
 				</table></td>

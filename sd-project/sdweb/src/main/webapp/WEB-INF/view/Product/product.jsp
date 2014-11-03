@@ -21,7 +21,7 @@ message = request("message")
 	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
 		<tr>
 			<td height="30" valign="middle" style="padding-top: 3px;">
-				▎您当前的位置：<a href="../../../../index.htm">首页</a> > <a href="pageProduct.do" >产品中心</a> > <a href="pageProductBySeries.do?seriesId=${product.productSeries.id}">${product.productSeries.seriesName }</a>
+				▎您当前的位置：<a href="index.do">首页</a> > <a href="pageProduct.do" >产品中心</a> > <a href="pageProductBySeries.do?seriesId=${product.productSeries.id}">${product.productSeries.seriesName }</a>
 				>
 			</td>
 		</tr>
@@ -76,7 +76,7 @@ message = request("message")
 					</tr>
 					<tr>
 						<td height="50" valign="top" style="padding-top: 8px"><a
-							href="../../../../plus/sd_service.php-sid=4.htm" target="_blank"><img
+							href="woYaoGouMai.do" target="_blank"><img
 								src="suda/templets/new/images/online_01.jpg"
 								alt="填写速达V3+.NET服装管理申购表" width="150" height="38" border="0"></a>
 							<a target="_blank"

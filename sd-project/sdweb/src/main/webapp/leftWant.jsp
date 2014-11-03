@@ -42,7 +42,7 @@ message = request("message")
 										<option value="7">--预约服务--</option>
 										<option value="8">--下载试用--</option>
 								</select> &nbsp; <input name="go_button" id="go_button" value="提交"
-									onclick="window.location.href='/suda/plus/sd_service.php?sid='+document.getElementById('selService').value"
+									onclick="这里会跳"
 									type="submit"></td>
 							</tr>
 						</tbody>

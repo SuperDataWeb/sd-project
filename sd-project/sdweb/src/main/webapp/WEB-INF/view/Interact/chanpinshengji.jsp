@@ -35,30 +35,6 @@
         <td height="3"></td>
       </tr>
     </table>
-    <script>
-function doValidate() {
-	var form  = $('#order');
-	var provice = $('#Provice option:selected').text();
-	var area = $('#Area option:selected').text();
-	if(provice == '选择省份'){
-		provice = "";
-	}
-    if(area == '选择市区'){
-    	area = "";
-	}
-    form.action = "saveOrder.do?provice=" + provice + "&area="+area;
-	alert(provice);
-
-	var phoneNumReg = /(^[0-9]{3,4}-[0-9]{7}$)|(^[0-9]{7}$)|(^[0-9]{3,4}[0-9]{7}$)|(^0{0,1}13[0-9]{9}$)/
-	if(!phoneNumReg.test(document.feedback.call.value)) {
-		  alert('信息有误！为能更好为您服务，请认真填写信息哦！');
-		  document.feedback.call.focus();
-		  return false;
-	}
-	return true;
-}
-
-</script>
     <table width="980" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
       <tr>
         <td width="220" valign="top">
@@ -125,7 +101,7 @@ function doValidate() {
                   </tr>
                 </table>
                 <table width=100% align=center cellpadding=3 cellspacing=0 bgcolor='#FFFFFF'>
-                  <form id="order" method='post' accept-charset="UTF-8" >
+                  <form name= "order" id="order" method='post' accept-charset="UTF-8" >
                     <input type="hidden" name="orderType"  value="cpsj"/>
                     <tr>
                       <td height=30 colspan="2" bgcolor='#EAEAEA'><strong>　基本信息 　　</strong> <font color="#FF6633"> 请您留下相关信息，以便我们与您进一步沟通。</font></td>
@@ -187,7 +163,7 @@ function doValidate() {
 					
                     <tr>
                       <td bgcolor='ffffff'></td>
-                      <td bgcolor='ffffff'><input type='submit' name='submit' onclick="saveOder();" value=' 提交 '>
+                      <td bgcolor='ffffff'><input type='submit' name='submit' onclick="saveOrder();" value=' 提交 '>
                         <input type="reset" name="button" id="button" value=" 重置 "></td>
                     </tr>
                   </form>

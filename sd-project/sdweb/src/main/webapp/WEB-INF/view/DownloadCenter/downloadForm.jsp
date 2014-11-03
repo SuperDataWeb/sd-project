@@ -49,7 +49,7 @@ function doValidate() {
 </head>
 <BODY>
 <P>&nbsp;</P>
-<FORM encType="multipart/form-data" onSubmit="return doValidate()" method="post" name=feedback action="http://www.buyerp.cn/suda/plus/sd_service.php">
+<FORM encType="multipart/form-data" onSubmit="return doValidate()" method="post" name=feedback action="这里会跳">
 <input type="hidden" name="sid" value="3" />
 <input type='hidden' name="action" value="save" />
 <input type='hidden' name='sdname[1]' value='速达V7-PRO工业版(试用版)'>

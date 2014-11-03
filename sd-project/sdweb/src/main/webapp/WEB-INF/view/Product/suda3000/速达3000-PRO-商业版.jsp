@@ -303,44 +303,9 @@
 							src="suda/uploads/allimg/140627/19111U5X-23.jpg"
 							style="width: 720px; height: 458px; background-image: url(http://misc.360buyimg.com/lib/skin/e/i/error-jd.gif); padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; background-position: 50% 50%; vertical-align: middle; padding-top: 0px" /><br />
 						<br /> <font color="#696969">*
-							网站描述软件产品功能与包装或软件有出入的情况下，以包装或软件实际功能为准。</font><br /> <br /> <strong><font
-							color="#696969">您希望继续了解速达软件吗？</font><br /> <br /> <a
-							href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542"><font
-								color="#696969"><img alt=""
-									src="suda/uploads/allimg/140715/9-140G512154G53.jpg"
-									style="width: 76px; height: 74px" /></font></a><font color="#696969">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=1"><img
-									alt=""
-									src="suda/uploads/allimg/140715/9-140G512162I01.jpg"
-									style="width: 76px; height: 74px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=4"><img
-									alt=""
-									src="suda/uploads/allimg/140715/9-140G51216445Z.jpg"
-									style="width: 76px; height: 74px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								&nbsp;<a
-								href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=2"><img
-									alt=""
-									src="suda/uploads/allimg/140715/9-140G5121AaP.jpg"
-									style="width: 76px; height: 74px" /></a><br /> &nbsp;&nbsp; <a
-								href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542">我要咨询
-							</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=1">我要体验
-							</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								&nbsp; <a
-								href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=4">我要购买</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=2">我要培训</a>
-						</font></strong><br /> <br /> <font color="#696969"><a
-							href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542">[我要咨询]：</a>如果您存在任何疑问，请与我们<a
-							href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=1">在线沟通</a>或拨打我们的电话：<strong>400-034-3668</strong>，我们将竭诚为您服务！<br />
-							<br /> <a
-							href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=1">[我要体验]：</a>我们为您构建专业的演示服务器并和讲解人员，您将体验到信息化管理给您带来的高效和乐趣！<br />
-							<br /> <a
-							href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=4">[我要购买]：</a>想购买速达软件吗?请立即填写《产品申购表》,我们将尽快与您联系！<br />
-							<br /> <a
-							href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=2">[我要培训]：</a>如果您对我们的培训课程感兴趣，请填
-							写《培训申请表》！</font>
+							网站描述软件产品功能与包装或软件有出入的情况下，以包装或软件实际功能为准。</font><br /> <br />
 					</p>
-				</p> <br><br />
+				</p> 
 					<div id="ckepop">
 						<span class="jiathis_txt">分享到：</span> <a
 							class="jiathis_button_qzone">QQ空间</a> <a

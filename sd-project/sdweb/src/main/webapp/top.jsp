@@ -96,7 +96,7 @@ message = request("message")
 								</li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
-									<a href="/suda/html/jiejuefangan/" class="menu_1" id='Menu_21'
+									<a href="solutionList.do" class="menu_1" id='Menu_21'
 									target='_self' rel='dropmenu32'>解决方案</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>
@@ -123,7 +123,7 @@ message = request("message")
 								</li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
-									<a href="/suda/html/knowledge/" class="menu_1" id='Menu_21'
+									<a href="这里会跳" class="menu_1" id='Menu_21'
 									target='_self' rel='dropmenu45'>自助服务</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>
@@ -132,7 +132,7 @@ message = request("message")
 								</li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
-									<a href="/suda/html/gongkaike/" class="menu_1" id='Menu_21'
+									<a href="这里会跳" class="menu_1" id='Menu_21'
 									target='_self'>公开课</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>

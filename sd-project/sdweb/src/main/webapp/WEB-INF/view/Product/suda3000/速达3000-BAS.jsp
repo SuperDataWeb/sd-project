@@ -157,7 +157,7 @@
 						帐面库存汇总表、帐面库存明细表、帐面库存数量汇总表、帐面库存数量明细表<br />
 						实际库存数量汇总表，实际库存数量明细表,实际库存数量分类表，分仓库存报表<br /> <br /> <br /> <strong>分销管理（加盟商）</strong>&nbsp;&nbsp;<span
 							style="color: #ff0000"> *需要与分销管理（<a
-							href="http://www.buyerp.cn/suda/html/chanpinzhongxin/sudaV_3xilie/20140704/4333.html">V300+.net</a>）配合使用。<br />
+							href="product.do?productId=10">V300+.net</a>）配合使用。<br />
 							<br /> <img alt=""
 							src="suda/uploads/allimg/140715/9-140G5112932639.jpg"
 							style="width: 720px; height: 481px" /></span><br /> <br /> <span><strong>核心功能:</strong><br />
@@ -198,38 +198,7 @@
 							alt="" src="suda/uploads/allimg/140715/9-140G5114F4316.jpg"
 							style="width: 591px; height: 391px" /><br /> <br /> <font
 							color="#696969">* 网站描述软件产品功能与包装或软件有出入的情况下，以包装或软件实际功能为准。<br />
-							<br /> <font color="#696969"><strong>您希望继续了解速达软件吗？<br />
-									<br /> &nbsp;<a
-									href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542"><img
-										alt="" src="suda/uploads/allimg/140715/9-140G512154G53.jpg"
-										style="width: 76px; height: 74px" /></a>&nbsp;&nbsp;
-									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
-									href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=1"><img
-										alt="" src="suda/uploads/allimg/140715/9-140G512162I01.jpg"
-										style="width: 76px; height: 74px" /></a>&nbsp;&nbsp; &nbsp;&nbsp;
-									<a href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=4"><img
-										alt="" src="suda/uploads/allimg/140715/9-140G51216445Z.jpg"
-										style="width: 76px; height: 74px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-									&nbsp;<a
-									href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=2"><img
-										alt="" src="suda/uploads/allimg/140715/9-140G5121AaP.jpg"
-										style="width: 76px; height: 74px" /></a><br /> &nbsp;&nbsp;<a
-									href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542">
-										我要咨询&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=1">我要体验&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=4">我要购买</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=2">我要培训</a></strong><br />
-								<br /> <a
-								href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542">[我要咨询]：</a>如果您存在任何疑问，请与我们<a
-								href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=1">在线沟通</a>或拨打我们的电话：<strong>400-034-3668</strong>，我们将竭诚为您服务！<br />
-								<br /> <a
-								href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=1">[我要体验]：</a>我们为您构建专业的演示服务器并和讲解人员，您将体验到信息化管理给您带来的高效和乐趣！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-								<a href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=4">[我要购买]：</a>想购买速达软件吗?请立即填写《产品申购表》,我们将尽快与您联系！<br />
-								<br /> <a
-								href="http://www.buyerp.cn/suda/plus/sd_service.php?sid=2">[我要培训]：</a>如果您对我们的培训课程感兴趣，请填
-								写《培训申请表》！</font></font><br /> <br /> <span style="color: #ffffff"><em>keywords:
-						</em></span>
+							<br /> <%@include file="../productShare.jsp" %>
 					</p>
 				</p> <br><br />
 					<div id="ckepop">
