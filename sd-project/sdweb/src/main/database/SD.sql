@@ -2,7 +2,7 @@ CREATE DATABASE  IF NOT EXISTS `wodi` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `wodi`;
 -- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
 --
--- Host: 127.0.0.1    Database: wodi
+-- Host: localhost    Database: wodi
 -- ------------------------------------------------------
 -- Server version	5.7.3-m13
 
@@ -154,15 +154,15 @@ CREATE TABLE `sp_order` (
   `contact_tel` varchar(20) DEFAULT NULL,
   `company_location` varchar(50) DEFAULT NULL,
   `company_address` varchar(255) DEFAULT NULL,
-  `STATUS` char(2) DEFAULT NULL,
+  `STATUS` char(2) DEFAULT NULL COMMENT '0：未处理，1：处理中，2：已处理',
   `CREATED` datetime DEFAULT NULL,
   `UPDATED` datetime DEFAULT NULL,
   `REMARK` varchar(255) DEFAULT NULL,
   `topic` varchar(255) DEFAULT NULL,
-  `order_type` varchar(4) DEFAULT NULL,
+  `order_type` varchar(4) DEFAULT NULL COMMENT '订单类型',
   `email` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='订单表';
+) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8 COMMENT='订单表';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -171,7 +171,6 @@ CREATE TABLE `sp_order` (
 
 LOCK TABLES `sp_order` WRITE;
 /*!40000 ALTER TABLE `sp_order` DISABLE KEYS */;
-INSERT INTO `sp_order` VALUES (1,'日日日','按时大大','12322',NULL,'珠江新城',NULL,'2014-10-31 00:28:39','2014-10-31 00:28:39','的','3000-std',NULL,NULL),(2,'硕大的','撒旦','12322',NULL,'珠江新城',NULL,'2014-10-31 00:31:15','2014-10-31 00:31:15','打算','3000-std','wyty',NULL);
 /*!40000 ALTER TABLE `sp_order` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -314,4 +313,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-10-31  0:34:23
+-- Dump completed on 2014-11-04 17:26:13

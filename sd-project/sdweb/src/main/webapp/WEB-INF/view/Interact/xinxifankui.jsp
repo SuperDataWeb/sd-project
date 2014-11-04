@@ -79,7 +79,7 @@
                   <tr>
                     <td height="25" valign="top">
 					  <p>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 感谢您对<a href="http://www.buyerp.cn/suda">速达软件</a>的支持，如果您在产品、培训、服务等方便需要帮助，请您留下您的建议，我们会尽快与您联系。</p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 感谢您对<a href="index.do">速达软件</a>的支持，如果您在产品、培训、服务等方便需要帮助，请您留下您的建议，我们会尽快与您联系。</p>
 					  </td>
                   </tr>
                 </table>
@@ -146,8 +146,8 @@
 					
                     <tr>
                       <td bgcolor='ffffff'></td>
-                      <td bgcolor='ffffff'><input type='submit' name='submit' onclick="saveOrder();" value=' 提交 '>
-                        <input type="reset" name="button" id="button" value=" 重置 "></td>
+                      <td bgcolor='ffffff'><input type='button' onclick="saveOrder();" value=' 提交 '></input>
+                        <input type="reset" value=" 重置 "></input></td>
                     </tr>
                   </form>
                 </table>

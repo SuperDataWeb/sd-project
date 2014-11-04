@@ -75,4 +75,9 @@ public class InteractController {
 		return model;
 	}
 	
+	@RequestMapping("/orderSearch.do")
+	public ModelAndView searchOrder(SpOrder spOrder, String provice, String area) {
+		ModelAndView model = new ModelAndView("Interact/orderSearch");
+		return model;
+	}
 }

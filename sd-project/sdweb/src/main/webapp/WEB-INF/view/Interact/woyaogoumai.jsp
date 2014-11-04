@@ -149,8 +149,8 @@
 					
                     <tr>
                       <td bgcolor='ffffff'></td>
-                      <td bgcolor='ffffff'><input type='submit' name='submit'  onclick="saveOrder();" value=' 提交 '>
-                        <input type="reset" name="button" id="button" value=" 重置 "></td>
+                      <td bgcolor='ffffff'><input type='button' onclick="saveOrder();" value=' 提交 '></input>
+                        <input type="reset" value=" 重置 "></input></td>
                     </tr>
                   </form>
                 </table>

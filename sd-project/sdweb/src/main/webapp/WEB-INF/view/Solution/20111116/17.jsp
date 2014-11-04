@@ -4,6 +4,16 @@
 <!-- saved from url=(0157)http://chat10.live800.com/live800/chatClient/chatbox.jsp -->
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<%
+	int n = 190;
+	String counter = (String) application.getAttribute("counter");
+	if (counter != null){
+		n = Integer.parseInt(counter);
+        n++;		
+	}
+	counter = String.valueOf(n);
+	application.setAttribute("counter", counter);
+%>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
 <title>中小企业管理_速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
 <meta name="keywords" content="">
@@ -41,7 +51,7 @@
               <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tbody><tr>
                   <td align="center" bgcolor="#E7F1E8" height="26">作者：<a href="index.htm">速达5000</a>&nbsp; &nbsp;来源：速达 &nbsp; &nbsp;时间2012-02-05&nbsp; &nbsp;阅读：
-                   <script src="/suda/plus/count.php?view=yes&amp;aid=17&amp;mid=1" type="text/javascript" language="javascript"></script>191 次</td>
+                   <%=counter%> 次</td>
                 </tr>
               </tbody></table>
             <table border="0" cellpadding="0" cellspacing="0" width="100%">

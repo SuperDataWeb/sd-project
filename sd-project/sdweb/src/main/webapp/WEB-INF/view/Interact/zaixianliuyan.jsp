@@ -338,11 +338,8 @@
                     </tr>
                     <tr bgcolor="#FFFFFF">
                       <td height="26">&nbsp;</td>
-                      <td>&nbsp;
-                        <input type="submit" name="Submit3"  onclick="saveOrder();" value="提交" />
-                        &nbsp;
-                        <input type="reset" name="Submit22" value="重置" />
-                        <input name="enews" type="hidden" id="enews" value="AddGbook" /></td>
+                      <td bgcolor='ffffff'><input type='button' onclick="saveOrder();" value=' 提交 '></input>
+                        <input type="reset" value=" 重置 "></input></td>
                     </tr>
                   </table>
                 </form>

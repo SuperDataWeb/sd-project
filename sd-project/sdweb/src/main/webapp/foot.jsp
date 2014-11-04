@@ -30,7 +30,24 @@ message = request("message")
         <td width="968" align="center" bgcolor="#FAFAFA">
 		<dd id="flink_[field:id/]">
 			<ul class="f5">
-				<li><a href='http://www.buyerp.cn' target='_blank'>管理软件商城</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>广州速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>深圳速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>佛山速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>东莞速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>珠海速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>中山速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>番禺速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>天河速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>花都速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>黄埔速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>从化速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>增城速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>白云速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>越秀速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>荔湾速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>海珠速达软件</a> </li><li><a href='http://www.buyerp.cn/suda' target='_blank'>萝岗速达软件</a> </li>
+				<li><a href='http://www.buyerp.cn' target='_blank'>管理软件商城</a> </li>
+				<li><a href='index.do' target='_blank'>广州速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>深圳速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>佛山速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>东莞速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>珠海速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>中山速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>番禺速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>天河速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>花都速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>黄埔速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>从化速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>增城速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>白云速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>越秀速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>荔湾速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>海珠速达软件</a> </li>
+				<li><a href='index.do' target='_blank'>萝岗速达软件</a> </li>
 			</ul>
 		  </dd>
         </td>

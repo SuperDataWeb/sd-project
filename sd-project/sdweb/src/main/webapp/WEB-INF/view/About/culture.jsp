@@ -127,7 +127,7 @@
 															<tbody>
 																<tr>
 																	<td>&nbsp;要提高质量就必须加强每一个环节。精益求精、不断发展，<a
-																		href="javascript:if(confirm('http://www.buyerp.cn/suda'))window.location='http://www.buyerp.cn/suda'"
+																		href="index.do"
 																		><strong>广州速达软件</strong></a>才能够做得更好。
 																	</td>
 																</tr>
