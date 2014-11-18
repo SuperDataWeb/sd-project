@@ -79,6 +79,20 @@
 						</td>
 						<td width="100%"></td>
 					</tr>
+					<tr>
+					   <td>
+					      <table>
+					         <tr>
+					            <td>主题</td>
+					            <td>姓 名</td>
+					            <td>联系电话</td>
+					            <td>公司名称</td>
+					            <td>备注</td>
+					            <td></td>
+					         </tr>
+					      </table>
+					   </td>
+					</tr>
 				</tbody>
 			</table>
 			<!-- 页脚 -->

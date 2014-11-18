@@ -75,7 +75,7 @@
 		<location>/403.jsp</location>
 	</error-page>
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.do</welcome-file>
 	</welcome-file-list>
 	<!-- <security-constraint> <web-resource-collection> <web-resource-name>sdweb</web-resource-name> 
 		<url-pattern>/*</url-pattern> <http-method>PUT</http-method> <http-method>HEAD</http-method> 
