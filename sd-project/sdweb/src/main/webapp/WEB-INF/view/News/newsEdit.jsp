@@ -183,13 +183,14 @@
 					type : "POST",
 					url : "newsEditSave.do", //把表单数据发送到ajax.jsp
 					data : $('#order').serialize(), //要发送的是ajaxFrm表单中的数据
+					contentType:"application/x-www-form-urlencoded; charset=utf-8",
 					async : false,
 					error : function(request) {
 						alert("发送请求失败！");
 					},
 					success : function(data) {
-						data = eval("(" + data + ")");
-						if (data.succeed) {
+						//data = eval("(" + data + ")");
+						if (data) {
 							alert("操作成功");
 						} else {
 							alert("操作失败");
