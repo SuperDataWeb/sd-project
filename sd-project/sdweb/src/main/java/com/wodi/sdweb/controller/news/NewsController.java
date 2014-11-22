@@ -74,17 +74,25 @@ public class NewsController {
 	String saveEdit(HttpServletRequest request) {
 		SpNews spNews = new SpNews();
 		String idstr = request.getParameter("newsId");
-//		String title = request.getParameter("newsTitle");
-//		String body = request.getParameter("newsMainbody");
+		String title = request.getParameter("newsTitle");
+		String body = request.getParameter("newsMainbody");
+		
+		System.out.println("origin:title:" + title);
+		System.out.println("origin:body:" + body);
+		
 		try {
-			String title = URLDecoder.decode(URLDecoder.decode(request.getParameter("newsTitle"), "UTF-8"), "UTF-8");
-			String body = URLDecoder.decode(URLDecoder.decode(request.getParameter("newsMainbody"), "UTF-8"), "UTF-8");
+			title = URLDecoder.decode(title, "UTF-8");
+			body = URLDecoder.decode(body, "UTF-8");
+			
+			System.out.println("first decoded:title:" + title);
+			System.out.println("first decoded:body:" + body);
+			title = URLDecoder.decode(URLDecoder.decode(request.getParameter("newsTitle"), "UTF-8"), "UTF-8");
+			body = URLDecoder.decode(URLDecoder.decode(request.getParameter("newsMainbody"), "UTF-8"), "UTF-8");
 			System.out.println("title:" + title);
 			System.out.println("content:" + body);
 			
 			spNews.setNewsTitle(title);
 			spNews.setNewsContent(body);
-			request.setCharacterEncoding("");
 		} catch (UnsupportedEncodingException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

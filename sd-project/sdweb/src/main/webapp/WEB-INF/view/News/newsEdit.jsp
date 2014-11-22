@@ -168,8 +168,8 @@
 				}
 				var form = $("#order");
 				var newsId = $("#newsId").val();
-				var newsTitle = encodeURI(encodeURI($("#newsTitle").val()));
-				var newsMainBody = encodeURI(encodeURI($("#newsMainbody").val()));
+				var newsTitle = encodeURIComponent($("#newsTitle").val());
+				var newsMainBody = encodeURIComponent($("#newsMainbody").val());
 				var param = {};
 				param["newsId"] = newsId;
 				param["newsTitle"] = newsTitle;
