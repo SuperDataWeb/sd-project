@@ -68,6 +68,13 @@ public class SpProductTest {
     	logger.info("time:" + (System.currentTimeMillis() - start));
     	logger.info("spProduct.size: " + spt.getProducts().size());
     }
+    
+    @Test
+    public void testSelectSpProductByName() {
+    	Long start = System.currentTimeMillis();
+    	List<SpProduct> sps = spProductService.selectByProductName("ËÙ´ï3000");
+    	logger.info("time:" + (System.currentTimeMillis() - start));
+    }
 
 
 }

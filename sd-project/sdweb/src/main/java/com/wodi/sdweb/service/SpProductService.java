@@ -31,7 +31,19 @@ public interface SpProductService {
 	public void insertSpProduct(SpProduct product);
 	
 	/**
-	 * 根据产品Id查询出产品，顺便关联出产品所属类型
+	 * 更新产品
+	 * @param product
+	 */
+	public void updateSpProduct(SpProduct product);
+	
+	/**
+	 * 删除产品
+	 * @param product
+	 */
+	public void deleteSpProduct(SpProduct product);
+	
+	/**
+	 * 根据产品Id查询出产品，顺便关联出产品所属类型和系列
 	 * @param id
 	 * @return
 	 */
@@ -54,6 +66,12 @@ public interface SpProductService {
 
 	
 	/**
+	 * 查询所有
+	 * @return
+	 */
+	public List<SpProduct> selectAll();
+	
+	/**
 	 * 按不同的产品序列进行 分页查询接口
 	 * @param startIndex
 	 * @param pageSize
@@ -61,4 +79,11 @@ public interface SpProductService {
 	 * @return
 	 */
 	public PageModel<SpProduct> pageSelect(int startIndex, int pageSize, Long seriesId);
+
+	/**
+	 * 根据productName查询出产品
+	 * @param productName
+	 * @return
+	 */
+	public List<SpProduct> selectByProductName(String productName);
 }

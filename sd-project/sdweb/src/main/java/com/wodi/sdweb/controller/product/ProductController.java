@@ -211,4 +211,62 @@ public class ProductController {
 		model.addObject("productSeries", sps);
 		return model;
 	}
+	
+	
+	@RequestMapping("newProduct.do")
+	public ModelAndView newProduct() {
+		ModelAndView model = new ModelAndView("Product/newProduct");
+		List<SpProductSeries> sps = spProductSeriesService.selectAll();
+		List<SpProductType> spts = spProductTypeService.selectAll();
+		model.addObject("productSeries", sps);
+		model.addObject("productTypes", spts);
+		return model;
+	}
+	
+	
+	
+	@RequestMapping("editProduct.do")
+	public ModelAndView editProduct(String productId) {
+		ModelAndView model = new ModelAndView("Product/editProduct");
+		SpProduct sp = spProductService.selectById(Long.parseLong(productId));
+		List<SpProductSeries> sps = spProductSeriesService.selectAll();
+		List<SpProductType> spts = spProductTypeService.selectAll();
+		model.addObject("productSeries", sps);
+		model.addObject("productTypes", spts);
+		model.addObject("product", sp);
+		return model;
+	}
+	
+	@RequestMapping("deleteProduct.do")
+	public ModelAndView deleteProduct(String productId) {
+		SpProduct sp = spProductService.selectById(Long.parseLong(productId));
+		if(null != sp){
+			spProductService.deleteSpProduct(sp);
+		}
+		return searchProduct(null);
+	}
+	
+	@RequestMapping("saveProduct.do")
+	public ModelAndView saveProduct(SpProduct product) {
+		if(null == product.getId()){
+			spProductService.insertSpProduct(product);
+		}else{
+			spProductService.updateSpProduct(product);
+		}
+		return searchProduct(null);
+	}
+	
+	@RequestMapping("searchProduct.do")
+	public ModelAndView searchProduct(SpProduct product) {
+		ModelAndView model = new ModelAndView("Product/searchProduct");
+		List<SpProduct> sps = null;
+		if(null == product || product.getProductName() == null || "".equals(product.getProductName())){
+			sps = spProductService.selectAll();
+		}else{
+			sps = spProductService.selectByProductName(product.getProductName());
+		}
+		model.addObject("products", sps);
+		return model;
+	}
+	
 }
