@@ -1,6 +1,7 @@
 package com.wodi.sdweb.controller.news;
 
 import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -71,19 +72,23 @@ public class NewsController {
 	@RequestMapping("newsEditSave.do")
 	public @ResponseBody
 	String saveEdit(HttpServletRequest request) {
+		SpNews spNews = new SpNews();
+		String idstr = request.getParameter("newsId");
+		String title = request.getParameter("newsTitle");
+		String body = request.getParameter("newsMainbody");
 		try {
-			request.setCharacterEncoding("UTF-8");
+//			String title = URLDecoder.decode(request.getParameter("newsTitle"), "UTF-8");
+//			String body = URLDecoder.decode(request.getParameter("newsMainbody"), "UTF-8");
+			System.out.println("title:" + title);
+			System.out.println("content:" + body);
+			
+			spNews.setNewsTitle(title);
+			spNews.setNewsContent(body);
+			request.setCharacterEncoding("");
 		} catch (UnsupportedEncodingException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		String idstr = request.getParameter("newsId");
-		String title = request.getParameter("newsTitle");
-		String body = request.getParameter("newsMainbody");
-		
-		SpNews spNews = new SpNews();
-		spNews.setNewsTitle(title);
-		spNews.setNewsContent(body);
 		String result = null;
 		try {
 			if (idstr != null && !idstr.equals("")) { // ¸üÐÂ

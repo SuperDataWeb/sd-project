@@ -168,7 +168,7 @@
 				}
 				var form = $("#order");
 				var newsId = $("#newsId").val();
-				var newsTitle = $("#newsTitle").val();
+				var newsTitle = escape($("#newsTitle").val());
 				var newsMainBody = escape($("#newsMainbody").val());
 				var param = {};
 				param["newsId"] = newsId;
@@ -182,8 +182,8 @@
 					cache : false,
 					type : "POST",
 					url : "newsEditSave.do", //把表单数据发送到ajax.jsp
-					data : $('#order').serialize(), //要发送的是ajaxFrm表单中的数据
-					contentType:"application/x-www-form-urlencoded; charset=utf-8",
+					data : form.serialize(), //要发送的是ajaxFrm表单中的数据
+					contentType:"application/x-www-form-urlencoded; charset=gbk",
 					async : false,
 					error : function(request) {
 						alert("发送请求失败！");
