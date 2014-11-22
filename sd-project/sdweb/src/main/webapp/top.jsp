@@ -31,15 +31,19 @@ message = request("message")
 			<td width="120">&nbsp;</td>
 			<td width="45"><img src="suda/templets/new/images/ind_tel.jpg"
 				width="36" height="51" /></td>
-			<td width="237"><span class="tel_hg">销售热线：400-034-3668<br />
-					维护专线：020-85279086<br />
-			</span><span class="tel_vip">VIP热线：</span><span class="tel_hg">18620607677
-					18127974810</span></td>
+			<td width="237"><span class="tel_hg">销售热线：400-082-8868<br />
+					维护专线：020-85589743<br />
+			</span>
+			<!-- 
+			<span class="tel_vip">VIP热线：</span><span class="tel_hg">18620607677
+					18127974810</span>
+			 -->
+			</td>
 			<td width="89"><table width="70" border="0" cellspacing="0"
 					cellpadding="0">
 					<tr>
 						<td width="80" height="25" align="left"><a
-							href="http://wpa.qq.com/msgrd?v=3&amp;uin=1924432730&amp;site=qq&amp;menu=yes"><img
+							href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes"><img
 								border="0" src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
 								title="速达软件咨询" /></a></td>
 					</tr>
@@ -47,7 +51,7 @@ message = request("message")
 					</tr>
 					<tr>
 						<td width="80" height="25" align="left"><a
-							href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=2692835&type=n&siteid=1272542"><img
+							href="tencent://message/?uin=12361918&amp;Site=速达软件咨询&amp;Menu=yes"><img
 								src='suda/templets/new/images/qq/bbbbe.jpg' border="0"></a></td>
 					</tr>
 				</table></td>

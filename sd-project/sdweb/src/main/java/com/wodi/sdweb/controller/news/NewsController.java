@@ -56,16 +56,41 @@ public class NewsController {
 		return view;
 	}
 	
-	public ModelAndView editNews() {
-		ModelAndView view = new ModelAndView();
-		
+	@RequestMapping("newsEditor.do")
+	public ModelAndView editNews(String newsId) {
+		ModelAndView view = new ModelAndView("News/newsEdit");
+		if (newsId != null) {
+//			view.addObject("newsId", newsId);
+			SpNews news = spNewsService.selectById(Long.parseLong(newsId));
+			view.addObject("news", news);
+		}
 		return view;
 	}
 	
+	@RequestMapping("newsEditSave.do")
 	public @ResponseBody
-	String saveEdit() {
+	String saveEdit(HttpServletRequest request) {
+		String idstr = request.getParameter("newsId");
+		String title = request.getParameter("newsTitle");
+		String body = request.getParameter("newsMainbody");
 		
-		return null;
+		SpNews spNews = new SpNews();
+		spNews.setNewsTitle(title);
+		spNews.setNewsContent(body);
+		String result = null;
+		try {
+			if (idstr != null && !idstr.equals("")) { // 更新
+				spNews.setId(Long.parseLong(idstr));
+				spNewsService.updateSpNews(spNews);
+			} else { // 新增
+				spNews.setNewsAuthor("速达软件");
+				spNewsService.insertSpNews(spNews);
+			}
+			result = "succeed";
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 	
 	public @ResponseBody

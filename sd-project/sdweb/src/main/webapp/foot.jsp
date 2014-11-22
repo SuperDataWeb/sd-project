@@ -82,23 +82,25 @@ message = request("message")
 					</table> <a href="about.do" target=_blank>关于我们</a> ▏ <a
 					href="contact.do" target=_blank>联系我们</a> ▏ <a
 					href="zaiXianLiuYan.do" target=_blank>客户留言</a> ▏ <a
-					href="这里会跳" target=_blank>网站地图</a> <br />
+					href="index.do" target=_blank>网站地图</a> <br />
 				<br /> <span class="ind_hg"> Copyright &copy; 2002-2011
-						广州市亿旭软件技术有限公司 版权所有<br /> 速达软件指定运营商：<a href="这里会跳"><font
-							color="#009933"><b>广州市亿旭软件技术有限公司</b></font></a> 速达软件售后服务机构：<a
-						href="这里会跳"><font color="#009933"><b>速达软件（广州）销售服务中心</b></font></a>
-				</span><br /> 地址：广州市番禺区大石588号金怡商业大厦301室 <span class="STYLE6">
-						E_mail：yixusales@163.com </span> <script language="javascript"
+						广州沃迪信息科技有限公司 版权所有<br /> 速达软件指定运营商：<a href="index.do"><font
+							color="#009933"><b>广州沃迪信息科技有限公司</b></font></a> 速达软件售后服务机构：<a
+						href="index.do"><font color="#009933"><b>速达软件（广州）销售服务中心</b></font></a>
+				</span><br /> 办公地址：广州市天河区五山路263号瑞华大厦南塔16B房  店面地址：广州市天河区天河路502号天河电脑城二楼258A<span class="STYLE6">
+						E_mail：4000828868@b.qq.com </span> <script language="javascript"
 						type="text/javascript" src="http://js.users.51.la/6020683.js"></script><br />
-					<span class="STYLE6">联系电话：<span class="STYLE13">400-034-3668</span>
-						维护专线：<span class="STYLE13">020-85279086</span> ＱＱ客服：<a
-						href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes  '))window.location='http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'">
+					<span class="STYLE6">联系电话：<span class="STYLE13">400-082-8868</span>
+						维护专线：<span class="STYLE13">020-85589743, 020-85589747</span> ＱＱ客服：<a
+						href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes">
 						<img src="suda/templets/new/images/qq.gif" alt="速达软件" width="23"
-							height="16" border="0" /><strong><font color="#CC0000">1924432730</font></strong></a>
+							height="16" border="0" /><strong><font color="#CC0000">4000828868</font></strong></a>
+						<!-- 
 						<a
 						href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=4000343668&site=qq&menu=yes  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=4000343668&site=qq&menu=yes'">
 						<img src="suda/templets/new/images/qq.gif" alt="速达软件" width="23"
 							height="16" border="0" /><strong><font color="#CC0000">4000343668</font></strong></a>
+						 -->
 						备案/许可证编号：<a
 						href="javascript:if(confirm('http://www.miibeian.gov.cn/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.miibeian.gov.cn/'"
 						target="_blank">粤ICP备13080589号-1</a></span> <br />

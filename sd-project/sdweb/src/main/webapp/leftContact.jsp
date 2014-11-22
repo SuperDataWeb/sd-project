@@ -46,17 +46,18 @@ message = request("message")
 							<tr>
 								<td style="padding-top: 8px" height="19" width="45%"
 									align="right"><strong> 销售热线</strong>：</td>
-								<td style="padding-top: 8px" width="55%">400-034-3668</td>
+								<td style="padding-top: 8px" width="55%">400-082-8868</td>
 							</tr>
 							<tr>
 								<td height="19" align="right"><span
 									style="padding-top: 8px"><strong>服务热线</strong>：</span></td>
-								<td height="20">020-85279086</td>
+								<td height="20">020-85589743</td>
 							</tr>
 							<tr>
 								<td height="19" align="right"><strong>维护专线</strong>：</td>
-								<td height="20">020-85279086</td>
+								<td height="20">020-85589747</td>
 							</tr>
+							<!-- 
 							<tr>
 								<td height="19" align="right"><span class="tel_kd_1"><strong>VIP热线</strong></span>：</td>
 								<td height="20">18620607677</td>
@@ -65,13 +66,24 @@ message = request("message")
 								<td height="19" align="right"><span class="tel_kd_1"><strong>VIP热线</strong></span>：</td>
 								<td height="20">18127974810</td>
 							</tr>
+							 -->
 							<tr>
 								<td colspan="2" height="30" align="center"><a
 									target="_blank"
-									href="http://wpa.qq.com/msgrd?v=3&amp;uin=1601331518&amp;site=qq&amp;menu=yes"><img
+									href="http://wpa.qq.com/msgrd?v=3&amp;uin=4000828868&amp;site=qq&amp;menu=yes"><img
 										src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
 										title="速达软件咨询" border="0"></a> <a target="_blank"
-									href="http://wpa.qq.com/msgrd?v=3&amp;uin=4000343668&amp;site=qq&amp;menu=yes"><img
+									href="http://wpa.qq.com/msgrd?v=3&amp;uin=12361918&amp;site=qq&amp;menu=yes"><img
+										src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
+										title="速达软件咨询" border="0"></a></td>
+							</tr>
+							<tr>
+								<td colspan="2" height="30" align="center"><a
+									target="_blank"
+									href="http://wpa.qq.com/msgrd?v=3&amp;uin=961235426&amp;site=qq&amp;menu=yes"><img
+										src="suda/templets/new/images/qq2.jpg" alt="速达软件咨询"
+										title="速达软件咨询" border="0"></a> <a target="_blank"
+									href="http://wpa.qq.com/msgrd?v=3&amp;uin=961534047&amp;site=qq&amp;menu=yes"><img
 										src="suda/templets/new/images/qq2.jpg" alt="速达软件咨询"
 										title="速达软件咨询" border="0"></a></td>
 							</tr>
