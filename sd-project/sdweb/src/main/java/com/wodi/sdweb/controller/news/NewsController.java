@@ -81,13 +81,13 @@ public class NewsController {
 		System.out.println("origin:body:" + body);
 		
 		try {
-			title = URLDecoder.decode(title, "UTF-8");
-			body = URLDecoder.decode(body, "UTF-8");
+			title = URLDecoder.decode(title, "GBK");
+			body = URLDecoder.decode(body, "GBK");
 			
 			System.out.println("first decoded:title:" + title);
 			System.out.println("first decoded:body:" + body);
-			title = URLDecoder.decode(URLDecoder.decode(request.getParameter("newsTitle"), "UTF-8"), "UTF-8");
-			body = URLDecoder.decode(URLDecoder.decode(request.getParameter("newsMainbody"), "UTF-8"), "UTF-8");
+			title = URLDecoder.decode(request.getParameter("newsTitle"), "UTF-8");
+			body = URLDecoder.decode(request.getParameter("newsMainbody"), "UTF-8");
 			System.out.println("title:" + title);
 			System.out.println("content:" + body);
 			
