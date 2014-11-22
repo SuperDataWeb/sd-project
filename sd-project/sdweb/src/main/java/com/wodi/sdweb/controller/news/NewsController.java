@@ -1,5 +1,6 @@
 package com.wodi.sdweb.controller.news;
 
+import java.io.UnsupportedEncodingException;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -70,6 +71,12 @@ public class NewsController {
 	@RequestMapping("newsEditSave.do")
 	public @ResponseBody
 	String saveEdit(HttpServletRequest request) {
+		try {
+			request.setCharacterEncoding("UTF-8");
+		} catch (UnsupportedEncodingException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		String idstr = request.getParameter("newsId");
 		String title = request.getParameter("newsTitle");
 		String body = request.getParameter("newsMainbody");
