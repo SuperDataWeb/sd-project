@@ -31,6 +31,52 @@
 			) VALUES( #{type}, #{series}, #{productName}, #{description}, #{presentation}, #{features}, #{price}, #{userNum}, #{module}, #{detailUrl}, #{img}, #{status}, now(), now() )
 				]]>
 	</insert>
+	
+	<update id="update" parameterType="SpProduct">
+		<![CDATA[ UPDATE sp_product SET updated = now() ]]>
+		<if test="productName != null">
+				<![CDATA[, product_name = #{productName}]]>
+		</if>
+		<if test="description != null">
+				<![CDATA[, description = #{description}]]>
+		</if>
+		<if test="type != null">
+				<![CDATA[, type = #{type}]]>
+		</if>
+		<if test="series != null">
+				<![CDATA[, series = #{series}]]>
+		</if>
+		<if test="presentation != null">
+				<![CDATA[, presentation = #{presentation}]]>
+		</if>
+		<if test="features != null">
+				<![CDATA[, features = #{features}]]>
+		</if>
+		<if test="price != null">
+				<![CDATA[, price = #{price}]]>
+		</if>
+		<if test="userNum != null">
+				<![CDATA[, user_num = #{userNum}]]>
+		</if>
+		<if test="module != null">
+				<![CDATA[, module = #{module}]]>
+		</if>
+		<if test="detailUrl != null">
+				<![CDATA[, detail_url = #{detailUrl}]]>
+		</if>
+		<if test="img != null">
+				<![CDATA[, img = #{img}]]>
+		</if>
+		<if test="status != null">
+				<![CDATA[, status = #{status}]]>
+		</if>
+		<![CDATA[ WHERE 1 = 1 AND id = #{id} ]]>
+	</update>
+	
+	<delete id="delete" parameterType="SpProduct">
+	     delete from sp_product 
+	     <![CDATA[ where id = #{id} ]]>
+	</delete>
 
 	<select id="selectById" resultMap="spProductMap">
 		select
@@ -45,6 +91,22 @@
 		<include refid="productFields" />
          <![CDATA[ 
              FROM sp_product where type = #{typeId}
+         ]]>
+	</select>
+	
+	<select id="selectAll" resultMap="spProductMap">
+		select
+		<include refid="productFields" />
+         <![CDATA[ 
+             FROM sp_product order by id desc
+         ]]>
+	</select>
+	
+    <select id="selectByProductName" resultMap="spProductMap">
+		select
+		<include refid="productFields" />
+         <![CDATA[ 
+             FROM sp_product where product_name like CONCAT('%', #{productName}, '%')
          ]]>
 	</select>
 	

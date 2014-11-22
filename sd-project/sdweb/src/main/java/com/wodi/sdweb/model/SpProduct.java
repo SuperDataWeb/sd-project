@@ -20,7 +20,7 @@ public class SpProduct {
 	private String presentation;
 	/**特色功能，购买指引时需要展示，用‘|’分割*/
 	private String features;
-	private int price;
+	private Integer price;
 	/**用户数*/
 	private String userNum;
 	/**功能模块*/
@@ -76,11 +76,11 @@ public class SpProduct {
 		this.presentation = presentation;
 	}
 
-	public int getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
-	public void setPrice(int price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 

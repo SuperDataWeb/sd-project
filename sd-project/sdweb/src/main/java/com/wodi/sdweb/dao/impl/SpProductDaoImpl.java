@@ -99,4 +99,10 @@ public class SpProductDaoImpl extends SqlSessionDaoSupport implements
 		return null;
 	}
 
+	@Override
+	public List<SpProduct> selectByProductName(String productName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

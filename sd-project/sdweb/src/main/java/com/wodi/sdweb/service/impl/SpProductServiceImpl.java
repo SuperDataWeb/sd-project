@@ -52,6 +52,9 @@ public class SpProductServiceImpl implements SpProductService {
 	public SpProduct selectById(Long id) {
 		// 貌似可以查一次数据库就能关联出来产品类型 TODO
 		SpProduct sp = spProductDao.selectById(id);
+		if(null == sp){
+			return null;
+		}
 		SpProductType spt = spProductTypeDao.selectByTypeId(sp.getType());
 		SpProductSeries sps = spProductSeriesDao.selectBySeriesId(sp.getSeries());
 		sp.setProductType(spt);
@@ -88,6 +91,28 @@ public class SpProductServiceImpl implements SpProductService {
 		}
 		spProductPage.setDatas(datas);
 		return spProductPage;
+	}
+
+	@Override
+	public List<SpProduct> selectAll() {
+		return spProductDao.selectAll();
+	}
+
+	@Override
+	public List<SpProduct> selectByProductName(String productName) {
+		return spProductDao.selectByProductName(productName);
+	}
+
+	@Override
+	public void updateSpProduct(SpProduct product) {
+		spProductDao.update(product);
+		
+	}
+
+	@Override
+	public void deleteSpProduct(SpProduct product) {
+		spProductDao.delete(product);
+		
 	}
 
 
