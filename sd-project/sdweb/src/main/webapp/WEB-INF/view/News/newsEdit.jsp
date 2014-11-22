@@ -168,8 +168,8 @@
 				}
 				var form = $("#order");
 				var newsId = $("#newsId").val();
-				var newsTitle = escape($("#newsTitle").val());
-				var newsMainBody = escape($("#newsMainbody").val());
+				var newsTitle = encodeURI(encodeURI($("#newsTitle").val()));
+				var newsMainBody = encodeURI(encodeURI($("#newsMainbody").val()));
 				var param = {};
 				param["newsId"] = newsId;
 				param["newsTitle"] = newsTitle;
@@ -178,11 +178,18 @@
 				//alert(form.serialize());
 				//alert(escape(form.serialize()));
 				
+				
+				$.post("newsEditSave.do", param, function(data) {
+					if (data) {
+						alert("保存成功！");
+					}
+				});
+				/*
 				$.ajax({
 					cache : false,
 					type : "POST",
 					url : "newsEditSave.do", //把表单数据发送到ajax.jsp
-					data : form.serialize(), //要发送的是ajaxFrm表单中的数据
+					data : param, //要发送的是ajaxFrm表单中的数据
 					contentType:"application/x-www-form-urlencoded; charset=gbk",
 					async : false,
 					error : function(request) {
@@ -195,13 +202,6 @@
 						} else {
 							alert("操作失败");
 						}
-					}
-				});
-				
-				/*
-				$.post("newsEditSave.do", form.serialize(), function(data) {
-					if (data) {
-						alert("保存成功！");
 					}
 				});
 				 */

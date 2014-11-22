@@ -74,11 +74,11 @@ public class NewsController {
 	String saveEdit(HttpServletRequest request) {
 		SpNews spNews = new SpNews();
 		String idstr = request.getParameter("newsId");
-		String title = request.getParameter("newsTitle");
-		String body = request.getParameter("newsMainbody");
+//		String title = request.getParameter("newsTitle");
+//		String body = request.getParameter("newsMainbody");
 		try {
-//			String title = URLDecoder.decode(request.getParameter("newsTitle"), "UTF-8");
-//			String body = URLDecoder.decode(request.getParameter("newsMainbody"), "UTF-8");
+			String title = URLDecoder.decode(URLDecoder.decode(request.getParameter("newsTitle"), "UTF-8"), "UTF-8");
+			String body = URLDecoder.decode(URLDecoder.decode(request.getParameter("newsMainbody"), "UTF-8"), "UTF-8");
 			System.out.println("title:" + title);
 			System.out.println("content:" + body);
 			
