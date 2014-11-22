@@ -77,7 +77,7 @@
               <td height="500" valign="top" class="hg"><!--反馈表开始-->
                 <table width=100% align=center cellpadding=3 cellspacing=0 bgcolor='#FFFFFF'>
                   <form name="order" id="order" method='post' accept-charset="UTF-8">
-				  	<input type="hidden" name="newsId"  value="${news != null?news.id:''}"/>
+				  	<input type="hidden" name="newsId" id="newsId" value="${news != null?news.id:''}"/>
                     <tr>
                       <td height=30 colspan="2" bgcolor='#EAEAEA'><strong>　基本信息 　　</strong> <font color="#FF6633"> 新增/编辑通知公告</font></td>
                     </tr>
@@ -123,28 +123,28 @@
 <script language="javascript">
 
 	var editor;
-	
+
 	function doValidate() {
 		var title = $("#newsTitle").val();
 		var mainbody = $("#newsMainbody").val();
-		if(!title || null == title || "" == title){
-			  alert('请填写标题！');
-			  $("#newsTitle").focus();
-			  return false;
+		if (!title || null == title || "" == title) {
+			alert('请填写标题！');
+			$("#newsTitle").focus();
+			return false;
 		}
-		if(!mainbody || null == mainbody || "" == mainbody){
-			  alert('请填写正文！');
-			  $("#newsContent").focus();
-			  return false;
+		if (!mainbody || null == mainbody || "" == mainbody) {
+			alert('请填写正文！');
+			$("#newsContent").focus();
+			return false;
 		}
 		return true;
 	}
-	
-	$(document).ready(function(){
+
+	$(document).ready(function() {
 		//alert("end editor");
-		
+
 		KindEditor.ready(function(K) {
-			
+
 			editor = K.create('textarea[name="newsContent"]', {
 				cssPath : 'kindeditor/themes/default/default.css',
 				//uploadJson : 'kindeditor/jsp/upload_json.jsp',
@@ -157,42 +157,54 @@
 					}
 				}
 			});
-			$("#submitBtn").bind("click",function(){
+			$("#submitBtn").bind("click", function() {
 				var s = editor.html();
 				s = K.escape(s);
 				$("#newsMainbody").val(s);
-			//	alert(s);
-				
-				if(!doValidate()){
+				//	alert(s);
+
+				if (!doValidate()) {
 					return;
 				}
 				var form = $("#order");
-			    $.post("newsEditSave.do", form.serialize(), function(data){
-			    	if (data) {
-			    		alert("保存成功！");
-			    	}
-			    });
+				var newsId = $("#newsId").val();
+				var newsTitle = $("#newsTitle").val();
+				var newsMainBody = escape($("#newsMainbody").val());
+				var param = {};
+				param["newsId"] = newsId;
+				param["newsTitle"] = newsTitle;
+				param["newsMainbody"] = newsMainBody;
+				//alert(param);
+				//alert(form.serialize());
+				//alert(escape(form.serialize()));
+				
+				$.ajax({
+					cache : false,
+					type : "POST",
+					url : "newsEditSave.do", //把表单数据发送到ajax.jsp
+					data : $('#order').serialize(), //要发送的是ajaxFrm表单中的数据
+					async : false,
+					error : function(request) {
+						alert("发送请求失败！");
+					},
+					success : function(data) {
+						data = eval("(" + data + ")");
+						if (data.succeed) {
+							alert("操作成功");
+						} else {
+							alert("操作失败");
+						}
+					}
+				});
+				
+				/*
+				$.post("newsEditSave.do", form.serialize(), function(data) {
+					if (data) {
+						alert("保存成功！");
+					}
+				});
+				 */
 			});
 		});
-		
-		//alert("init");
-		
-		for(i=1000;i<=17500;i=i+500){
-			$("#Provice").append("<option value="+i+">"+em_nativeplaces[i]+"</option>");
-		}
-		
-		$("#Provice").change(function(){
-									  $("#Area").empty();
-									  $("#Area").append("<option value=''>选择市区</option>");
-									  for(i=parseInt($(this).val())+1;i<parseInt($(this).val())+500;i++){
-										  if(!em_nativeplaces[i])break;
-										  $("#Area").append("<option value="+i+">"+em_nativeplaces[i]+"</option>");
-									  }
-									  }
-									  )
-		
-	
-	})
-	
-	
+	});
 </script>
