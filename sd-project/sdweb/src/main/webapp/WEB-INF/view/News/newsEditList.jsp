@@ -51,7 +51,7 @@
 					<table  width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tbody><tr>
 		                    <td class="news" height="29" width="15" align="left"><img src="suda/templets/new/images/li_new.gif" height="14" width="12"></td>
-		                    <td class="news" width="73%"> <a href="#" title="${news.newsTitle}">${news.newsTitle}</a></td>
+		                    <td class="news" width="70%"> <a href="#" title="${news.newsTitle}">${news.newsTitle}</a></td>
 		                    <td class="news" width="100" align="right">${news.fullDateStr} </td>
 		                    <td class="news"> <a href="newsEditor.do?newsId=${news.id}"> ±à¼­ </a><a onclick="deleteNews(${news.id})" href="#"> É¾³ý </a></td>
 		                  </tr>
