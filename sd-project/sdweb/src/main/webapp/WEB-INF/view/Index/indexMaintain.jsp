@@ -86,8 +86,6 @@
 				</table>
 		
 			<!-- ----滚动图片开始---------- -->
-			<jsp:include page="indexRollingProducts.jsp"></jsp:include>
-			<jsp:include page="../../../foot.jsp"></jsp:include>
 			<!-- ----页脚结束---------- -->
 
 		</div>
