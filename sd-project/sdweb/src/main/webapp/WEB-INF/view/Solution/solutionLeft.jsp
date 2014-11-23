@@ -142,19 +142,22 @@ li {
 		        </tr>
 		        <tr>
 		          <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
-		              <tbody><tr>
+		              <tbody>
+		              <!-- 
+		              <tr>
 		                <td align="right" height="23" width="35"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 		                <td>&nbsp;<a href="这里会跳">解决方案</a></td>
 		              </tr>
+		               -->
 		              <tr>
 		                <td align="right" height="23"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		                <td>&nbsp;<a href="#">个性化方案</a></td>
+		                <td>&nbsp;<a href="solutionList.do">个性化方案</a></td>
 		              </tr>
 		            </tbody></table></td>
 		          <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
 		              <tbody><tr>
 		                <td align="right" height="23" width="22"><img src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-		                <td width="88">&nbsp;<a href="这里会跳">案例分析</a></td>
+		                <td width="88">&nbsp;<a href="caseList.do">案例分析</a></td>
 		              </tr>
 		              <tr>
 		                <td align="right" height="23">&nbsp;</td>
