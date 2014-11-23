@@ -160,6 +160,7 @@ li {
 					href="culture.do">企业文化</a></td>
 			</tr>
 
+			<!-- 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
@@ -173,12 +174,13 @@ li {
 				<td align="left" valign="middle" width="185">&nbsp;<a
 					href="这里会跳">行业资讯</a></td>
 			</tr>
+			 -->
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="这里会跳">通知公告</a></td>
+					href="newsList.do">通知公告</a></td>
 			</tr>
 
 			<tr>

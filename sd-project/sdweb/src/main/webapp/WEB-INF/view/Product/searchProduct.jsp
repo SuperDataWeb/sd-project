@@ -24,7 +24,11 @@
 				cellpadding="0" cellspacing="0">
 				<tbody>
 					<tr>
-						<td width="100%">
+					   <td valign="top" width="220">
+								<!------------- left -------------->
+								<%@include file="../../../leftMaintain.jsp" %>
+						</td>
+						<td class="tdbk" valign="top" width="752">
 							<table width=100% align=center cellpadding=3 cellspacing=0
 								bgcolor='#FFFFFF'>
 								<form name="product" id="product" method='post' action="searchProduct.do"	accept-charset="UTF-8">
@@ -41,12 +45,6 @@
 									</tr>
 								</form>
 							</table>
-						</td>
-						<td width="100%"></td>
-					</tr>
-					
-					<tr>
-						<td width="100%">
 							<table width=100% align=center cellpadding=3 cellspacing=0
 								bgcolor='#FFFFFF'>
 								 <tr>
@@ -72,7 +70,6 @@
 							     </c:forEach>
 							</table>
 						</td>
-						<td width="100%"></td>
 					</tr>
 				</tbody>
 			</table>

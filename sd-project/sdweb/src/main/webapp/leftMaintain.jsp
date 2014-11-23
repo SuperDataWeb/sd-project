@@ -149,7 +149,7 @@ li {
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="honor.do">产品信息维护</a></td>
+					href="searchProduct.do">产品信息维护</a></td>
 			</tr>
 
 			<tr>

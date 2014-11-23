@@ -39,7 +39,7 @@ message = request("message")
 		cellspacing="0">
 		<tr>
 			<td height="30" valign="middle" style="padding-top: 3px;">
-				▎您当前的位置：<a href="index.do">首页</a> > <a href="这里会跳">通知公告</a> >
+				▎您当前的位置：<a href="index.do">首页</a> > <a href="newsList.do">通知公告</a> >
 			</td>
 		</tr>
 	</table>

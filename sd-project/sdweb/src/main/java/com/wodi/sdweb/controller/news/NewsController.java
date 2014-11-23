@@ -40,7 +40,7 @@ public class NewsController {
 		int pageSize = 10;
 		try {
 			startIndex  = Integer.parseInt(request.getParameter("pager.offset")); 
-			pageSize = Integer.parseInt(request.getParameter("pager.pageSize")); 
+//			pageSize = Integer.parseInt(request.getParameter("pager.pageSize")); 
 		} catch (Exception e) {
 			startIndex = 0;
 		}
@@ -77,8 +77,9 @@ public class NewsController {
 		int pageSize = 10;
 		try {
 			startIndex  = Integer.parseInt(request.getParameter("pager.offset")); 
-			pageSize = Integer.parseInt(request.getParameter("pager.pageSize")); 
+//			pageSize = Integer.parseInt(request.getParameter("pager.pageSize")); 
 		} catch (Exception e) {
+			e.printStackTrace();
 			startIndex = 0;
 		}
 		PageModel<SpNews> pageModel = spNewsService.pageSelect(startIndex, pageSize);
