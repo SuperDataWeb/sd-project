@@ -13,8 +13,6 @@
 <SCRIPT type=text/javascript src="<%= request.getContextPath()%>/js/index_files/jquery-1.3.2.min.js"></SCRIPT>
 <SCRIPT type=text/javascript src="<%= request.getContextPath()%>/js/index_files/jquery-Method.js"></SCRIPT>
 
-
-
 </head>
 	<body>
 		<div align="center">

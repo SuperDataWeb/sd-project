@@ -67,7 +67,7 @@
 					items:总记录数，pager标签正是根据这个值来计算分页参数的 
                     maxPageItems:每页显示的行数，默认为10 
                     maxIndexPages:在循环输出页码的时候，最大输出多少个页码，默认是10  -->
-				          <pg:pager url="newsList.do"
+				          <pg:pager url="newsEditList.do"
 				             items="${pageNews.total }" maxPageItems="${pageSize }" maxIndexPages="10" 
 				             export="currentPageNumber=pageNumber">  
 					            <!-- 首页 -->  
