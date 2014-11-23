@@ -69,7 +69,7 @@
 <p>
 	<strong>速达软件</strong>销售的<strong>速达</strong><strong>3000pro</strong>，<strong>速达</strong><strong>3000xp</strong>，<strong>速达</strong><strong>5000</strong>，<strong>速达</strong><strong>7000</strong>，能很好的信息化带动工业化 企业发展的关键</p>
 <p>
-	keywords:<a href="http://www.buyerp.cn/"><strong>速达</strong>,<strong>速达软件</strong>,<strong>速达财务</strong>,<strong>速达</strong><strong>3000pro</strong>,<strong>速达</strong><strong>3000xp</strong>,<strong>速达</strong><strong>7000</strong>,<strong>速达软件</strong>,<strong>速达社区</strong>,<strong>速达</strong><strong>V</strong></a></p>
+	keywords:<a href="http://www.4000828868.com/"><strong>速达</strong>,<strong>速达软件</strong>,<strong>速达财务</strong>,<strong>速达</strong><strong>3000pro</strong>,<strong>速达</strong><strong>3000xp</strong>,<strong>速达</strong><strong>7000</strong>,<strong>速达软件</strong>,<strong>速达社区</strong>,<strong>速达</strong><strong>V</strong></a></p>
 <p>
 	&nbsp;</p>
 <p>

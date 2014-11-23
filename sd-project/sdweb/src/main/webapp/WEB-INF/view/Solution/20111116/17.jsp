@@ -141,7 +141,7 @@
 	<p>
 		<strong>速达软件官网</strong>销售的速达3000系列软件,<strong>速达</strong><strong>3000pro</strong>，<strong>速达</strong><strong>3000xp</strong>，<strong>速达</strong><strong>5000</strong>，<strong>速达</strong><strong>7000</strong>，不受<u><font color="#0000ff">ERP实施成功的因素分析影响</font></u></p>
 	<p>
-		keywords:<a href="http://www.buyerp.cn"><strong>广州速达,速达官网,速达财务,速达3000pro,速达3000xp,速达7000,速达软件,速达社区,速达V,suda,www.superdata.com.cn</strong></a></p>
+		keywords:<a href="http://www.4000828868.com"><strong>广州速达,速达官网,速达财务,速达3000pro,速达3000xp,速达7000,速达软件,速达社区,速达V,suda,www.superdata.com.cn</strong></a></p>
 </div>
 
                      <p></p>

@@ -45,60 +45,56 @@ message = request("message")
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="速达软件启动时，提示找"
-							href="这里会跳">速达软件启动时，提示找</a></td>
+							href="case_20111116_17.do">ERP实施成功的因素分析</a></td>
 						<td width="38">07-23</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="速达3000R-Std 8.78 客户端登"
-							href="这里会跳">速达3000R-Std
-								8.78 客户端登</a></td>
+							href="case_20111116_19.do">汽车用品行业</a></td>
 						<td width="38">01-20</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="3000E-XP 有8个远程客户端，"
-							href="这里会跳">3000E-XP
-								有8个远程客户端，</a></td>
+							href="case_20111116_20.do">汽配行业</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="8.80以后要求注册，注册以"
-							href="这里会跳">8.80以后要求注册，注册以</a></td>
+							href="case_20111213_4091.do">产品升级应用案例</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="产品换机器后，提示重新"
-							href="这里会跳">产品换机器后，提示重新</a></td>
+							href="case_20111213_4092.do">家具行业</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="速达5000 3.81的更新说明"
-							href="这里会跳">速达5000
-								3.81的更新说明</a></td>
+							href="case_20111213_4096.do">电脑行业</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="5000G 3.81 局域网站点用户跟"
-							href="这里会跳">5000G
-								3.81 局域网站点用户跟</a></td>
+							href="case_20111213_4097.do">服装行业</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="最新的V5-top工业，安装注"
-							href="这里会跳">最新的V5-top工业，安装注</a></td>
+							href="case_20111213_4098.do">灯具流通行业</a></td>
 						<td width="38">01-07</td>
 					</tr>
 					<!-- 

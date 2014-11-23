@@ -98,7 +98,7 @@
 <p>
 	<strong>速达官网</strong>销售的<strong>速达</strong><strong>3000pro</strong>，<strong>速达</strong><strong>3000xp</strong>，<strong>速达</strong><strong>5000</strong>，<strong>速达</strong><strong>7000</strong>，都能很好的处理<u>制造企业管理</u>解决方案</p>
 <p>
-	keywords:<a href="http://www.buyerp.cn"><strong>广州速达,速达软件官网,速达财务,速达3000pro,速达3000xp,速达7000,速达软件,速达社区,速达V,suda,www.superdata.com.cn</strong></a></p>
+	keywords:<a href="http://www.4000828868.com"><strong>广州速达,速达软件官网,速达财务,速达3000pro,速达3000xp,速达7000,速达软件,速达社区,速达V,suda,www.superdata.com.cn</strong></a></p>
 <p>
 	<br>
 	&nbsp;</p>

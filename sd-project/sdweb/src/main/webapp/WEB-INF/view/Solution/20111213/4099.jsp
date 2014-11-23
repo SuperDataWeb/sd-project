@@ -82,7 +82,7 @@
 <p>
 	<strong>速达软件官网</strong>销售的<strong>速达3000pro</strong>，<strong>速达3000xp</strong>，<strong>速达5000</strong>，<strong>速达7000</strong>，都能很好的处理<u><font color="#810081">牛奶生产企业<span style="display: none">&nbsp;</span></font></u>解决方案</p>
 <p>
-	keywords:<a href="http://www.buyerp.cn/"><strong>广州速达</strong>,<strong>速达软件官网</strong>,<strong>速达财务</strong>,<strong>速达3000pro</strong>,<strong>速达3000xp</strong>,<strong>速达7000</strong>,<strong>速达软件</strong>,<strong>速达社区</strong>,<strong>速达V</strong></a></p>
+	keywords:<a href="http://www.4000828868.com/"><strong>广州速达</strong>,<strong>速达软件官网</strong>,<strong>速达财务</strong>,<strong>速达3000pro</strong>,<strong>速达3000xp</strong>,<strong>速达7000</strong>,<strong>速达软件</strong>,<strong>速达社区</strong>,<strong>速达V</strong></a></p>
 
                      <p></p>
                     <br><br>     

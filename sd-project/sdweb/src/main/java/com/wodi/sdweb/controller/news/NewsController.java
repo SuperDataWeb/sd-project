@@ -28,7 +28,7 @@ public class NewsController {
 	public ModelAndView loadTopList() throws SQLException {
 		ModelAndView view = new ModelAndView();
 		view.setViewName("News/topDataList");
-		List<SpNews> list = spNewsService.selectTopList(8);
+		List<SpNews> list = spNewsService.selectTopList(7);
 		view.addObject("topList", list);
 		return view;
 	}
@@ -60,12 +60,31 @@ public class NewsController {
 	
 	@RequestMapping("newsEditor.do")
 	public ModelAndView editNews(String newsId) {
-		ModelAndView view = new ModelAndView("News/newsEdit");
+		ModelAndView view = new ModelAndView("News/newsEditCenter");
 		if (newsId != null) {
 //			view.addObject("newsId", newsId);
 			SpNews news = spNewsService.selectById(Long.parseLong(newsId));
 			view.addObject("news", news);
 		}
+		view.addObject("targetJsp", "newsEdit.jsp");
+		return view;
+	}
+	
+	@RequestMapping("newsEditList")
+	public ModelAndView loadNewsEditList(HttpServletRequest request) throws SQLException {
+		ModelAndView view = new ModelAndView("News/newsEditCenter");
+		int startIndex = 0;
+		int pageSize = 10;
+		try {
+			startIndex  = Integer.parseInt(request.getParameter("pager.offset")); 
+			pageSize = Integer.parseInt(request.getParameter("pager.pageSize")); 
+		} catch (Exception e) {
+			startIndex = 0;
+		}
+		PageModel<SpNews> pageModel = spNewsService.pageSelect(startIndex, pageSize);
+		view.addObject("pageNews", pageModel);
+		view.addObject("pageSize", pageSize);
+		view.addObject("targetJsp", "newsEditList.jsp");
 		return view;
 	}
 	
@@ -76,16 +95,10 @@ public class NewsController {
 		String idstr = request.getParameter("newsId");
 		String title = request.getParameter("newsTitle");
 		String body = request.getParameter("newsMainbody");
-		
 		System.out.println("origin:title:" + title);
 		System.out.println("origin:body:" + body);
 		
 		try {
-			title = URLDecoder.decode(title, "GBK");
-			body = URLDecoder.decode(body, "GBK");
-			
-			System.out.println("first decoded:title:" + title);
-			System.out.println("first decoded:body:" + body);
 			title = URLDecoder.decode(request.getParameter("newsTitle"), "UTF-8");
 			body = URLDecoder.decode(request.getParameter("newsMainbody"), "UTF-8");
 			System.out.println("title:" + title);
@@ -113,9 +126,21 @@ public class NewsController {
 		return result;
 	}
 	
+	@RequestMapping("newsDelete.do")
 	public @ResponseBody
-	String deleteNews() {
-		
-		return null;
+	String deleteNews(String newsId) {
+		String result = null;
+		if (newsId != null && !newsId.equals("")) {
+			SpNews spNews = new SpNews();
+			spNews.setId(Long.parseLong(newsId));
+			try {
+				spNewsService.deleteSpNews(spNews);
+				result = "succeed";
+			} catch (Exception e) {
+				// TODO: handle exception
+				e.printStackTrace();
+			}
+		}
+		return result;
 	}
 }

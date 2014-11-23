@@ -78,7 +78,7 @@
 <p>
 	<strong>速达软件官网</strong>销售的<strong>速达</strong><strong>3000pro</strong>，<strong>速达</strong><strong>3000xp</strong>，<strong>速达</strong><strong>5000</strong>，<strong>速达</strong><strong>7000</strong>，都能很好的处理汽车美容行业解决方案</p>
 <p>
-	keywords:<a href="http://www.buyerp.cn"><strong>广州速达</strong></a>,<a href="http://www.buyerp.cn"><strong>速达软件官网</strong></a>,<a href="http://www.buyerp.cn"><strong>速达财务</strong></a>,<a href="http://www.buyerp.cn"><strong>速达3000pro</strong></a>,<a href="http://www.buyerp.cn"><strong>速达3000xp</strong></a>,<a href="http://www.buyerp.cn"><strong>速达7000</strong></a>,<a href="http://www.buyerp.cn"><strong>速达软件</strong></a>,<a href="http://www.buyerp.cn"><strong>速达社区</strong></a>,<a href="http://www.buyerp.cn"><strong>速达V</strong></a><a href="http://www.buyerp.cn">,<strong>suda</strong>,<strong>www.superdata.com.cn</strong></a></p>
+	keywords:<a href="http://www.4000828868.com"><strong>广州速达</strong></a>,<a href="http://www.4000828868.com"><strong>速达软件官网</strong></a>,<a href="http://www.4000828868.com"><strong>速达财务</strong></a>,<a href="http://www.4000828868.com"><strong>速达3000pro</strong></a>,<a href="http://www.4000828868.com"><strong>速达3000xp</strong></a>,<a href="http://www.4000828868.com"><strong>速达7000</strong></a>,<a href="http://www.4000828868.com"><strong>速达软件</strong></a>,<a href="http://www.4000828868.com"><strong>速达社区</strong></a>,<a href="http://www.4000828868.com"><strong>速达V</strong></a><a href="http://www.4000828868.com">,<strong>suda</strong>,<strong>www.superdata.com.cn</strong></a></p>
 <p>
 	<br>
 	　　</p>

@@ -86,7 +86,7 @@
 	　　启用账套后，将无法录入启用日期之前的业务单据、凭证，因此用户在确认“账套启用日期”时，应确认在此日期前没有需要录入系统的业务数据发生。<br>
 	<span style="display: none">&nbsp;</span><strong>广州速达</strong>销售的<strong>速达3000PRO</strong>，<strong>速达3000XP</strong>，具有专业的百货行业解决方案</p>
 <p>
-	keywords:<a href="http://www.buyerp.cn/"><strong>广州速达</strong>,<strong>速达软件官网</strong>,<strong>速达财务</strong>,<strong>速达3000pro</strong>,<strong>速达3000xp</strong>,<strong>速达7000</strong>,<strong>速达软件</strong>,<strong>速达社区</strong>,<strong>速达V</strong></a><br>
+	keywords:<a href="http://www.4000828868.com/"><strong>广州速达</strong>,<strong>速达软件官网</strong>,<strong>速达财务</strong>,<strong>速达3000pro</strong>,<strong>速达3000xp</strong>,<strong>速达7000</strong>,<strong>速达软件</strong>,<strong>速达社区</strong>,<strong>速达V</strong></a><br>
 	&nbsp;</p>
 
                      <p></p>

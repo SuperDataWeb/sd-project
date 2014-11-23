@@ -75,7 +75,7 @@
 <p>
 	<strong>速达软件官网</strong>销售的<strong>速达3000pro</strong>，<strong>速达3000xp</strong>，<strong>速达5000</strong>，<strong>速达7000</strong>，都能很好的处理产品升级应用案例解决方案</p>
 <p>
-	keywords:<a href="http://www.buyerp.cn/"><strong>广州速达</strong>,<strong>速达软件官网</strong>,<strong>速达财务</strong>,<strong>速达</strong><strong>3000pro</strong>,<strong>速达</strong><strong>3000xp</strong>,<strong>速达</strong><strong>7000</strong>,<strong>速达软件</strong>,<strong>速达社区</strong>,<strong>速达</strong><strong>V</strong></a></p>
+	keywords:<a href="http://www.4000828868.com/"><strong>广州速达</strong>,<strong>速达软件官网</strong>,<strong>速达财务</strong>,<strong>速达</strong><strong>3000pro</strong>,<strong>速达</strong><strong>3000xp</strong>,<strong>速达</strong><strong>7000</strong>,<strong>速达软件</strong>,<strong>速达社区</strong>,<strong>速达</strong><strong>V</strong></a></p>
 <p>
 	&nbsp;</p>
 <p>

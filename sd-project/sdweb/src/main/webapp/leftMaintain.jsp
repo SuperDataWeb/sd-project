@@ -138,63 +138,19 @@ li {
 						height="11" width="11">&nbsp;<strong></strong></font><br></td>
 			</tr>
 
-
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="about.do">公司简介</a></td>
+					href="newsEditList.do">通知公告维护</a></td>
 			</tr>
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img
 					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
 				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="honor.do">荣誉资质</a></td>
+					href="honor.do">产品信息维护</a></td>
 			</tr>
-
-			<tr>
-				<td align="right" height="23" valign="middle" width="35"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="culture.do">企业文化</a></td>
-			</tr>
-
-			<tr>
-				<td align="right" height="23" valign="middle" width="35"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="这里会跳">速达新闻</a></td>
-			</tr>
-
-			<tr>
-				<td align="right" height="23" valign="middle" width="35"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="这里会跳">行业资讯</a></td>
-			</tr>
-
-			<tr>
-				<td align="right" height="23" valign="middle" width="35"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="这里会跳">通知公告</a></td>
-			</tr>
-
-			<tr>
-				<td align="right" height="23" valign="middle" width="35"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="jobs.do">人才招聘</a></td>
-			</tr>
-
-			<tr>
-				<td align="right" height="23" valign="middle" width="35"><img
-					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
-				<td align="left" valign="middle" width="185">&nbsp;<a
-					href="contact.do">联系我们</a></td>
-			</tr>
-
 
 			<tr>
 				<td align="right" height="23" valign="middle">&nbsp;</td>
@@ -203,33 +159,6 @@ li {
 		</tbody>
 	</table>
 
-
-	<table width="220" border="0" cellpadding="0" cellspacing="0">
-		<tbody>
-			<tr>
-				<td height="8"></td>
-			</tr>
-		</tbody>
-	</table>
-	<%@include file="../../../leftContact.jsp"%>
-	<table width="220" border="0" cellpadding="0" cellspacing="0">
-		<tbody>
-			<tr>
-				<td height="8" width="220"></td>
-			</tr>
-		</tbody>
-	</table>
-	<%@include file="../../../leftWant.jsp"%>
-	<table width="220" border="0" cellpadding="0" cellspacing="0">
-		<tbody>
-			<tr>
-				<td height="8" width="220"></td>
-			</tr>
-		</tbody>
-	</table>
-	<%--
-	<%@include file="../../../leftNews.jsp"%>
-	 --%>
 	<!-- /left -->
 </BODY>
 </HTML>

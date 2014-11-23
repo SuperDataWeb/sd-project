@@ -44,56 +44,56 @@ message = request("message")
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="食品代理企业"
-							href="solutionInfo_20120212_4303.do">食品代理企业</a></td>
+							href="solution_20111213_4099.do">牛奶生产企业</a></td>
 						<td width="38">07-12</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="多公司多帐套应用方案"
-							href="solutionInfo2011_1116_30.do">多公司多帐套应用方案</a></td>
+							href="solution_20111116_26.do">产品升级应用案例</a></td>
 						<td width="38">02-15</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="驻外分支机构应用方案"
-							href="solutionInfo_2011_1116/sudasaas.do">驻外分支机构应用方案</a></td>
+							href="solution_20111116_25.do">分公司性质销售企业</a></td>
 						<td width="38">02-14</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="移动办公应用方案"
-							href="solutionInfo2011/1116/sudasaas.do">移动办公应用方案</a></td>
+							href="solution_20111116_24.do">分销系统解决方案</a></td>
 						<td width="38">02-14</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="市政服务企业"
-							href="solutionInfo20120210/sdcwstd.do">市政服务企业</a></td>
+							href="solution_20111116_23.do">中小企业财务解决方案</a></td>
 						<td width="38">02-13</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="机床电器企业"
-							href="solutionInfo20120212/4302.do">机床电器企业</a></td>
+							href="solution_20111116_22.do">制造企业管理解决方案</a></td>
 						<td width="38">02-12</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="卫生纸加工企业"
-							href="solutionInfo20120209/4300.do">卫生纸加工企业</a></td>
+							href="solution_20111116_21.do">信息化带动工业化 企业发展的关键</a></td>
 						<td width="38">02-09</td>
 					</tr>
 					<tr>
 						<td width="20" height="22" align="right"><img
 							src="suda/templets/new/images/li.gif" width="11" height="13" /></td>
 						<td>&nbsp;<a title="卫生纸加工企业"
-							href="solutionInfo20120209/4300.do">卫生纸加工企业</a></td>
+							href="solution_20111213_4104.do">食品批发行业</a></td>
 						<td width="38">02-09</td>
 					</tr>
 				</table>

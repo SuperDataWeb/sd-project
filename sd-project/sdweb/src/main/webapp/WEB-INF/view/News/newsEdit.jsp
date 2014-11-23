@@ -29,47 +29,15 @@
 </head>
 <body>
 <div align="center">
-  <div style="background-color:#FFFFFF; width:984px;">
-     <!-- -------------- top -------------- -->
-	 <%@include file="../../../top.jsp"%>   
-    <table width="980" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
-      <tr>
-        <td height="3"></td>
-      </tr>
-    </table>
-    <table width="980" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
-      <tr>
-        <td width="220" valign="top">
-          <%--
-          <%@include file="interactLeft.jsp"%> 
-           --%>
-          <table width="220" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-              <td width="220" height="8"></td>
-            </tr>
-          </table>
-
-          <table width="220" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-              <td width="220" height="8"></td>
-            </tr>
-          </table>
-
-         </td>
-        <td width="8">&nbsp;</td>
-        <td width="752" valign="top" class="tdbk"><table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
-            <tr>
-              <td height="30" valign="middle" style="padding-top:3px;">▎您当前的位置：首页&nbsp;>&nbsp;通知公告维护&nbsp;>&nbsp;编辑</td>
+	<table width="100%" border="0" align="center" cellpadding="0"
+		cellspacing="0">
+		<tr>
+              <td height="30" valign="middle" style="padding-top:3px;">▎您当前的位置：首页&nbsp;>&nbsp;<a href="newsEditList.do">通知公告维护</a>&nbsp;>&nbsp;编辑</td>
             </tr>
           </table>
           <table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
               <td height="1" bgcolor="#CCCCCC"></td>
-            </tr>
-          </table>
-          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-            <tr>
-              <td width="100%" align="center" style="padding-top:6px;"><span style="padding-top:6px; padding-bottom:8px;"><img src="suda/templets/new/images/fuwu.jpg"  width="730" height="105"></span></td>
             </tr>
           </table>
           <table width="100%" border="0" align="center" cellpadding="10" cellspacing="0">
@@ -111,14 +79,8 @@
           </table></td>
       </tr>
     </table><!-- 页脚 -->
- 	<!-- -------------------foot---------------- -->
-	<%@include file="../../../foot.jsp"%> 
-  </div>
-</div>
 </body>
 </html>
-<script type="text/javascript" src="//include/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="//data/enums/nativeplace.js"></script>
 
 <script language="javascript">
 
@@ -141,7 +103,6 @@
 	}
 
 	$(document).ready(function() {
-		//alert("end editor");
 
 		KindEditor.ready(function(K) {
 
@@ -174,37 +135,15 @@
 				param["newsId"] = newsId;
 				param["newsTitle"] = newsTitle;
 				param["newsMainbody"] = newsMainBody;
-				//alert(param);
-				//alert(form.serialize());
-				//alert(escape(form.serialize()));
 				
 				
 				$.post("newsEditSave.do", param, function(data) {
 					if (data) {
 						alert("保存成功！");
+					} else {
+						alert("操作失败！");
 					}
 				});
-				/*
-				$.ajax({
-					cache : false,
-					type : "POST",
-					url : "newsEditSave.do", //把表单数据发送到ajax.jsp
-					data : param, //要发送的是ajaxFrm表单中的数据
-					contentType:"application/x-www-form-urlencoded; charset=gbk",
-					async : false,
-					error : function(request) {
-						alert("发送请求失败！");
-					},
-					success : function(data) {
-						//data = eval("(" + data + ")");
-						if (data) {
-							alert("操作成功");
-						} else {
-							alert("操作失败");
-						}
-					}
-				});
-				 */
 			});
 		});
 	});
