@@ -73,7 +73,7 @@
     		,t.news_title = #{newsTitle}
     	</if>
     	<if test="newsContent != null">
-    		,t.newsContent = #{newsContent}
+    		,t.news_content = #{newsContent}
     	</if>
     	<if test="newsAuthor != null">
     		,t.news_author = #{newsAuthor}
