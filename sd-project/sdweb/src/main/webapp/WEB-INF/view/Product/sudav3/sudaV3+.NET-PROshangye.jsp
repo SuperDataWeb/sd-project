@@ -344,23 +344,22 @@
 						src="http://v2.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
 					<br /> <br />
 					<p class="hg">
-						<strong>速达软件（广州）销售服务中心</strong><br /> 地址：广州市番禺区大石588号金怡商业大厦301室<br />
-						销售热线：400-034-3668<br /> 服务热线：020-85279086<br />
-						维护专线：020-31001310<br /> VIP 专线：18620607677 18127974810
-						<table width="300" border="0" cellspacing="0" cellpadding="0">
+						<strong>速达软件（广州）销售服务中心</strong><br /> 办公地址：广州市天河区五山路263号瑞华大厦南塔16B房<br />店面地址：广州市天河区天河路502号天河电脑城二楼258A<br />
+						销售热线：400-082-8868<br /> 服务热线：020-85589743，020-85589747<br />
+						维护专线：020-85589747 <table width="300" border="0" cellspacing="0" cellpadding="0">
 							<tr>
 								<td width="51" height="22"><a
-									href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes"><img
+									href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes"><img
 										src="suda/templets/new/images/pa.gif" width="51" height="16"
 										style="border: 0" /></a></td>
 								<td width="80" valign="bottom">：<a
-									href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes">1601331518</a></td>
+									href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes">4000828868</a></td>
 								<td width="51"><a
-									href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes"><img
+									href="tencent://message/?uin=12361918&amp;Site=速达软件咨询&amp;Menu=yes"><img
 										src="suda/templets/new/images/pa.gif" width="51" height="16"
 										style="border: 0" /></a></td>
 								<td valign="bottom">：<a
-									href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes">4000343668</a></td>
+									href="tencent://message/?uin=12361918&amp;Site=速达软件咨询&amp;Menu=yes">12361918</a></td>
 							</tr>
 						</table>
 					</p>

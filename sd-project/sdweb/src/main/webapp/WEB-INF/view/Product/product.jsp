@@ -80,7 +80,7 @@ message = request("message")
 								src="suda/templets/new/images/online_01.jpg"
 								alt="填写速达V3+.NET服装管理申购表" width="150" height="38" border="0"></a>
 							<a target="_blank"
-							href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1601331518&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1601331518&site=qq&menu=yes'"><img
+							href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes'"><img
 								src="suda/templets/new/images/online_02.jpg"
 								alt="在线咨询${product.productName}" width="150" height="38"
 								border="0"></a> <a href="pageProductDownload.do"

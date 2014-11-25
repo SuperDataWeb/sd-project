@@ -65,15 +65,15 @@
 													<div class="hg">
 														<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>优质的售后服务是购买管理软件的重要衡量标准！</strong><br />
 														<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-														1、亿旭软件秉承&ldquo;服务至上&rdquo;的理念，为每一个客户建立服务档案，注重服务口碑。<br />
+														1、沃迪软件秉承&ldquo;服务至上&rdquo;的理念，为每一个客户建立服务档案，注重服务口碑。<br />
 														&nbsp;<br />
-														&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、专属服务号：亿旭软件为每个用户分配专属的服务号及服务电话，确保高效服务。<br />
+														&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、专属服务号：沃迪软件为每个用户分配专属的服务号及服务电话，确保高效服务。<br />
 														<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 														&nbsp;3、多种培训服务方式：上门培训、远程协助、在线视频培训、定制公开课培训、每周免费公开课培训等。<br />
 														<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 														&nbsp;4、定期回访制度：产品升级、维护、提供最新资讯及增值服务。<br /> <br />
 														&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-														&nbsp;5、亿旭软件为客户提供终身免费咨询服务。<br /> <br /> <br /> <strong>&nbsp;&nbsp;&nbsp;
+														&nbsp;5、沃迪软件为客户提供终身免费咨询服务。<br /> <br /> <br /> <strong>&nbsp;&nbsp;&nbsp;
 															服务项目包括：</strong><br /> <br />
 														<table align="center" bgcolor="#f2f2f2" border="0"
 															cellpadding="3" cellspacing="1" width="100%">
@@ -179,24 +179,24 @@
 													</div> <br /> <br />
 													<p class="hg">
 														<strong>速达软件（广州）销售服务中心</strong><br />
-														地址：广州市番禺区大石588号金怡商业大厦301室<br /> 销售热线：400-034-3668<br />
-														服务热线：020-85279086<br /> 维护专线：020-31001310<br /> VIP
-														专线：18620607677 18127974810
+														办公地址：广州市天河区五山路263号瑞华大厦南塔16B房<br />店面地址：广州市天河区天河路502号天河电脑城二楼258A<br /> 销售热线：400-082-8868<br />
+														服务热线：020-85589743<br /> 维护专线：020-85589747<br />
+														
 													<table width="300" border="0" cellspacing="0"
 														cellpadding="0">
 														<tr>
 															<td width="51" height="22"><a
-																href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes"><img
+																href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes"><img
 																	src="suda/templets/new/images/pa.gif"
 																	width="51" height="16" style="border: 0" /></a></td>
 															<td width="80" valign="bottom">：<a
-																href="tencent://message/?uin=1601331518&amp;Site=速达软件咨询&amp;Menu=yes">1601331518</a></td>
+																href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes">4000828868</a></td>
 															<td width="51"><a
-																href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes"><img
+																href="tencent://message/?uin=12361918&amp;Site=速达软件咨询&amp;Menu=yes"><img
 																	src="suda/templets/new/images/pa.gif"
 																	width="51" height="16" style="border: 0" /></a></td>
 															<td valign="bottom">：<a
-																href="tencent://message/?uin=4000343668&amp;Site=速达软件咨询&amp;Menu=yes">4000343668</a></td>
+																href="tencent://message/?uin=12361918&amp;Site=速达软件咨询&amp;Menu=yes">12361918</a></td>
 														</tr>
 													</table>
 													</p>

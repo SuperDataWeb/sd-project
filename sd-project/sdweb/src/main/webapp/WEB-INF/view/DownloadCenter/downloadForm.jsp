@@ -119,7 +119,7 @@ function doValidate() {
   <TBODY>
     <TR>
       <TD align=middle><FONT style="LINE-HEIGHT: 20px"><A title=无法下载点此联系管理员 
-      href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1601331518&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1601331518&site=qq&menu=yes'"
+      href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes'"
       target=_blank><FONT color=#44aadb>软件无法下载？ </FONT></A><BR>
         <FONT 
       color=#999999>在本站下载软件并正确登记信息，安装过程中如果遇到问题<BR>
