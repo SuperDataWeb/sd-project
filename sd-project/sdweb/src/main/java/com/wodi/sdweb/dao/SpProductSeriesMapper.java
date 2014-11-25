@@ -55,4 +55,10 @@ public interface SpProductSeriesMapper {
 	 * @return
 	 */
 	public SpProductSeries selectBySeriesId(@Param("seriesId") Long seriesId);
+
+	/**
+	 * 根据产品系列seriesName查询产品系列
+	 * @param seriesName
+	 */
+	public List<SpProductSeries> selectBySeriesName(@Param("seriesName") String seriesName);
 }

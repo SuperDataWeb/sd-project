@@ -31,7 +31,7 @@
 						<td class="tdbk" valign="top" width="752">
 							<table width=100% align=center cellpadding=3 cellspacing=0
 								bgcolor='#FFFFFF'>
-								<form name="product" id="product" method='post' action="saveProduct.do"	accept-charset="UTF-8">
+								<form name="product" id="product" method='post' action="saveProduct.do"	 enctype="multipart/form-data" accept-charset="UTF-8">
 								    <input type="hidden" name='id' value="${product.id }">
 									<tr>
 										<td width='16%' height=25 bgcolor='ffffff'>产品名称</td>
@@ -50,12 +50,14 @@
 									<tr>
 										<td width='16%' height=25 bgcolor='ffffff'>产品详细路径</td>
 										<td bgcolor='ffffff'>
-										    <input name='detailUrl' type='text' style="width:300px;" value='${product.detailUrl }'></td>
+										    <input name='detailUrl' type='text' style="width:300px;" value='${product.detailUrl }'>
+										    <input type="file" name="urlfile" /></td>
 								    </tr>
 									<tr>
 										<td width='16%' height=25 bgcolor='ffffff'>图片路径</td>
 										<td bgcolor='ffffff'>
-										    <input name='img' type='text' style="width:300px;" value='${product.img }'></td>
+										    <input name='img' type='text' style="width:300px;" value='${product.img }'>
+										    <input type="file" name="imgfile" /></td>
 								    </tr>
 								    <tr>
 										<td width='20%' height=25 bgcolor='ffffff'>所属类型</td>

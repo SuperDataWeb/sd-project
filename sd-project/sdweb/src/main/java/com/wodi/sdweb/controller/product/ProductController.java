@@ -1,5 +1,6 @@
 package com.wodi.sdweb.controller.product;
 
+import java.io.File;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
@@ -9,6 +10,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.wodi.sdweb.model.SpProduct;
@@ -247,7 +250,46 @@ public class ProductController {
 	}
 	
 	@RequestMapping("saveProduct.do")
-	public ModelAndView saveProduct(SpProduct product) {
+	public ModelAndView saveProduct(@RequestParam MultipartFile imgfile, @RequestParam MultipartFile urlfile, SpProduct product, HttpServletRequest request) {
+		if(null != imgfile){
+			String fileName = imgfile.getOriginalFilename();
+			if(null != fileName && !"".equals(fileName.trim())){
+				String uploadDir = "suda/templets/new/images/";
+				String path = request.getSession().getServletContext().getRealPath(uploadDir);
+				String imgUrl = uploadDir + fileName;
+				File targetFile = new File(path, fileName);
+				if(!targetFile.exists()){
+					targetFile.mkdirs(); 
+				}
+				//±£´æ  
+				try {
+					imgfile.transferTo(targetFile);  
+					product.setImg(imgUrl);
+				} catch (Exception e) {  
+					e.printStackTrace();  
+				} 
+			}
+		}
+		if(null != urlfile){
+			String fileName = urlfile.getOriginalFilename();
+			if(null != fileName && !"".equals(fileName.trim())){
+				String uploadDir = "WEB-INF/view/Product/suda/";
+				String path = request.getSession().getServletContext().getRealPath(uploadDir);
+				String detailUrl = "suda/" + fileName;
+				File targetFile = new File(path, fileName);
+				if(!targetFile.exists()){
+					targetFile.mkdirs(); 
+				}
+				//±£´æ  
+				try {
+					urlfile.transferTo(targetFile);  
+					product.setDetailUrl(detailUrl);
+				} catch (Exception e) {  
+					e.printStackTrace();  
+				} 
+			}
+		}
+		
 		if(null == product.getId()){
 			spProductService.insertSpProduct(product);
 		}else{
@@ -268,5 +310,74 @@ public class ProductController {
 		model.addObject("products", sps);
 		return model;
 	}
+	
+	
+	@RequestMapping("newProductSeries.do")
+	public ModelAndView newProductSeries() {
+		ModelAndView model = new ModelAndView("Product/newProductSeries");
+		return model;
+	}
+	
+	
+	
+	@RequestMapping("editProductSeries.do")
+	public ModelAndView editProductSeries(String seriesId) {
+		ModelAndView model = new ModelAndView("Product/editProductSeries");
+		SpProductSeries sps = spProductSeriesService.selectBySeriesId(Long.parseLong(seriesId));
+		model.addObject("productSeries", sps);
+		return model;
+	}
+	
+	@RequestMapping("deleteProductSeries.do")
+	public ModelAndView deleteProductSeries(String seriesId) {
+		SpProductSeries sps = spProductSeriesService.selectBySeriesId(Long.parseLong(seriesId));
+		if(null != sps){
+			spProductSeriesService.deleteSpProductSeries(sps);
+		}
+		return searchProductSeries(null);
+	}
+	
+	@RequestMapping("saveProductSeries.do")
+	public ModelAndView saveProductSeries(@RequestParam MultipartFile imgfile, SpProductSeries productSeries, HttpServletRequest request) {
+		if(null != imgfile){
+			String fileName = imgfile.getOriginalFilename();
+			if(null != fileName && !"".equals(fileName.trim())){
+				String uploadDir = "suda/templets/new/images/";
+				String path = request.getSession().getServletContext().getRealPath(uploadDir);
+				String imgUrl = uploadDir + fileName;
+				File targetFile = new File(path, fileName);
+				if(!targetFile.exists()){
+					targetFile.mkdirs(); 
+				}
+				//±£´æ  
+				try {
+					imgfile.transferTo(targetFile);  
+					productSeries.setImg(imgUrl);
+				} catch (Exception e) {  
+					e.printStackTrace();  
+				} 
+			}
+		}
+		if(null == productSeries.getId()){
+			spProductSeriesService.insertSpProductSeries(productSeries);
+		}else{
+			spProductSeriesService.updateSpProductSeries(productSeries);
+		}
+		return searchProductSeries(null);
+	}
+	
+	@RequestMapping("searchProductSeries.do")
+	public ModelAndView searchProductSeries(SpProductSeries productSeries) {
+		ModelAndView model = new ModelAndView("Product/searchProductSeries");
+		List<SpProductSeries> spss = null;
+		if(null == productSeries || productSeries.getSeriesName() == null || "".equals(productSeries.getSeriesName())){
+			spss = spProductSeriesService.selectAll();
+		}else{
+			spss = spProductSeriesService.selectBySeriesName(productSeries.getSeriesName());
+		}
+		model.addObject("productSeries", spss);
+		return model;
+	}
+	
 	
 }

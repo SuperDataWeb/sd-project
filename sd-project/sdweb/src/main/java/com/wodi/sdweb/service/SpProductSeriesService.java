@@ -30,6 +30,12 @@ public interface SpProductSeriesService {
 	public void insertSpProductSeries(SpProductSeries productSeries);
 	
 	/**
+	 * 更新产品系列
+	 * @param productSeries
+	 */
+	public void updateSpProductSeries(SpProductSeries productSeries);
+	
+	/**
 	 * 查询所有产品系列
 	 * @return
 	 */
@@ -65,4 +71,18 @@ public interface SpProductSeriesService {
 	 */
 	
 	public SpProductSeries selectProductDownLoadBySeriesId(Long seriesId);
+	
+	
+	/**
+	 * 删除产品系列
+	 * @param productSeries
+	 */
+	public void deleteSpProductSeries(SpProductSeries productSeries);
+
+	/**
+	 * 根据seriesName查询出产品系列
+	 * @param seriesName
+	 * @return
+	 */
+	public List<SpProductSeries> selectBySeriesName(String seriesName);
 }

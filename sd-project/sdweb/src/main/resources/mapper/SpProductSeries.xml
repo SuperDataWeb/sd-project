@@ -32,6 +32,29 @@
         FROM SP_PRODUCT_SERIES  limit  #{startIndex}, #{pageSize}
          ]]>
 	</select>
+	
+	<update id="update" parameterType="SpProductSeries">
+		<![CDATA[ UPDATE SP_PRODUCT_SERIES SET updated = now() ]]>
+		<if test="seriesName != null">
+				<![CDATA[, series_name = #{seriesName}]]>
+		</if>
+		<if test="alias != null">
+				<![CDATA[, alias = #{alias}]]>
+		</if>
+		<if test="simpleDesc != null">
+				<![CDATA[, simple_desc = #{simpleDesc}]]>
+		</if>
+		<if test="description != null">
+				<![CDATA[, description = #{description}]]>
+		</if>
+		<if test="img != null">
+				<![CDATA[, img = #{img}]]>
+		</if>
+		<if test="status != null">
+				<![CDATA[, status = #{status}]]>
+		</if>
+		<![CDATA[ WHERE 1 = 1 AND id = #{id} ]]>
+	</update>
 
 	<select id="selectAll" resultMap="spProductSeriesMap">    
         select
@@ -46,6 +69,19 @@
         <include refid="productSeriesFields"/>
         <![CDATA[    
         FROM SP_PRODUCT_SERIES where id = #{seriesId}
+         ]]>
+	</select>
+	
+	<delete id="delete" parameterType="SpProductSeries">
+	     delete from SP_PRODUCT_SERIES
+	     <![CDATA[ where id = #{id} ]]>
+	</delete>
+	
+	<select id="selectBySeriesName" resultMap="spProductSeriesMap">
+		select
+		<include refid="productSeriesFields" />
+         <![CDATA[ 
+             FROM SP_PRODUCT_SERIES where series_name like CONCAT('%', #{seriesName}, '%')
          ]]>
 	</select>
 

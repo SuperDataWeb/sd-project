@@ -88,4 +88,20 @@ public class SpProductSeriesServiceImpl implements SpProductSeriesService {
 		return spProductSeriesDao.selectBySeriesId(seriesId);
 	}
 
+	@Override
+	public void deleteSpProductSeries(SpProductSeries productSeries) {
+		spProductSeriesDao.delete(productSeries);
+		
+	}
+
+	@Override
+	public void updateSpProductSeries(SpProductSeries productSeries) {
+		spProductSeriesDao.update(productSeries);
+	}
+
+	@Override
+	public List<SpProductSeries> selectBySeriesName(String seriesName) {
+		return spProductSeriesDao.selectBySeriesName(seriesName);
+	}
+
 }
