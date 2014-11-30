@@ -74,7 +74,7 @@
 														<p>
 															&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;&nbsp;
 																联系方式：</strong><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-															购买咨询：&nbsp;400-034-3668<br />
+															购买咨询：&nbsp;400-082-8868<br />
 															&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技术服务：
 															020-&nbsp;85279086（为确保服务质量，接通后请先报服务号）<br /> <br />
 															&nbsp; <img alt=""

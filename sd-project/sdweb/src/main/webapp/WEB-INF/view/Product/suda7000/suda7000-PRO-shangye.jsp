@@ -126,7 +126,7 @@
 					</p>
 					<p style="text-align: left">
 						<img alt="" height="495"
-							src="http://www.buyerp.cn/images/upload/Image/閲囪喘绠＄悊.jpg"
+							src="suda/templets/new/images/upload/Image/cangkuguanli.jpg"
 							width="720" />
 					</p>
 					<p style="text-align: left">
@@ -155,7 +155,7 @@
 						<span
 							style="text-transform: none; background-color: rgb(247, 247, 247); text-indent: 0px; letter-spacing: normal; display: inline !important; font: 12px/22px 宋体; white-space: normal; float: none; color: rgb(102, 102, 102); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><img
 							alt="" height="493"
-							src="http://www.buyerp.cn/images/upload/Image/xiaoshou.jpg"
+							src="suda/templets/new/images/upload/Image/xiaoshou.jpg"
 							width="720" /></span>
 					</p>
 					<p style="text-align: left">
@@ -194,7 +194,7 @@
 						<span
 							style="text-transform: none; background-color: rgb(247, 247, 247); text-indent: 0px; letter-spacing: normal; display: inline !important; font: 12px/22px 宋体; white-space: normal; float: none; color: rgb(102, 102, 102); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><img
 							alt="" height="494"
-							src="http://www.buyerp.cn/images/upload/Image/浠撳簱绠＄悊.jpg"
+							src="suda/templets/new/images/upload/Image/caigouguanli.jpg"
 							width="720" /></span>
 					</p>
 					<p style="text-align: left">
@@ -233,7 +233,7 @@
 						<span
 							style="text-transform: none; background-color: rgb(247, 247, 247); text-indent: 0px; letter-spacing: normal; display: inline !important; font: 12px/22px 宋体; white-space: normal; float: none; color: rgb(102, 102, 102); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><img
 							alt="" height="492"
-							src="http://www.buyerp.cn/images/upload/Image/POS8.jpg"
+							src="suda/templets/new/images/upload/Image/POS8.jpg"
 							width="720" /></span>
 					</p>
 					<p style="text-align: left">
@@ -264,7 +264,7 @@
 						<span
 							style="text-transform: none; background-color: rgb(247, 247, 247); text-indent: 0px; letter-spacing: normal; display: inline !important; font: 12px/22px 宋体; white-space: normal; float: none; color: rgb(102, 102, 102); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><img
 							alt="" height="496"
-							src="http://www.buyerp.cn/images/upload/Image/yingshouyingfu01.jpg"
+							src="suda/templets/new/images/upload/Image/yingshouyingfu01.jpg"
 							width="720" /></span>
 					</p>
 					<p style="text-align: left">
@@ -294,7 +294,7 @@
 						<span
 							style="text-transform: none; background-color: rgb(247, 247, 247); text-indent: 0px; letter-spacing: normal; display: inline !important; font: 12px/22px 宋体; white-space: normal; float: none; color: rgb(102, 102, 102); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><img
 							alt="" height="496"
-							src="http://www.buyerp.cn/images/upload/Image/xianjinyinhang01.jpg"
+							src="suda/templets/new/images/upload/Image/xianjinyinhang01.jpg"
 							width="720" /></span>
 					</p>
 					<p style="text-align: left">
@@ -324,7 +324,7 @@
 							style="text-align: left; text-transform: none; background-color: rgb(255, 255, 255); text-indent: 0px; letter-spacing: normal; font: 9pt/24px 宋体; white-space: normal; color: rgb(98, 98, 98); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><span
 							style="text-transform: none; background-color: rgb(247, 247, 247); text-indent: 0px; letter-spacing: normal; display: inline !important; font: 12px/22px 宋体; white-space: normal; float: none; color: rgb(102, 102, 102); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><img
 								alt="" height="491"
-								src="http://www.buyerp.cn/images/upload/Image/zhangwuxitong01.jpg"
+								src="suda/templets/new/images/upload/Image/zhangwuxitong01.jpg"
 								width="720" /></span></span>
 					</p>
 					<p style="text-align: left">
@@ -366,7 +366,7 @@
 							style="text-transform: none; background-color: rgb(247, 247, 247); text-indent: 0px; letter-spacing: normal; display: inline !important; font: 12px/22px 宋体; white-space: normal; float: none; color: rgb(102, 102, 102); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><span
 								style="text-transform: none; background-color: rgb(247, 247, 247); text-indent: 0px; letter-spacing: normal; display: inline !important; font: 12px/22px 宋体; white-space: normal; float: none; color: rgb(102, 102, 102); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><img
 									alt="" height="497"
-									src="http://www.buyerp.cn/images/upload/Image/chunaxitong01.jpg"
+									src="suda/templets/new/images/upload/Image/chunaxitong01.jpg"
 									width="720" /></span></span></span>
 					</p>
 					<p style="text-align: left">
@@ -401,7 +401,7 @@
 						<span
 							style="text-transform: none; background-color: rgb(247, 247, 247); text-indent: 0px; letter-spacing: normal; display: inline !important; font: 12px/22px 宋体; white-space: normal; float: none; color: rgb(102, 102, 102); word-spacing: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px"><img
 							alt="" height="494"
-							src="http://www.buyerp.cn/images/upload/Image/gudingzichan01.jpg"
+							src="suda/templets/new/images/upload/Image/gudingzichan01.jpg"
 							width="720" /></span>
 					</p>
 					<p style="text-align: left">
@@ -437,7 +437,7 @@
 						<span><span><b><span
 									style="font-family: 宋体; color: rgb(98, 98, 98); font-size: 9pt"><img
 										alt="" height="497"
-										src="http://www.buyerp.cn/images/upload/Image/gongzixitong01.jpg"
+										src="suda/templets/new/images/upload/Image/gongzixitong01.jpg"
 										width="720" /></span></b></span></span>
 					</p>
 					<div align="left"
@@ -467,7 +467,7 @@
 						<p
 							style="text-align: left; padding-bottom: 0px; margin: 1.12em 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px">
 							<img alt="" height="495"
-								src="http://www.buyerp.cn/images/upload/Image/yusuanguanli01.jpg"
+								src="suda/templets/new/images/upload/Image/yusuanguanli01.jpg"
 								width="720" />
 						</p>
 					</div>
@@ -483,7 +483,7 @@
 					<p
 						style="text-align: left; padding-bottom: 0px; text-transform: none; background-color: white; text-indent: 0px; margin: 1.12em 0px; padding-left: 0px; letter-spacing: normal; padding-right: 0px; font: 14px/18pt tahoma, arial, 宋体, sans-serif; white-space: normal; color: rgb(0, 0, 0); word-spacing: 0px; padding-top: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px">
 						<img alt="" height="496"
-							src="http://www.buyerp.cn/images/upload/Image/hebinbaobiao01.jpg"
+							src="suda/templets/new/images/upload/Image/hebinbaobiao01.jpg"
 							width="720" />
 					</p>
 					<p
@@ -515,7 +515,7 @@
 					<p
 						style="text-align: left; padding-bottom: 0px; margin: 1.12em 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px">
 						<img alt="" height="492"
-							src="http://www.buyerp.cn/images/upload/Image/peisongzhongxin01(1).jpg"
+							src="suda/templets/new/images/upload/Image/peisongzhongxin01(1).jpg"
 							width="720" />
 					</p>
 					<p
@@ -539,7 +539,7 @@
 					<p
 						style="text-align: left; padding-bottom: 0px; text-transform: none; background-color: white; text-indent: 0px; margin: 1.12em 0px; padding-left: 0px; letter-spacing: normal; padding-right: 0px; font: 14px/18pt tahoma, arial, 宋体, sans-serif; white-space: normal; color: rgb(0, 0, 0); word-spacing: 0px; padding-top: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px">
 						<img alt="" height="497"
-							src="http://www.buyerp.cn/images/upload/Image/crm01(1).jpg"
+							src="suda/templets/new/images/upload/Image/crm01(1).jpg"
 							width="720" />
 					</p>
 					<p
@@ -562,7 +562,7 @@
 						<span><span><b><span
 									style="font-family: 宋体; color: rgb(98, 98, 98); font-size: 9pt"><img
 										alt="" height="493"
-										src="http://www.buyerp.cn/images/upload/Image/bangongguanli01(1).jpg"
+										src="suda/templets/new/images/upload/Image/bangongguanli01(1).jpg"
 										width="720" /></span></b></span></span>
 					</p>
 					<p
@@ -581,7 +581,7 @@
 						<p
 							style="text-align: left; padding-bottom: 0px; margin: 1.12em 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px">
 							<img alt="" height="491"
-								src="http://www.buyerp.cn/images/upload/Image/richanggongzuo01(1).jpg"
+								src="suda/templets/new/images/upload/Image/richanggongzuo01(1).jpg"
 								width="720" />
 						</p>
 					</div>
@@ -600,7 +600,7 @@
 						<p
 							style="text-align: left; padding-bottom: 0px; margin: 1.12em 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px">
 							<img alt="" height="493"
-								src="http://www.buyerp.cn/images/upload/Image/hr01(1).jpg"
+								src="suda/templets/new/images/upload/Image/hr01(1).jpg"
 								width="720" />
 						</p>
 					</div>
@@ -623,7 +623,7 @@
 					<p
 						style="text-align: left; padding-bottom: 0px; margin: 1.12em 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px">
 						<img alt="" height="495"
-							src="http://www.buyerp.cn/images/upload/Image/shouhoufuwu01(1).jpg"
+							src="suda/templets/new/images/upload/Image/shouhoufuwu01(1).jpg"
 							width="720" />
 					</p>
 					<p
@@ -650,7 +650,7 @@
 								style="font-family: 宋体; color: rgb(98, 98, 98); font-size: 9pt"><b><span
 										style="font-family: 宋体; color: rgb(98, 98, 98); font-size: 9pt"><img
 											alt="" height="495"
-											src="http://www.buyerp.cn/images/upload/Image/fenxiaoguanli01(1).jpg"
+											src="suda/templets/new/images/upload/Image/fenxiaoguanli01(1).jpg"
 											width="720" /></span></b></span></span></span>
 					</p>
 					<p style="text-align: left">&nbsp;</p>

@@ -80,7 +80,7 @@
                   <tr>
                     <td height="25" valign="top">
 					  <div class="ServiceC">
-	&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;为更好地满足客户需求，速达公司不断对产品技术进行创新。面对全国120多万速达软件用户，我们真诚的希望为每一位用户提供优质的软件增值服务，最新产品版本的<a href="http://www.buyerp.cn/suda">速达软件</a>，不但增强了软件的应用功能，还采用了业界领先的加密技术，通过产品升级，将使您的软件产品更加高效，降低企业的运营成本。速达软件产品升级将涉及到以下内容：<br />
+	&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;为更好地满足客户需求，速达公司不断对产品技术进行创新。面对全国120多万速达软件用户，我们真诚的希望为每一位用户提供优质的软件增值服务，最新产品版本的<a href="http://www.4000828868.com/suda">速达软件</a>，不但增强了软件的应用功能，还采用了业界领先的加密技术，通过产品升级，将使您的软件产品更加高效，降低企业的运营成本。速达软件产品升级将涉及到以下内容：<br />
 	&nbsp;</div>
 <div style="padding-left: 30px">
 	<ul class="ser_mmfont" style="list-style-image: url(imageget.ashx?/images/tu33.gif)">

@@ -91,7 +91,7 @@ function doValidate() {
                   <tr>
                     <td height="25" valign="top">
 					  <p>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 感谢您对<a href="http://www.buyerp.cn/suda">速达软件</a>的支持，请您填写培训信息，我们会尽快与您联系。<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 感谢您对<a href="http://www.4000828868.com/suda">速达软件</a>的支持，请您填写培训信息，我们会尽快与您联系。<br />
 	&nbsp;&nbsp;<br />
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1、请注明您需要培训的产品及应用模块；<br />
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、请注明您需培训的内容及培训时间；</p>

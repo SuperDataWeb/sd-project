@@ -51,15 +51,15 @@
                   </tr>
                   <tr>
                     <td width="45%" height="19" align="right" style="padding-top:8px"><strong> 销售热线</strong>：</td>
-                    <td width="55%" style="padding-top:8px">400-034-3668</td>
+                    <td width="55%" style="padding-top:8px">400-082-8868</td>
                   </tr>
                   <tr>
                     <td height="19" align="right"><span style="padding-top:8px"><strong>服务热线</strong>：</span></td>
-                    <td height="20">020-85279086</td>
+                    <td height="20">020-85589743</td>
                   </tr>
                   <tr>
                     <td height="19" align="right"><strong>维护专线</strong>：</td>
-                    <td height="20">020-85279086</td>
+                    <td height="20">020-85589743</td>
                   </tr>
                   <tr>
                     <td height="19" align="right"><span class="tel_kd_1"><strong>VIP热线</strong></span>：</td>
@@ -228,7 +228,7 @@
                           </td>
                           <td valign="top" style="padding-top:8px; padding-bottom:6px">&nbsp;
                               <font color="#009900">
-								速达3000G-ASP已经退市啦，我们公司销售的都是速达最新版本的产品，建议您可以考虑速达3000系列或速达V3系列，您也可以直接给我们电话：400-034-3668，说明您的管理需求，我们推荐适合的产品给您。                              </font>
+								速达3000G-ASP已经退市啦，我们公司销售的都是速达最新版本的产品，建议您可以考虑速达3000系列或速达V3系列，您也可以直接给我们电话：400-082-8868，说明您的管理需求，我们推荐适合的产品给您。                              </font>
                           </td>
                         </tr>
                       </table></td>

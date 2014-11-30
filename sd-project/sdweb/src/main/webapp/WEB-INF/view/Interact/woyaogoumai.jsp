@@ -78,7 +78,7 @@
                   <tr>
                     <td height="25" valign="top">
 					  <p>
-	　&nbsp;&nbsp;&nbsp;<a href="http://www.buyerp.cn/suda"> <strong>速达软件</strong></a>是集进销存、生产、财务、POS、CRM为一体的化企业信息<strong>管理软件</strong>，目前推出速达G系列、速达V系列、速达V+.net系列、速达财务、速达行业管理软件等系列产品。</p>
+	　&nbsp;&nbsp;&nbsp;<a href="http://www.4000828868.com/suda"> <strong>速达软件</strong></a>是集进销存、生产、财务、POS、CRM为一体的化企业信息<strong>管理软件</strong>，目前推出速达G系列、速达V系列、速达V+.net系列、速达财务、速达行业管理软件等系列产品。</p>
 <p>
 	　　速达软件界面简洁，功能完善，易学易用，系统支持C/S、B/S、移动应用混合应用模式。能灵活迅速的为企业构建一套随需应变的企业管理系统，有效帮助企业处理日常经营管理业务，协调业务流转过程，为您的企业创造更大价值！</p>
 <p>

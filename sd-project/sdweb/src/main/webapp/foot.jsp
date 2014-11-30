@@ -30,7 +30,7 @@ message = request("message")
         <td width="968" align="center" bgcolor="#FAFAFA">
 		<dd id="flink_[field:id/]">
 			<ul class="f5">
-				<li><a href='http://www.buyerp.cn' target='_blank'>管理软件商城</a> </li>
+				<li><a href='http://www.4000828868.com' target='_blank'>管理软件商城</a> </li>
 				<li><a href='index.do' target='_blank'>广州速达软件</a> </li>
 				<li><a href='index.do' target='_blank'>深圳速达软件</a> </li>
 				<li><a href='index.do' target='_blank'>佛山速达软件</a> </li>

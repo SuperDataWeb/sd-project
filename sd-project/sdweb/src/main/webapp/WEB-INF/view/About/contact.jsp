@@ -65,8 +65,8 @@
 															坚持、专注是我们的一贯宗旨。<span style="display: none">Lnu广西速达软件销售服务中心</span><br />
 															<br />
 															沃迪软件为企业提供：售前咨询、产品选型、解决方案、软件实施、服务支持等专业服务，为企业提供最专业的管理软件选购平台。帮助企业选用最适合自身管理需求的软件，从而让企业用对管理软件、用好管理软件。<br />
-															<br /> <strong>咨询热线：</strong>400-034-3668<br /> <br />
-															<strong>维护专线：</strong>020-85279086&nbsp;
+															<br /> <strong>咨询热线：</strong>400-082-8868<br /> <br />
+															<strong>维护专线：</strong>020-85589743&nbsp;
 															（为确保服务质量，电话接通后请先报知服务号）<br /> <br /> <img alt=""
 																src="suda/templets/new/images/qq/2(12).jpg"
 																style="width: 748px; height: 218px" />
@@ -149,7 +149,7 @@
 															//标注点数组
 															var markerArr = [ {
 																title : "广州市沃迪信息科技有限公司",
-																content : "联系电话：400-034-3668<br/>维护专线：020-85279086<br/>网址：www.buyerp.cn",
+																content : "联系电话：400-082-8868<br/>维护专线：020-85589743<br/>网址：www.4000828868.cn",
 																point : "113.320032|23.021814",
 																isOpen : 1,
 																icon : {

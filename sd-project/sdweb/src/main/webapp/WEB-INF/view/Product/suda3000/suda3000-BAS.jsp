@@ -131,19 +131,19 @@
 					<p>
 						<strong>核心功能</strong>:<br /> <br /> <strong>销售订单管理：</strong>直接开单及Excel导入生成销售开单、销售订单直接发送邮件、销售订单转入采购订单、超期订单提醒、中止订单<br />
 						<strong>销售开单管理：</strong>直接开单及根据销售订单生成销售开单、现款销售管理、整单折扣及单品折扣、销售开单直接发邮件、应收账款超期提醒、库存上下限提醒、销售最低价提醒、销售员业绩管理、销售员敏感数据保护、客户信誉额度控制、<a
-							href="http://www.buyerp.cn">超期应收款客户控制</a>、零库存开单控制、收款、退货流程查看<br />
+							href="http://www.4000828868.com">超期应收款客户控制</a>、零库存开单控制、收款、退货流程查看<br />
 						<strong>销售收款管理：</strong>多种收款类型、多种收款方式、整单收款及部份收款、总部对分支机构客户收款、销售收款直接发邮件<br />
 						<strong>销售退货管理：</strong>退还现款、冲抵往来、退货数量、金额不符提醒、销售退货直接发送邮件、查看收款流程<br />
 						<br /> <strong>核心报表：（部分）</strong><br />
 						客户销售汇总表、客户销售明细表、商品销售汇总表、商品销售明细表、应收账款汇总表、仓库销售汇总表<br />
 						业务员销售汇总表、业务员销售明细表、销售毛利汇总表、销售毛利明细表、地区销售汇总表<br /> <br /> <br /> <strong>POS</strong><strong>零售管理（后台）</strong><br />
-						<br /> <a href="http://www.buyerp.cn"><img alt=""
+						<br /> <a href="http://www.4000828868.com"><img alt=""
 							src="suda/uploads/allimg/140715/9-140G5111U3352.jpg"
 							style="width: 720px; height: 484px" /></a><br /> <br /> <strong>核心功能</strong>:<br />
 						<br /> POS销售单管理、POS出入款单管理、POS日结、POS日结单、POS机品设置及管理<br />
 						会员积分规则设置、会员积分调整、会员积分返现、兑换奖品<br /> <br /> <strong>核心报表：（部分）</strong><br />
 						POS收银员收银汇总表、POS收银员收银明细表、POS销售汇总表、POS收银员销售明细表<br />
-						POS货品销售明细表、POS流水账、<a href="http://www.buyerp.cn">POS收银员交款汇总表</a>、POS收银员交款明细表<br />
+						POS货品销售明细表、POS流水账、<a href="http://www.4000828868.com">POS收银员交款汇总表</a>、POS收银员交款明细表<br />
 						<br /> <strong>POS零售管理（前台）</strong><br /> <br /> <br /> <img
 							alt="" src="suda/uploads/allimg/140715/9-140G51120595F.jpg"
 							style="width: 720px; height: 390px" /><br /> <br /> <strong>核心功能</strong>:<br />

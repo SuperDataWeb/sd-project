@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
 <title>速达软件(广州)直销中心-官方授权,专业服务！速达软件,速达3000,速达官网,速达软件官网,广州速达软件,速达5000,速达7000</title>
-<meta name="description" content="广州速达软件销售服务中心欢迎您！速达软件多年成功实施经验、完善的售后服务体系，为您提供专业企业管理软件、ERP系统解决方案！咨询：400-034-3668" />
+<meta name="description" content="广州速达软件销售服务中心欢迎您！速达软件多年成功实施经验、完善的售后服务体系，为您提供专业企业管理软件、ERP系统解决方案！咨询：400-082-8868" />
 <meta name="keywords" content="广州速达软件,速达官网,速达财务软件,速达软件官网,速达3000,速达3000单机版,速达5000 " />
 <link href="suda/templets/new/css/index.css" rel="stylesheet" type="text/css" />
 <link href="suda/templets/new/css/style.css" rel="stylesheet" type="text/css" />

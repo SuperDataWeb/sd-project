@@ -69,14 +69,14 @@ message = request("message")
 											height="50" />
 									</p></td>
 								<td width="72%" align="left" valign="middle" class="tab_hg">
-									广州速达软件销售服务中心欢迎您！速达软件多年成功实施经验、完善的售后服务体系，为您提供专业企业管理软件、ERP系统解决方案！咨询：400-034-3668&nbsp;&nbsp;<a
+									广州速达软件销售服务中心欢迎您！速达软件多年成功实施经验、完善的售后服务体系，为您提供专业企业管理软件、ERP系统解决方案！咨询：400-082-8868&nbsp;&nbsp;<a
 									href="这里会跳"><font color="#0000FF">详细>></font></a>
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td height="6"></td>
 										</tr>
-									</table> <font color="#C94200">销售热线</font>：400-034-3668
-									&nbsp;&nbsp;&nbsp; <font color="#C94200">维护专线</font>：020-85279086
+									</table> <font color="#C94200">销售热线</font>：400-082-8868
+									&nbsp;&nbsp;&nbsp; <font color="#C94200">维护专线</font>：020-85589743
 									<br /> <font color="#C94200">VIP 热线</font>：18620607677
 									18127974810&nbsp;&nbsp;<font color="#C94200">客服ＱＱ</font>：1924432730&nbsp;
 									12361918
