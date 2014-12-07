@@ -254,7 +254,7 @@ public class ProductController {
 		if(null != imgfile){
 			String fileName = imgfile.getOriginalFilename();
 			if(null != fileName && !"".equals(fileName.trim())){
-				String uploadDir = "suda/templets/new/images/";
+				String uploadDir = "uploads/img/";
 				String path = request.getSession().getServletContext().getRealPath(uploadDir);
 				String imgUrl = uploadDir + fileName;
 				File targetFile = new File(path, fileName);
@@ -273,13 +273,14 @@ public class ProductController {
 		if(null != urlfile){
 			String fileName = urlfile.getOriginalFilename();
 			if(null != fileName && !"".equals(fileName.trim())){
-				String uploadDir = "WEB-INF/view/Product/suda/";
+				String uploadDir = "/uploads/jsp/";
 				String path = request.getSession().getServletContext().getRealPath(uploadDir);
-				String detailUrl = "suda/" + fileName;
+				String detailUrl = uploadDir + fileName;
 				File targetFile = new File(path, fileName);
 				if(!targetFile.exists()){
 					targetFile.mkdirs(); 
 				}
+				
 				//±£´æ  
 				try {
 					urlfile.transferTo(targetFile);  
@@ -342,7 +343,7 @@ public class ProductController {
 		if(null != imgfile){
 			String fileName = imgfile.getOriginalFilename();
 			if(null != fileName && !"".equals(fileName.trim())){
-				String uploadDir = "suda/templets/new/images/";
+				String uploadDir = "uploads/img/";
 				String path = request.getSession().getServletContext().getRealPath(uploadDir);
 				String imgUrl = uploadDir + fileName;
 				File targetFile = new File(path, fileName);
