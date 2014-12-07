@@ -40,7 +40,7 @@
 										<td bgcolor='ffffff' colspan="1"></td>
 										<td bgcolor='ffffff'><input type="submit" onclick="" value=' 提交 '></input>
                                          <input type="reset" value=" 重置 "></input>
-                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="newProductSeries.do"><input type="button" value="新增产品系列"></input></a>
+                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input onclick="window.location='newProductSeries.do'"  type="button" value="新增产品系列"></input>
                                          </td>
 									</tr>
 								</form>
