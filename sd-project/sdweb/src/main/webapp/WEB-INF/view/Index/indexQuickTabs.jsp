@@ -20,8 +20,8 @@ message = request("message")
 </head>
 <BODY type="leaveMessage">
     <a href="xiaZaiShiYong.do"><img src="suda/templets/new/images/On_03.jpg"  width="272" height="56" border="0"></a>
-    <a href="interact.do"  target="_blank"><img src="suda/templets/new/images/On_02.jpg"  width="272" height="56" border="0"></a>
-    <a href="这里会跳"  target="_blank"><img src="suda/templets/new/images/On_01.jpg"  width="272" height="55" border="0"></a>
-    <a href="这里会跳"  target="_blank"><img src="suda/templets/new/images/On_04.jpg"  width="272" height="55" border="0"></a>
+    <a href="interact.do"><img src="suda/templets/new/images/On_02.jpg"  width="272" height="56" border="0"></a>
+    <a href="http://www.5cedu.cn/index.html" target="_blank"><img src="suda/templets/new/images/On_01.jpg"  width="272" height="55" border="0"></a>
+    <a href="http://download.superdata.com.cn" target="_blank"><img src="suda/templets/new/images/On_04.jpg"  width="272" height="55" border="0"></a>
 </BODY>
 </HTML>

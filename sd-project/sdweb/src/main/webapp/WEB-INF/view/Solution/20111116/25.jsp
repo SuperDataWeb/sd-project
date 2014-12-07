@@ -43,7 +43,7 @@
               <table width="100%" border="0" cellpadding="0" cellspacing="0">
                 <tbody><tr>
                   <td height="26" align="center" bgcolor="#E7F1E8">作者：<a href="index.htm">广州速达</a>&nbsp; &nbsp;来源：速达官网 &nbsp; &nbsp;时间2012-02-05&nbsp; &nbsp;阅读：
-                   <script src="/suda/plus/count.php?view=yes&amp;aid=25&amp;mid=1" type="text/javascript" language="javascript"></script>185 次</td>
+                   185 次</td>
                 </tr>
               </tbody></table>
             <table width="100%" border="0" cellpadding="0" cellspacing="0">

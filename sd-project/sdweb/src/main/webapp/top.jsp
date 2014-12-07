@@ -127,7 +127,7 @@ message = request("message")
 								</li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
-									<a href="这里会跳" class="menu_1" id='Menu_21'
+									<a href="xinXiFanKui.do" class="menu_1" id='Menu_21'
 									target='_self' rel='dropmenu45'>自助服务</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>
@@ -136,8 +136,8 @@ message = request("message")
 								</li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
-									<a href="这里会跳" class="menu_1" id='Menu_21'
-									target='_self'>公开课</a> <!--
+									<a href="http://www.5cedu.cn/index.html" class="menu_1" id='Menu_21'
+									target='_blank'>公开课</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>
 	                </ul>
@@ -145,8 +145,8 @@ message = request("message")
 								</li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
-									<a href="pageProductDownload.do" class="menu_1"
-									id='Menu_21' target='_self' rel='dropmenu36'>下载中心</a> <!--
+									<a href="http://download.superdata.com.cn/" class="menu_1"
+									id='Menu_21' target='_blank' rel='dropmenu36'>下载中心</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>
 	                </ul>

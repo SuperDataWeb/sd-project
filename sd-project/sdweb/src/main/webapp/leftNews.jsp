@@ -1,7 +1,5 @@
-<%@ page language="java" pageEncoding="GBK"%>
 <%--
-message = request("message")
---%>
+<%@ page language="java" pageEncoding="GBK"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <!-- saved from url=(0157)http://chat10.live800.com/live800/chatClient/chatbox.jsp -->
 <HTML xmlns="http://www.w3.org/1999/xhtml">
@@ -82,3 +80,4 @@ message = request("message")
 	</table>
 </BODY>
 </HTML>
+ --%>
