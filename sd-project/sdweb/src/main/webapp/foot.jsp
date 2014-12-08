@@ -103,7 +103,7 @@ message = request("message")
 						 -->
 						备案/许可证编号：<a
 						href="javascript:if(confirm('http://www.miibeian.gov.cn/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.miibeian.gov.cn/'"
-						target="_blank">粤ICP备13080589号-1</a></span> <br />
+						target="_blank">粤ICP备1205903号-1</a></span> <br />
 				<br /></td>
 			</tr>
 		</tbody>
@@ -113,21 +113,20 @@ message = request("message")
  
 <!--Qq-->
 	<script src="suda/templets/new/js/QQ.js"></script>
-    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=961235426&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+	<!-- 
 	<a target="_blank" href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=2692835&type=n&siteid=1272542"><img src='suda/templets/new/images/qq/bbbbe.jpg' border="0"></a> 
+	 -->
 	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=12361918&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq2.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
-	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=12361918&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq2.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
-</div>
-</div>
+	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=961534047&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq2.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
 <div id='divMenu' onclick='OnlineOver();'  ><img src='suda/templets/new/images/qq/arrow_left.gif' class='press' alt='在线客服，点击咨询'></div>
-</div>	
 <!--/Qq-->
- 
-<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F4e9275315db365e8bfde1fe0e12128f9' type='text/javascript'%3E%3C/script%3E")) </script>
+
     <!-- /footer -->
 <script language="javascript"> 
 	function sdlc(){
-		window.open ('http://sighttp.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes','LiveChat','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no')
+		window.open ('http://sighttp.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes','LiveChat','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no')
 	}
 </script>
     

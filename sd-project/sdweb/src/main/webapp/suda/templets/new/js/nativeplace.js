@@ -1,4 +1,3 @@
-<!--
 em_nativeplaces=new Array();
 em_nativeplaces[1000]='北京市';
 em_nativeplaces[1001]='东城区';
@@ -3226,4 +3225,3 @@ em_nativeplaces[16015.003]='图木舒克市';
 em_nativeplaces[16500]='台湾省';
 em_nativeplaces[17000]='香港特别行政区';
 em_nativeplaces[17500]='澳门特别行政区';
--->
