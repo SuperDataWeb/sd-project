@@ -145,7 +145,7 @@ message = request("message")
 								</li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
-									<a href="http://download.superdata.com.cn/" class="menu_1"
+									<a href="xiaZaiShiYong.do" class="menu_1"
 									id='Menu_21' target='_blank' rel='dropmenu36'>下载中心</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>
@@ -181,5 +181,6 @@ body {
 	-moz-user-select: none;
 }
 </style>
+
 </BODY>
 </HTML>

@@ -32,6 +32,7 @@
 			$("#contentFrame").html(data);
 		});
   	}
+  	
 </script>
 
 <SCRIPT type=text/javascript src="<%= request.getContextPath()%>/js/index_files/jquery-1.3.2.min.js"></SCRIPT>
@@ -128,5 +129,6 @@
 
 		</div>
 	</div>
+	
 </BODY>
 </HTML>

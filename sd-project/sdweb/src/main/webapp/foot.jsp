@@ -123,6 +123,10 @@ message = request("message")
 <div id='divMenu' onclick='OnlineOver();'  ><img src='suda/templets/new/images/qq/arrow_left.gif' class='press' alt='在线客服，点击咨询'></div>
 <!--/Qq-->
 
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%217272' type='text/javascript'%3E%3C/script%3E")) </script>
+<!-- 
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F4e9275315db365e8bfde1fe0e12128f9' type='text/javascript'%3E%3C/script%3E")) </script>
+ -->
     <!-- /footer -->
 <script language="javascript"> 
 	function sdlc(){
