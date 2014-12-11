@@ -27,8 +27,10 @@ message = request("message")
 					style="BACKGROUND: url(suda/templets/new/images/Menu_Bg.gif) repeat-x left bottom; LINE-HEIGHT: 28px">
 					<ul class="Tab_menu">
 					   <c:forEach var="series" items="${productSeries}" varStatus="status">
-						<li id="tab_menu1_${status.index+1}" onmouseover="setTab1('tab_menu1_','tab_menu1_0_',${status.index+1},8)"><a
-							href="pageProductBySeries.do?seriesId=${series.id}">${series.alias }</a></li>
+					     <c:if test="${status.index lt 7}">
+							<li id="tab_menu1_${status.index+1}" onmouseover="setTab1('tab_menu1_','tab_menu1_0_',${status.index+1},8)"><a
+								href="pageProductBySeries.do?seriesId=${series.id}">${series.alias }</a></li>
+						 </c:if>		
 					   </c:forEach>
 					</ul>
 				</td>
