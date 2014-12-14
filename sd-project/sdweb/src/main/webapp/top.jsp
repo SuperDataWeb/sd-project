@@ -136,8 +136,8 @@ message = request("message")
 								</li>
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
-									<a href="http://www.5cedu.cn/index.html" class="menu_1" id='Menu_21'
-									target='_blank'>公开课</a> <!--
+									<a href="openClassInfo.do" class="menu_1" id='Menu_21'
+									target='_self'>公开课</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>
 	                </ul>
@@ -146,7 +146,7 @@ message = request("message")
 
 								<li class="menu_style_1" id="MainMenuItem" name="MainMenuItem">
 									<a href="xiaZaiShiYong.do" class="menu_1"
-									id='Menu_21' target='_blank' rel='dropmenu36'>下载中心</a> <!--
+									id='Menu_21' target='_self' rel='dropmenu36'>下载中心</a> <!--
 	                <ul id="nav" style="text-align:left;">
 	                	<li><a href="#" ><span style="font-size: 9pt">公司简介</span></a></li>
 	                </ul>

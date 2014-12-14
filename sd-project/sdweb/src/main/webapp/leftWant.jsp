@@ -15,6 +15,38 @@ message = request("message")
 <link href="suda/templets/new/css/lanmu.css" type="text/css" rel="stylesheet">
 <script src="suda/templets/new/js/menu.js" type="text/javascript"></script>
 <script src="suda/templets/new/js/common.js" language="javascript"></script>
+<script language="javascript">
+
+	function action() {
+		var opt = $("#selService").val();
+		alert(opt);
+		var url = '';
+		switch (parseInt(opt))
+		{
+		case 1:
+			url="interact.do";
+		 	break;
+		case 2:
+			url="woYaoPeiXun.do";
+		  	break;
+		case 3:
+			url="chanPinShengJi.do";
+		  	break;
+		case 4:
+			url="woYaoGouMai.do";
+		  	break;
+		case 6:
+			url="xinXiFanKui.do";
+		  	break;
+		case 8:
+			url="xiaZaiShiYong.do";
+		  	break;
+		}
+		alert(url);
+		window.location.href=url;
+	}
+
+</script>
 </head>
 <BODY type="leaveMessage">
 	<table class="tdbk_4" width="220" bgcolor="#E8F8E7" border="0"
@@ -32,17 +64,21 @@ message = request("message")
 							</tr>
 							<tr>
 								<td colspan="2" align="center"><select name="jumpMenu"
-									id="selService">
-										<option value="1">--我要体验--</option>
+									id="selService" >
+										<option value="1" selected="selected">--我要体验--</option>
 										<option value="2">--我要培训--</option>
 										<option value="3">--产品升级--</option>
 										<option value="4">--我要购买--</option>
+										<!-- 
 										<option value="5">--定制解决方案--</option>
+										 -->
 										<option value="6">--信息反馈--</option>
+										<!-- 
 										<option value="7">--预约服务--</option>
+										 -->
 										<option value="8">--下载试用--</option>
 								</select> &nbsp; <input name="go_button" id="go_button" value="提交"
-									onclick="这里会跳"
+									onclick="action()"
 									type="submit"></td>
 							</tr>
 						</tbody>
