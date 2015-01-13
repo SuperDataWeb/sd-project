@@ -103,7 +103,7 @@ message = request("message")
 						 -->
 						备案/许可证编号：<a
 						href="javascript:if(confirm('http://www.miibeian.gov.cn/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.miibeian.gov.cn/'"
-						target="_blank">粤ICP备1205903号-1</a></span> <br />
+						target="_blank">粤ICP备12059032号-1</a></span> <br />
 				<br /></td>
 			</tr>
 		</tbody>
