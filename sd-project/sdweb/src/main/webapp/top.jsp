@@ -31,7 +31,8 @@ message = request("message")
 			<td width="120">&nbsp;</td>
 			<td width="45"><img src="suda/templets/new/images/ind_tel.jpg"
 				width="36" height="51" /></td>
-			<td width="237"><span class="tel_hg">销售热线：400-082-8868<br />
+			<td width="237"><span class="tel_hg">销售热线1：400-082-8868<br />
+					销售热线2：020-85589742<br/>
 					维护专线：020-85589743<br />
 			</span>
 			<!-- 

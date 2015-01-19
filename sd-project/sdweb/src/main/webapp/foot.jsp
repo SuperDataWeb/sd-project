@@ -90,7 +90,7 @@ message = request("message")
 				</span><br /> 办公地址：广州市天河区五山路263号瑞华大厦南塔16B房  店面地址：广州市天河区天河路502号天河电脑城二楼258A<span class="STYLE6">
 						E_mail：4000828868@b.qq.com </span> <script language="javascript"
 						type="text/javascript" src="http://js.users.51.la/6020683.js"></script><br />
-					<span class="STYLE6">联系电话：<span class="STYLE13">400-082-8868</span>
+					<span class="STYLE6">联系电话：<span class="STYLE13">400-082-8868,020-85589742</span>
 						维护专线：<span class="STYLE13">020-85589743, 020-85589747</span> ＱＱ客服：<a
 						href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes">
 						<img src="suda/templets/new/images/qq.gif" alt="速达软件" width="23"
@@ -124,20 +124,9 @@ message = request("message")
 <!--/Qq-->
 
 <!-- 百度商桥 -->
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?ca59682dbc9267ddd01962270d42cc39";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); 
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0dbeadcbaea6a1e32eda84de6507f1cd' type='text/javascript'%3E%3C/script%3E")) </script>
 
-<!-- 
-<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%217272' type='text/javascript'%3E%3C/script%3E")) </script>
-<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F4e9275315db365e8bfde1fe0e12128f9' type='text/javascript'%3E%3C/script%3E")) </script>
- -->
     <!-- /footer -->
 <script language="javascript"> 
 	function sdlc(){

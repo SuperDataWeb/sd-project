@@ -45,8 +45,13 @@ message = request("message")
 							</tr>
 							<tr>
 								<td style="padding-top: 8px" height="19" width="45%"
-									align="right"><strong> 销售热线</strong>：</td>
+									align="right"><strong> 销售热线1</strong>：</td>
 								<td style="padding-top: 8px" width="55%">400-082-8868</td>
+							</tr>
+							<tr>
+								<td style="padding-top: 8px" height="19" width="45%"
+									align="right"><strong> 销售热线2</strong>：</td>
+								<td style="padding-top: 8px" width="55%">020-85589742</td>
 							</tr>
 							<tr>
 								<td height="19" align="right"><span
