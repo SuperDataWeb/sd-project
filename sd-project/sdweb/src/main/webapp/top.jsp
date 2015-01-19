@@ -43,7 +43,7 @@ message = request("message")
 					cellpadding="0">
 					<tr>
 						<td width="80" height="25" align="left"><a
-							href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes"><img
+							href="http://wpa.qq.com/msgrd?v=3&uin=1924432730&amp;site=qq&amp;menu=yes"><img
 								border="0" src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
 								title="速达软件咨询" /></a></td>
 					</tr>

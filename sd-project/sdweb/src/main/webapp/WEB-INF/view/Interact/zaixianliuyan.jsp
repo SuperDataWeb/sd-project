@@ -34,53 +34,6 @@
               <td height="8"></td>
             </tr>
           </table>
-          <table width="220" border="0" cellpadding="0" cellspacing="0" background="suda/templets/new/images/ind_ti_bg.jpg" >
-            <tr>
-              <td width="140"><img src="suda/templets/new/images/ind_lxwm.jpg"  width="143" height="33" /></td>
-              <td align="right">&nbsp;</td>
-              <td width="15" align="right"><img src="suda/templets/new/images/ind_dh_f.jpg"  width="9" height="33" /></td>
-            </tr>
-          </table>
-          <table width="220" border="0" cellpadding="0" cellspacing="0" class="bk">
-            <tr>
-              <td width="220" height="150" valign="top">
-              
-              <table width="97%" height="126" border="0" align="right" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td colspan="2"><img src="suda/templets/new/images/left_tel.jpg"  width="205" height="83" /></td>
-                  </tr>
-                  <tr>
-                    <td width="45%" height="19" align="right" style="padding-top:8px"><strong> 销售热线</strong>：</td>
-                    <td width="55%" style="padding-top:8px">400-082-8868</td>
-                  </tr>
-                  <tr>
-                    <td height="19" align="right"><span style="padding-top:8px"><strong>服务热线</strong>：</span></td>
-                    <td height="20">020-85589743</td>
-                  </tr>
-                  <tr>
-                    <td height="19" align="right"><strong>维护专线</strong>：</td>
-                    <td height="20">020-85589743</td>
-                  </tr>
-                  <tr>
-                    <td height="19" align="right"><span class="tel_kd_1"><strong>VIP热线</strong></span>：</td>
-                    <td height="20">18002288395</td>
-                  </tr>
-                  <tr>
-                    <td height="19" align="right"><span class="tel_kd_1"><strong>VIP热线</strong></span>：</td>
-                    <td height="20">15920456326</td>
-                  </tr>
-                  <tr>
-                    <td height="30" colspan="2" align="center"><a target="_blank" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'" ><img border="0" src="suda/templets/new/images/pa-p=2-159311190-1.gif"  alt="速达软件咨询" title="速达软件咨询" /></a>　
-					<a target="_blank" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1042642429&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1042642429&site=qq&menu=yes'" ><img border="0" src="suda/templets/new/images/pa-p=2-159311190-1.gif"  alt="速达软件咨询" title="速达软件咨询" /> </a>
-					</td>
-                  </tr>
-                  <tr>
-                    <td height="6" colspan="2"></td>
-                  </tr>
-                </table>
-                </td>
-            </tr>
-          </table>
           <table width="220" border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td width="220" height="8"></td>

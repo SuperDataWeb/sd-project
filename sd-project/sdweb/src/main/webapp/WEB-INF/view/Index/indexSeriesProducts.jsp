@@ -111,7 +111,7 @@ message = request("message")
 	                                    </c:forEach>
 	                                    </td>
 	                                    <td width="10" valign="middle">&nbsp;</td>
-	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1924432730&site=qq&menu=yes'" class="tab">在线咨询</a></td>
+	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes'" class="tab">在线咨询</a></td>
 	                                    <td width="10" valign="middle">&nbsp;</td>
 	                                    <td width="87" height="23" valign="middle" background="suda/templets/new/images/Btn_bg.gif" >　　<a href="woYaoGouMai.do"  target="_blank" class="tab">我要购买</a></td>
 	                                    <td width="10" valign="middle">&nbsp;</td>
