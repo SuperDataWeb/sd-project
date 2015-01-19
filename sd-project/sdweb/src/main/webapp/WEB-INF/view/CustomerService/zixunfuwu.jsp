@@ -76,7 +76,7 @@
 																联系方式：</strong><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 															购买咨询：&nbsp;400-082-8868<br />
 															&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技术服务：
-															020-&nbsp;85279086（为确保服务质量，接通后请先报服务号）<br /> <br />
+															020-&nbsp;85589743（为确保服务质量，接通后请先报服务号）<br /> <br />
 															&nbsp; <img alt=""
 																src="suda/templets/new/images/qq/2(12).jpg"
 																style="width: 718px; height: 210px" /><br />

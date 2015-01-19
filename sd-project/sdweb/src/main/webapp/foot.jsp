@@ -123,8 +123,19 @@ message = request("message")
 <div id='divMenu' onclick='OnlineOver();'  ><img src='suda/templets/new/images/qq/arrow_left.gif' class='press' alt='在线客服，点击咨询'></div>
 <!--/Qq-->
 
-<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%217272' type='text/javascript'%3E%3C/script%3E")) </script>
+<!-- 百度商桥 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ca59682dbc9267ddd01962270d42cc39";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 <!-- 
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%217272' type='text/javascript'%3E%3C/script%3E")) </script>
 <script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F4e9275315db365e8bfde1fe0e12128f9' type='text/javascript'%3E%3C/script%3E")) </script>
  -->
     <!-- /footer -->
