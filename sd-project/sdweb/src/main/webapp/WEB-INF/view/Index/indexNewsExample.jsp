@@ -43,14 +43,14 @@ message = request("message")
 					<tr>
 						<td height="203" valign="top" style="padding-top: 6px"><p
 								align="center">
-								<a href="这里会跳"><img
+								<a href="#"><img
 									src="suda/templets/new/images/list_a.jpg" width="132"
 									height="135" border="0"></a>
 								<!--调用常见问题-->
 							</p>
 							<p class="tab_hg">
 								&nbsp;&nbsp;速达SaaS在线应用支持局域网、互联<br>
-								&nbsp;&nbsp;网多用户应用、C/S&nbsp;架构、远程管理、<br> &nbsp;&nbsp;移动办公等。
+								&nbsp;&nbsp;网多用户应用、B/S&nbsp;架构、远程管理、<br> &nbsp;&nbsp;移动办公等。
 							</p></td>
 					</tr>
 				</table>
@@ -65,7 +65,7 @@ message = request("message")
 							height="33" /></td>
 						<td width="208" align="center"><strong>Builder-Ⅲ二次开发</strong></td>
 						<td width="10" align="right"><a
-							href="这里会跳"><img
+							href="#"><img
 								src="suda/templets/new/images/ind_dh_f.jpg" alt="广西速达"
 								width="9" height="33" style="border: 0" /></a></td>
 					</tr>
@@ -75,7 +75,7 @@ message = request("message")
 					<tr>
 						<td height="203" valign="top" style="padding-top: 6px"><p
 								align="center">
-								<a href="这里会跳"><img
+								<a href="#"><img
 									src="suda/templets/new/images/list_c.jpg" width="123"
 									height="135" border="0"></a>
 								<!--调用常见问题-->
@@ -106,7 +106,7 @@ message = request("message")
 					<tr>
 						<td height="203" valign="top" style="padding-top: 6px"><p
 								align="center">
-								<a href="这里会跳"><img
+								<a href="#"><img
 									src="suda/templets/new/images/list_b.jpg" width="119"
 									height="135" border="0"></a>
 								<!--调用常见问题-->
