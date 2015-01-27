@@ -37,7 +37,10 @@ function saveOrder() {
     if(area == '选择市区'){
     	area = "";
 	}
-    form.action = encodeURI("saveOrder.do?provice=" + provice + "&area="+ area);
+    $("#proviceVal").val(provice);
+    $("#areaVal").val(area);
+    //form.action = "saveOrder.do?" + encodeURIComponent("provice=" + provice + "&area="+ area);
+    form.action = "saveOrder.do";
     form.submit();
 }
 

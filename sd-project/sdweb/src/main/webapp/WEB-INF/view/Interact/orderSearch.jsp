@@ -76,6 +76,34 @@
 									</tr>
 								</form>
 							</table>
+							<table width=100% align=center cellpadding=3 cellspacing=0
+								bgcolor='#FFFFFF'>
+								 <tr>
+								     <th height=25 class="hg">类型</th>
+								     <th height=25 class="hg">主题</th>
+								     <th height=25 class="hg">姓名</th>
+								     <th height=25 class="hg">联系电话</th>
+								     <th height=25 class="hg">公司名称</th>
+								     <th height=25 class="hg">备注</th>
+								     <th height=25 class="hg">编辑</th>
+								     <th height=25 class="hg">删除</th>
+								 </tr>
+								 <c:forEach var="order" items="${orders }" varStatus="status">
+									<tr>
+										 <td height=25 class="hg">${order.orderType}</td>
+									     <td height=25 class="hg">${order.topic }</td>
+									     <td height=25 class="hg">${order.contactUser }</td>
+									     <td height=25 class="hg">${order.contactTel }</td>
+									     <td height=25 class="hg">${order.companyName }</td>
+									     <td height=25 class="hg">${order.remark }</td>
+									     <td height=25 class="hg"><a href="editOrder.do?orderId=${order.id }">编辑</a></td>
+									     <td height=25 class="hg"><a onclick="if(confirm('确实要删除该信息吗?')) window.location='deleteOrder.do?orderId=${order.id }'">删除</a></td>
+									</tr>
+									<tr>
+									   <td height="15" class="mmm" colspan="6"></td>
+									</tr>
+							     </c:forEach>
+							</table>
 						</td>
 						<td width="100%"></td>
 					</tr>
@@ -83,6 +111,7 @@
 					   <td>
 					      <table>
 					         <tr>
+					         	<td>类型</td>
 					            <td>主题</td>
 					            <td>姓 名</td>
 					            <td>联系电话</td>

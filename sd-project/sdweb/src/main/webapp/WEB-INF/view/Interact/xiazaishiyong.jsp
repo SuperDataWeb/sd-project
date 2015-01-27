@@ -114,13 +114,14 @@
                       <td width='16%' height=25 bgcolor='ffffff'>　公司所在市/区</td>
                       <td bgcolor='ffffff'>
 					  
-					  <select id="Provice" name="citymax" style="vertical-align: middle; width: 100px">
+					  <select id="Provice" style="vertical-align: middle; width: 100px">
                       	<option selected="selected" value="">选择省份</option>
                       </select>
-					  <select id="Area" name="citymin" style="vertical-align: middle; width: 100px">
+					  <select id="Area" style="vertical-align: middle; width: 100px">
                       	<option selected="selected" value="">选择市区</option>
                       </select>
-					  
+					  <input id="proviceVal" type="hidden" name="provice" value=""/>
+					  <input id="areaVal" type="hidden" name="area" value=""/>
 					  </td>
                     </tr>
                     <tr>

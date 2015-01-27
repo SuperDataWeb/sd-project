@@ -71,32 +71,32 @@ public class ServicesController {
 		return new ModelAndView("Services/" + serviceType);
 	}
 	
-	@RequestMapping("/indentReq.do")
-	public @ResponseBody
-	String indentReq(IndentBean indentBean) {
-		boolean result = sendMail(new MailContent(MailContent.INDENT_REQ, indentBean));
-		JSONObject json = new JSONObject();
-        json.put("success", result);
-        return json.toString();
-	}
-	
-	@RequestMapping("/msgReq.do")
-	public @ResponseBody
-	String msgReq(IndentBean indentBean) {
-		boolean result = sendMail(new MailContent(MailContent.MSG_REQ, indentBean));
-		JSONObject json = new JSONObject();
-        json.put("success", result);
-        return json.toString();
-	}
-	
-	@RequestMapping("/showReq.do")
-	public @ResponseBody
-	String showReq(IndentBean indentBean) {
-		boolean result = sendMail(new MailContent(MailContent.SHOW_REQ, indentBean));
-		JSONObject json = new JSONObject();
-        json.put("success", result);
-        return json.toString();
-	}
+//	@RequestMapping("/indentReq.do")
+//	public @ResponseBody
+//	String indentReq(IndentBean indentBean) {
+//		boolean result = sendMail(new MailContent(MailContent.INDENT_REQ, indentBean));
+//		JSONObject json = new JSONObject();
+//        json.put("success", result);
+//        return json.toString();
+//	}
+//	
+//	@RequestMapping("/msgReq.do")
+//	public @ResponseBody
+//	String msgReq(IndentBean indentBean) {
+//		boolean result = sendMail(new MailContent(MailContent.MSG_REQ, indentBean));
+//		JSONObject json = new JSONObject();
+//        json.put("success", result);
+//        return json.toString();
+//	}
+//	
+//	@RequestMapping("/showReq.do")
+//	public @ResponseBody
+//	String showReq(IndentBean indentBean) {
+//		boolean result = sendMail(new MailContent(MailContent.SHOW_REQ, indentBean));
+//		JSONObject json = new JSONObject();
+//        json.put("success", result);
+//        return json.toString();
+//	}
 	
 	private boolean sendMail(MailContent mailContent) {
 		MailSender sender = new MailSender();

@@ -9,6 +9,8 @@
  */
 package com.wodi.sdweb.service;
 
+import java.util.List;
+
 import com.wodi.sdweb.model.SpOrder;
 
 /**
@@ -25,5 +27,16 @@ public interface SpOrderService {
 	 * @param product
 	 */
 	public void insertSpOrder(SpOrder spOrder);
+	
+	/**
+	 * 查询全部
+	 */
+	public List<SpOrder> selectAll();
+	
+	/**
+	 * 根据条件查询
+	 * @param spOrder
+	 */
+	public List<SpOrder> selectByParam(SpOrder spOrder);
 	
 }

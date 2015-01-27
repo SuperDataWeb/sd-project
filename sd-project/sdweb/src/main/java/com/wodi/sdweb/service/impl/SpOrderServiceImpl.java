@@ -3,6 +3,8 @@
  */
 package com.wodi.sdweb.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,7 +25,16 @@ public class SpOrderServiceImpl implements SpOrderService {
 	@Override
 	public void insertSpOrder(SpOrder spOrder) {
 		spOrderDao.insert(spOrder);
-
+	}
+	
+	@Override
+	public List<SpOrder> selectAll() {
+		return spOrderDao.selectAll();
+	}
+	
+	@Override
+	public List<SpOrder> selectByParam(SpOrder spOrder) {
+		return spOrderDao.selectByParam(spOrder);
 	}
 
 }

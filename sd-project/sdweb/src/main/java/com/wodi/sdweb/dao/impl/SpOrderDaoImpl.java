@@ -47,7 +47,7 @@ public class SpOrderDaoImpl extends SqlSessionDaoSupport implements
         spOrderList = this.getSqlSession().selectList("com.wodi.sdweb.dao.SpOrderDao.pageSelect", params);    
        return spOrderList; 
 	}
-
+	
 	@Override
 	public void update(SpOrder spOrder) {
 		this.getSqlSession().getMapper(SpOrderMapper.class).update(spOrder);
@@ -61,5 +61,9 @@ public class SpOrderDaoImpl extends SqlSessionDaoSupport implements
 	@Override
 	public List<SpOrder> selectAll() {
 		return this.getSqlSession().getMapper(SpOrderMapper.class).selectAll();
+	}
+	
+	public List<SpOrder> selectByParam(SpOrder spOrder) {
+		return this.getSqlSession().getMapper(SpOrderMapper.class).selectByParam(spOrder);
 	}
 }

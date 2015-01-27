@@ -137,6 +137,13 @@ li {
 					color="#006600"> <img src="suda/templets/new/images/dg.jpg"
 						height="11" width="11">&nbsp;<strong></strong></font><br></td>
 			</tr>
+			
+			<tr>
+				<td align="right" height="23" valign="middle" width="35"><img
+					src="suda/templets/new/images/left_01.jpg" height="12" width="6"></td>
+				<td align="left" valign="middle" width="185">&nbsp;<a
+					href="searchOrder.do">信息管理</a></td>
+			</tr>
 
 			<tr>
 				<td align="right" height="23" valign="middle" width="35"><img

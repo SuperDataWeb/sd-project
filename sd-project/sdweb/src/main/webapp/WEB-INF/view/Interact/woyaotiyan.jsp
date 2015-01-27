@@ -115,10 +115,10 @@
                       <td width='16%' height=25 bgcolor='ffffff'>　公司所在市/区</td>
                       <td bgcolor='ffffff'>
 					  
-					  <select id="Provice" style="vertical-align: middle; width: 100px">
+					  <select id="Provice" name='provice' style="vertical-align: middle; width: 100px">
                       	<option selected="selected" value="">选择省份</option>
                       </select>
-					  <select id="Area"  style="vertical-align: middle; width: 100px">
+					  <select id="Area" name='area' style="vertical-align: middle; width: 100px">
                       	<option selected="selected" value="">选择市区</option>
                       </select>
 					  
@@ -181,6 +181,7 @@
 									  for(i=parseInt($(this).val())+1;i<parseInt($(this).val())+500;i++){
 										  if(!em_nativeplaces[i])break;
 										  $("#Area").append("<option value="+i+">"+em_nativeplaces[i]+"</option>");
+										  //$("#Area").append("<option value="+i+">"+em_nativeplaces[i]+"</option>");
 									  }
 									  }
 									  )

@@ -34,4 +34,6 @@ public interface SpOrderMapper {
 	public void delete(SpOrder spOrder);
 	
 	public List<SpOrder> selectAll();
+	
+	public List<SpOrder> selectByParam(@Param("spOrder") SpOrder spOrder);
 }

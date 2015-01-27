@@ -37,5 +37,48 @@
         FROM SP_ORDER  limit  #{startIndex}, #{pageSize}
          ]]>     
     </select>
+    
+    <select id="selectAll" resultMap="SpOrderMap" parameterType="map">    
+        select 
+        <include refid="orderFields" />
+        <![CDATA[    
+        FROM SP_ORDER order by created desc
+         ]]>     
+    </select>
+    
+    <select id="selectByParam" resultMap="SpOrderMap" parameterType="map">    
+        select 
+        <include refid="orderFields" />
+        <![CDATA[    
+        FROM SP_ORDER
+         ]]>
+        <where>
+        	1=1
+        	<if test="contactUser != null">
+        		and contact_user = #{contactUser}
+        	</if>
+        	<if test="companyName != null">
+        		and company_name = #{companyName}
+        	</if>
+        	<if test="contactTel != null">
+        		and contact_tel = #{contactTel}
+        	</if>
+        	<if test="topic != null">
+        		and topic = #{topic}
+        	</if>
+        	<if test="remark != null">
+        		and remark = #{remark}
+        	</if>
+        	<if test="orderType != null">
+        		and order_type = #{orderType}
+        	</if>
+        	<if test="status != null">
+        		and status = #{status}
+        	</if>
+        </where>
+        <![CDATA[
+         order by created desc
+        ]]>
+    </select>
 	
 </mapper>
