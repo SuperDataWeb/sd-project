@@ -92,7 +92,7 @@ public class InteractController {
 	public ModelAndView searchOrder(SpOrder spOrder, String provice, String area) {
 		ModelAndView model = new ModelAndView("Interact/orderSearch");
 		List<SpOrder> orders = spOrderService.selectByParam(spOrder);
-		model.addObject("orders", model);
+		model.addObject("orders", orders);
 		return model;
 	}
 	
@@ -110,13 +110,19 @@ public class InteractController {
 		String user = properies.getProperty("account");
 		String pwd = properies.getProperty("pwd");
 		String from = properies.getProperty("from");
-		String to = properies.getProperty("to");
+		String tos = properies.getProperty("to");
+		
+		String[] toList = tos.split(",");
 
 		Session session = sender.createSession(properies.getProperty("protocol"), properies.getProperty("auth")
 				, properies.getProperty("host"), sender.createSA(user, pwd));
 		try {
-			MimeMessage msg = sender.createMessage(session, from, to, mailContent.getSubject(), mailContent.getBody());
-			sender.sendMail(session, msg);
+			for (int i = 0; i < toList.length; i++) {
+				if (toList[i].length() > 0) {
+					MimeMessage msg = sender.createMessage(session, from, toList[i], mailContent.getSubject(), mailContent.getBody());
+					sender.sendMail(session, msg);
+				}
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			return false;
