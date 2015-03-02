@@ -78,33 +78,30 @@ message = request("message")
 			<td width="35" height="23" align="right" valign="middle"><img
 				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;
+			<td width="185" align="left" valign="middle">&nbsp;<a href="newsList.do">速达新闻</a></td>
 			<!-- 
 				<a href="../../xinwenzhongxin/sudaxinwen/index.htm">速达新闻</a></td>
 			 -->
-			 	<a href="newsList.do">速达新闻</a></td>
 		</tr>
 
 		<tr>
 			<td width="35" height="23" align="right" valign="middle"><img
 				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;
+			<td width="185" align="left" valign="middle">&nbsp;<a href="newsList.do">行业资讯</a></td>
 			<!-- 
 			<a href="../../xinwenzhongxin/xingyezixun/index.htm">行业资讯</a></td>
 			 -->
-			 	<a href="newsList.do">行业资讯</a></td>
 		</tr>
 
 		<tr>
 			<td width="35" height="23" align="right" valign="middle"><img
 				src="suda/templets/new/images/left_01.jpg"
 				width="6" height="12" /></td>
-			<td width="185" align="left" valign="middle">&nbsp;
+			<td width="185" align="left" valign="middle">&nbsp;<a href="newsList.do">通知公告</a></td>
 			<!-- 
 			<a href="../../xinwenzhongxin/tongzhigonggao/index.htm">通知公告</a></td>
 			 -->
-				<a href="newsList.do">通知公告</a></td>
 		</tr>
 
 		<tr>
