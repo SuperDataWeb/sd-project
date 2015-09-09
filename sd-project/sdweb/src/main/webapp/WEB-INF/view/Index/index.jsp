@@ -33,6 +33,7 @@
 		});
   	}
   	
+  	
 </script>
 
 <SCRIPT type=text/javascript src="<%= request.getContextPath()%>/js/index_files/jquery-1.3.2.min.js"></SCRIPT>
@@ -62,6 +63,9 @@
 </HEAD>
 
 <BODY>
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); 
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0dbeadcbaea6a1e32eda84de6507f1cd' type='text/javascript'%3E%3C/script%3E")) </script>
+ 
  <SCRIPT type=text/javascript>
 	function killerrors() {
 		return true;

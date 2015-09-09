@@ -251,7 +251,7 @@
 						src="http://v2.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
 					<br /> <br />
 					<p class="hg">
-						<strong>速达软件（广州）销售服务中心</strong><br /> 办公地址：广州市天河区五山路263号瑞华大厦南塔16B房<br />店面地址：广州市天河区天河路502号天河电脑城二楼258A<br />
+						<strong>速达软件（广州）销售服务中心</strong><br /> 办公地址：广州市天河区五山路263号瑞华大厦南塔16B房<br />
 						销售热线1：400-082-8868<br />销售热线2：020-85589742<br /> 服务热线：020-85589743，020-85589747<br />
 						维护专线：020-85589747 <table width="300" border="0" cellspacing="0" cellpadding="0">
 							<tr>

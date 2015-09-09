@@ -87,7 +87,7 @@ message = request("message")
 						广州沃迪信息科技有限公司 版权所有<br /> 速达软件指定运营商：<a href="index.do"><font
 							color="#009933"><b>广州沃迪信息科技有限公司</b></font></a> 速达软件售后服务机构：<a
 						href="index.do"><font color="#009933"><b>速达软件（广州）销售服务中心</b></font></a>
-				</span><br /> 办公地址：广州市天河区五山路263号瑞华大厦南塔16B房  店面地址：广州市天河区天河路502号天河电脑城二楼258A<span class="STYLE6">
+				</span><br /> 办公地址：广州市天河区五山路263号瑞华大厦南塔16B房  <span class="STYLE6">
 						E_mail：4000828868@b.qq.com </span> <script language="javascript"
 						type="text/javascript" src="http://js.users.51.la/6020683.js"></script><br />
 					<span class="STYLE6">联系电话：<span class="STYLE13">400-082-8868,020-85589742</span>
@@ -133,6 +133,11 @@ message = request("message")
 		window.open ('http://sighttp.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes','LiveChat','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no')
 	}
 </script>
+
+<!-- 360 -->
+<!-- 
+<script type="text/javascript" src="http://cs.ecqun.com/?id=842322" charset="utf-8"></script>
+ -->
     
 </BODY>
 </HTML>
