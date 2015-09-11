@@ -43,8 +43,9 @@ message = request("message")
 			<td width="89"><table width="70" border="0" cellspacing="0"
 					cellpadding="0">
 					<tr>
+							<!-- href="http://wpa.qq.com/msgrd?v=3&uin=4000828868&amp;site=qq&amp;menu=yes" target="_blank"><img -->
 						<td width="80" height="25" align="left"><a
-							href="http://wpa.qq.com/msgrd?v=3&uin=4000828868&amp;site=qq&amp;menu=yes" target="_blank"><img
+							href="http://wpa.qq.com/msgrd?v=3&uin=12361918&amp;site=qq&amp;menu=yes" target="_blank"><img
 								border="0" src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
 								title="速达软件咨询" /></a></td>
 					</tr>

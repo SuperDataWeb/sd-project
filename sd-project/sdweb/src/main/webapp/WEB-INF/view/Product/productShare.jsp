@@ -25,7 +25,7 @@ message = request("message")
 	<br />
 	<br />
 	<a
-		href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542"><font
+		target="_blank" href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=1867583&amp;type=n&amp;siteid=6206319"><font
 		color="#696969"><img alt=""
 			src="suda/uploads/allimg/140715/9-140G512154G53.jpg"
 			style="width: 76px; height: 74px" /></font></a>
@@ -39,7 +39,7 @@ message = request("message")
 		&nbsp;<a href="woYaoPeiXun.do"><img
 			alt="" src="suda/uploads/allimg/140715/9-140G5121AaP.jpg"
 			style="width: 76px; height: 74px" /></a><br /> &nbsp;&nbsp; <a
-		href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542">我要咨询
+		target="_blank" href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=1867583&amp;type=n&amp;siteid=6206319">我要咨询
 	</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="interact.do">我要体验
 	</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -50,7 +50,7 @@ message = request("message")
 	<br />
 	<br />
 	<font color="#696969"><a
-		href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=2692835&amp;type=n&amp;siteid=1272542">[我要咨询]：</a>如果您存在任何疑问，请与我们<a
+		target="_blank" href="http://qiao.baidu.com/v3/?module=default&amp;controller=im&amp;action=index&amp;ucid=1867583&amp;type=n&amp;siteid=6206319">[我要咨询]：</a>如果您存在任何疑问，请与我们<a
 		href="woYaoTiYan.do">在线沟通</a>或拨打我们的电话：<strong>400-082-8868</strong>，我们将竭诚为您服务！<br />
 		<br /> <a href="interact.do">[我要体验]：</a>我们为您构建专业的演示服务器并和讲解人员，您将体验到信息化管理给您带来的高效和乐趣！<br />
 		<br /> <a href="woYaoGouMai.do">[我要购买]：</a>想购买速达软件吗?请立即填写《产品申购表》,我们将尽快与您联系！<br />
