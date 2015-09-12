@@ -92,7 +92,7 @@ message = request("message")
 						type="text/javascript" src="http://js.users.51.la/6020683.js"></script><br />
 					<span class="STYLE6">联系电话：<span class="STYLE13">400-082-8868,020-85589742</span>
 						维护专线：<span class="STYLE13">020-85589743, 020-85589747</span> ＱＱ客服：<a
-						href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes">
+						href="tencent://message/?uin=1539672881&amp;Site=速达软件咨询&amp;Menu=yes">
 						<img src="suda/templets/new/images/qq.gif" alt="速达软件" width="23"
 							height="16" border="0" /><strong><font color="#CC0000">4000828868</font></strong></a>
 						<!-- 
@@ -113,7 +113,7 @@ message = request("message")
  
 <!--Qq-->
 	<script src="suda/templets/new/js/QQ.js"></script>
-    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
     <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=961235426&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
 	<!-- 
 	<a target="_blank" href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=2692835&type=n&siteid=1272542"><img src='suda/templets/new/images/qq/bbbbe.jpg' border="0"></a> 
@@ -130,7 +130,7 @@ message = request("message")
     <!-- /footer -->
 <script language="javascript"> 
 	function sdlc(){
-		window.open ('http://sighttp.qq.com/msgrd?v=3&uin=4000828868&site=qq&menu=yes','LiveChat','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no')
+		window.open ('http://sighttp.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes','LiveChat','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no')
 	}
 </script>
 

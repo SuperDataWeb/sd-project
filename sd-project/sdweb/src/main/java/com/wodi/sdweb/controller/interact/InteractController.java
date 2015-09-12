@@ -88,9 +88,9 @@ public class InteractController {
 		return model;
 	}
 	
-	@RequestMapping("/orderSearch.do")
+	@RequestMapping("/searchOrder.do")
 	public ModelAndView searchOrder(SpOrder spOrder, String provice, String area) {
-		ModelAndView model = new ModelAndView("Interact/orderSearch");
+		ModelAndView model = new ModelAndView("Interact/searchOrder");
 		List<SpOrder> orders = spOrderService.selectByParam(spOrder);
 		model.addObject("orders", orders);
 		return model;

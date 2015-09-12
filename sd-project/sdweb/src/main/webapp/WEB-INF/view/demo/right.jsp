@@ -1157,11 +1157,11 @@ message = request("message")
 										<tbody>
 											<tr>
 												<td height="22" width="51"><a
-													href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes"><img
+													href="tencent://message/?uin=1539672881&amp;Site=速达软件咨询&amp;Menu=yes"><img
 														src="suda/templets/new/images/pa.gif" style="border: 0"
 														height="16" width="51"></a></td>
 												<td valign="bottom" width="80">：<a
-													href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes">4000828868</a></td>
+													href="tencent://message/?uin=1539672881&amp;Site=速达软件咨询&amp;Menu=yes">4000828868</a></td>
 												<td width="51"><a
 													href="tencent://message/?uin=12361918&amp;Site=速达软件咨询&amp;Menu=yes"><img
 														src="suda/templets/new/images/pa.gif" style="border: 0"

@@ -4,12 +4,6 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
 
-	<context-param>
-		<param-name>contextConfigLocation</param-name>
-		<param-value>
-			classpath*:/applicationContext*.xml
-		</param-value>
-	</context-param>
 	<!-- spring 的编码器 -->
 	<!-- -->
 	<filter>
@@ -56,7 +50,10 @@
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/sdweb-servlet.xml</param-value>
+			<param-value>
+				classpath*:/applicationContext*.xml
+				/WEB-INF/sdweb-servlet.xml
+			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
@@ -78,7 +75,7 @@
 		<location>/403.jsp</location>
 	</error-page>
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.do</welcome-file>
 	</welcome-file-list>
 	<!-- <security-constraint> <web-resource-collection> <web-resource-name>sdweb</web-resource-name> 
 		<url-pattern>/*</url-pattern> <http-method>PUT</http-method> <http-method>HEAD</http-method> 

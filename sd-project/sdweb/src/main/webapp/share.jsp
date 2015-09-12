@@ -30,8 +30,8 @@ message = request("message")
 		  服务热线：020-85589743, 020-85589747<br>
 	</p><table width="300" border="0" cellpadding="5" cellspacing="5">
 	<tbody><tr>
-	   <td height="22" width="51"><a href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes"><img src="suda/templets/new/images/pa.gif" style="border:0" height="16" width="51"></a></td>
-	   <td valign="bottom" width="80">：<a href="tencent://message/?uin=4000828868&amp;Site=速达软件咨询&amp;Menu=yes">4000828868</a></td>
+	   <td height="22" width="51"><a href="tencent://message/?uin=1539672881&amp;Site=速达软件咨询&amp;Menu=yes"><img src="suda/templets/new/images/pa.gif" style="border:0" height="16" width="51"></a></td>
+	   <td valign="bottom" width="80">：<a href="tencent://message/?uin=1539672881&amp;Site=速达软件咨询&amp;Menu=yes">4000828868</a></td>
 	   <td width="51"><a href="tencent://message/?uin=12361918&amp;Site=速达软件咨询&amp;Menu=yes"><img src="suda/templets/new/images/pa.gif" style="border:0" height="16" width="51"></a></td>
 	   <td valign="bottom">：<a href="tencent://message/?uin=12361918&amp;Site=速达软件咨询&amp;Menu=yes">12361918</a></td>
 	   <td width="51"><a href="tencent://message/?uin=961235426&amp;Site=速达软件咨询&amp;Menu=yes"><img src="suda/templets/new/images/pa.gif" style="border:0" height="16" width="51"></a></td>

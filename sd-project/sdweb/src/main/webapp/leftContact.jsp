@@ -75,7 +75,7 @@ message = request("message")
 							<tr>
 								<td colspan="2" height="30" align="center"><a
 									target="_blank"
-									href="http://wpa.qq.com/msgrd?v=3&amp;uin=4000828868&amp;site=qq&amp;menu=yes"><img
+									href="http://wpa.qq.com/msgrd?v=3&amp;uin=1539672881&amp;site=qq&amp;menu=yes"><img
 										src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
 										title="速达软件咨询" border="0"></a> <a target="_blank"
 									href="http://wpa.qq.com/msgrd?v=3&amp;uin=12361918&amp;site=qq&amp;menu=yes"><img
