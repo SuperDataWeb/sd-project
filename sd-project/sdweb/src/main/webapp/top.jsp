@@ -44,13 +44,17 @@ message = request("message")
 					cellpadding="0">
 					<tr>
 							<!-- href="http://wpa.qq.com/msgrd?v=3&uin=1539672881&amp;site=qq&amp;menu=yes" target="_blank"><img -->
-						<td width="80" height="25" align="left"><a
+						<td width="80" height="25" align="left">
+						<!-- <a
 							href="http://wpa.qq.com/msgrd?v=3&uin=1539672881&amp;site=qq&amp;menu=yes" target="_blank"><img
 								border="0" src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
-								title="速达软件咨询" /></a></td>
+								title="速达软件咨询" /></a> -->
+						<!-- WPA Button Begin -->
+						<script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODA3MjA0N18zMTkzODJfNDAwMDgyODg2OF8"></script>
+						<!-- WPA Button End -->
+						</td>
 					</tr>
-					</td>
-					</tr>
+					<tr></tr>
 					<tr>
 						<td width="80" height="25" align="left"><a
 							href="tencent://message/?uin=12361918&amp;Site=速达软件咨询&amp;Menu=yes"><img

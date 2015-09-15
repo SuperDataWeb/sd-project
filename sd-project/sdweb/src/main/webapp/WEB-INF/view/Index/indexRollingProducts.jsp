@@ -43,7 +43,7 @@ message = request("message")
 					cellpadding="0" cellspacing="0">
 					<tr>
 						<td height="87" align="center"><a target="_blank"
-							href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'"><img
+							href="javascript:window.location='http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'"><img
 								src="suda/templets/new/images/sd_46.jpg" width="76" height="74"
 								border="0"></a></td>
 						<td align="center"><a href="chanPinShengJi.do"><img
@@ -59,7 +59,7 @@ message = request("message")
 					</tr>
 					<tr>
 						<td height="27" align="center"><a
-							href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'">我要咨询</a></td>
+							href="javascript:window.location='http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'">我要咨询</a></td>
 						<td align="center"><a href="chanPinShengJi.do">我要试用</a></td>
 						<td align="center"><a href="woYaoGouMai.do"
 							target="_blank">我要购买</a></td>

@@ -112,15 +112,15 @@ message = request("message")
 	<script type="text/javascript" src="suda/include/js/jquery/jquery.js" ></script>  
  
 <!--Qq-->
+	<!-- 
 	<script src="suda/templets/new/js/QQ.js"></script>
     <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
     <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=961235426&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq1.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
-	<!-- 
 	<a target="_blank" href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=2692835&type=n&siteid=1272542"><img src='suda/templets/new/images/qq/bbbbe.jpg' border="0"></a> 
-	 -->
 	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=12361918&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq2.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
 	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=961534047&site=qq&menu=yes"><img border="0" src="suda/templets/new/images/qq2.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
 <div id='divMenu' onclick='OnlineOver();'  ><img src='suda/templets/new/images/qq/arrow_left.gif' class='press' alt='在线客服，点击咨询'></div>
+	 -->
 <!--/Qq-->
 
 <!-- 百度商桥 -->

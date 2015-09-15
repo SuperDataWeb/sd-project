@@ -93,7 +93,7 @@ message = request("message")
 															元
 													</span> <br> [<a href="woYaoGouMai.do"><font
 															color="#006600">我要购买</font></a>] &nbsp;[<a
-														href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&amp;uin={dede:global.nsd_qq/}&amp;site=qq&amp;menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&amp;uin={dede:global.nsd_qq/}&amp;site=qq&amp;menu=yes'"><font
+														href="javascript:window.location='http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'"><font
 															color="#006600">我要咨询</font></a>] &nbsp;[<a
 														href="chanPinShengJi.do"><font
 															color="#006600">我要试用</font></a>]</td>

@@ -48,7 +48,7 @@ message = request("message")
 			<td width="35" height="23" align="right" valign="middle"><img
 				src="suda/templets/new/images/left_01.jpg" width="6" height="12" /></td>
 			<td width="180" align="left" valign="middle">&nbsp;<a
-				href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'">在线咨询</a></td>
+				href="javascript:window.location='http://wpa.qq.com/msgrd?v=3&uin=1539672881&site=qq&menu=yes'">在线咨询</a></td>
 		</tr>
 
 

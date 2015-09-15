@@ -73,16 +73,21 @@ message = request("message")
 							</tr>
 							 -->
 							<tr>
-								<td colspan="2" height="30" align="center"><a
+								<td colspan="2" height="30" align="center">
+								<!-- <a
 									target="_blank"
 									href="http://wpa.qq.com/msgrd?v=3&amp;uin=1539672881&amp;site=qq&amp;menu=yes"><img
 										src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
 										title="速达软件咨询" border="0"></a> <a target="_blank"
 									href="http://wpa.qq.com/msgrd?v=3&amp;uin=12361918&amp;site=qq&amp;menu=yes"><img
 										src="suda/templets/new/images/qq1.jpg" alt="速达软件咨询"
-										title="速达软件咨询" border="0"></a></td>
+										title="速达软件咨询" border="0"></a> -->
+									<!-- WPA Button Begin -->
+									<script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODA3MjA0N18zMTkzODJfNDAwMDgyODg2OF8"></script>
+									<!-- WPA Button End -->
+								</td>
 							</tr>
-							<tr>
+							<!-- <tr>
 								<td colspan="2" height="30" align="center"><a
 									target="_blank"
 									href="http://wpa.qq.com/msgrd?v=3&amp;uin=961235426&amp;site=qq&amp;menu=yes"><img
@@ -91,7 +96,7 @@ message = request("message")
 									href="http://wpa.qq.com/msgrd?v=3&amp;uin=961534047&amp;site=qq&amp;menu=yes"><img
 										src="suda/templets/new/images/qq2.jpg" alt="速达软件咨询"
 										title="速达软件咨询" border="0"></a></td>
-							</tr>
+							</tr> -->
 							<tr>
 								<td colspan="2" height="6"></td>
 							</tr>
