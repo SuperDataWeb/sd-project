@@ -27,7 +27,7 @@ message = request("message")
 		  办公地址：广州市天河区五山路263号瑞华大厦南塔16B房<br>
 		 
 		  销售热线：400-082-8868, 020-85589742<br>
-		  服务热线：020-85589743, 020-85589747<br>
+		  服务热线：020-38471330, 020-85589747<br>
 	</p><table width="300" border="0" cellpadding="5" cellspacing="5">
 	<tbody><tr>
 	   <td height="22" width="51"><a href="tencent://message/?uin=1539672881&amp;Site=速达软件咨询&amp;Menu=yes"><img src="suda/templets/new/images/pa.gif" style="border:0" height="16" width="51"></a></td>

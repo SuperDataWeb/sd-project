@@ -122,7 +122,7 @@ message = request("message")
 									<p class="hg">
 										<strong>速达软件（广州）销售服务中心</strong><br>
 										办公地址：广州市天河区五山路263号瑞华大厦南塔16B房<br> 销售热线：400-082-8868<br>
-										服务热线：020-85589743<br> 维护专线：020-85589747<br> 
+										服务热线：020-38471330<br> 维护专线：020-85589747<br> 
 										
 									</p>
 									<table width="300" border="0" cellpadding="0" cellspacing="0">

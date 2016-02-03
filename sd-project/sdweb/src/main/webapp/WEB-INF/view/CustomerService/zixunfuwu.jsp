@@ -76,7 +76,7 @@
 																联系方式：</strong><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 															购买咨询：&nbsp;400-082-8868<br />
 															&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技术服务：
-															020-&nbsp;85589743（为确保服务质量，接通后请先报服务号）<br /> <br />
+															020-&nbsp;38471330（为确保服务质量，接通后请先报服务号）<br /> <br />
 															&nbsp; <img alt=""
 																src="suda/templets/new/images/qq/2(12).jpg"
 																style="width: 718px; height: 210px" /><br />
@@ -87,7 +87,7 @@
 													<p class="hg">
 														<strong>速达软件（广州）销售服务中心</strong><br />
 														办公地址：广州市天河区五山路263号瑞华大厦南塔16B房<br /> 销售热线1：400-082-8868<br />销售热线2：020-85589742<br />
-														服务热线：020-85589743<br /> 维护专线：020-85589747<br />
+														服务热线：020-38471330<br /> 维护专线：020-85589747<br />
 														
 													<table width="300" border="0" cellspacing="0"
 														cellpadding="0">

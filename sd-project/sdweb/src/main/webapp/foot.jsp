@@ -91,7 +91,7 @@ message = request("message")
 						E_mail：4000828868@b.qq.com </span> <script language="javascript"
 						type="text/javascript" src="http://js.users.51.la/6020683.js"></script><br />
 					<span class="STYLE6">联系电话：<span class="STYLE13">400-082-8868,020-85589742</span>
-						维护专线：<span class="STYLE13">020-85589743, 020-85589747</span> ＱＱ客服：<a
+						维护专线：<span class="STYLE13">020-38471330, 020-85589747</span> ＱＱ客服：<a
 						href="tencent://message/?uin=1539672881&amp;Site=速达软件咨询&amp;Menu=yes">
 						<img src="suda/templets/new/images/qq.gif" alt="速达软件" width="23"
 							height="16" border="0" /><strong><font color="#CC0000">4000828868</font></strong></a>
